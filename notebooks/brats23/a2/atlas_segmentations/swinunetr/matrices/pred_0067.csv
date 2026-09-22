@@ -1,0 +1,24 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0067,WM/unassigned,TC,352,36
+pred_0067,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,1,0
+pred_0067,"Rt (Thalamus, reticular Nucleus) left",TC,1,0
+pred_0067,Area Op2 (POperc) left,TC,2,0
+pred_0067,WM/unassigned,WT,1305,133
+pred_0067,Frontal-to-Occipital (GapMap) left,WT,712,73
+pred_0067,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,2,0
+pred_0067,"Rt (Thalamus, reticular Nucleus) left",WT,11,1
+pred_0067,"Area hOc1 (V1, 17, CalcS) left",WT,643,66
+pred_0067,"Area hOc2 (V2, 18) left",WT,92,9
+pred_0067,Area Op2 (POperc) left,WT,15,2
+pred_0067,Area hOc3d (Cuneus) left,WT,56,6
+pred_0067,Area Op3 (POperc) left,WT,5,1
+pred_0067,Frontal-to-Occipital (GapMap) right,WT,715,73
+pred_0067,Area hOc6 (POS) right,WT,6,1
+pred_0067,"Area hOc1 (V1, 17, CalcS) right",WT,1095,112
+pred_0067,"Area hOc2 (V2, 18) right",WT,478,49
+pred_0067,Area hOc3d (Cuneus) right,WT,179,18
+pred_0067,WM/unassigned,ET,2513,256
+pred_0067,"VLP (Thalamus, ventral lateral posterior Nucleus) left",ET,9,1
+pred_0067,"Rt (Thalamus, reticular Nucleus) left",ET,57,6
+pred_0067,Area Op2 (POperc) left,ET,181,18
+pred_0067,Area Op3 (POperc) left,ET,13,1

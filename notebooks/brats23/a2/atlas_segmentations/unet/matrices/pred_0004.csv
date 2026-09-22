@@ -1,0 +1,33 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0004,WM/unassigned,TC,39,1
+pred_0004,Area SFG4 (SFG) right,TC,7,0
+pred_0004,Area 6d3 (SFS) right,TC,1,0
+pred_0004,Area SFG2 (SFG) right,TC,2,0
+pred_0004,Area SFG3 (SFG) right,TC,15,1
+pred_0004,WM/unassigned,WT,6875,256
+pred_0004,Area SFG4 (SFG) right,WT,281,10
+pred_0004,Area IFS4 (IFS) right,WT,2,0
+pred_0004,Area 6d3 (SFS) right,WT,234,9
+pred_0004,Area 8d2 (SFG) right,WT,24,1
+pred_0004,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,2,0
+pred_0004,"Area IFJ2 (IFS, PreCS) right",WT,2,0
+pred_0004,Area SFG2 (SFG) right,WT,52,2
+pred_0004,"Area MFG5 (MFG, IFG) right",WT,8,0
+pred_0004,Area MFG4 (MFG) right,WT,591,22
+pred_0004,Area SFG3 (SFG) right,WT,36,1
+pred_0004,Area 6v3 (PreCG) right,WT,20,1
+pred_0004,Area IFS1 (IFS) right,WT,186,7
+pred_0004,Area IFS3 (IFS) right,WT,134,5
+pred_0004,Area 8v2 (MFG) right,WT,55,2
+pred_0004,Area SFS2 (SFS) right,WT,5,0
+pred_0004,Frontal-I.1 (GapMap) right,WT,13,0
+pred_0004,Area Op9 (Frontal Operculum) right,WT,11,0
+pred_0004,Area 45 (IFG) right,WT,86,3
+pred_0004,Frontal-II (GapMap) right,WT,546,20
+pred_0004,"Area IFJ1 (IFS, PreCS) right",WT,48,2
+pred_0004,Area 6v2 (PreCG) right,WT,67,2
+pred_0004,WM/unassigned,ET,280,10
+pred_0004,Area SFG4 (SFG) right,ET,107,4
+pred_0004,Area 6d3 (SFS) right,ET,14,1
+pred_0004,Area SFG2 (SFG) right,ET,81,3
+pred_0004,Area SFG3 (SFG) right,ET,173,6

@@ -1,0 +1,32 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_353,WM/unassigned,TC,5356,70,95.7,0.1,False
+BraTS20_Training_353,"Ndentv (Cerebellum, Ventral Dentate Nucleus) left",TC,101,1,1.8,25.2,True
+BraTS20_Training_353,"Ninterp (Cerebellum, Interposed Nucleus) left",TC,52,1,0.9,26.0,True
+BraTS20_Training_353,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) left",TC,46,1,0.8,2.9,True
+BraTS20_Training_353,"Nfast (Cerebellum, Fastigial Nucleus) left",TC,40,1,0.7,25.6,True
+BraTS20_Training_353,WM/unassigned,WT,19660,256,61.8,0.3,False
+BraTS20_Training_353,"Area hOc1 (V1, 17, CalcS) right",WT,6,0,0.0,0.0,False
+BraTS20_Training_353,"Area hOc2 (V2, 18) right",WT,10,0,0.0,0.1,False
+BraTS20_Training_353,Frontal-to-Occipital (GapMap) left,WT,661,9,2.1,1.8,False
+BraTS20_Training_353,Area FG2 (FusG) left,WT,144,2,0.5,5.1,False
+BraTS20_Training_353,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,7,0,0.0,1.0,False
+BraTS20_Training_353,Area Ph1 (PhG) left,WT,682,9,2.1,61.9,False
+BraTS20_Training_353,Area FG4 (FusG) left,WT,726,9,2.3,9.8,False
+BraTS20_Training_353,"Area hOc1 (V1, 17, CalcS) left",WT,1696,22,5.3,13.5,True
+BraTS20_Training_353,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,3,0,0.0,0.5,False
+BraTS20_Training_353,Area Ph3 (PhG) left,WT,654,9,2.1,100.0,False
+BraTS20_Training_353,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) left",WT,30,0,0.1,1.9,False
+BraTS20_Training_353,Area hOc3v (LingG) left,WT,2859,37,9.0,48.3,True
+BraTS20_Training_353,Area FG1 (FusG) left,WT,826,11,2.6,69.9,True
+BraTS20_Training_353,Temporal-to-Parietal (GapMap) left,WT,30,0,0.1,0.1,False
+BraTS20_Training_353,"Subc (Hippocampus, Subicular complex) left",WT,638,8,2.0,14.5,False
+BraTS20_Training_353,"TrS (Hippocampus, Transsubiculum) left",WT,300,4,0.9,92.0,False
+BraTS20_Training_353,Area FG3 (FusG) left,WT,1456,19,4.6,50.2,True
+BraTS20_Training_353,Area hOc4v (LingG) left,WT,867,11,2.7,20.7,True
+BraTS20_Training_353,Area Ph2 (PhG) left,WT,568,7,1.8,42.9,False
+BraTS20_Training_353,WM/unassigned,ET,8240,107,90.4,0.1,False
+BraTS20_Training_353,"Nfast (Cerebellum, Fastigial Nucleus) right",ET,26,0,0.3,10.7,True
+BraTS20_Training_353,"Ndentv (Cerebellum, Ventral Dentate Nucleus) left",ET,243,3,2.7,60.8,True
+BraTS20_Training_353,"Ninterp (Cerebellum, Interposed Nucleus) left",ET,112,1,1.2,56.0,True
+BraTS20_Training_353,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) left",ET,426,6,4.7,27.3,True
+BraTS20_Training_353,"Nfast (Cerebellum, Fastigial Nucleus) left",ET,73,1,0.8,46.8,True

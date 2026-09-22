@@ -1,0 +1,26 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_129,WM/unassigned,TC,846,7,60.2,0.0,False
+BraTS20_Training_129,Area hOc4la (LOC) right,TC,99,1,7.0,2.5,True
+BraTS20_Training_129,Area FG2 (FusG) right,TC,17,0,1.2,1.4,True
+BraTS20_Training_129,Temporal-to-Parietal (GapMap) right,TC,439,4,31.2,0.7,True
+BraTS20_Training_129,Area hOc4v (LingG) right,TC,4,0,0.3,0.1,True
+BraTS20_Training_129,WM/unassigned,WT,28921,256,56.9,0.4,False
+BraTS20_Training_129,Area hOc4la (LOC) right,WT,3005,27,5.9,75.6,True
+BraTS20_Training_129,Area STS2 (STS) right,WT,15,0,0.0,0.2,False
+BraTS20_Training_129,Area FG2 (FusG) right,WT,975,9,1.9,79.9,True
+BraTS20_Training_129,Area PGa (IPL) right,WT,907,8,1.8,14.2,False
+BraTS20_Training_129,Area PFm (IPL) right,WT,21,0,0.0,0.4,False
+BraTS20_Training_129,Area FG4 (FusG) right,WT,529,5,1.0,11.7,False
+BraTS20_Training_129,Area hOc4lp (LOC) right,WT,1109,10,2.2,29.4,True
+BraTS20_Training_129,"Area hOc2 (V2, 18) right",WT,46,0,0.1,0.5,False
+BraTS20_Training_129,Area PGp (IPL) right,WT,811,7,1.6,12.9,False
+BraTS20_Training_129,Area hOc3v (LingG) right,WT,703,6,1.4,18.5,False
+BraTS20_Training_129,Area FG1 (FusG) right,WT,542,5,1.1,36.4,False
+BraTS20_Training_129,Temporal-to-Parietal (GapMap) right,WT,11339,100,22.3,16.8,True
+BraTS20_Training_129,Area hOc5 (LOC) right,WT,298,3,0.6,54.3,False
+BraTS20_Training_129,Area hOc4v (LingG) right,WT,1576,14,3.1,45.5,True
+BraTS20_Training_129,WM/unassigned,ET,5354,47,75.1,0.1,False
+BraTS20_Training_129,Area hOc4la (LOC) right,ET,111,1,1.6,2.8,True
+BraTS20_Training_129,Area FG2 (FusG) right,ET,54,0,0.8,4.4,True
+BraTS20_Training_129,Temporal-to-Parietal (GapMap) right,ET,1594,14,22.3,2.4,True
+BraTS20_Training_129,Area hOc5 (LOC) right,ET,20,0,0.3,3.6,True

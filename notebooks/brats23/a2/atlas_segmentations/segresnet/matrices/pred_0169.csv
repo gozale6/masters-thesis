@@ -1,0 +1,77 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0169,WM/unassigned,TC,10863,124
+pred_0169,Frontal-to-Occipital (GapMap) left,TC,2105,24
+pred_0169,Area p32 (pACC) left,TC,233,3
+pred_0169,Frontal-I.2 (GapMap) left,TC,2529,29
+pred_0169,Area 33 (ACC) left,TC,279,3
+pred_0169,Area 8d1 (SFG) left,TC,1,0
+pred_0169,Area SFG4 (SFG) right,TC,6,0
+pred_0169,Area p24ab (pACC) right,TC,157,2
+pred_0169,Frontal-to-Occipital (GapMap) right,TC,1421,16
+pred_0169,Area 8d2 (SFG) right,TC,22,0
+pred_0169,Area p32 (pACC) right,TC,493,6
+pred_0169,Area SFG2 (SFG) right,TC,106,1
+pred_0169,Area SFG3 (SFG) right,TC,1,0
+pred_0169,Area p24c (pACC) right,TC,332,4
+pred_0169,Frontal-I.2 (GapMap) right,TC,2901,33
+pred_0169,Area 33 (ACC) right,TC,718,8
+pred_0169,Area 8d1 (SFG) right,TC,110,1
+pred_0169,WM/unassigned,WT,22485,256
+pred_0169,Area p24ab (pACC) left,WT,768,9
+pred_0169,Frontal-to-Occipital (GapMap) left,WT,1894,22
+pred_0169,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,84,1
+pred_0169,"AM (Thalamus, anteromedial Nucleus) left",WT,21,0
+pred_0169,Area 8d2 (SFG) left,WT,185,2
+pred_0169,Area p32 (pACC) left,WT,670,8
+pred_0169,Area SFG2 (SFG) left,WT,15,0
+pred_0169,"Area 6ma (preSMA, mesial SFG) left",WT,27,0
+pred_0169,Area p24c (pACC) left,WT,222,3
+pred_0169,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,21,0
+pred_0169,Frontal-I.2 (GapMap) left,WT,283,3
+pred_0169,Area 33 (ACC) left,WT,61,1
+pred_0169,"AV (Thalamus, anteroventral Nucleus) left",WT,12,0
+pred_0169,Area 8d1 (SFG) left,WT,43,0
+pred_0169,Area s24 (sACC) left,WT,13,0
+pred_0169,Area 3b (PostCG) right,WT,97,1
+pred_0169,Area PF (IPL) right,WT,8,0
+pred_0169,Area SFG4 (SFG) right,WT,28,0
+pred_0169,Area p24ab (pACC) right,WT,563,6
+pred_0169,Area Te 3 (STG) right,WT,180,2
+pred_0169,Frontal-to-Occipital (GapMap) right,WT,947,11
+pred_0169,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,1,0
+pred_0169,"Area TPJ (STG, SMG) right",WT,116,1
+pred_0169,Area Op1 (POperc) right,WT,829,9
+pred_0169,Area 8d2 (SFG) right,WT,63,1
+pred_0169,Area 3a (PostCG) right,WT,83,1
+pred_0169,Area p32 (pACC) right,WT,525,6
+pred_0169,Area SFG2 (SFG) right,WT,664,8
+pred_0169,Area SFG3 (SFG) right,WT,331,4
+pred_0169,Area 6v3 (PreCG) right,WT,10,0
+pred_0169,Area Op4 (POperc) right,WT,603,7
+pred_0169,"Area 6ma (preSMA, mesial SFG) right",WT,220,3
+pred_0169,Area p24c (pACC) right,WT,279,3
+pred_0169,Area PFcm (IPL) right,WT,8,0
+pred_0169,Frontal-I.2 (GapMap) right,WT,362,4
+pred_0169,Area 33 (ACC) right,WT,353,4
+pred_0169,Area Op3 (POperc) right,WT,47,1
+pred_0169,Area 8d1 (SFG) right,WT,232,3
+pred_0169,Area PFop (IPL) right,WT,304,3
+pred_0169,Area Te 2.2 (STG) right,WT,218,2
+pred_0169,WM/unassigned,ET,10437,119
+pred_0169,Frontal-to-Occipital (GapMap) left,ET,1223,14
+pred_0169,Area p32 (pACC) left,ET,292,3
+pred_0169,Area SFG2 (SFG) left,ET,7,0
+pred_0169,Frontal-I.2 (GapMap) left,ET,1234,14
+pred_0169,Area 33 (ACC) left,ET,220,3
+pred_0169,Area 8d1 (SFG) left,ET,4,0
+pred_0169,Area SFG4 (SFG) right,ET,191,2
+pred_0169,Area p24ab (pACC) right,ET,254,3
+pred_0169,Frontal-to-Occipital (GapMap) right,ET,1811,21
+pred_0169,Area 8d2 (SFG) right,ET,342,4
+pred_0169,Area p32 (pACC) right,ET,499,6
+pred_0169,Area SFG2 (SFG) right,ET,1060,12
+pred_0169,Area SFG3 (SFG) right,ET,118,1
+pred_0169,Area p24c (pACC) right,ET,210,2
+pred_0169,Frontal-I.2 (GapMap) right,ET,1558,18
+pred_0169,Area 33 (ACC) right,ET,594,7
+pred_0169,Area 8d1 (SFG) right,ET,331,4

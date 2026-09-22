@@ -1,0 +1,553 @@
+2026-03-22 21:25:52,876  INFO  ============================================================
+2026-03-22 21:25:52,876  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 21:25:52,876  INFO  ============================================================
+2026-03-22 21:25:52,876  INFO    CSV            : /home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 21:25:52,876  INFO    Text dir       : /home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/../TextBraTSData
+2026-03-22 21:25:52,876  INFO    Output dir     : /home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/checkpoints/biomedlm
+2026-03-22 21:25:52,876  INFO    Epochs         : 5
+2026-03-22 21:25:52,876  INFO    Batch size     : 2
+2026-03-22 21:25:52,876  INFO    Learning rate  : 2e-05
+2026-03-22 21:25:52,876  INFO    Max input tok  : 1024
+2026-03-22 21:25:52,876  INFO    Max target tok : 512
+2026-03-22 21:25:52,876  INFO  ============================================================
+2026-03-22 21:25:52,877  INFO  Device: cuda
+2026-03-22 21:25:52,877  INFO  Loading CSV: /home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 21:25:52,892  INFO    24471 rows  |  251 unique cases
+2026-03-22 21:25:53,426  INFO    Matched pairs  : 251
+2026-03-22 21:25:53,426  INFO    Skipped (no report txt): 0
+2026-03-22 21:25:53,427  INFO  Train: 200  |  Val: 51
+2026-03-22 21:25:53,427  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 21:25:53,694  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:25:53,745  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:53,794  INFO  HTTP Request: GET https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:53,922  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:25:53,972  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:54,022  INFO  HTTP Request: GET https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:54,152  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 21:25:54,281  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 21:25:54,409  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/vocab.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:25:54,409  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 21:25:54,459  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/vocab.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:54,508  INFO  HTTP Request: GET https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/vocab.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:54,828  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/merges.txt "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:25:54,882  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/merges.txt "HTTP/1.1 200 OK"
+2026-03-22 21:25:54,935  INFO  HTTP Request: GET https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/merges.txt "HTTP/1.1 200 OK"
+2026-03-22 21:25:55,096  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-03-22 21:25:55,221  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-03-22 21:25:55,345  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:25:55,400  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:55,459  INFO  HTTP Request: GET https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:55,665  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-03-22 21:25:55,721  INFO  Loading model: stanford-crfm/BioMedLM
+2026-03-22 21:25:55,844  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:25:55,892  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 21:25:56,141  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 21:25:56,269  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 21:25:56,400  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-03-22 21:25:56,542  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/xet-read-token/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f "HTTP/1.1 200 OK"
+2026-03-22 21:39:55,253  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 21:39:55,425  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 21:39:55,579  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 21:39:55,722  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 21:39:55,883  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 21:39:55,925  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 21:39:56,047  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 21:39:56,057  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 21:39:56,106  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 21:39:56,213  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 21:39:56,358  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/xet-read-token/530bb454c77b49f9390c27ccddada9e34bb6629b "HTTP/1.1 200 OK"
+2026-03-22 22:02:01,564  INFO  ============================================================
+2026-03-22 22:02:01,564  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:02:01,564  INFO  ============================================================
+2026-03-22 22:02:01,564  INFO    CSV            : all_cases.csv
+2026-03-22 22:02:01,564  INFO    Text dir       : notebooks/brats23/TextBraTSData
+2026-03-22 22:02:01,564  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:02:01,564  INFO    Epochs         : 5
+2026-03-22 22:02:01,564  INFO    Batch size     : 2
+2026-03-22 22:02:01,564  INFO    Learning rate  : 2e-05
+2026-03-22 22:02:01,564  INFO    Max input tok  : 1024
+2026-03-22 22:02:01,564  INFO    Max target tok : 512
+2026-03-22 22:02:01,564  INFO  ============================================================
+2026-03-22 22:02:01,565  INFO  Device: cuda
+2026-03-22 22:02:01,565  INFO  Loading CSV: all_cases.csv
+2026-03-22 22:06:26,670  INFO  ============================================================
+2026-03-22 22:06:26,670  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:06:26,670  INFO  ============================================================
+2026-03-22 22:06:26,670  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:06:26,670  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:06:26,670  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:06:26,670  INFO    Epochs         : 5
+2026-03-22 22:06:26,670  INFO    Batch size     : 2
+2026-03-22 22:06:26,670  INFO    Learning rate  : 2e-05
+2026-03-22 22:06:26,670  INFO    Max input tok  : 1024
+2026-03-22 22:06:26,671  INFO    Max target tok : 512
+2026-03-22 22:06:26,671  INFO  ============================================================
+2026-03-22 22:06:26,671  INFO  Device: cuda
+2026-03-22 22:06:26,671  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:06:26,685  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:06:27,217  INFO    Matched pairs  : 251
+2026-03-22 22:06:27,217  INFO    Skipped (no report txt): 0
+2026-03-22 22:06:27,218  INFO  Train: 200  |  Val: 51
+2026-03-22 22:06:27,218  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:06:27,470  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:27,524  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:27,654  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:27,703  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:27,831  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:27,963  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:06:28,025  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:06:28,151  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:28,203  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:28,405  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:28,536  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:06:28,676  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:06:28,816  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:06:28,961  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:06:29,009  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:29,009  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:06:29,090  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:29,133  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:29,186  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:29,222  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:06:52,283  INFO  ============================================================
+2026-03-22 22:06:52,283  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:06:52,283  INFO  ============================================================
+2026-03-22 22:06:52,283  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:06:52,283  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:06:52,283  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:06:52,283  INFO    Epochs         : 5
+2026-03-22 22:06:52,283  INFO    Batch size     : 1
+2026-03-22 22:06:52,283  INFO    Learning rate  : 2e-05
+2026-03-22 22:06:52,283  INFO    Max input tok  : 1024
+2026-03-22 22:06:52,283  INFO    Max target tok : 512
+2026-03-22 22:06:52,283  INFO  ============================================================
+2026-03-22 22:06:52,283  INFO  Device: cuda
+2026-03-22 22:06:52,283  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:06:52,297  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:06:52,825  INFO    Matched pairs  : 251
+2026-03-22 22:06:52,825  INFO    Skipped (no report txt): 0
+2026-03-22 22:06:52,826  INFO  Train: 200  |  Val: 51
+2026-03-22 22:06:52,826  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:06:53,114  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:53,169  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:53,300  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:53,300  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:06:53,351  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:53,477  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:53,610  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:06:53,672  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:06:53,800  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:53,851  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:54,054  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:54,184  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:06:54,341  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:06:54,480  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:06:54,618  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:06:54,665  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:54,749  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:06:54,796  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:06:54,845  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:06:54,876  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:07:06,588  INFO  ============================================================
+2026-03-22 22:07:06,588  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:07:06,588  INFO  ============================================================
+2026-03-22 22:07:06,588  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:07:06,588  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:07:06,588  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:07:06,588  INFO    Epochs         : 5
+2026-03-22 22:07:06,588  INFO    Batch size     : 4
+2026-03-22 22:07:06,588  INFO    Learning rate  : 2e-05
+2026-03-22 22:07:06,588  INFO    Max input tok  : 1024
+2026-03-22 22:07:06,588  INFO    Max target tok : 512
+2026-03-22 22:07:06,588  INFO  ============================================================
+2026-03-22 22:07:06,588  INFO  Device: cuda
+2026-03-22 22:07:06,588  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:07:06,603  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:07:07,127  INFO    Matched pairs  : 251
+2026-03-22 22:07:07,127  INFO    Skipped (no report txt): 0
+2026-03-22 22:07:07,128  INFO  Train: 200  |  Val: 51
+2026-03-22 22:07:07,129  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:07:07,381  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:07:07,433  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:07:07,582  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:07:07,633  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:07:07,760  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:07:07,889  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:07:07,953  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:07:08,076  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:07:08,128  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:07:08,401  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:07:08,401  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:07:08,534  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:07:08,670  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:07:08,927  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:07:09,230  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:07:09,231  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:07:09,373  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:07:09,374  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:07:09,424  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:07:09,522  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:09:55,770  INFO  ============================================================
+2026-03-22 22:09:55,770  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:09:55,770  INFO  ============================================================
+2026-03-22 22:09:55,770  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:09:55,770  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:09:55,770  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:09:55,770  INFO    Epochs         : 5
+2026-03-22 22:09:55,770  INFO    Batch size     : 2
+2026-03-22 22:09:55,770  INFO    Learning rate  : 2e-05
+2026-03-22 22:09:55,770  INFO    Max input tok  : 512
+2026-03-22 22:09:55,770  INFO    Max target tok : 512
+2026-03-22 22:09:55,770  INFO  ============================================================
+2026-03-22 22:09:55,770  INFO  Device: cuda
+2026-03-22 22:09:55,770  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:09:55,784  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:09:56,324  INFO    Matched pairs  : 251
+2026-03-22 22:09:56,324  INFO    Skipped (no report txt): 0
+2026-03-22 22:09:56,325  INFO  Train: 200  |  Val: 51
+2026-03-22 22:09:56,325  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:09:56,604  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:09:56,655  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:09:56,781  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:09:56,828  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:09:56,959  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:09:57,092  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:09:57,156  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:09:57,282  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:09:57,332  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:09:57,533  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:09:57,669  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:09:57,849  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:09:57,986  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:09:58,147  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:09:58,147  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:09:58,276  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:09:58,276  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:09:58,328  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:09:58,413  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:11:03,463  INFO  ============================================================
+2026-03-22 22:11:03,464  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:11:03,464  INFO  ============================================================
+2026-03-22 22:11:03,464  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:11:03,464  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:11:03,464  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:11:03,464  INFO    Epochs         : 5
+2026-03-22 22:11:03,464  INFO    Batch size     : 4
+2026-03-22 22:11:03,464  INFO    Learning rate  : 2e-05
+2026-03-22 22:11:03,464  INFO    Max input tok  : 512
+2026-03-22 22:11:03,464  INFO    Max target tok : 512
+2026-03-22 22:11:03,464  INFO  ============================================================
+2026-03-22 22:11:03,464  INFO  Device: cuda
+2026-03-22 22:11:03,464  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:11:03,478  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:11:04,013  INFO    Matched pairs  : 251
+2026-03-22 22:11:04,013  INFO    Skipped (no report txt): 0
+2026-03-22 22:11:04,014  INFO  Train: 200  |  Val: 51
+2026-03-22 22:11:04,014  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:11:04,362  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:04,412  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:04,547  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:04,547  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:11:04,596  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:04,718  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:04,844  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:11:04,906  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:11:05,028  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:05,079  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:05,279  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:05,410  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:11:05,660  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:11:05,799  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:11:05,886  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:05,940  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:11:06,011  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:06,064  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:06,066  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:06,192  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:11:17,470  INFO  ============================================================
+2026-03-22 22:11:17,470  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:11:17,470  INFO  ============================================================
+2026-03-22 22:11:17,470  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:11:17,470  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:11:17,470  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:11:17,470  INFO    Epochs         : 5
+2026-03-22 22:11:17,470  INFO    Batch size     : 1
+2026-03-22 22:11:17,470  INFO    Learning rate  : 2e-05
+2026-03-22 22:11:17,470  INFO    Max input tok  : 512
+2026-03-22 22:11:17,470  INFO    Max target tok : 512
+2026-03-22 22:11:17,470  INFO  ============================================================
+2026-03-22 22:11:17,470  INFO  Device: cuda
+2026-03-22 22:11:17,470  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:11:17,485  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:11:18,024  INFO    Matched pairs  : 251
+2026-03-22 22:11:18,024  INFO    Skipped (no report txt): 0
+2026-03-22 22:11:18,025  INFO  Train: 200  |  Val: 51
+2026-03-22 22:11:18,025  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:11:18,264  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:18,264  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:11:18,313  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:18,454  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:18,505  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:18,634  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:18,764  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:11:18,825  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:11:18,951  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:19,002  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:19,283  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:19,414  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:11:19,562  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:11:19,710  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:11:19,846  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:11:19,898  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:19,977  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:11:20,025  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:11:20,089  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:11:20,104  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:12:50,943  INFO  ============================================================
+2026-03-22 22:12:50,943  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:12:50,943  INFO  ============================================================
+2026-03-22 22:12:50,943  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:12:50,943  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:12:50,943  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:12:50,943  INFO    Epochs         : 5
+2026-03-22 22:12:50,943  INFO    Batch size     : 1
+2026-03-22 22:12:50,943  INFO    Learning rate  : 2e-05
+2026-03-22 22:12:50,943  INFO    Max input tok  : 512
+2026-03-22 22:12:50,944  INFO    Max target tok : 512
+2026-03-22 22:12:50,944  INFO  ============================================================
+2026-03-22 22:12:50,944  INFO  Device: cuda
+2026-03-22 22:12:50,944  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:12:51,036  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:12:51,608  INFO    Matched pairs  : 251
+2026-03-22 22:12:51,608  INFO    Skipped (no report txt): 0
+2026-03-22 22:12:51,609  INFO  Train: 200  |  Val: 51
+2026-03-22 22:12:51,609  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:12:51,882  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:12:51,882  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:12:51,931  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:12:52,100  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:12:52,152  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:12:52,284  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:12:52,546  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:12:52,620  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:12:52,756  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:12:52,817  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:12:53,129  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:12:53,257  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:12:53,405  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:12:53,549  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:12:53,694  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:12:53,828  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:12:53,962  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:13:03,086  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:13:03,216  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:13:03,263  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:24:11,294  INFO  ============================================================
+2026-03-22 22:24:11,295  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-03-22 22:24:11,295  INFO  ============================================================
+2026-03-22 22:24:11,295  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:24:11,295  INFO    Text dir       : ../TextBraTSData
+2026-03-22 22:24:11,295  INFO    Output dir     : checkpoints/biomedlm
+2026-03-22 22:24:11,295  INFO    Epochs         : 5
+2026-03-22 22:24:11,295  INFO    Batch size     : 2
+2026-03-22 22:24:11,295  INFO    Learning rate  : 2e-05
+2026-03-22 22:24:11,295  INFO    Max input tok  : 512
+2026-03-22 22:24:11,295  INFO    Max target tok : 512
+2026-03-22 22:24:11,295  INFO  ============================================================
+2026-03-22 22:24:11,295  INFO  Device: cuda
+2026-03-22 22:24:11,295  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-03-22 22:24:11,309  INFO    24471 rows  |  251 unique cases
+2026-03-22 22:24:11,849  INFO    Matched pairs  : 251
+2026-03-22 22:24:11,849  INFO    Skipped (no report txt): 0
+2026-03-22 22:24:11,849  INFO  Train: 200  |  Val: 51
+2026-03-22 22:24:11,850  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-03-22 22:24:12,193  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:24:12,244  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:24:12,367  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:24:12,368  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-22 22:24:12,473  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-22 22:24:12,598  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-22 22:24:12,728  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-22 22:24:12,789  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-03-22 22:24:12,921  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:24:12,971  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:24:13,098  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:24:13,229  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:24:13,276  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:24:13,402  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-03-22 22:24:13,526  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-03-22 22:24:13,666  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-03-22 22:24:13,799  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-03-22 22:24:13,937  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-03-22 22:24:13,996  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:24:14,071  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-03-22 22:24:14,117  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:24:14,164  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:24:14,202  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-03-22 22:25:19,157  INFO  Epoch 1  train_loss=6.4553  train_ppl=636.06  val_loss=5.3335  val_ppl=207.15
+2026-03-22 22:25:19,452  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:25:19,500  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:25:19,641  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:25:19,691  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:25:19,722  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-03-22 22:26:21,912  INFO  Epoch 2  train_loss=5.6808  train_ppl=293.20  val_loss=4.7357  val_ppl=113.95
+2026-03-22 22:26:22,257  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:26:22,308  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:26:22,430  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:26:22,480  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:26:22,514  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-03-22 22:27:25,716  INFO  Epoch 3  train_loss=5.1090  train_ppl=165.50  val_loss=4.5166  val_ppl=91.52
+2026-03-22 22:27:25,972  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:27:26,021  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:27:26,180  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:27:26,237  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:27:26,272  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-03-22 22:28:28,786  INFO  Epoch 4  train_loss=4.7328  train_ppl=113.61  val_loss=4.4000  val_ppl=81.45
+2026-03-22 22:28:29,159  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:28:29,209  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:28:29,397  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:28:29,447  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:28:29,479  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-03-22 22:29:32,629  INFO  Epoch 5  train_loss=4.6329  train_ppl=102.81  val_loss=4.3834  val_ppl=80.11
+2026-03-22 22:29:32,885  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:29:32,958  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:29:33,087  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-22 22:29:33,135  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-03-22 22:29:33,165  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-03-22 22:29:33,165  INFO  
+Training complete. Best val loss: 4.3834
+2026-03-22 22:29:33,165  INFO  Best model saved at: checkpoints/biomedlm
+2026-04-08 19:09:10,391  INFO  ============================================================
+2026-04-08 19:09:10,392  INFO  BioMedLM fine-tuning — BraTS matrix → radiology report
+2026-04-08 19:09:10,392  INFO  ============================================================
+2026-04-08 19:09:10,392  INFO    CSV            : atlas_segmentations/segresnet/all_cases.csv
+2026-04-08 19:09:10,392  INFO    Text dir       : ../TextBraTSData
+2026-04-08 19:09:10,392  INFO    Output dir     : checkpoints/biomedlm
+2026-04-08 19:09:10,392  INFO    Epochs         : 15
+2026-04-08 19:09:10,392  INFO    Batch size     : 1  (grad accum=4, effective=4)
+2026-04-08 19:09:10,392  INFO    Learning rate  : 5e-06
+2026-04-08 19:09:10,392  INFO    Max input tok  : 512
+2026-04-08 19:09:10,392  INFO    Max target tok : 512
+2026-04-08 19:09:10,392  INFO  ============================================================
+2026-04-08 19:09:10,392  INFO  Device: cuda
+2026-04-08 19:09:10,392  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-04-08 19:09:10,406  INFO    24471 rows  |  251 unique cases
+2026-04-08 19:09:10,933  INFO    Matched pairs  : 251
+2026-04-08 19:09:10,933  INFO    Skipped (no report txt): 0
+2026-04-08 19:09:10,934  INFO  Train: 200  |  Val: 51
+2026-04-08 19:09:10,934  INFO  Loading tokenizer: stanford-crfm/BioMedLM
+2026-04-08 19:09:11,149  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:09:11,149  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-08 19:09:11,185  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:09:11,260  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:09:11,326  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-08 19:09:11,405  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-08 19:09:11,484  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-08 19:09:11,548  INFO  Loading model: stanford-crfm/BioMedLM  (dtype=torch.bfloat16)
+2026-04-08 19:09:11,621  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:09:11,656  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:09:11,738  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:09:11,777  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:09:11,853  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-08 19:09:11,938  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM "HTTP/1.1 200 OK"
+2026-04-08 19:09:12,097  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/main "HTTP/1.1 200 OK"
+2026-04-08 19:09:12,192  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-08 19:09:12,295  INFO  HTTP Request: GET https://huggingface.co/api/models/stanford-crfm/BioMedLM/commits/refs%2Fpr%2F7 "HTTP/1.1 200 OK"
+2026-04-08 19:09:12,356  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-04-08 19:09:12,377  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-08 19:09:12,435  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:09:12,469  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/refs%2Fpr%2F7/model.safetensors "HTTP/1.1 302 Found"
+2026-04-08 19:09:12,472  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:10:07,187  INFO  Epoch 1  train_loss=4.5955  train_ppl=99.04  val_loss=4.2982  val_ppl=73.57
+2026-04-08 19:10:07,337  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:10:07,375  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:10:07,456  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:10:07,492  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:10:07,559  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:11:00,720  INFO  Epoch 2  train_loss=4.5551  train_ppl=95.12  val_loss=4.2429  val_ppl=69.61
+2026-04-08 19:11:00,892  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:11:00,933  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:11:01,010  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:11:01,048  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:11:01,113  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:11:54,465  INFO  Epoch 3  train_loss=4.4428  train_ppl=85.01  val_loss=4.1196  val_ppl=61.54
+2026-04-08 19:11:54,633  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:11:54,671  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:11:54,751  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:11:54,788  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:11:54,852  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:12:48,264  INFO  Epoch 4  train_loss=4.2589  train_ppl=70.73  val_loss=3.9474  val_ppl=51.80
+2026-04-08 19:12:48,432  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:12:48,471  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:12:48,547  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:12:48,586  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:12:48,648  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:13:42,041  INFO  Epoch 5  train_loss=4.0396  train_ppl=56.80  val_loss=3.7597  val_ppl=42.94
+2026-04-08 19:13:42,214  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:13:42,249  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:13:42,326  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:13:42,360  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:13:42,425  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:14:35,773  INFO  Epoch 6  train_loss=3.8256  train_ppl=45.86  val_loss=3.6200  val_ppl=37.34
+2026-04-08 19:14:36,111  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:14:36,255  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:14:36,363  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:14:36,415  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:14:36,478  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:15:29,821  INFO  Epoch 7  train_loss=3.6908  train_ppl=40.08  val_loss=3.5097  val_ppl=33.44
+2026-04-08 19:15:29,990  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:15:30,013  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:15:30,115  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:15:30,143  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:15:30,206  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:16:23,604  INFO  Epoch 8  train_loss=3.5894  train_ppl=36.21  val_loss=3.4176  val_ppl=30.50
+2026-04-08 19:16:23,791  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:16:23,815  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:16:23,918  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:16:23,947  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:16:24,009  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:17:17,331  INFO  Epoch 9  train_loss=3.4881  train_ppl=32.72  val_loss=3.3410  val_ppl=28.25
+2026-04-08 19:17:17,622  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:17:17,649  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:17:17,752  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:17:17,894  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:17:17,958  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:18:11,265  INFO  Epoch 10  train_loss=3.4062  train_ppl=30.15  val_loss=3.2902  val_ppl=26.85
+2026-04-08 19:18:11,441  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:18:11,466  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:18:11,565  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:18:11,599  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:18:11,663  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:19:05,117  INFO  Epoch 11  train_loss=3.3678  train_ppl=29.01  val_loss=3.2514  val_ppl=25.83
+2026-04-08 19:19:05,279  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:19:05,304  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:19:05,413  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:19:05,435  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:19:05,499  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:19:58,922  INFO  Epoch 12  train_loss=3.3202  train_ppl=27.67  val_loss=3.2154  val_ppl=24.91
+2026-04-08 19:19:59,124  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:19:59,146  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:19:59,249  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:19:59,278  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:19:59,339  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:20:52,729  INFO  Epoch 13  train_loss=3.2853  train_ppl=26.72  val_loss=3.1952  val_ppl=24.41
+2026-04-08 19:20:52,895  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:20:52,921  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:20:53,025  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:20:53,053  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:20:53,117  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:21:46,443  INFO  Epoch 14  train_loss=3.2844  train_ppl=26.69  val_loss=3.1866  val_ppl=24.21
+2026-04-08 19:21:46,628  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:21:46,652  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:21:46,759  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:21:46,783  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:21:46,845  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:22:40,164  INFO  Epoch 15  train_loss=3.2668  train_ppl=26.23  val_loss=3.1823  val_ppl=24.10
+2026-04-08 19:22:40,347  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:22:40,392  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:22:40,490  INFO  HTTP Request: HEAD https://huggingface.co/stanford-crfm/BioMedLM/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-08 19:22:40,522  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/stanford-crfm/BioMedLM/3e1a0abb814b8398bc34b4b6680ecf2c26d6a66f/config.json "HTTP/1.1 200 OK"
+2026-04-08 19:22:40,587  INFO    ✓ New best checkpoint saved → checkpoints/biomedlm
+2026-04-08 19:22:40,587  INFO  
+Training complete. Best val loss: 3.1823
+2026-04-08 19:22:40,587  INFO  Best model saved at: checkpoints/biomedlm

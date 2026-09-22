@@ -1,0 +1,13 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_094,WM/unassigned,TC,183,2
+BraTS20_Training_094,WM/unassigned,WT,19431,256
+BraTS20_Training_094,Area STS2 (STS) right,WT,340,4
+BraTS20_Training_094,Area Te 3 (STG) right,WT,786,10
+BraTS20_Training_094,Area 44 (IFG) right,WT,24,0
+BraTS20_Training_094,Area Fo6 (OFC) right,WT,165,2
+BraTS20_Training_094,Area Op9 (Frontal Operculum) right,WT,268,4
+BraTS20_Training_094,Temporal-to-Parietal (GapMap) right,WT,362,5
+BraTS20_Training_094,Area 45 (IFG) right,WT,294,4
+BraTS20_Training_094,Area STS1 (STS) right,WT,23,0
+BraTS20_Training_094,Area TeI (STG) right,WT,27,0
+BraTS20_Training_094,WM/unassigned,ET,1274,17

@@ -1,0 +1,1260 @@
+[
+  {
+    "case_id": "BraTS20_Training_166",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals, which appear as spotted high-signal areas, suggesting the presence of multiple lesions\nEdema: significant with notable swelling of the tissue surrounding the lesion in the right frontal and parietal lobes\nNecrosis: observed with low signals, suggesting possible\nnecrosis primarily concentrated in the central region of the right frontal lobe, featuring mixed signals that indicate varying degrees of\nnecrosis, dispersed throughout the lesion area\nVentricular compression: identified as the right lateral ventricle is compressed and deformed, while the left lateral ventricle is slightly expanded, indicating some degree of compressive effect on the brain tissue and ventricles due to the lesions",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals, which appear as spotted high-signal areas, suggesting the presence of multiple lesions",
+      "edema": "significant with notable swelling of the tissue surrounding the lesion in the right frontal and parietal lobes",
+      "necrosis": "observed with low signals, suggesting possible\nnecrosis primarily concentrated in the central region of the right frontal lobe, featuring mixed signals that indicate varying degrees of\nnecrosis, dispersed throughout the lesion area",
+      "compression": "identified as the right lateral ventricle is compressed and deformed, while the left lateral ventricle is slightly expanded, indicating some degree of compressive effect on the brain tissue and ventricles due to the lesions"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_034",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the region of the left parietal lobe with a heterogeneous mix of high and low signals, along with speckled high signals\nEdema: visible around the lesion, mainly focused in the left parietal lobe, presenting as regions of high signal intensity and indicating a large range of\nedema with significant swelling of the surrounding tissue\nNecrosis: observed in the lesion of the left parietal lobe, appearing with mixed signals and unclear borders, indicating scattered and mixed\nnecrosis with the surrounding high signal\nVentricular compression: observed with noticeable deformation of the third ventricle and lateral ventricles on the left side",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the region of the left parietal lobe with a heterogeneous mix of high and low signals, along with speckled high signals",
+      "edema": "visible around the lesion, mainly focused in the left parietal lobe, presenting as regions of high signal intensity and indicating a large range of\nedema with significant swelling of the surrounding tissue",
+      "necrosis": "observed in the lesion of the left parietal lobe, appearing with mixed signals and unclear borders, indicating scattered and mixed\nnecrosis with the surrounding high signal",
+      "compression": "observed with noticeable deformation of the third ventricle and lateral ventricles on the left side"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_016",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal lobe, parietal lobe, and temporal lobe with heterogeneous, mixed high and low signals forming multiple spot-like high signal regions\nEdema: clearly concentrated in the right frontal lobe, parietal lobe, and temporal lobe with a significant high signal indicating pronounced swelling, covering a large extent of these brain regions\nNecrosis: characterized by an uneven mixture of high and low signals with significant possibility in the right frontal and parietal regions, predominantly as a central region of high signal surrounded by uneven low signal dispersions\nVentricular compression: noticeable, primarily concentrated on the right ventricle, with the right lateral ventricle visibly deformed due to pressure",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal lobe, parietal lobe, and temporal lobe with heterogeneous, mixed high and low signals forming multiple spot-like high signal regions",
+      "edema": "clearly concentrated in the right frontal lobe, parietal lobe, and temporal lobe with a significant high signal indicating pronounced swelling, covering a large extent of these brain regions",
+      "necrosis": "characterized by an uneven mixture of high and low signals with significant possibility in the right frontal and parietal regions, predominantly as a central region of high signal surrounded by uneven low signal dispersions",
+      "compression": "noticeable, primarily concentrated on the right ventricle, with the right lateral ventricle visibly deformed due to pressure"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_313",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal regions with a mix of heterogeneous high and low signals and speckled high-signal areas\nEdema: significant, with extensive high-signal regions occupying large portions of the right frontal and parietal lobes\nNecrosis: observed with low-signal areas, especially concentrated in the right parietal region, exhibiting signal heterogeneity\nVentricular compression: noticeable on the right lateral ventricle, which appears narrowed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal regions with a mix of heterogeneous high and low signals and speckled high-signal areas",
+      "edema": "significant, with extensive high-signal regions occupying large portions of the right frontal and parietal lobes",
+      "necrosis": "observed with low-signal areas, especially concentrated in the right parietal region, exhibiting signal heterogeneity",
+      "compression": "noticeable on the right lateral ventricle, which appears narrowed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_058",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal, temporal, and parietal lobes with mixed signals of varying intensity and patchy high-signal areas\nEdema: observed in the left parietal lobe, indicating significant swelling of the surrounding tissues, with a wide range of\nedema\nNecrosis: characterized by low-signal areas with some mixed signals in the left parietal lobe, indicating that the necrotic area is rather concentrated\nVentricular compression: observed, indicating that the lesions exert a certain level of pressure on the brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal, temporal, and parietal lobes with mixed signals of varying intensity and patchy high-signal areas",
+      "edema": "observed in the left parietal lobe, indicating significant swelling of the surrounding tissues, with a wide range of\nedema",
+      "necrosis": "characterized by low-signal areas with some mixed signals in the left parietal lobe, indicating that the necrotic area is rather concentrated",
+      "compression": "observed, indicating that the lesions exert a certain level of pressure on the brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_220",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal lobe, right temporal lobe, and right occipital lobe with a mixed pattern of heterogeneous high and low signals, with patchy high-signal regions, suggesting multiple lesions\nEdema: significant, primarily concentrated in the junction area of the right temporal lobe and frontal lobe, and in the right parietal lobe, spanning multiple brain lobes\nNecrosis: visible with low signal intensity areas mainly concentrated in the junction of the right frontal and temporal lobes, with mixed signal characteristics\nVentricular compression: observed in the right frontal, temporal, and parietal lobes",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal lobe, right temporal lobe, and right occipital lobe with a mixed pattern of heterogeneous high and low signals, with patchy high-signal regions, suggesting multiple lesions",
+      "edema": "significant, primarily concentrated in the junction area of the right temporal lobe and frontal lobe, and in the right parietal lobe, spanning multiple brain lobes",
+      "necrosis": "visible with low signal intensity areas mainly concentrated in the junction of the right frontal and temporal lobes, with mixed signal characteristics",
+      "compression": "observed in the right frontal, temporal, and parietal lobes"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_077",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal and parietal lobes with heterogeneous high-signal and low-signal areas, with spotted high-signal regions\nEdema: prominent, primarily surrounding the lesions in the left frontal and parietal regions, with severe swelling of the tissues\nNecrosis: suggested by low-signal and signal-void regions interspersed among areas of high and iso-signal, with distribution being uneven in the frontal and parietal regions\nVentricular compression: evident as mild deformation and compression of the ventricles, primarily in the left lateral ventricle",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and parietal lobes with heterogeneous high-signal and low-signal areas, with spotted high-signal regions",
+      "edema": "prominent, primarily surrounding the lesions in the left frontal and parietal regions, with severe swelling of the tissues",
+      "necrosis": "suggested by low-signal and signal-void regions interspersed among areas of high and iso-signal, with distribution being uneven in the frontal and parietal regions",
+      "compression": "evident as mild deformation and compression of the ventricles, primarily in the left lateral ventricle"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_120",
+    "prediction": "Lesion area: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nEdema: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nVentricular compression: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+    "reference": "Lesion area: parts of the bilateral frontal and parietal lobes with a heterogeneous mix of high and low signals, accompanied by patchy high signal areas\nEdema: significant, primarily surrounding the bilateral frontal and parietal lobes, indicating severe swelling in the tissues\nNecrosis: suggested by multiple low-signal areas, primarily concentrated around the bilateral lesion sites, exhibiting a mixed signal appearance\nVentricular compression: not evident, indicating that the current lesions have a limited compressive effect on the brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "edema": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "compression": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals"
+    },
+    "ref_fields": {
+      "lesion": "parts of the bilateral frontal and parietal lobes with a heterogeneous mix of high and low signals, accompanied by patchy high signal areas",
+      "edema": "significant, primarily surrounding the bilateral frontal and parietal lobes, indicating severe swelling in the tissues",
+      "necrosis": "suggested by multiple low-signal areas, primarily concentrated around the bilateral lesion sites, exhibiting a mixed signal appearance",
+      "compression": "not evident, indicating that the current lesions have a limited compressive effect on the brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_154",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal lobe with heterogeneous mixed signal intensity, exhibiting spot-like high signal areas\nEdema: significant, observed in the right frontal lobe and part of the parietal lobe, extensive and spreading to the surrounding tissue of the lesion, indicating marked tissue swelling\nNecrosis: within the lesion area, with regions of decreased signal primarily concentrated in the center of the right frontal lobe, surrounded by high signal\nVentricular compression: significant in the right lateral ventricle, which has undergone morphological changes, suggesting a substantial compressive effect of the lesion on brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal lobe with heterogeneous mixed signal intensity, exhibiting spot-like high signal areas",
+      "edema": "significant, observed in the right frontal lobe and part of the parietal lobe, extensive and spreading to the surrounding tissue of the lesion, indicating marked tissue swelling",
+      "necrosis": "within the lesion area, with regions of decreased signal primarily concentrated in the center of the right frontal lobe, surrounded by high signal",
+      "compression": "significant in the right lateral ventricle, which has undergone morphological changes, suggesting a substantial compressive effect of the lesion on brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_127",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal lobe and part of the temporal lobe, exhibiting a higher signal; some regions display mixed signals with distinct speckled high-signal areas, suggesting the possible presence of multiple lesions\nEdema: significant in the left frontal and temporal lobe areas, appearing as diffusely high signals\nNecrosis: potentially indicated by some low-signal areas in the left parietal lobe, which demonstrate uneven signals, with some regions mixed with other signals\nVentricular compression: slight, with the left lateral ventricle showing some degree of deformation",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal lobe and part of the temporal lobe, exhibiting a higher signal; some regions display mixed signals with distinct speckled high-signal areas, suggesting the possible presence of multiple lesions",
+      "edema": "significant in the left frontal and temporal lobe areas, appearing as diffusely high signals",
+      "necrosis": "potentially indicated by some low-signal areas in the left parietal lobe, which demonstrate uneven signals, with some regions mixed with other signals",
+      "compression": "slight, with the left lateral ventricle showing some degree of deformation"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_230",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left hemisphere, particularly in the parietal lobe region, with a mixture of heterogeneous high and low signals with spotted high-signal areas\nEdema: in the parietal lobe region, prominent with significant\nedema signals appearing as high signals, suggesting a considerable degree of swelling in the surrounding tissues, with a broad range of\nedema\nNecrosis: within the lesion area, showing low signals indicating possible necrotic regions with mixed signals and are relatively evenly distributed\nVentricular compression: clear compression of the left ventricle, suggesting a strong compressive effect on the brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left hemisphere, particularly in the parietal lobe region, with a mixture of heterogeneous high and low signals with spotted high-signal areas",
+      "edema": "in the parietal lobe region, prominent with significant\nedema signals appearing as high signals, suggesting a considerable degree of swelling in the surrounding tissues, with a broad range of\nedema",
+      "necrosis": "within the lesion area, showing low signals indicating possible necrotic regions with mixed signals and are relatively evenly distributed",
+      "compression": "clear compression of the left ventricle, suggesting a strong compressive effect on the brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_040",
+    "prediction": "Lesion area: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nEdema: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nVentricular compression: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+    "reference": "Lesion area: the bilateral frontal and temporal lobes with a mixed signal of uneven high and low intensity with patchy high signal areas\nEdema: pronounced, chiefly observed in the bilateral lateral frontal lobes, with significant swelling of surrounding tissues, extensive and extending into the temporal lobes\nNecrosis: located at the center of the bilateral lateral frontal lobes, characterized by high signal areas interspersed with low signals, primarily in the aforementioned areas\nVentricular compression: notably present as the right ventricle is compressed and deformed, whereas the left ventricle maintains a normal shape",
+    "pred_fields": {
+      "lesion": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "edema": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "compression": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals"
+    },
+    "ref_fields": {
+      "lesion": "the bilateral frontal and temporal lobes with a mixed signal of uneven high and low intensity with patchy high signal areas",
+      "edema": "pronounced, chiefly observed in the bilateral lateral frontal lobes, with significant swelling of surrounding tissues, extensive and extending into the temporal lobes",
+      "necrosis": "located at the center of the bilateral lateral frontal lobes, characterized by high signal areas interspersed with low signals, primarily in the aforementioned areas",
+      "compression": "notably present as the right ventricle is compressed and deformed, whereas the left ventricle maintains a normal shape"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_153",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal and parietal lobes with a mix of heterogeneous high and low signals and speckled high-signal areas\nEdema: significant in the left frontal and parietal lobes, mainly concentrated around the lesion area, with a broad range of diffusion, suggesting considerable swelling of the surrounding tissues\nNecrosis: suggested by high signal intensity within the lesion area, predominantly concentrated in the right frontal and parietal lobes, with a relatively localized distribution\nVentricular compression: exerting some degree of compression on the right lateral ventricle",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and parietal lobes with a mix of heterogeneous high and low signals and speckled high-signal areas",
+      "edema": "significant in the left frontal and parietal lobes, mainly concentrated around the lesion area, with a broad range of diffusion, suggesting considerable swelling of the surrounding tissues",
+      "necrosis": "suggested by high signal intensity within the lesion area, predominantly concentrated in the right frontal and parietal lobes, with a relatively localized distribution",
+      "compression": "exerting some degree of compression on the right lateral ventricle"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_056",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right parietal and temporal lobes with heterogeneous high and low signal areas accompanied by patchy high signal regions\nEdema: extensive, covering the peripheral regions of the lesions, suggesting significant swelling of the surrounding tissue. The area of\nedema extends inward from the right cortex, affecting the white matter, resulting in widespread\nedema\nNecrosis: in regions displaying lower signal intensity, primarily concentrated in the deep lesion areas of the right parietal lobe\nVentricular compression: evident, with compression and deformation of the right ventricle, leading to a reduction in its volume",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right parietal and temporal lobes with heterogeneous high and low signal areas accompanied by patchy high signal regions",
+      "edema": "extensive, covering the peripheral regions of the lesions, suggesting significant swelling of the surrounding tissue. The area of\nedema extends inward from the right cortex, affecting the white matter, resulting in widespread\nedema",
+      "necrosis": "in regions displaying lower signal intensity, primarily concentrated in the deep lesion areas of the right parietal lobe",
+      "compression": "evident, with compression and deformation of the right ventricle, leading to a reduction in its volume"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_138",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the frontal and parietal regions of the right cerebral hemisphere with a mixture of heterogeneous high and low signals, with spotty high-signal areas\nEdema: a marked high-signal indication surrounding the frontal and parietal regions of the right cerebral hemisphere, suggesting significant swelling\nNecrosis: primarily concentrated in the deep part of the right parietal lobe, resembling a mixed low-signal area\nVentricular compression: present as the\nventricular system is compressed and deformed, with the right lateral ventricle compressed and narrowed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the frontal and parietal regions of the right cerebral hemisphere with a mixture of heterogeneous high and low signals, with spotty high-signal areas",
+      "edema": "a marked high-signal indication surrounding the frontal and parietal regions of the right cerebral hemisphere, suggesting significant swelling",
+      "necrosis": "primarily concentrated in the deep part of the right parietal lobe, resembling a mixed low-signal area",
+      "compression": "present as the\nventricular system is compressed and deformed, with the right lateral ventricle compressed and narrowed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_203",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left hemisphere, especially in the left frontal and temporal lobes with mixed signals with irregular high and low intensities along with patchy high signal areas, indicating multiple lesions\nEdema: observed around the lesions in the left hemisphere, particularly surrounding the left frontal and temporal lobes, a prominent high-signal\nedema region is observed. The extent of the\nedema is considerable, indicating significant swelling of tissues around the lesions\nNecrosis: within the lesion area, several low-signal regions are visible, suggesting the possible presence of\nnecrosis. These necrotic areas are intermingled with high-signal regions and present an irregular shape, scattered within the lesion areas of the left frontal and temporal lobes\nVentricular compression: the left ventricle is compressed and deformed, suggesting strong compression of the left brain tissues and ventricle by the lesion",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left hemisphere, especially in the left frontal and temporal lobes with mixed signals with irregular high and low intensities along with patchy high signal areas, indicating multiple lesions",
+      "edema": "observed around the lesions in the left hemisphere, particularly surrounding the left frontal and temporal lobes, a prominent high-signal\nedema region is observed. The extent of the\nedema is considerable, indicating significant swelling of tissues around the lesions",
+      "necrosis": "within the lesion area, several low-signal regions are visible, suggesting the possible presence of\nnecrosis. These necrotic areas are intermingled with high-signal regions and present an irregular shape, scattered within the lesion areas of the left frontal and temporal lobes",
+      "compression": "the left ventricle is compressed and deformed, suggesting strong compression of the left brain tissues and ventricle by the lesion"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_001",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with a mixed pattern of high and low signals with speckled high signal regions\nEdema: mainly observed in the right parietal lobe, partially extending to the frontal lobe, presenting as high signal, indicating significant tissue swelling around the lesion\nNecrosis: within the lesions of the right parietal and frontal lobes, appearing as mixed, with alternating high and low signal regions\nVentricular compression: seen in the lateral ventricles with significant compressive effects on the brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixed pattern of high and low signals with speckled high signal regions",
+      "edema": "mainly observed in the right parietal lobe, partially extending to the frontal lobe, presenting as high signal, indicating significant tissue swelling around the lesion",
+      "necrosis": "within the lesions of the right parietal and frontal lobes, appearing as mixed, with alternating high and low signal regions",
+      "compression": "seen in the lateral ventricles with significant compressive effects on the brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_228",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal regions\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal regions\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal regions\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right temporal and frontal lobes with a mixture of heterogeneous high and low signals, with some areas showing speckled high signals\nEdema: extensive, mainly concentrated in the right temporal lobe and part of the frontal lobe, indicating marked swelling of the surrounding tissues\nNecrosis: characterized by clearly low signals, with a notable degree of heterogeneity, mostly scattered in the right temporal and frontal lobes\nVentricular compression: slight compression of the right ventricle, with no severe deformation or significant shift observed yet",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal regions",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal regions",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal regions",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right temporal and frontal lobes with a mixture of heterogeneous high and low signals, with some areas showing speckled high signals",
+      "edema": "extensive, mainly concentrated in the right temporal lobe and part of the frontal lobe, indicating marked swelling of the surrounding tissues",
+      "necrosis": "characterized by clearly low signals, with a notable degree of heterogeneity, mostly scattered in the right temporal and frontal lobes",
+      "compression": "slight compression of the right ventricle, with no severe deformation or significant shift observed yet"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_333",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas",
+    "reference": "Lesion area: the frontal lobe region of the left cerebral hemisphere with a mixed signal of uneven intensity with spotted areas of high signal\nEdema: mainly around the lesions, spreading across most of the left frontal lobe, showing a significant high signal, indicating a substantial degree of swelling in the surrounding tissues, with a wide range of\nedema\nNecrosis: mainly located in the central region of the frontal lobe, displaying low signal intensity, with edges adjoining the lesion areas and showing mixed signals with disorganized, multi-spotted appearances\nVentricular compression: noted on the left ventricle, which is compressed and deformed, showing asymmetric distortion, indicating significant compression of the ventricles by the lesion",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with patchy high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the frontal lobe region of the left cerebral hemisphere with a mixed signal of uneven intensity with spotted areas of high signal",
+      "edema": "mainly around the lesions, spreading across most of the left frontal lobe, showing a significant high signal, indicating a substantial degree of swelling in the surrounding tissues, with a wide range of\nedema",
+      "necrosis": "mainly located in the central region of the frontal lobe, displaying low signal intensity, with edges adjoining the lesion areas and showing mixed signals with disorganized, multi-spotted appearances",
+      "compression": "noted on the left ventricle, which is compressed and deformed, showing asymmetric distortion, indicating significant compression of the ventricles by the lesion"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_102",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal lobe with a heterogeneous mix of high and low signals\nEdema: pronounced\nedema signals primarily concentrated in the left frontal lobe, followed by the parietal lobe, exhibiting high signals\nNecrosis: potential necrotic areas mainly concentrated in the left frontal lobe, appearing as low signals mixed with high signal regions\nVentricular compression: no evident sign of\nventricular compression",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal lobe with a heterogeneous mix of high and low signals",
+      "edema": "pronounced\nedema signals primarily concentrated in the left frontal lobe, followed by the parietal lobe, exhibiting high signals",
+      "necrosis": "potential necrotic areas mainly concentrated in the left frontal lobe, appearing as low signals mixed with high signal regions",
+      "compression": "no evident sign of\nventricular compression"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_010",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with mixed high and low signals",
+    "reference": "Lesion area: the right frontal and occipital lobes with heterogeneous mixed signals and patchy high signals\nEdema: significant, mainly observed in the right frontal lobe and part of the occipital lobe with diffuse high signal intensity, extending into surrounding normal tissue\nNecrosis: seen in the central part of the right frontal lobe, characterized by low signal mixed with high signal plaques\nVentricular compression: evident in the right lateral ventricle, particularly in the anterior horn region",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with mixed high and low signals"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and occipital lobes with heterogeneous mixed signals and patchy high signals",
+      "edema": "significant, mainly observed in the right frontal lobe and part of the occipital lobe with diffuse high signal intensity, extending into surrounding normal tissue",
+      "necrosis": "seen in the central part of the right frontal lobe, characterized by low signal mixed with high signal plaques",
+      "compression": "evident in the right lateral ventricle, particularly in the anterior horn region"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_326",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals with speckled high signal areas\nEdema: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals and patchy high signal areas",
+    "reference": "Lesion area: the left side of the brain, specifically involving the frontal and parietal lobes, with a mixture of heterogeneous signal intensities and patchy high signal areas\nEdema: significant, mainly observed in the tissue surrounding the lesions, particularly around the larger high signal lesion areas, extending significantly to the peripheral regions of the frontal and parietal lobes\nNecrosis: within the high signal lesions, with areas of low signal that may represent necrotic tissue, interspersed within the high signal lesion areas, presenting with irregular contours, and some located deep within the frontal lobe\nVentricular compression: exerting a certain degree of compression on the ventricles, showing deformation of the\nventricular system under pressure",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals with speckled high signal areas",
+      "edema": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals and patchy high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left side of the brain, specifically involving the frontal and parietal lobes, with a mixture of heterogeneous signal intensities and patchy high signal areas",
+      "edema": "significant, mainly observed in the tissue surrounding the lesions, particularly around the larger high signal lesion areas, extending significantly to the peripheral regions of the frontal and parietal lobes",
+      "necrosis": "within the high signal lesions, with areas of low signal that may represent necrotic tissue, interspersed within the high signal lesion areas, presenting with irregular contours, and some located deep within the frontal lobe",
+      "compression": "exerting a certain degree of compression on the ventricles, showing deformation of the\nventricular system under pressure"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_073",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the left parietal and occipital lobes with a mixture of heterogeneous high and low signals\nVentricular compression: the left parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+    "reference": "Lesion area: the left frontal lobe of the brain with mixed signals of varying intensity and speckled high-signal areas\nEdema: observed in the left parietal and frontal regions with high intensity, indicating pronounced swelling around the lesions\nNecrosis: observed near the left parietal and frontal lobes, exhibiting mixed signal intensity with some scattered high-signal regions\nVentricular compression: noticeable in the left frontal and parietal areas, with the ventricles becoming deformed",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the left parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "compression": "the left parietal and occipital lobes with a mixture of heterogeneous high and low signals"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal lobe of the brain with mixed signals of varying intensity and speckled high-signal areas",
+      "edema": "observed in the left parietal and frontal regions with high intensity, indicating pronounced swelling around the lesions",
+      "necrosis": "observed near the left parietal and frontal lobes, exhibiting mixed signal intensity with some scattered high-signal regions",
+      "compression": "noticeable in the left frontal and parietal areas, with the ventricles becoming deformed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_256",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal lobe and partially in the parietal lobe with a mix of heterogeneous high and low signals, including multiple spotted high signal areas, indicating the presence of multiple lesion foci\nEdema: significant, surrounding the entire lesion region, particularly prominent in the right frontal lobe area, characterized by diffuse high signals and covering most of the right frontal lobe area\nNecrosis: observed with low signal regions at the center of the lesion area, indicating potential\nnecrosis with low signal intensity and a high degree of heterogeneity, and the necrotic areas within the lesion foci are scattered and not centralized\nVentricular compression: observed, with the right lateral ventricle appearing compressed and deformed, suggesting that the lesion exerts a certain degree of pressure on the brain tissue and\nventricular system",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal lobe and partially in the parietal lobe with a mix of heterogeneous high and low signals, including multiple spotted high signal areas, indicating the presence of multiple lesion foci",
+      "edema": "significant, surrounding the entire lesion region, particularly prominent in the right frontal lobe area, characterized by diffuse high signals and covering most of the right frontal lobe area",
+      "necrosis": "observed with low signal regions at the center of the lesion area, indicating potential\nnecrosis with low signal intensity and a high degree of heterogeneity, and the necrotic areas within the lesion foci are scattered and not centralized",
+      "compression": "observed, with the right lateral ventricle appearing compressed and deformed, suggesting that the lesion exerts a certain degree of pressure on the brain tissue and\nventricular system"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_251",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal lobe with a heterogeneous mix of high and low signals and particularly showing distinct patchy high signal areas\nEdema: evident with high signal characteristics, quite pronounced, and mainly observed around the parietal lobe lesion area\nNecrosis: not observed\nVentricular compression: present, with the ventricles appearing compressed and deformed, showing signs of pressure",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal lobe with a heterogeneous mix of high and low signals and particularly showing distinct patchy high signal areas",
+      "edema": "evident with high signal characteristics, quite pronounced, and mainly observed around the parietal lobe lesion area",
+      "necrosis": "not observed",
+      "compression": "present, with the ventricles appearing compressed and deformed, showing signs of pressure"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_197",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with heterogeneous mixed high and low signals, and speckled high signal areas suggesting multiple lesions\nEdema: marked, predominantly in the right frontal and parietal lobes, with noticeable tissue swelling and a distinct ring-shaped\nedema area extending outward from the lesion\nNecrosis: observed with very low signal intensity areas that distinctly differ from surrounding tissue, and low signal speckles mixed within high signal regions, mainly concentrated within the lesion but showing a slight dispersal trend\nVentricular compression: quite apparent, with the right lateral ventricle significantly reduced in size, and the left lateral ventricle slightly reduced due to right-side lesion compression, indicating a substantial impact on the\nventricular system",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with heterogeneous mixed high and low signals, and speckled high signal areas suggesting multiple lesions",
+      "edema": "marked, predominantly in the right frontal and parietal lobes, with noticeable tissue swelling and a distinct ring-shaped\nedema area extending outward from the lesion",
+      "necrosis": "observed with very low signal intensity areas that distinctly differ from surrounding tissue, and low signal speckles mixed within high signal regions, mainly concentrated within the lesion but showing a slight dispersal trend",
+      "compression": "quite apparent, with the right lateral ventricle significantly reduced in size, and the left lateral ventricle slightly reduced due to right-side lesion compression, indicating a substantial impact on the\nventricular system"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_238",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal lobe with a mixture of heterogeneous high and low signals\nEdema: a significant high-signal area in the left brain, primarily concentrated in the left frontal and parietal lobes, with tissue swelling and considerable extent\nNecrosis: a potential area within the lesion region, with the left parietal lobe showing mixed moderate to low signal areas and irregular low-signal areas in the left frontal lobe, suggesting dispersed necrotic tissue presence\nVentricular compression: observed in the left ventricle, with irregular shape and significant deformation, indicating a substantial compressive impact",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal lobe with a mixture of heterogeneous high and low signals",
+      "edema": "a significant high-signal area in the left brain, primarily concentrated in the left frontal and parietal lobes, with tissue swelling and considerable extent",
+      "necrosis": "a potential area within the lesion region, with the left parietal lobe showing mixed moderate to low signal areas and irregular low-signal areas in the left frontal lobe, suggesting dispersed necrotic tissue presence",
+      "compression": "observed in the left ventricle, with irregular shape and significant deformation, indicating a substantial compressive impact"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_233",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with mixed signals of varying intensities and spotty high-signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left temporal and occipital lobes with a mixture of heterogeneous high and low signals, with spotted high signal characteristics\nEdema: mainly concentrated near the left temporal lobe region and around the occipital lobe with homogeneous or heterogeneous high signals, indicating significant swelling of the surrounding tissues in these areas, with a considerable range of\nedema\nNecrosis: present within the left occipital and temporal lobes, showing low signal areas intermixed with some high signal zones in the overall imaging\nVentricular compression: not observed",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with mixed signals of varying intensities and spotty high-signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left temporal and occipital lobes with a mixture of heterogeneous high and low signals, with spotted high signal characteristics",
+      "edema": "mainly concentrated near the left temporal lobe region and around the occipital lobe with homogeneous or heterogeneous high signals, indicating significant swelling of the surrounding tissues in these areas, with a considerable range of\nedema",
+      "necrosis": "present within the left occipital and temporal lobes, showing low signal areas intermixed with some high signal zones in the overall imaging",
+      "compression": "not observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_342",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the frontal, parietal, and occipital regions of the right hemisphere with mixed signals of varying intensities and spot-like high signal areas\nEdema: mainly in the right hemisphere, where the lesions are present, particularly in the surrounding tissues near the lesions, and is extensive, covering the frontal lobe, parietal lobe, and part of the occipital lobe\nNecrosis: located in the right hemisphere, especially at the center of the lesion, showing mixed, uneven signals and mostly concentrated\nVentricular compression: observed with the right lateral ventricle compressed and reduced in size",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the frontal, parietal, and occipital regions of the right hemisphere with mixed signals of varying intensities and spot-like high signal areas",
+      "edema": "mainly in the right hemisphere, where the lesions are present, particularly in the surrounding tissues near the lesions, and is extensive, covering the frontal lobe, parietal lobe, and part of the occipital lobe",
+      "necrosis": "located in the right hemisphere, especially at the center of the lesion, showing mixed, uneven signals and mostly concentrated",
+      "compression": "observed with the right lateral ventricle compressed and reduced in size"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_366",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mix of heterogeneous high and low signals\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left temporal and parietal lobes with multiple heterogeneous mixed signals and spotty high-signal areas, suggesting the presence of multiple lesions\nEdema: significant, concentrated in the left parietal and temporal regions, with extensive high-signal areas, suggesting noticeable swelling in the tissue surrounding the lesions\nNecrosis: located mainly in the left temporal lobe, appearing as low signals with blurred boundaries mixed with the high-signal\nVentricular compression: observed with the left ventricle compressed and deformed, showing slight compression and deformation due to the mass effect of the lesion",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mix of heterogeneous high and low signals",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left temporal and parietal lobes with multiple heterogeneous mixed signals and spotty high-signal areas, suggesting the presence of multiple lesions",
+      "edema": "significant, concentrated in the left parietal and temporal regions, with extensive high-signal areas, suggesting noticeable swelling in the tissue surrounding the lesions",
+      "necrosis": "located mainly in the left temporal lobe, appearing as low signals with blurred boundaries mixed with the high-signal",
+      "compression": "observed with the left ventricle compressed and deformed, showing slight compression and deformation due to the mass effect of the lesion"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_026",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous signal intensities and spotted high-signal areas\nEdema: significant, particularly in the right parietal lobe, extensive and affects the surrounding brain tissue\nNecrosis: in the right frontal lobe, low-signal areas interspersed with high-signal areas\nVentricular compression: significant, especially on the right side",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous signal intensities and spotted high-signal areas",
+      "edema": "significant, particularly in the right parietal lobe, extensive and affects the surrounding brain tissue",
+      "necrosis": "in the right frontal lobe, low-signal areas interspersed with high-signal areas",
+      "compression": "significant, especially on the right side"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_109",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal and parietal lobes with heterogeneous signal intensities, displaying both high and low signal areas, along with speckled high signal regions\nEdema: evident around the lesions in the left frontal and parietal lobes, primarily observed around the high signal lesions, indicating the extent of tissue swelling and\nedema\nNecrosis: mainly concentrated in the left parietal region, characterized by low signal intensity, with some areas showing mixed signals and varying degrees of tissue\nnecrosis\nVentricular compression: observed with the right lateral ventricle slightly compressed, and the shape of the left lateral ventricle somewhat altered",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and parietal lobes with heterogeneous signal intensities, displaying both high and low signal areas, along with speckled high signal regions",
+      "edema": "evident around the lesions in the left frontal and parietal lobes, primarily observed around the high signal lesions, indicating the extent of tissue swelling and\nedema",
+      "necrosis": "mainly concentrated in the left parietal region, characterized by low signal intensity, with some areas showing mixed signals and varying degrees of tissue\nnecrosis",
+      "compression": "observed with the right lateral ventricle slightly compressed, and the shape of the left lateral ventricle somewhat altered"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_043",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal regions with mixed high and low signals with patchy high-signal areas\nEdema: prominent, concentrated in the right frontal and parietal lobes, with a minor extension to the temporal lobe, showing significant high signals\nNecrosis: mostly observed in the right parietal and occipital lobes, appearing as low signals interspersed with some high-signal areas\nVentricular compression: notable on the lateral ventricles, with the lesion areas exerting a certain compressive effect on the ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal regions with mixed high and low signals with patchy high-signal areas",
+      "edema": "prominent, concentrated in the right frontal and parietal lobes, with a minor extension to the temporal lobe, showing significant high signals",
+      "necrosis": "mostly observed in the right parietal and occipital lobes, appearing as low signals interspersed with some high-signal areas",
+      "compression": "notable on the lateral ventricles, with the lesion areas exerting a certain compressive effect on the ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_357",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the top and side of the right brain, particularly including the peripheral areas of the frontal and parietal lobes, with heterogeneous mixed signals and notable patches of high signal regions\nEdema: a clearly visible high signal surrounding the lesion, mainly concentrated in the right frontal and parietal lobes, with a broad range of\nedema affecting the nearby brain tissue\nNecrosis: patchy areas of low signal and mixed signal primarily concentrated in the central part of the lesion area, characterized by decreased and uneven signals\nVentricular compression: slight, with the right lateral ventricle showing clear signs of compression",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the top and side of the right brain, particularly including the peripheral areas of the frontal and parietal lobes, with heterogeneous mixed signals and notable patches of high signal regions",
+      "edema": "a clearly visible high signal surrounding the lesion, mainly concentrated in the right frontal and parietal lobes, with a broad range of\nedema affecting the nearby brain tissue",
+      "necrosis": "patchy areas of low signal and mixed signal primarily concentrated in the central part of the lesion area, characterized by decreased and uneven signals",
+      "compression": "slight, with the right lateral ventricle showing clear signs of compression"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_156",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left temporal lobe with a mixed signal of uneven high and low areas, and spotty high signal regions\nEdema: significant around the left temporal lobe and extends into part of the parietal lobe area\nNecrosis: a suspicious necrotic area in the left temporal lobe, displaying a mixed signal characteristic, concentrated and relatively pronounced\nVentricular compression: accompanied by compression of the adjacent ventricles, with the right ventricle mildly expanded, showing signs of compression",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left temporal lobe with a mixed signal of uneven high and low areas, and spotty high signal regions",
+      "edema": "significant around the left temporal lobe and extends into part of the parietal lobe area",
+      "necrosis": "a suspicious necrotic area in the left temporal lobe, displaying a mixed signal characteristic, concentrated and relatively pronounced",
+      "compression": "accompanied by compression of the adjacent ventricles, with the right ventricle mildly expanded, showing signs of compression"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_115",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals and speckled high-signal areas\nEdema: extensive, visible around the lesions in the parietal and frontal lobes, primarily in the right frontal and parietal regions, extending to the adjacent ventricles\nNecrosis: detected in the lesion area of the parietal lobe, presenting as heterogeneous low signals and mixed high signals\nVentricular compression: observed, indicated by pressure on the adjacent ventricles with slight morphological changes",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals and speckled high-signal areas",
+      "edema": "extensive, visible around the lesions in the parietal and frontal lobes, primarily in the right frontal and parietal regions, extending to the adjacent ventricles",
+      "necrosis": "detected in the lesion area of the parietal lobe, presenting as heterogeneous low signals and mixed high signals",
+      "compression": "observed, indicated by pressure on the adjacent ventricles with slight morphological changes"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_064",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with mixed signals of varying intensity and patchy high-signal areas\nEdema: located around the right frontal and parietal lobe regions with pronounced high-signal areas, indicating significant swelling in the tissues surrounding the lesions\nNecrosis: mainly at the center of the lesions in the right frontal lobe region with lower signal intensity and higher heterogeneity\nVentricular compression: indicated by the right ventricle being narrowed, suggesting compression",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with mixed signals of varying intensity and patchy high-signal areas",
+      "edema": "located around the right frontal and parietal lobe regions with pronounced high-signal areas, indicating significant swelling in the tissues surrounding the lesions",
+      "necrosis": "mainly at the center of the lesions in the right frontal lobe region with lower signal intensity and higher heterogeneity",
+      "compression": "indicated by the right ventricle being narrowed, suggesting compression"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_023",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals",
+    "reference": "Lesion area: the left frontal and parietal lobes with multiple mixed high and low signal areas and speckled high signal regions, distributed unevenly with indistinct boundaries\nEdema: significant with notable swelling in the tissue around the lesions, surrounding the left frontal and parietal lobes and affecting the normal brain tissue around these areas\nNecrosis: observed in the central part of the lesion area as a large low signal region, mainly concentrated within the right frontal lobe\nVentricular compression: observed as the left lateral ventricle is noticeably compressed and deformed, consistent with the location of the lesions, suggesting a certain degree of compression effect on the ventricles caused by the lesions",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and parietal lobes with multiple mixed high and low signal areas and speckled high signal regions, distributed unevenly with indistinct boundaries",
+      "edema": "significant with notable swelling in the tissue around the lesions, surrounding the left frontal and parietal lobes and affecting the normal brain tissue around these areas",
+      "necrosis": "observed in the central part of the lesion area as a large low signal region, mainly concentrated within the right frontal lobe",
+      "compression": "observed as the left lateral ventricle is noticeably compressed and deformed, consistent with the location of the lesions, suggesting a certain degree of compression effect on the ventricles caused by the lesions"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_305",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right cerebral hemisphere, particularly the parietal and occipital lobes, with a mix of heterogeneous high and low signals, along with speckled high-signal areas\nEdema: notable high-signal areas surrounding the lesions mainly concentrated in the right parietal and occipital lobes, with significant swelling of the surrounding tissues, covering a large area\nNecrosis: some low-signal areas with uneven signal intensity, with some areas exhibiting extremely low signals, both concentrated and somewhat dispersed\nVentricular compression: the right ventricle subjected to varying degrees of compression, resulting in slight deformation",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right cerebral hemisphere, particularly the parietal and occipital lobes, with a mix of heterogeneous high and low signals, along with speckled high-signal areas",
+      "edema": "notable high-signal areas surrounding the lesions mainly concentrated in the right parietal and occipital lobes, with significant swelling of the surrounding tissues, covering a large area",
+      "necrosis": "some low-signal areas with uneven signal intensity, with some areas exhibiting extremely low signals, both concentrated and somewhat dispersed",
+      "compression": "the right ventricle subjected to varying degrees of compression, resulting in slight deformation"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_176",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with multiple heterogeneous signal intensities, including high signal, iso-signal, and speckled high signal areas\nEdema: significant, primarily observed in the right frontal and parietal lobes, with surrounding tissue swollen to a large extent around the lesion area, indicated by high signal intensity\nNecrosis: mainly concentrated at the center of the lesion, manifested as mixed low signal regions, primarily located at the center of the lesion in the right parietal lobe, surrounded by high signal areas\nVentricular compression: evident, with compression on the right ventricle suggesting a certain degree of pressure exerted by the lesion area",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with multiple heterogeneous signal intensities, including high signal, iso-signal, and speckled high signal areas",
+      "edema": "significant, primarily observed in the right frontal and parietal lobes, with surrounding tissue swollen to a large extent around the lesion area, indicated by high signal intensity",
+      "necrosis": "mainly concentrated at the center of the lesion, manifested as mixed low signal regions, primarily located at the center of the lesion in the right parietal lobe, surrounded by high signal areas",
+      "compression": "evident, with compression on the right ventricle suggesting a certain degree of pressure exerted by the lesion area"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_245",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left cerebral hemisphere, particularly in the frontal and parietal lobes, with mixed signals of uneven high and low intensity\nEdema: significant, observed in the left frontal and parietal regions, extending to adjacent white matter areas and presents as high-intensity signals\nNecrosis: suspected in the low signal regions within the lesion area, particularly in the mixed high and low signal area of the central parietal lobe, showing as low signal areas mixed into the background of patchy high signals\nVentricular compression: observed, with the left lateral ventricle showing some degree of constriction and deformation",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left cerebral hemisphere, particularly in the frontal and parietal lobes, with mixed signals of uneven high and low intensity",
+      "edema": "significant, observed in the left frontal and parietal regions, extending to adjacent white matter areas and presents as high-intensity signals",
+      "necrosis": "suspected in the low signal regions within the lesion area, particularly in the mixed high and low signal area of the central parietal lobe, showing as low signal areas mixed into the background of patchy high signals",
+      "compression": "observed, with the left lateral ventricle showing some degree of constriction and deformation"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_209",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right temporal and parietal lobes with a mix of heterogeneous high and low signals with speckled high signal areas\nEdema: observed mainly in the right temporal lobe and part of the right parietal lobe, with the surrounding tissue of the right temporal lobe exhibiting significant swelling\nNecrosis: concentrated in the right temporal lobe with low and scattered signal intensity\nVentricular compression: observed with compression and deformation of the right ventricle while the left ventricle appears normal",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right temporal and parietal lobes with a mix of heterogeneous high and low signals with speckled high signal areas",
+      "edema": "observed mainly in the right temporal lobe and part of the right parietal lobe, with the surrounding tissue of the right temporal lobe exhibiting significant swelling",
+      "necrosis": "concentrated in the right temporal lobe with low and scattered signal intensity",
+      "compression": "observed with compression and deformation of the right ventricle while the left ventricle appears normal"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_031",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal lobe region with a mixed signal of heterogeneous high and low intensities, accompanied by speckled high signal areas\nEdema: a marked increase in signal intensity, indicating extensive brain tissue\nedema mainly concentrated around the left frontal lobe near the lesions, with a relatively uniform signal intensity suggesting a wide extent of\nedema\nNecrosis: suggested by central regions of lower signal, located at the core of the lesion, with a moderate mixed degree of low signal areas surrounded by high signal regions\nVentricular compression: observed with the left ventricle deformed due to compression by the lesion, showing significant compression",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal lobe region with a mixed signal of heterogeneous high and low intensities, accompanied by speckled high signal areas",
+      "edema": "a marked increase in signal intensity, indicating extensive brain tissue\nedema mainly concentrated around the left frontal lobe near the lesions, with a relatively uniform signal intensity suggesting a wide extent of\nedema",
+      "necrosis": "suggested by central regions of lower signal, located at the core of the lesion, with a moderate mixed degree of low signal areas surrounded by high signal regions",
+      "compression": "observed with the left ventricle deformed due to compression by the lesion, showing significant compression"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_272",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal, parietal, and occipital lobes with high signal and spotty high signal areas, notably heterogeneous high and low mixed signals\nEdema: significant, primarily concentrated in the frontal and parietal lobes, with a notable increase in signal intensity and a broad extent, especially evident in the parietal lobe\nNecrosis: mainly seen in the parietal region, with a relatively low degree of signal mixture indicating tissue\nnecrosis, and is relatively more concentrated in the parietal lobe\nVentricular compression: evident on the right lateral ventricle in the right parietal region, leading to mild partial deformation of the ventricle",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal, parietal, and occipital lobes with high signal and spotty high signal areas, notably heterogeneous high and low mixed signals",
+      "edema": "significant, primarily concentrated in the frontal and parietal lobes, with a notable increase in signal intensity and a broad extent, especially evident in the parietal lobe",
+      "necrosis": "mainly seen in the parietal region, with a relatively low degree of signal mixture indicating tissue\nnecrosis, and is relatively more concentrated in the parietal lobe",
+      "compression": "evident on the right lateral ventricle in the right parietal region, leading to mild partial deformation of the ventricle"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_110",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal and occipital lobes with mixed heterogeneous signals and patchy high-signal regions\nEdema: significant, primarily observed in the left parietal and frontal lobes, exhibiting considerable swelling and an extensive\nedema range\nNecrosis: not observed\nVentricular compression: relatively apparent, indicating that the lesion exerts a compressive effect on the ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and occipital lobes with mixed heterogeneous signals and patchy high-signal regions",
+      "edema": "significant, primarily observed in the left parietal and frontal lobes, exhibiting considerable swelling and an extensive\nedema range",
+      "necrosis": "not observed",
+      "compression": "relatively apparent, indicating that the lesion exerts a compressive effect on the ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_348",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left hemisphere, particularly in the left parietal and frontal lobe regions, with a mix of heterogeneous signals, including multiple spot-like high signal areas\nEdema: indicated by significant high signal areas around the lesions in the left hemisphere, primarily concentrated in the left parietal and frontal lobe regions, and is extensive, enveloping multiple lesion sites\nNecrosis: in the region near the center of the lesion in the left parietal lobe, with a low signal area indicative of possible necrotic tissue\nVentricular compression: observed as the left lateral ventricle is compressed and slightly deformed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left hemisphere, particularly in the left parietal and frontal lobe regions, with a mix of heterogeneous signals, including multiple spot-like high signal areas",
+      "edema": "indicated by significant high signal areas around the lesions in the left hemisphere, primarily concentrated in the left parietal and frontal lobe regions, and is extensive, enveloping multiple lesion sites",
+      "necrosis": "in the region near the center of the lesion in the left parietal lobe, with a low signal area indicative of possible necrotic tissue",
+      "compression": "observed as the left lateral ventricle is compressed and slightly deformed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_091",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left hemisphere, especially in the left frontal and temporal lobes, with a mixture of irregular high and low signals, as well as spotty high signal regions\nEdema: a high-signal region observable, mainly seen in the left frontal and temporal lobes, indicating significant swelling and a large area of\nedema\nNecrosis: within the lesion area with mixed signals, particularly within the high-signal area of the left frontal lobe, suggesting possible necrotic regions with a concentrated distribution and uneven signal characteristics\nVentricular compression: in the left ventricle, which appears compressed and deformed with an irregular shape",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left hemisphere, especially in the left frontal and temporal lobes, with a mixture of irregular high and low signals, as well as spotty high signal regions",
+      "edema": "a high-signal region observable, mainly seen in the left frontal and temporal lobes, indicating significant swelling and a large area of\nedema",
+      "necrosis": "within the lesion area with mixed signals, particularly within the high-signal area of the left frontal lobe, suggesting possible necrotic regions with a concentrated distribution and uneven signal characteristics",
+      "compression": "in the left ventricle, which appears compressed and deformed with an irregular shape"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_057",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal lobe with mixed signals of varying intensities and spot-like high signal areas\nEdema: extensive, affecting parts of the parietal and temporal lobes, further illustrating the severity of the lesion\nNecrosis: present, with possible signs of\nnecrosis in the left frontal lobe, showing uneven signal intensity with low signals mixed with high signal zones\nVentricular compression: present, with the left lateral ventricle showing some compression",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal lobe with mixed signals of varying intensities and spot-like high signal areas",
+      "edema": "extensive, affecting parts of the parietal and temporal lobes, further illustrating the severity of the lesion",
+      "necrosis": "present, with possible signs of\nnecrosis in the left frontal lobe, showing uneven signal intensity with low signals mixed with high signal zones",
+      "compression": "present, with the left lateral ventricle showing some compression"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_006",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal and parietal lobes with a mixed signal characterized by spotty high-signal areas on the Flair modality\nEdema: significant with high signals, suggesting marked swelling in the left frontal and parietal lobes, indicating a fairly extensive range of\nedema\nNecrosis: observed with low signals in the central parts of the lesions, showing a high degree of heterogeneity, distributed mainly in the left frontal and parietal lobe lesions\nVentricular compression: observed with noticeable reduction and deformation of the left ventricle and relative enlargement of the right ventricle",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixed signal characterized by spotty high-signal areas on the Flair modality",
+      "edema": "significant with high signals, suggesting marked swelling in the left frontal and parietal lobes, indicating a fairly extensive range of\nedema",
+      "necrosis": "observed with low signals in the central parts of the lesions, showing a high degree of heterogeneity, distributed mainly in the left frontal and parietal lobe lesions",
+      "compression": "observed with noticeable reduction and deformation of the left ventricle and relative enlargement of the right ventricle"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_046",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal and parietal lobes with mixed high and low signals with spotty high signal regions, indicating multiple lesions\nEdema: significant, primarily observed in the left frontal lobe with marked high signals, suggesting significant swelling in the surrounding tissues, with a large area of\nedema that may compress the surrounding normal brain tissue\nNecrosis: present in parts of the left parietal and frontal lobes displaying low signal regions, suggesting possible\nnecrosis with uneven signal intensity, presenting a mix of high and low signals, and showing concentrated presence in the parietal lobe\nVentricular compression: significant, with the left ventricle significantly compressed and appearing narrowed",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal and parietal lobes with mixed high and low signals with spotty high signal regions, indicating multiple lesions",
+      "edema": "significant, primarily observed in the left frontal lobe with marked high signals, suggesting significant swelling in the surrounding tissues, with a large area of\nedema that may compress the surrounding normal brain tissue",
+      "necrosis": "present in parts of the left parietal and frontal lobes displaying low signal regions, suggesting possible\nnecrosis with uneven signal intensity, presenting a mix of high and low signals, and showing concentrated presence in the parietal lobe",
+      "compression": "significant, with the left ventricle significantly compressed and appearing narrowed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_232",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: various parts of the left hemisphere with a mix of heterogeneous high and low signals\nEdema: evident with extensive distribution in the left frontal and parietal lobes, particularly surrounding the lesion tissues\nNecrosis: observed with some low signal areas and mixed signals dispersed in various locations, suggesting necrotic tissue at the center of the lesions\nVentricular compression: observed, indicating that the lesions exert some pressure on the brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "various parts of the left hemisphere with a mix of heterogeneous high and low signals",
+      "edema": "evident with extensive distribution in the left frontal and parietal lobes, particularly surrounding the lesion tissues",
+      "necrosis": "observed with some low signal areas and mixed signals dispersed in various locations, suggesting necrotic tissue at the center of the lesions",
+      "compression": "observed, indicating that the lesions exert some pressure on the brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_346",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal and temporal lobes with mixed high-signal areas with spotty high signals inside\nEdema: particularly around the left parietal and temporal lobe regions, indicating increased swelling in these areas\nNecrosis: within the lesion area as low-signal regions, presenting as mixed high and low signals internally, primarily concentrated in the central region of the lesion\nVentricular compression: observed, as the left ventricle is noticeably compressed and deformed, indicating significant compressive effects on the ventricles due to the lesions",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal and temporal lobes with mixed high-signal areas with spotty high signals inside",
+      "edema": "particularly around the left parietal and temporal lobe regions, indicating increased swelling in these areas",
+      "necrosis": "within the lesion area as low-signal regions, presenting as mixed high and low signals internally, primarily concentrated in the central region of the lesion",
+      "compression": "observed, as the left ventricle is noticeably compressed and deformed, indicating significant compressive effects on the ventricles due to the lesions"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_286",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right parietal lobe with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal lobe with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal lobe with mixed signals of varying intensity and spotty high signal areas\nEdema: significant, with signal regions mainly located in the left frontal and parietal lobes, appearing as high signals, suggesting substantial swelling of the tissues surrounding the lesion, and covering a large area extending over the parietal and frontal lobes with widespread impact\nNecrosis: observed with possible necrotic signals primarily distributed around the high signal zone in the left parietal lobe, appearing as a mix of high and low signals, indicating tissue\nnecrosis\nVentricular compression: observed, with the left lateral ventricle notably compressed and reduced in size, demonstrating significant compressive effects of the lesion on brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right parietal and occipital lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right parietal lobe with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal lobe with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal lobe with mixed signals of varying intensity and spotty high signal areas",
+      "edema": "significant, with signal regions mainly located in the left frontal and parietal lobes, appearing as high signals, suggesting substantial swelling of the tissues surrounding the lesion, and covering a large area extending over the parietal and frontal lobes with widespread impact",
+      "necrosis": "observed with possible necrotic signals primarily distributed around the high signal zone in the left parietal lobe, appearing as a mix of high and low signals, indicating tissue\nnecrosis",
+      "compression": "observed, with the left lateral ventricle notably compressed and reduced in size, demonstrating significant compressive effects of the lesion on brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_301",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left frontal, parietal, and temporal lobes with a mix of irregular high and low signals along with spotty high signal areas\nEdema: significant, primarily located in the left parietal and frontal lobes, indicating considerable swelling of the surrounding tissues near the lesions\nNecrosis: suggested by regions with abnormal signal intensity, exhibiting a mix of high and low signals, focusing on the left parietal and frontal lobes\nVentricular compression: observed as the ventricles are deformed and compressed, particularly near the parietal lobe lesion area, showing a notable impact of the lesion on the ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left frontal, parietal, and temporal lobes with a mix of irregular high and low signals along with spotty high signal areas",
+      "edema": "significant, primarily located in the left parietal and frontal lobes, indicating considerable swelling of the surrounding tissues near the lesions",
+      "necrosis": "suggested by regions with abnormal signal intensity, exhibiting a mix of high and low signals, focusing on the left parietal and frontal lobes",
+      "compression": "observed as the ventricles are deformed and compressed, particularly near the parietal lobe lesion area, showing a notable impact of the lesion on the ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_178",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right frontal and parietal lobes with heterogeneous signal, including high signal intensity and spot-like high signal intensities indicating multiple lesions\nEdema: significant, mainly concentrated in the right frontal and parietal lobes, extending over a large area including the tissues surrounding the lesion, suggesting notable swelling of the surrounding tissue\nNecrosis: located at the center of the lesion, characterized by lower signal intensity and highly heterogeneous, displaying uneven signals and is relatively concentrated\nVentricular compression: evident, particularly on the right side, as the ventricles appear deformed due to the pressure from surrounding",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right frontal and parietal lobes with heterogeneous signal, including high signal intensity and spot-like high signal intensities indicating multiple lesions",
+      "edema": "significant, mainly concentrated in the right frontal and parietal lobes, extending over a large area including the tissues surrounding the lesion, suggesting notable swelling of the surrounding tissue",
+      "necrosis": "located at the center of the lesion, characterized by lower signal intensity and highly heterogeneous, displaying uneven signals and is relatively concentrated",
+      "compression": "evident, particularly on the right side, as the ventricles appear deformed due to the pressure from surrounding"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_341",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left side of the brain with a mixed pattern of high and low signals\nEdema: significant, concentrated in the left frontal and temporal lobes, with extension into parts of the parietal lobe\nNecrosis: observed with noticeable low signal areas in the left frontal and temporal lobes, displaying uneven signal intensity\nVentricular compression: significantly compressed, especially the deformation of the left ventricle",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left side of the brain with a mixed pattern of high and low signals",
+      "edema": "significant, concentrated in the left frontal and temporal lobes, with extension into parts of the parietal lobe",
+      "necrosis": "observed with noticeable low signal areas in the left frontal and temporal lobes, displaying uneven signal intensity",
+      "compression": "significantly compressed, especially the deformation of the left ventricle"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_094",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal and occipital lobes with heterogeneous mixed signals with spotty high signals\nEdema: significant, mainly observed in the left parietal and occipital lobes, with high signal intensity and substantial extent overlapping with lesion areas\nNecrosis: observed with low signal intensity mixed with high signal spots, mainly concentrated and scattered in the left parietal and occipital lobes\nVentricular compression: pronounced, especially under the influence of lesions in the left parietal and occipital regions",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal and occipital lobes with heterogeneous mixed signals with spotty high signals",
+      "edema": "significant, mainly observed in the left parietal and occipital lobes, with high signal intensity and substantial extent overlapping with lesion areas",
+      "necrosis": "observed with low signal intensity mixed with high signal spots, mainly concentrated and scattered in the left parietal and occipital lobes",
+      "compression": "pronounced, especially under the influence of lesions in the left parietal and occipital regions"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_004",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left temporal lobe area with a mixed characteristic of uneven high and low signals\nEdema: a clear high-signal\nedema area observed surrounding the left temporal lobe region, indicating a certain degree of swelling in the tissues around the lesion\nNecrosis: in the central region of the high-signal lesion, areas with very low signals are observed, suggesting possible\nnecrosis\nVentricular compression: not observed",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left temporal lobe area with a mixed characteristic of uneven high and low signals",
+      "edema": "a clear high-signal\nedema area observed surrounding the left temporal lobe region, indicating a certain degree of swelling in the tissues around the lesion",
+      "necrosis": "in the central region of the high-signal lesion, areas with very low signals are observed, suggesting possible\nnecrosis",
+      "compression": "not observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_204",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right side of the brain, specifically in the frontal, temporal, and parietal lobes, with heterogeneous mixed high and low signals and patchy high signal areas\nEdema: primarily seen in the right temporal and parietal lobes, with an extent that is extensive, suggesting marked swelling in the tissues surrounding the lesion\nNecrosis: interspersed in small patches among the lesion areas in the right side of the brain, featuring uneven signal intensity\nVentricular compression: significant on the right ventricle, indicating a degree of pressure exerted by the lesions on the brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right side of the brain, specifically in the frontal, temporal, and parietal lobes, with heterogeneous mixed high and low signals and patchy high signal areas",
+      "edema": "primarily seen in the right temporal and parietal lobes, with an extent that is extensive, suggesting marked swelling in the tissues surrounding the lesion",
+      "necrosis": "interspersed in small patches among the lesion areas in the right side of the brain, featuring uneven signal intensity",
+      "compression": "significant on the right ventricle, indicating a degree of pressure exerted by the lesions on the brain tissue and ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_078",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right temporal and parietal lobes with a mix of heterogeneous signals, including multiple patchy high-signal areas\nEdema: pronounced, mainly observed in the right temporal and parietal lobes, and spans extensively as high-signal regions, indicating significant tissue swelling\nNecrosis: identified as several low-signal areas within the lesion region, possibly indicating\nnecrosis, with uneven signal intensity concentrated in the right temporal lobe\nVentricular compression: slightly observed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high-signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right temporal and parietal lobes with a mix of heterogeneous signals, including multiple patchy high-signal areas",
+      "edema": "pronounced, mainly observed in the right temporal and parietal lobes, and spans extensively as high-signal regions, indicating significant tissue swelling",
+      "necrosis": "identified as several low-signal areas within the lesion region, possibly indicating\nnecrosis, with uneven signal intensity concentrated in the right temporal lobe",
+      "compression": "slightly observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_239",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the frontal and parietal lobes of the right hemisphere with heterogeneous signal intensities and patchy high signals\nEdema: marked and extensive, affecting parts of the frontal and parietal lobes of the right hemisphere, displaying high signals and a diffusive pattern\nNecrosis: evident with mixed signal characteristics; some regions display high signals while others show low signals, spatially scattered within the lesions\nVentricular compression: noted, with lesions exerting a compressive effect on the\nventricular structures",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the frontal and parietal lobes of the right hemisphere with heterogeneous signal intensities and patchy high signals",
+      "edema": "marked and extensive, affecting parts of the frontal and parietal lobes of the right hemisphere, displaying high signals and a diffusive pattern",
+      "necrosis": "evident with mixed signal characteristics; some regions display high signals while others show low signals, spatially scattered within the lesions",
+      "compression": "noted, with lesions exerting a compressive effect on the\nventricular structures"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_259",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right cerebral region, including the frontal lobe and part of the parietal lobe, with mixed high and low signals and patchy high signal areas\nEdema: significant, observed in the right frontal lobe area and parts of the parietal lobe with relatively high intensity, extending over a considerable area\nNecrosis: potential, identified in the high-intensity signal region of the right frontal lobe with highly uneven signal intensity, suggesting necrotic tissue more concentrated in the mid to posterior part of the right cerebrum\nVentricular compression: present, with the right ventricle compressed and deformed, indicating pressure exertion by the lesion",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right cerebral region, including the frontal lobe and part of the parietal lobe, with mixed high and low signals and patchy high signal areas",
+      "edema": "significant, observed in the right frontal lobe area and parts of the parietal lobe with relatively high intensity, extending over a considerable area",
+      "necrosis": "potential, identified in the high-intensity signal region of the right frontal lobe with highly uneven signal intensity, suggesting necrotic tissue more concentrated in the mid to posterior part of the right cerebrum",
+      "compression": "present, with the right ventricle compressed and deformed, indicating pressure exertion by the lesion"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_079",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right parietal and occipital lobes with a mixture of heterogeneous high and low signals\nNecrosis: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal lobe with a mixture of heterogeneous high and low signals and patchy high signal areas",
+    "reference": "Lesion area: the right parietal lobe with mixed high and low signal intensity, along with spotted high signal regions\nEdema: significant within the right parietal lobe area, indicating some degree of swelling in the surrounding tissues of the lesion\nNecrosis: potential with mixed signal intensity in the right region, scattered throughout\nVentricular compression: not observed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right parietal and occipital lobes with a mixture of heterogeneous high and low signals",
+      "necrosis": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal lobe with a mixture of heterogeneous high and low signals and patchy high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right parietal lobe with mixed high and low signal intensity, along with spotted high signal regions",
+      "edema": "significant within the right parietal lobe area, indicating some degree of swelling in the surrounding tissues of the lesion",
+      "necrosis": "potential with mixed signal intensity in the right region, scattered throughout",
+      "compression": "not observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_047",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the bilateral frontal lobes and also involves the parietal and temporal lobes with heterogeneous signal characteristics, including mixed high and low signals and speckled high signal areas\nEdema: significant, with signals mainly distributed around the lesion areas, particularly at the sites of lesions in the bilateral frontal lobes, spreading to surrounding tissues, indicating extensive swelling of tissues surrounding the lesions\nNecrosis: observed with multiple low signal areas within the lesion regions, irregularly distributed and scattered throughout the lesion sites, with some areas concentrated at the core\nVentricular compression: notably observed with the right lateral ventricle appearing narrowed, indicating substantial pressure from the lesions on the ventricles",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the bilateral frontal lobes and also involves the parietal and temporal lobes with heterogeneous signal characteristics, including mixed high and low signals and speckled high signal areas",
+      "edema": "significant, with signals mainly distributed around the lesion areas, particularly at the sites of lesions in the bilateral frontal lobes, spreading to surrounding tissues, indicating extensive swelling of tissues surrounding the lesions",
+      "necrosis": "observed with multiple low signal areas within the lesion regions, irregularly distributed and scattered throughout the lesion sites, with some areas concentrated at the core",
+      "compression": "notably observed with the right lateral ventricle appearing narrowed, indicating substantial pressure from the lesions on the ventricles"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_292",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right cerebral region, particularly involving the frontal and temporal lobes, with a mix of heterogeneous high and low signals, along with some spotty high signal areas\nEdema: significant with signals around the right frontal and temporal lobes, suggesting a high degree of tissue swelling in these areas, and covers the main lesion areas\nNecrosis: present within the lesion areas of the right frontal and temporal lobes, with regions showing significantly reduced signal intensity, mixed with both low signals and localized high signals scattered throughout\nVentricular compression: not observed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mix of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right cerebral region, particularly involving the frontal and temporal lobes, with a mix of heterogeneous high and low signals, along with some spotty high signal areas",
+      "edema": "significant with signals around the right frontal and temporal lobes, suggesting a high degree of tissue swelling in these areas, and covers the main lesion areas",
+      "necrosis": "present within the lesion areas of the right frontal and temporal lobes, with regions showing significantly reduced signal intensity, mixed with both low signals and localized high signals scattered throughout",
+      "compression": "not observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_074",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal lobe with a mix of high and low signals, exhibiting an uneven signal pattern and spotty high-signal areas, suggesting multiple lesions\nEdema: mainly located around the left parietal lobe with notable swelling and moderate extent, affecting some adjacent tissues\nNecrosis: some low-signal areas concentrated in the central region of the lesions with a mixed signal appearance, with some regions accompanying high-signal edges, suggesting progressive\nnecrosis\nVentricular compression: not observed",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal lobe with a mix of high and low signals, exhibiting an uneven signal pattern and spotty high-signal areas, suggesting multiple lesions",
+      "edema": "mainly located around the left parietal lobe with notable swelling and moderate extent, affecting some adjacent tissues",
+      "necrosis": "some low-signal areas concentrated in the central region of the lesions with a mixed signal appearance, with some regions accompanying high-signal edges, suggesting progressive\nnecrosis",
+      "compression": "not observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_226",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left cerebral hemisphere with mixed high and low signals, exhibiting a spotted high signal appearance, primarily concentrated in the frontal, temporal, and parietal lobes\nEdema: prominent in the left frontal and temporal lobes, appearing as high signals, with significant swelling in the surrounding tissues and an extensive range involving parts of the parietal lobe\nNecrosis: presenting as marked high signals mainly in the deep regions of the left frontal lobe, with some extension into the temporal lobe, exhibiting mixed signal intensity with high and low signal spots\nVentricular compression: with the ventricles compressed, the left ventricle notably smaller than the right",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left cerebral hemisphere with mixed high and low signals, exhibiting a spotted high signal appearance, primarily concentrated in the frontal, temporal, and parietal lobes",
+      "edema": "prominent in the left frontal and temporal lobes, appearing as high signals, with significant swelling in the surrounding tissues and an extensive range involving parts of the parietal lobe",
+      "necrosis": "presenting as marked high signals mainly in the deep regions of the left frontal lobe, with some extension into the temporal lobe, exhibiting mixed signal intensity with high and low signal spots",
+      "compression": "with the ventricles compressed, the left ventricle notably smaller than the right"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_125",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the frontal and parietal lobes of the right cerebral hemisphere with a mix of heterogeneous high and low signals with speckled high-intensity signals\nEdema: primarily located around the lesions, especially in the frontal and parietal lobes of the right cerebral hemisphere, presenting as notably high intensity\nNecrosis: primarily located in the deeper structures of the right frontal and parietal lobes with lower signal intensity compared to the higher signal intensity areas of\nVentricular compression: some compression effect on the ventricles by the right hemisphere lesions, but no significant changes in the shape of the ventricles have been observed",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the frontal and parietal lobes of the right cerebral hemisphere with a mix of heterogeneous high and low signals with speckled high-intensity signals",
+      "edema": "primarily located around the lesions, especially in the frontal and parietal lobes of the right cerebral hemisphere, presenting as notably high intensity",
+      "necrosis": "primarily located in the deeper structures of the right frontal and parietal lobes with lower signal intensity compared to the higher signal intensity areas of",
+      "compression": "some compression effect on the ventricles by the right hemisphere lesions, but no significant changes in the shape of the ventricles have been observed"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_247",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the right hemisphere of the brain with a mix of heterogeneous high and low signals and patchy high-signal regions\nEdema: significant high-signal, observed in parts of the right hemisphere surrounding the lesions, including sections of the frontal and temporal lobes\nNecrosis: mixed signals with uneven intensity, displaying patchy or diffuse combinations of high and low signals, dispersed within the lesions\nVentricular compression: observable compression of the ventricles, particularly the right ventricle area, by the lesion area",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the right hemisphere of the brain with a mix of heterogeneous high and low signals and patchy high-signal regions",
+      "edema": "significant high-signal, observed in parts of the right hemisphere surrounding the lesions, including sections of the frontal and temporal lobes",
+      "necrosis": "mixed signals with uneven intensity, displaying patchy or diffuse combinations of high and low signals, dispersed within the lesions",
+      "compression": "observable compression of the ventricles, particularly the right ventricle area, by the lesion area"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_083",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal lobe and left temporal lobe with a mixed signal of uneven highs and lows with spotted high signal areas, suggesting the presence of multiple lesions\nEdema: mainly present around the lesion areas, particularly in the left parietal lobe and the lateral parts of the left temporal lobe, displaying significantly high signal intensity, with a relatively large range of\nedema\nNecrosis: suggested by irregular regions predominantly showing low signals within the lesion areas, with a higher concentration near infection points in the local left parietal and left temporal lobes\nVentricular compression: observed with the left lateral ventricle compressed and deformed, with the frontal horn narrowed; the third ventricle is displaced",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal lobe and left temporal lobe with a mixed signal of uneven highs and lows with spotted high signal areas, suggesting the presence of multiple lesions",
+      "edema": "mainly present around the lesion areas, particularly in the left parietal lobe and the lateral parts of the left temporal lobe, displaying significantly high signal intensity, with a relatively large range of\nedema",
+      "necrosis": "suggested by irregular regions predominantly showing low signals within the lesion areas, with a higher concentration near infection points in the local left parietal and left temporal lobes",
+      "compression": "observed with the left lateral ventricle compressed and deformed, with the frontal horn narrowed; the third ventricle is displaced"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_095",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the white matter of both cerebral hemispheres, especially in the bilateral frontal and parietal regions, with mixed high and low heterogeneous signals\nEdema: mainly observed in the white matter areas of the frontal and parietal lobes, presenting as diffuse high signals, indicating significant swelling in the surrounding tissue of the lesions. The\nedema is extensive, spreading across the entire cerebral hemisphere\nNecrosis: suggested by some low-signal areas, appearing as mixed signals, mainly concentrated in the central regions of the high-signal lesions. The necrotic areas are relatively concentrated but also show some localized dispersion\nVentricular compression: partially compressed, particularly evident in the right lateral\nventricular body region",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the white matter of both cerebral hemispheres, especially in the bilateral frontal and parietal regions, with mixed high and low heterogeneous signals",
+      "edema": "mainly observed in the white matter areas of the frontal and parietal lobes, presenting as diffuse high signals, indicating significant swelling in the surrounding tissue of the lesions. The\nedema is extensive, spreading across the entire cerebral hemisphere",
+      "necrosis": "suggested by some low-signal areas, appearing as mixed signals, mainly concentrated in the central regions of the high-signal lesions. The necrotic areas are relatively concentrated but also show some localized dispersion",
+      "compression": "partially compressed, particularly evident in the right lateral\nventricular body region"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_194",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: multiple areas of the left brain (frontal lobe, temporal lobe, parietal lobe, occipital lobe) with irregular signal patterns characterized by mixed high and low signals and spotty high-signal areas\nEdema: significant with a substantial amount of high-signal areas indicating marked\nedema, primarily concentrated in the frontal and parietal regions of the left brain\nNecrosis: characterized by several low-signal areas showing potential signs of\nnecrosis, with uneven low signals demonstrating the mixed nature of the necrotic tissue scattered without showing any obvious concentration\nVentricular compression: observed in certain areas of the left lateral ventricle, particularly in regions where the lesions are more concentrated",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "multiple areas of the left brain (frontal lobe, temporal lobe, parietal lobe, occipital lobe) with irregular signal patterns characterized by mixed high and low signals and spotty high-signal areas",
+      "edema": "significant with a substantial amount of high-signal areas indicating marked\nedema, primarily concentrated in the frontal and parietal regions of the left brain",
+      "necrosis": "characterized by several low-signal areas showing potential signs of\nnecrosis, with uneven low signals demonstrating the mixed nature of the necrotic tissue scattered without showing any obvious concentration",
+      "compression": "observed in certain areas of the left lateral ventricle, particularly in regions where the lesions are more concentrated"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_310",
+    "prediction": "Lesion area: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the central image, right frontal lobes, and temporal lobe regions (anterior and middle parts) with mixed signal intensity, with prominent speckled high-signal regions suggesting the presence of multiple lesions\nEdema: significant, present around the lesions in the right frontal and temporal lobes, characterized by persistent high signal intensity, with extensive extent indicating pronounced swelling of surrounding tissues\nNecrosis: observed in parts of the right parietal and frontal lobes, characterized by alternating regions of diffuse inhomogeneous low and high signal intensities, with unclear boundaries and a high degree of signal mixing\nVentricular compression: mild, with deformation of the right lateral ventricle, suggesting a gradually increasing mass effect",
+    "pred_fields": {
+      "lesion": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the right frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the central image, right frontal lobes, and temporal lobe regions (anterior and middle parts) with mixed signal intensity, with prominent speckled high-signal regions suggesting the presence of multiple lesions",
+      "edema": "significant, present around the lesions in the right frontal and temporal lobes, characterized by persistent high signal intensity, with extensive extent indicating pronounced swelling of surrounding tissues",
+      "necrosis": "observed in parts of the right parietal and frontal lobes, characterized by alternating regions of diffuse inhomogeneous low and high signal intensities, with unclear boundaries and a high degree of signal mixing",
+      "compression": "mild, with deformation of the right lateral ventricle, suggesting a gradually increasing mass effect"
+    }
+  },
+  {
+    "case_id": "BraTS20_Training_297",
+    "prediction": "Lesion area: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nEdema: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nNecrosis: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas\nVentricular compression: the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+    "reference": "Lesion area: the left parietal and occipital lobes with heterogeneous signal intensities and patchy high-signal regions\nEdema: significant in portions of the parietal and occipital lobes, suggesting substantial swelling in the tissues surrounding the lesions\nNecrosis: within the lesion areas in the parietal and occipital lobes, characterized by some low-signal regions indicating possible\nnecrosis\nVentricular compression: observed near prominent lesion areas, indicating that the lesions are exerting pressure on the surrounding brain tissue and ventricles",
+    "pred_fields": {
+      "lesion": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "edema": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "necrosis": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas",
+      "compression": "the left frontal and parietal lobes with a mixture of heterogeneous high and low signals along with speckled high signal areas"
+    },
+    "ref_fields": {
+      "lesion": "the left parietal and occipital lobes with heterogeneous signal intensities and patchy high-signal regions",
+      "edema": "significant in portions of the parietal and occipital lobes, suggesting substantial swelling in the tissues surrounding the lesions",
+      "necrosis": "within the lesion areas in the parietal and occipital lobes, characterized by some low-signal regions indicating possible\nnecrosis",
+      "compression": "observed near prominent lesion areas, indicating that the lesions are exerting pressure on the surrounding brain tissue and ventricles"
+    }
+  }
+]

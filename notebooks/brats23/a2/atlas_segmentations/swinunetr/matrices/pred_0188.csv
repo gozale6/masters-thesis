@@ -1,0 +1,19 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0188,WM/unassigned,TC,30,1
+pred_0188,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",TC,2,0
+pred_0188,STN (Subthalamus) left,TC,10,0
+pred_0188,WM/unassigned,WT,10621,256
+pred_0188,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",WT,141,3
+pred_0188,STN (Subthalamus) left,WT,35,1
+pred_0188,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,74,2
+pred_0188,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,55,1
+pred_0188,Ch 4 (Basal Forebrain) left,WT,2,0
+pred_0188,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,291,7
+pred_0188,VP (Ventral Pallidum) left,WT,1,0
+pred_0188,SF (Amygdala) left,WT,6,0
+pred_0188,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,120,3
+pred_0188,Area 44 (IFG) right,WT,1,0
+pred_0188,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,24,1
+pred_0188,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,2,0
+pred_0188,WM/unassigned,ET,242,6
+pred_0188,STN (Subthalamus) left,ET,32,1

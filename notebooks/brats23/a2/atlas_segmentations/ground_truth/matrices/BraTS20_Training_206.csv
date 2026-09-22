@@ -1,0 +1,37 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_206,WM/unassigned,TC,70,2,21.9,0.0,False
+BraTS20_Training_206,Area STS2 (STS) right,TC,101,4,31.7,1.5,True
+BraTS20_Training_206,Temporal-to-Parietal (GapMap) right,TC,6,0,1.9,0.0,True
+BraTS20_Training_206,Area STS1 (STS) right,TC,142,5,44.5,4.3,True
+BraTS20_Training_206,WM/unassigned,WT,7357,256,40.8,0.1,False
+BraTS20_Training_206,Area Te 1.0 (HESCHL) right,WT,86,3,0.5,11.0,False
+BraTS20_Training_206,Area STS2 (STS) right,WT,3210,112,17.8,48.8,True
+BraTS20_Training_206,Area Id3 (Insula) right,WT,66,2,0.4,5.9,False
+BraTS20_Training_206,Area TI (STG) right,WT,213,7,1.2,20.2,False
+BraTS20_Training_206,Area Te 3 (STG) right,WT,2135,74,11.8,49.5,True
+BraTS20_Training_206,"Area TPJ (STG, SMG) right",WT,12,0,0.1,0.8,False
+BraTS20_Training_206,Area Ig2 (Insula) right,WT,1,0,0.0,0.2,False
+BraTS20_Training_206,Area Op1 (POperc) right,WT,5,0,0.0,0.2,False
+BraTS20_Training_206,Area Te 1.1 (HESCHL) right,WT,16,1,0.1,1.5,False
+BraTS20_Training_206,Area Op4 (POperc) right,WT,573,20,3.2,21.8,True
+BraTS20_Training_206,Area Id2 (Insula) right,WT,25,1,0.1,5.2,False
+BraTS20_Training_206,Temporal-to-Parietal (GapMap) right,WT,3015,105,16.7,4.5,True
+BraTS20_Training_206,Area Id1 (Insula) right,WT,173,6,1.0,43.9,False
+BraTS20_Training_206,Area Te 1.2 (HESCHL) right,WT,222,8,1.2,42.4,False
+BraTS20_Training_206,Area Id5 (Insula) right,WT,12,0,0.1,1.3,False
+BraTS20_Training_206,Area Te 2.1 (STG) right,WT,154,5,0.9,31.8,False
+BraTS20_Training_206,Area STS1 (STS) right,WT,521,18,2.9,15.7,True
+BraTS20_Training_206,Area PFop (IPL) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_206,Area Te 2.2 (STG) right,WT,185,6,1.0,9.4,False
+BraTS20_Training_206,Area TeI (STG) right,WT,59,2,0.3,4.6,False
+BraTS20_Training_206,WM/unassigned,ET,1386,48,27.2,0.0,False
+BraTS20_Training_206,Area Te 1.0 (HESCHL) right,ET,7,0,0.1,0.9,False
+BraTS20_Training_206,Area STS2 (STS) right,ET,1535,53,30.1,23.4,True
+BraTS20_Training_206,Area TI (STG) right,ET,5,0,0.1,0.5,False
+BraTS20_Training_206,Area Te 3 (STG) right,ET,53,2,1.0,1.2,True
+BraTS20_Training_206,Temporal-to-Parietal (GapMap) right,ET,286,10,5.6,0.4,True
+BraTS20_Training_206,Area Id1 (Insula) right,ET,1,0,0.0,0.3,False
+BraTS20_Training_206,Area Te 2.1 (STG) right,ET,17,1,0.3,3.5,True
+BraTS20_Training_206,Area STS1 (STS) right,ET,1783,62,35.0,53.6,True
+BraTS20_Training_206,Area Te 2.2 (STG) right,ET,6,0,0.1,0.3,False
+BraTS20_Training_206,Area TeI (STG) right,ET,17,1,0.3,1.3,False

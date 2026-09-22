@@ -1,0 +1,25 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_315,WM/unassigned,TC,15599,256,69.5,0.2,False
+BraTS20_Training_315,Frontal-to-Occipital (GapMap) right,TC,244,4,1.1,0.7,True
+BraTS20_Training_315,"LD (Thalamus, lateral dorsal Nucleus) left",TC,26,0,0.1,13.2,False
+BraTS20_Training_315,Frontal-to-Occipital (GapMap) left,TC,5041,83,22.5,13.7,True
+BraTS20_Training_315,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,106,2,0.5,8.5,True
+BraTS20_Training_315,"Rt (Thalamus, reticular Nucleus) left",TC,72,1,0.3,4.7,False
+BraTS20_Training_315,Area 4a (PreCG) left,TC,2,0,0.0,0.1,False
+BraTS20_Training_315,Area 5M (SPL) left,TC,242,4,1.1,9.5,True
+BraTS20_Training_315,"LP (Thalamus, lateral posterior Nucleus) left",TC,5,0,0.0,1.1,False
+BraTS20_Training_315,Area 5Ci (SPL) left,TC,1101,18,4.9,89.5,True
+BraTS20_Training_315,WM/unassigned,WT,7540,124,64.6,0.1,False
+BraTS20_Training_315,Frontal-to-Occipital (GapMap) right,WT,1090,18,9.3,3.2,True
+BraTS20_Training_315,"LD (Thalamus, lateral dorsal Nucleus) left",WT,103,2,0.9,52.3,False
+BraTS20_Training_315,"Area 6mp (SMA, mesial SFG) left",WT,5,0,0.0,0.3,False
+BraTS20_Training_315,Frontal-to-Occipital (GapMap) left,WT,2146,35,18.4,5.8,True
+BraTS20_Training_315,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,169,3,1.4,13.5,True
+BraTS20_Training_315,"Rt (Thalamus, reticular Nucleus) left",WT,103,2,0.9,6.7,False
+BraTS20_Training_315,Area 4a (PreCG) left,WT,19,0,0.2,0.7,False
+BraTS20_Training_315,Area 5M (SPL) left,WT,348,6,3.0,13.6,True
+BraTS20_Training_315,"LP (Thalamus, lateral posterior Nucleus) left",WT,43,1,0.4,9.1,False
+BraTS20_Training_315,Area Op2 (POperc) left,WT,2,0,0.0,0.2,False
+BraTS20_Training_315,Area 5Ci (SPL) left,WT,111,2,1.0,9.0,True
+BraTS20_Training_315,WM/unassigned,ET,14,0,12.8,0.0,False
+BraTS20_Training_315,Frontal-to-Occipital (GapMap) left,ET,95,2,87.2,0.3,True

@@ -1,0 +1,46 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0035,WM/unassigned,TC,11,0
+pred_0035,Area FG4 (FusG) right,TC,37,1
+pred_0035,Area OTS1 (OTS) right,TC,6,0
+pred_0035,WM/unassigned,WT,13166,256
+pred_0035,Area hOc4la (LOC) right,WT,233,5
+pred_0035,Area CoS1 (CoS) right,WT,20,0
+pred_0035,Area Te 1.0 (HESCHL) right,WT,24,0
+pred_0035,Area STS2 (STS) right,WT,354,7
+pred_0035,Area FG5 (FusG) right,WT,54,1
+pred_0035,Frontal-to-Occipital (GapMap) right,WT,104,2
+pred_0035,Area FG2 (FusG) right,WT,47,1
+pred_0035,"Area TPJ (STG, SMG) right",WT,155,3
+pred_0035,Area Op1 (POperc) right,WT,4,0
+pred_0035,"Rt (Thalamus, reticular Nucleus) right",WT,16,0
+pred_0035,Area PGa (IPL) right,WT,154,3
+pred_0035,Area PFm (IPL) right,WT,1,0
+pred_0035,Area Ph1 (PhG) right,WT,289,6
+pred_0035,Area FG4 (FusG) right,WT,899,17
+pred_0035,"Area hOc1 (V1, 17, CalcS) right",WT,49,1
+pred_0035,Area Ph3 (PhG) right,WT,81,2
+pred_0035,Area Te 1.1 (HESCHL) right,WT,13,0
+pred_0035,DG (Hippocampus) right,WT,6,0
+pred_0035,Area PGp (IPL) right,WT,7,0
+pred_0035,Area PFcm (IPL) right,WT,2,0
+pred_0035,Area FG1 (FusG) right,WT,95,2
+pred_0035,Area OTS1 (OTS) right,WT,652,13
+pred_0035,Temporal-to-Parietal (GapMap) right,WT,8875,173
+pred_0035,Area Te 2.1 (STG) right,WT,58,1
+pred_0035,"Subc (Hippocampus, Subicular complex) right",WT,91,2
+pred_0035,"TrS (Hippocampus, Transsubiculum) right",WT,31,1
+pred_0035,CA3 (Hippocampus) right,WT,2,0
+pred_0035,Area STS1 (STS) right,WT,671,13
+pred_0035,Area FG3 (FusG) right,WT,33,1
+pred_0035,Area hOc5 (LOC) right,WT,498,10
+pred_0035,Area Ph2 (PhG) right,WT,113,2
+pred_0035,Area Te 2.2 (STG) right,WT,591,11
+pred_0035,Area TeI (STG) right,WT,5,0
+pred_0035,WM/unassigned,ET,284,6
+pred_0035,Area CoS1 (CoS) right,ET,2,0
+pred_0035,Area FG5 (FusG) right,ET,10,0
+pred_0035,Area FG4 (FusG) right,ET,950,18
+pred_0035,Area OTS1 (OTS) right,ET,95,2
+pred_0035,Temporal-to-Parietal (GapMap) right,ET,12,0
+pred_0035,Area FG3 (FusG) right,ET,12,0
+pred_0035,Area Ph2 (PhG) right,ET,62,1

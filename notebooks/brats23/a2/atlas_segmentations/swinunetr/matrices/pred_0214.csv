@@ -1,0 +1,84 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0214,WM/unassigned,TC,1840,34
+pred_0214,Area Id8 (Insula) right,TC,266,5
+pred_0214,Area Op6 (Frontal Operculum) right,TC,2,0
+pred_0214,Area Op7 (Frontal Operculum) right,TC,122,2
+pred_0214,Area Id6 (Insula) right,TC,604,11
+pred_0214,Area 44 (IFG) right,TC,27,0
+pred_0214,Area Op8 (Frontal Operculum) right,TC,324,6
+pred_0214,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,5,0
+pred_0214,Area Op5 (Frontal Operculum) right,TC,6,0
+pred_0214,Area Op10 (Frontal Operculum) right,TC,67,1
+pred_0214,Area Id7 (Insula) right,TC,158,3
+pred_0214,Area Fo6 (OFC) right,TC,2,0
+pred_0214,Area Id10 (Insula) right,TC,71,1
+pred_0214,Frontal-to-Temporal-I (GapMap) right,TC,27,0
+pred_0214,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,5,0
+pred_0214,Area Op9 (Frontal Operculum) right,TC,611,11
+pred_0214,Temporal-to-Parietal (GapMap) right,TC,1,0
+pred_0214,Area 45 (IFG) right,TC,4,0
+pred_0214,Frontal-to-Temporal-II (GapMap) right,TC,2,0
+pred_0214,Area Id9 (Insula) right,TC,21,0
+pred_0214,WM/unassigned,WT,13973,256
+pred_0214,Area TI (STG) right,WT,29,1
+pred_0214,Area Te 3 (STG) right,WT,16,0
+pred_0214,Area Op6 (Frontal Operculum) right,WT,45,1
+pred_0214,Area Fo5 (OFC) right,WT,2,0
+pred_0214,Area Op7 (Frontal Operculum) right,WT,33,1
+pred_0214,Area Id4 (Insula) right,WT,6,0
+pred_0214,Area Id6 (Insula) right,WT,72,1
+pred_0214,Area IFS4 (IFS) right,WT,16,0
+pred_0214,Area 44 (IFG) right,WT,25,0
+pred_0214,Area Fo7 (OFC) right,WT,342,6
+pred_0214,Area Op8 (Frontal Operculum) right,WT,43,1
+pred_0214,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,65,1
+pred_0214,"Area IFJ2 (IFS, PreCS) right",WT,69,1
+pred_0214,Area 25 (sACC) right,WT,50,1
+pred_0214,Area Op5 (Frontal Operculum) right,WT,10,0
+pred_0214,Area Op10 (Frontal Operculum) right,WT,12,0
+pred_0214,Area MFG2 (MFG) right,WT,37,1
+pred_0214,Area Id7 (Insula) right,WT,135,2
+pred_0214,Area Fo6 (OFC) right,WT,1542,28
+pred_0214,Area Fo3 (OFC) right,WT,109,2
+pred_0214,"Area MFG5 (MFG, IFG) right",WT,580,11
+pred_0214,Area MFG4 (MFG) right,WT,222,4
+pred_0214,Area Fo4 (OFC) right,WT,28,1
+pred_0214,Area IFS1 (IFS) right,WT,656,12
+pred_0214,Area IFS3 (IFS) right,WT,1,0
+pred_0214,Area Id10 (Insula) right,WT,111,2
+pred_0214,Frontal-to-Temporal-I (GapMap) right,WT,685,13
+pred_0214,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,266,5
+pred_0214,Frontal-I.1 (GapMap) right,WT,1576,29
+pred_0214,Area Op9 (Frontal Operculum) right,WT,193,4
+pred_0214,Temporal-to-Parietal (GapMap) right,WT,319,6
+pred_0214,Area 45 (IFG) right,WT,1329,24
+pred_0214,Frontal-to-Temporal-II (GapMap) right,WT,162,3
+pred_0214,Area Id5 (Insula) right,WT,2,0
+pred_0214,Frontal-II (GapMap) right,WT,45,1
+pred_0214,Area Id9 (Insula) right,WT,119,2
+pred_0214,Area IFS2 (IFS) right,WT,183,3
+pred_0214,"Area IFJ1 (IFS, PreCS) right",WT,92,2
+pred_0214,Area s24 (sACC) right,WT,172,3
+pred_0214,Area TeI (STG) right,WT,86,2
+pred_0214,WM/unassigned,ET,9874,181
+pred_0214,Area Id8 (Insula) right,ET,604,11
+pred_0214,Area Te 3 (STG) right,ET,2,0
+pred_0214,Area Op6 (Frontal Operculum) right,ET,45,1
+pred_0214,Area Op7 (Frontal Operculum) right,ET,235,4
+pred_0214,Area Id4 (Insula) right,ET,22,0
+pred_0214,Area Id6 (Insula) right,ET,1647,30
+pred_0214,Area 44 (IFG) right,ET,158,3
+pred_0214,Area Op8 (Frontal Operculum) right,ET,850,16
+pred_0214,"FuP (Ventral Striatum, Fundus of Putamen) right",ET,468,9
+pred_0214,Area Op5 (Frontal Operculum) right,ET,73,1
+pred_0214,Area Op10 (Frontal Operculum) right,ET,95,2
+pred_0214,Area Id7 (Insula) right,ET,426,8
+pred_0214,Area Fo6 (OFC) right,ET,227,4
+pred_0214,Area Id10 (Insula) right,ET,336,6
+pred_0214,Frontal-to-Temporal-I (GapMap) right,ET,939,17
+pred_0214,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,180,3
+pred_0214,Area Op9 (Frontal Operculum) right,ET,1234,23
+pred_0214,Temporal-to-Parietal (GapMap) right,ET,52,1
+pred_0214,Area 45 (IFG) right,ET,13,0
+pred_0214,Frontal-to-Temporal-II (GapMap) right,ET,52,1
+pred_0214,Area Id9 (Insula) right,ET,217,4

@@ -1,0 +1,31 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_139,WM/unassigned,TC,75,3,18.2,0.0,False
+BraTS20_Training_139,Frontal-to-Occipital (GapMap) left,TC,321,14,77.7,0.9,True
+BraTS20_Training_139,"Area hOc1 (V1, 17, CalcS) left",TC,12,1,2.9,0.1,True
+BraTS20_Training_139,Area hPO1 (POS) left,TC,5,0,1.2,0.2,True
+BraTS20_Training_139,WM/unassigned,WT,5898,256,37.8,0.1,False
+BraTS20_Training_139,Frontal-to-Occipital (GapMap) right,WT,392,17,2.5,1.2,True
+BraTS20_Training_139,"Area hOc1 (V1, 17, CalcS) right",WT,422,18,2.7,3.5,True
+BraTS20_Training_139,"Area hOc2 (V2, 18) right",WT,101,4,0.6,1.1,False
+BraTS20_Training_139,Area hOc3d (Cuneus) right,WT,18,1,0.1,0.5,False
+BraTS20_Training_139,Frontal-to-Occipital (GapMap) left,WT,5132,223,32.9,13.9,True
+BraTS20_Training_139,Area hIP4 (IPS) left,WT,117,5,0.7,9.2,False
+BraTS20_Training_139,Area hOc6 (POS) left,WT,168,7,1.1,75.7,False
+BraTS20_Training_139,Area Ph1 (PhG) left,WT,6,0,0.0,0.5,False
+BraTS20_Training_139,"Area hOc1 (V1, 17, CalcS) left",WT,2501,109,16.0,19.9,True
+BraTS20_Training_139,Area Ph3 (PhG) left,WT,1,0,0.0,0.2,False
+BraTS20_Training_139,"Area hOc2 (V2, 18) left",WT,208,9,1.3,5.6,False
+BraTS20_Training_139,Area hOc4d (Cuneus) left,WT,21,1,0.1,1.1,False
+BraTS20_Training_139,Area hPO1 (POS) left,WT,64,3,0.4,2.8,False
+BraTS20_Training_139,Area hOc3v (LingG) left,WT,156,7,1.0,2.6,False
+BraTS20_Training_139,Area hIP5 (IPS) left,WT,6,0,0.0,0.2,False
+BraTS20_Training_139,Area hIP8 (IPS) left,WT,9,0,0.1,0.5,False
+BraTS20_Training_139,Area hOc3d (Cuneus) left,WT,342,15,2.2,7.1,True
+BraTS20_Training_139,Area hIP7 (IPS) left,WT,45,2,0.3,6.8,False
+BraTS20_Training_139,WM/unassigned,ET,1425,62,31.9,0.0,False
+BraTS20_Training_139,Frontal-to-Occipital (GapMap) left,ET,2870,125,64.2,7.8,True
+BraTS20_Training_139,"Area hOc1 (V1, 17, CalcS) left",ET,112,5,2.5,0.9,True
+BraTS20_Training_139,"Area hOc2 (V2, 18) left",ET,7,0,0.2,0.2,True
+BraTS20_Training_139,Area hPO1 (POS) left,ET,43,2,1.0,1.9,True
+BraTS20_Training_139,Area hIP8 (IPS) left,ET,9,0,0.2,0.5,True
+BraTS20_Training_139,Area hOc3d (Cuneus) left,ET,1,0,0.0,0.0,False

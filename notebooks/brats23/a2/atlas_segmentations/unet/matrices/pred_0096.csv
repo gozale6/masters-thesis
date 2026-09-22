@@ -1,0 +1,77 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0096,WM/unassigned,TC,924,35
+pred_0096,Area PF (IPL) right,TC,70,3
+pred_0096,Area CoS1 (CoS) right,TC,1,0
+pred_0096,Area STS2 (STS) right,TC,5,0
+pred_0096,Area TI (STG) right,TC,7,0
+pred_0096,Area Te 3 (STG) right,TC,269,10
+pred_0096,"Area TPJ (STG, SMG) right",TC,511,19
+pred_0096,CA2 (Hippocampus) right,TC,2,0
+pred_0096,Area Op1 (POperc) right,TC,102,4
+pred_0096,Area PGa (IPL) right,TC,1,0
+pred_0096,Area Op4 (POperc) right,TC,8,0
+pred_0096,Area PFcm (IPL) right,TC,81,3
+pred_0096,Area OTS1 (OTS) right,TC,1,0
+pred_0096,CA1 (Hippocampus) right,TC,5,0
+pred_0096,Temporal-to-Parietal (GapMap) right,TC,230,9
+pred_0096,Area STS1 (STS) right,TC,7,0
+pred_0096,Area PFop (IPL) right,TC,23,1
+pred_0096,Area Te 2.2 (STG) right,TC,93,4
+pred_0096,WM/unassigned,WT,6783,256
+pred_0096,Area PF (IPL) right,WT,251,9
+pred_0096,Area CoS1 (CoS) right,WT,46,2
+pred_0096,Area Te 1.0 (HESCHL) right,WT,17,1
+pred_0096,Area STS2 (STS) right,WT,731,28
+pred_0096,Area Id3 (Insula) right,WT,204,8
+pred_0096,Area TI (STG) right,WT,410,15
+pred_0096,Area FG5 (FusG) right,WT,27,1
+pred_0096,Area Te 3 (STG) right,WT,52,2
+pred_0096,"Area TPJ (STG, SMG) right",WT,34,1
+pred_0096,Area Ig2 (Insula) right,WT,7,0
+pred_0096,CA2 (Hippocampus) right,WT,131,5
+pred_0096,Area Op1 (POperc) right,WT,125,5
+pred_0096,"Rt (Thalamus, reticular Nucleus) right",WT,10,0
+pred_0096,Area PGa (IPL) right,WT,28,1
+pred_0096,Area Ia1 (Insula) right,WT,9,0
+pred_0096,Area PFm (IPL) right,WT,8,0
+pred_0096,Area FG4 (FusG) right,WT,385,15
+pred_0096,Area Op4 (POperc) right,WT,39,1
+pred_0096,DG (Hippocampus) right,WT,11,0
+pred_0096,Area PFcm (IPL) right,WT,47,2
+pred_0096,Area OTS1 (OTS) right,WT,41,2
+pred_0096,Area Id2 (Insula) right,WT,77,3
+pred_0096,CA1 (Hippocampus) right,WT,82,3
+pred_0096,Temporal-to-Parietal (GapMap) right,WT,3005,113
+pred_0096,Area Id1 (Insula) right,WT,266,10
+pred_0096,Area Te 1.2 (HESCHL) right,WT,20,1
+pred_0096,Area Id5 (Insula) right,WT,1,0
+pred_0096,"Subc (Hippocampus, Subicular complex) right",WT,3,0
+pred_0096,CA3 (Hippocampus) right,WT,1,0
+pred_0096,Area STS1 (STS) right,WT,1481,56
+pred_0096,Area PFop (IPL) right,WT,73,3
+pred_0096,Area Ph2 (PhG) right,WT,7,0
+pred_0096,Area Te 2.2 (STG) right,WT,160,6
+pred_0096,Area TeI (STG) right,WT,535,20
+pred_0096,WM/unassigned,ET,5805,219
+pred_0096,Area PF (IPL) right,ET,317,12
+pred_0096,Area CoS1 (CoS) right,ET,52,2
+pred_0096,Area STS2 (STS) right,ET,511,19
+pred_0096,Area TI (STG) right,ET,31,1
+pred_0096,Area FG5 (FusG) right,ET,80,3
+pred_0096,Area Te 3 (STG) right,ET,847,32
+pred_0096,"Area TPJ (STG, SMG) right",ET,752,28
+pred_0096,CA2 (Hippocampus) right,ET,183,7
+pred_0096,Area Op1 (POperc) right,ET,160,6
+pred_0096,Area PGa (IPL) right,ET,21,1
+pred_0096,Area FG4 (FusG) right,ET,89,3
+pred_0096,Area Op4 (POperc) right,ET,59,2
+pred_0096,DG (Hippocampus) right,ET,1,0
+pred_0096,Area PFcm (IPL) right,ET,265,10
+pred_0096,Area OTS1 (OTS) right,ET,651,25
+pred_0096,CA1 (Hippocampus) right,ET,113,4
+pred_0096,Temporal-to-Parietal (GapMap) right,ET,1786,67
+pred_0096,"Subc (Hippocampus, Subicular complex) right",ET,1,0
+pred_0096,Area STS1 (STS) right,ET,170,6
+pred_0096,Area PFop (IPL) right,ET,78,3
+pred_0096,Area Ph2 (PhG) right,ET,2,0
+pred_0096,Area Te 2.2 (STG) right,ET,423,16

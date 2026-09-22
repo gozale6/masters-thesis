@@ -1,0 +1,38 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_195,WM/unassigned,TC,5809,95
+BraTS20_Training_195,Area CoS1 (CoS) right,TC,4,0
+BraTS20_Training_195,Area STS2 (STS) right,TC,90,1
+BraTS20_Training_195,Area FG5 (FusG) right,TC,243,4
+BraTS20_Training_195,CA2 (Hippocampus) right,TC,1,0
+BraTS20_Training_195,Area FG4 (FusG) right,TC,888,15
+BraTS20_Training_195,Area OTS1 (OTS) right,TC,930,15
+BraTS20_Training_195,CA1 (Hippocampus) right,TC,3,0
+BraTS20_Training_195,Temporal-to-Parietal (GapMap) right,TC,5467,89
+BraTS20_Training_195,Area STS1 (STS) right,TC,9,0
+BraTS20_Training_195,Area FG3 (FusG) right,TC,1,0
+BraTS20_Training_195,WM/unassigned,WT,15674,256
+BraTS20_Training_195,Area CoS1 (CoS) right,WT,27,0
+BraTS20_Training_195,Area STS2 (STS) right,WT,3000,49
+BraTS20_Training_195,Area TI (STG) right,WT,28,0
+BraTS20_Training_195,Area FG5 (FusG) right,WT,52,1
+BraTS20_Training_195,Area Te 3 (STG) right,WT,97,2
+BraTS20_Training_195,CA2 (Hippocampus) right,WT,55,1
+BraTS20_Training_195,Area FG4 (FusG) right,WT,376,6
+BraTS20_Training_195,CA1 (Hippocampus) right,WT,148,2
+BraTS20_Training_195,Temporal-to-Parietal (GapMap) right,WT,3009,49
+BraTS20_Training_195,"Subc (Hippocampus, Subicular complex) right",WT,7,0
+BraTS20_Training_195,Area STS1 (STS) right,WT,471,8
+BraTS20_Training_195,Area FG3 (FusG) right,WT,32,1
+BraTS20_Training_195,Area Ph2 (PhG) right,WT,49,1
+BraTS20_Training_195,Area TeI (STG) right,WT,9,0
+BraTS20_Training_195,WM/unassigned,ET,9244,151
+BraTS20_Training_195,Area CoS1 (CoS) right,ET,74,1
+BraTS20_Training_195,Area STS2 (STS) right,ET,1007,16
+BraTS20_Training_195,Area FG5 (FusG) right,ET,480,8
+BraTS20_Training_195,CA2 (Hippocampus) right,ET,44,1
+BraTS20_Training_195,Area FG4 (FusG) right,ET,999,16
+BraTS20_Training_195,Area OTS1 (OTS) right,ET,112,2
+BraTS20_Training_195,CA1 (Hippocampus) right,ET,63,1
+BraTS20_Training_195,Temporal-to-Parietal (GapMap) right,ET,4161,68
+BraTS20_Training_195,Area STS1 (STS) right,ET,76,1
+BraTS20_Training_195,Area FG3 (FusG) right,ET,22,0

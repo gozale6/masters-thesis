@@ -1,0 +1,23 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_263,WM/unassigned,TC,2562,61,57.1,0.0,False
+BraTS20_Training_263,Frontal-to-Occipital (GapMap) right,TC,1795,43,40.0,5.3,True
+BraTS20_Training_263,"Area 6ma (preSMA, mesial SFG) right",TC,13,0,0.3,0.4,True
+BraTS20_Training_263,Area 33 (ACC) right,TC,117,3,2.6,6.2,True
+BraTS20_Training_263,WM/unassigned,WT,10678,256,41.1,0.1,False
+BraTS20_Training_263,"Area 6mp (SMA, mesial SFG) right",WT,1415,34,5.5,67.6,True
+BraTS20_Training_263,Frontal-to-Occipital (GapMap) right,WT,4634,111,17.9,13.7,True
+BraTS20_Training_263,Area 6d1 (PreCG) right,WT,123,3,0.5,2.6,False
+BraTS20_Training_263,Area 6d3 (SFS) right,WT,313,8,1.2,7.0,False
+BraTS20_Training_263,Area 8d2 (SFG) right,WT,116,3,0.4,3.8,False
+BraTS20_Training_263,Area 4a (PreCG) right,WT,2,0,0.0,0.0,False
+BraTS20_Training_263,Area SFG2 (SFG) right,WT,3,0,0.0,0.1,False
+BraTS20_Training_263,Area 6d2 (PreCG) right,WT,239,6,0.9,7.1,False
+BraTS20_Training_263,"Area 6ma (preSMA, mesial SFG) right",WT,2447,59,9.4,69.4,True
+BraTS20_Training_263,Frontal-I.2 (GapMap) right,WT,2152,52,8.3,39.4,True
+BraTS20_Training_263,Area 33 (ACC) right,WT,370,9,1.4,19.8,False
+BraTS20_Training_263,Area 8d1 (SFG) right,WT,107,3,0.4,2.7,False
+BraTS20_Training_263,"Area 6mp (SMA, mesial SFG) left",WT,424,10,1.6,22.8,False
+BraTS20_Training_263,Frontal-to-Occipital (GapMap) left,WT,1357,33,5.2,3.7,True
+BraTS20_Training_263,"Area 6ma (preSMA, mesial SFG) left",WT,1189,29,4.6,34.6,False
+BraTS20_Training_263,Frontal-I.2 (GapMap) left,WT,329,8,1.3,6.3,False
+BraTS20_Training_263,Area 33 (ACC) left,WT,56,1,0.2,10.0,False

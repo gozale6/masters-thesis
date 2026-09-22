@@ -1,0 +1,89 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0199,WM/unassigned,TC,7390,161
+pred_0199,Area Id8 (Insula) right,TC,129,3
+pred_0199,Area Te 3 (STG) right,TC,3,0
+pred_0199,Area MFG1 (MFG) right,TC,621,14
+pred_0199,Area Op6 (Frontal Operculum) right,TC,6,0
+pred_0199,Area Fo5 (OFC) right,TC,1,0
+pred_0199,Area Op7 (Frontal Operculum) right,TC,24,1
+pred_0199,Area Id6 (Insula) right,TC,446,10
+pred_0199,Area 44 (IFG) right,TC,138,3
+pred_0199,Area Op8 (Frontal Operculum) right,TC,897,20
+pred_0199,Area Op10 (Frontal Operculum) right,TC,134,3
+pred_0199,Area Fp1 (FPole) right,TC,1,0
+pred_0199,Area MFG2 (MFG) right,TC,720,16
+pred_0199,Area Id7 (Insula) right,TC,156,3
+pred_0199,Area Fo6 (OFC) right,TC,90,2
+pred_0199,"Area MFG5 (MFG, IFG) right",TC,1208,26
+pred_0199,Area MFG4 (MFG) right,TC,1127,25
+pred_0199,Area IFS1 (IFS) right,TC,379,8
+pred_0199,Area IFS3 (IFS) right,TC,1,0
+pred_0199,Area SFS2 (SFS) right,TC,44,1
+pred_0199,Frontal-to-Temporal-I (GapMap) right,TC,71,2
+pred_0199,Frontal-I.1 (GapMap) right,TC,2305,50
+pred_0199,Area Op9 (Frontal Operculum) right,TC,1925,42
+pred_0199,Area 45 (IFG) right,TC,3310,72
+pred_0199,Area IFS2 (IFS) right,TC,101,2
+pred_0199,Area TeI (STG) right,TC,2,0
+pred_0199,WM/unassigned,WT,5869,128
+pred_0199,Area Id8 (Insula) right,WT,170,4
+pred_0199,Area SFG4 (SFG) right,WT,7,0
+pred_0199,Area Te 3 (STG) right,WT,2,0
+pred_0199,Area MFG1 (MFG) right,WT,74,2
+pred_0199,Area Op6 (Frontal Operculum) right,WT,13,0
+pred_0199,Area Fo5 (OFC) right,WT,492,11
+pred_0199,Area Op7 (Frontal Operculum) right,WT,13,0
+pred_0199,Area Id6 (Insula) right,WT,80,2
+pred_0199,Area IFS4 (IFS) right,WT,7,0
+pred_0199,Area 44 (IFG) right,WT,225,5
+pred_0199,Area Fo7 (OFC) right,WT,113,2
+pred_0199,Area Op8 (Frontal Operculum) right,WT,6,0
+pred_0199,Area Fp1 (FPole) right,WT,216,5
+pred_0199,Area MFG2 (MFG) right,WT,220,5
+pred_0199,Area Id7 (Insula) right,WT,8,0
+pred_0199,Area Fo6 (OFC) right,WT,415,9
+pred_0199,"Area MFG5 (MFG, IFG) right",WT,162,4
+pred_0199,Area MFG4 (MFG) right,WT,642,14
+pred_0199,Area SFG3 (SFG) right,WT,29,1
+pred_0199,Area Fo4 (OFC) right,WT,461,10
+pred_0199,Area IFS1 (IFS) right,WT,243,5
+pred_0199,Area IFS3 (IFS) right,WT,140,3
+pred_0199,Area SFS2 (SFS) right,WT,149,3
+pred_0199,Area SFS1 (SFS) right,WT,3,0
+pred_0199,Frontal-to-Temporal-I (GapMap) right,WT,62,1
+pred_0199,Frontal-I.1 (GapMap) right,WT,724,16
+pred_0199,Area Op9 (Frontal Operculum) right,WT,4,0
+pred_0199,Area 45 (IFG) right,WT,506,11
+pred_0199,Frontal-II (GapMap) right,WT,11,0
+pred_0199,Area Id9 (Insula) right,WT,12,0
+pred_0199,Area IFS2 (IFS) right,WT,98,2
+pred_0199,"Area IFJ1 (IFS, PreCS) right",WT,9,0
+pred_0199,WM/unassigned,ET,11717,256
+pred_0199,Area Id8 (Insula) right,ET,372,8
+pred_0199,Area Te 3 (STG) right,ET,27,1
+pred_0199,Area MFG1 (MFG) right,ET,811,18
+pred_0199,Area Op6 (Frontal Operculum) right,ET,89,2
+pred_0199,Area Fo5 (OFC) right,ET,4,0
+pred_0199,Area Op7 (Frontal Operculum) right,ET,175,4
+pred_0199,Area Id6 (Insula) right,ET,705,15
+pred_0199,Area 44 (IFG) right,ET,477,10
+pred_0199,Area Op8 (Frontal Operculum) right,ET,217,5
+pred_0199,Area Op10 (Frontal Operculum) right,ET,40,1
+pred_0199,Area Fp1 (FPole) right,ET,62,1
+pred_0199,Area MFG2 (MFG) right,ET,993,22
+pred_0199,Area Id7 (Insula) right,ET,547,12
+pred_0199,Area Fo6 (OFC) right,ET,800,17
+pred_0199,"Area MFG5 (MFG, IFG) right",ET,349,8
+pred_0199,Area MFG4 (MFG) right,ET,1201,26
+pred_0199,Area SFG3 (SFG) right,ET,1,0
+pred_0199,Area IFS1 (IFS) right,ET,222,5
+pred_0199,Area SFS2 (SFS) right,ET,519,11
+pred_0199,Area SFS1 (SFS) right,ET,47,1
+pred_0199,Frontal-to-Temporal-I (GapMap) right,ET,332,7
+pred_0199,Frontal-I.1 (GapMap) right,ET,2058,45
+pred_0199,Area Op9 (Frontal Operculum) right,ET,520,11
+pred_0199,Temporal-to-Parietal (GapMap) right,ET,10,0
+pred_0199,Area 45 (IFG) right,ET,821,18
+pred_0199,Area Id9 (Insula) right,ET,59,1
+pred_0199,Area IFS2 (IFS) right,ET,93,2
+pred_0199,Area TeI (STG) right,ET,21,0

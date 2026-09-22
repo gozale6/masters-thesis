@@ -1,0 +1,38 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_359,WM/unassigned,TC,12546,167,63.0,0.2,False
+BraTS20_Training_359,Area hOc4la (LOC) right,TC,29,0,0.1,0.7,True
+BraTS20_Training_359,Area PGa (IPL) right,TC,74,1,0.4,1.2,True
+BraTS20_Training_359,Area PGp (IPL) right,TC,800,11,4.0,12.7,True
+BraTS20_Training_359,Temporal-to-Parietal (GapMap) right,TC,6196,82,31.1,9.2,True
+BraTS20_Training_359,Area hOc5 (LOC) right,TC,276,4,1.4,50.3,True
+BraTS20_Training_359,WM/unassigned,WT,17223,229,51.6,0.2,False
+BraTS20_Training_359,Area hOc4la (LOC) right,WT,441,6,1.3,11.1,False
+BraTS20_Training_359,Area PF (IPL) right,WT,664,9,2.0,13.5,False
+BraTS20_Training_359,Area STS2 (STS) right,WT,348,5,1.0,5.3,False
+BraTS20_Training_359,Area Te 3 (STG) right,WT,470,6,1.4,10.9,False
+BraTS20_Training_359,Area hIP4 (IPS) right,WT,4,0,0.0,0.4,False
+BraTS20_Training_359,"Area TPJ (STG, SMG) right",WT,237,3,0.7,16.2,False
+BraTS20_Training_359,Area Ig2 (Insula) right,WT,14,0,0.0,2.4,False
+BraTS20_Training_359,Area Op1 (POperc) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_359,Area PGa (IPL) right,WT,1324,18,4.0,20.7,True
+BraTS20_Training_359,Area PFm (IPL) right,WT,1611,21,4.8,28.0,True
+BraTS20_Training_359,Area hOc4lp (LOC) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_359,Area Te 1.1 (HESCHL) right,WT,263,3,0.8,24.4,False
+BraTS20_Training_359,Area PGp (IPL) right,WT,1245,17,3.7,19.8,True
+BraTS20_Training_359,Area Ig1 (Insula) right,WT,6,0,0.0,1.7,False
+BraTS20_Training_359,Area PFcm (IPL) right,WT,123,2,0.4,5.4,False
+BraTS20_Training_359,Temporal-to-Parietal (GapMap) right,WT,7528,100,22.5,11.2,True
+BraTS20_Training_359,Area Id1 (Insula) right,WT,103,1,0.3,26.1,False
+BraTS20_Training_359,Area STS1 (STS) right,WT,1188,16,3.6,35.7,True
+BraTS20_Training_359,Area hOc5 (LOC) right,WT,5,0,0.0,0.9,False
+BraTS20_Training_359,Area Te 2.2 (STG) right,WT,580,8,1.7,29.4,False
+BraTS20_Training_359,Area TeI (STG) right,WT,9,0,0.0,0.7,False
+BraTS20_Training_359,Area hOc3v (LingG) left,WT,1,0,0.0,0.0,False
+BraTS20_Training_359,WM/unassigned,ET,19248,256,61.0,0.2,False
+BraTS20_Training_359,Area hOc4la (LOC) right,ET,857,11,2.7,21.6,True
+BraTS20_Training_359,Area FG2 (FusG) right,ET,3,0,0.0,0.2,False
+BraTS20_Training_359,Area PGa (IPL) right,ET,850,11,2.7,13.3,True
+BraTS20_Training_359,Area hOc4lp (LOC) right,ET,14,0,0.0,0.4,False
+BraTS20_Training_359,Area PGp (IPL) right,ET,1147,15,3.6,18.3,True
+BraTS20_Training_359,Temporal-to-Parietal (GapMap) right,ET,9151,122,29.0,13.6,True
+BraTS20_Training_359,Area hOc5 (LOC) right,ET,264,4,0.8,48.1,True

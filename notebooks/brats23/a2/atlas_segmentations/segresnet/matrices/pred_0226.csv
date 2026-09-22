@@ -1,0 +1,14 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0226,WM/unassigned,TC,214,3
+pred_0226,WM/unassigned,WT,17124,256
+pred_0226,Area STS2 (STS) right,WT,288,4
+pred_0226,Area Te 3 (STG) right,WT,781,12
+pred_0226,Area 44 (IFG) right,WT,22,0
+pred_0226,Area Fo6 (OFC) right,WT,162,2
+pred_0226,Frontal-to-Temporal-I (GapMap) right,WT,1,0
+pred_0226,Area Op9 (Frontal Operculum) right,WT,265,4
+pred_0226,Temporal-to-Parietal (GapMap) right,WT,351,5
+pred_0226,Area 45 (IFG) right,WT,273,4
+pred_0226,Area STS1 (STS) right,WT,22,0
+pred_0226,Area TeI (STG) right,WT,37,1
+pred_0226,WM/unassigned,ET,1100,16

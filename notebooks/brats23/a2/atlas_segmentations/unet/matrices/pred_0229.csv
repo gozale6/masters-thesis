@@ -1,0 +1,39 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0229,WM/unassigned,TC,857,31
+pred_0229,Area CoS1 (CoS) right,TC,33,1
+pred_0229,Area STS2 (STS) right,TC,3,0
+pred_0229,Area FG5 (FusG) right,TC,64,2
+pred_0229,CA2 (Hippocampus) right,TC,40,1
+pred_0229,Area FG4 (FusG) right,TC,222,8
+pred_0229,DG (Hippocampus) right,TC,1,0
+pred_0229,Area OTS1 (OTS) right,TC,135,5
+pred_0229,CA1 (Hippocampus) right,TC,43,2
+pred_0229,Temporal-to-Parietal (GapMap) right,TC,160,6
+pred_0229,WM/unassigned,WT,7101,256
+pred_0229,Area CoS1 (CoS) right,WT,249,9
+pred_0229,Area STS2 (STS) right,WT,209,8
+pred_0229,Area Id3 (Insula) right,WT,98,4
+pred_0229,Area TI (STG) right,WT,45,2
+pred_0229,Area FG5 (FusG) right,WT,576,21
+pred_0229,Area Ia3 (Insula) right,WT,11,0
+pred_0229,CA2 (Hippocampus) right,WT,356,13
+pred_0229,Area FG4 (FusG) right,WT,1148,41
+pred_0229,DG (Hippocampus) right,WT,130,5
+pred_0229,Area OTS1 (OTS) right,WT,104,4
+pred_0229,CA1 (Hippocampus) right,WT,571,21
+pred_0229,Temporal-to-Parietal (GapMap) right,WT,1514,55
+pred_0229,"Subc (Hippocampus, Subicular complex) right",WT,263,9
+pred_0229,CA3 (Hippocampus) right,WT,94,3
+pred_0229,Area STS1 (STS) right,WT,105,4
+pred_0229,Area FG3 (FusG) right,WT,174,6
+pred_0229,Area Ph2 (PhG) right,WT,122,4
+pred_0229,WM/unassigned,ET,3897,140
+pred_0229,Area CoS1 (CoS) right,ET,33,1
+pred_0229,Area STS2 (STS) right,ET,82,3
+pred_0229,Area FG5 (FusG) right,ET,163,6
+pred_0229,CA2 (Hippocampus) right,ET,81,3
+pred_0229,Area FG4 (FusG) right,ET,811,29
+pred_0229,DG (Hippocampus) right,ET,1,0
+pred_0229,Area OTS1 (OTS) right,ET,802,29
+pred_0229,CA1 (Hippocampus) right,ET,89,3
+pred_0229,Temporal-to-Parietal (GapMap) right,ET,3213,116

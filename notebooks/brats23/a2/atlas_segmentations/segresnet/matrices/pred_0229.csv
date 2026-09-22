@@ -1,0 +1,32 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0229,WM/unassigned,TC,137,5
+pred_0229,Area STS2 (STS) right,TC,1,0
+pred_0229,Area FG5 (FusG) right,TC,5,0
+pred_0229,Area FG4 (FusG) right,TC,48,2
+pred_0229,Area OTS1 (OTS) right,TC,17,1
+pred_0229,Temporal-to-Parietal (GapMap) right,TC,61,2
+pred_0229,WM/unassigned,WT,7768,256
+pred_0229,Area CoS1 (CoS) right,WT,317,10
+pred_0229,Area STS2 (STS) right,WT,170,6
+pred_0229,Area Id3 (Insula) right,WT,100,3
+pred_0229,Area TI (STG) right,WT,37,1
+pred_0229,Area FG5 (FusG) right,WT,675,22
+pred_0229,Area Ia3 (Insula) right,WT,9,0
+pred_0229,CA2 (Hippocampus) right,WT,419,14
+pred_0229,Area FG4 (FusG) right,WT,1518,50
+pred_0229,DG (Hippocampus) right,WT,134,4
+pred_0229,Area OTS1 (OTS) right,WT,312,10
+pred_0229,CA1 (Hippocampus) right,WT,686,23
+pred_0229,Temporal-to-Parietal (GapMap) right,WT,1610,53
+pred_0229,"Subc (Hippocampus, Subicular complex) right",WT,303,10
+pred_0229,CA3 (Hippocampus) right,WT,84,3
+pred_0229,Area STS1 (STS) right,WT,105,3
+pred_0229,Area FG3 (FusG) right,WT,225,7
+pred_0229,Area Ph2 (PhG) right,WT,138,5
+pred_0229,WM/unassigned,ET,3273,108
+pred_0229,Area STS2 (STS) right,ET,98,3
+pred_0229,Area FG5 (FusG) right,ET,170,6
+pred_0229,Area FG4 (FusG) right,ET,553,18
+pred_0229,Area OTS1 (OTS) right,ET,712,23
+pred_0229,CA1 (Hippocampus) right,ET,3,0
+pred_0229,Temporal-to-Parietal (GapMap) right,ET,2904,96

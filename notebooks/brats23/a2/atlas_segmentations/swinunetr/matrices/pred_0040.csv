@@ -1,0 +1,43 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0040,WM/unassigned,TC,554,9
+pred_0040,Area hOc3v (LingG) left,TC,3,0
+pred_0040,Area hOc4la (LOC) right,TC,6,0
+pred_0040,Area FG2 (FusG) right,TC,35,1
+pred_0040,Area FG4 (FusG) right,TC,2,0
+pred_0040,Area FG1 (FusG) right,TC,1,0
+pred_0040,Temporal-to-Parietal (GapMap) right,TC,9,0
+pred_0040,WM/unassigned,WT,16021,256
+pred_0040,Area hOc3v (LingG) left,WT,8,0
+pred_0040,Area hOc4v (LingG) left,WT,2,0
+pred_0040,Area hOc4la (LOC) right,WT,15,0
+pred_0040,Area CoS1 (CoS) right,WT,227,4
+pred_0040,Area Te 1.0 (HESCHL) right,WT,77,1
+pred_0040,Area STS2 (STS) right,WT,1858,30
+pred_0040,Area TI (STG) right,WT,7,0
+pred_0040,Area FG5 (FusG) right,WT,346,6
+pred_0040,Area Te 3 (STG) right,WT,4,0
+pred_0040,Area FG2 (FusG) right,WT,37,1
+pred_0040,CA2 (Hippocampus) right,WT,302,5
+pred_0040,Area FG4 (FusG) right,WT,2022,32
+pred_0040,DG (Hippocampus) right,WT,16,0
+pred_0040,Area FG1 (FusG) right,WT,6,0
+pred_0040,Area OTS1 (OTS) right,WT,1020,16
+pred_0040,CA1 (Hippocampus) right,WT,342,5
+pred_0040,Temporal-to-Parietal (GapMap) right,WT,7916,126
+pred_0040,Area Id1 (Insula) right,WT,30,0
+pred_0040,Area Te 1.2 (HESCHL) right,WT,59,1
+pred_0040,Area Te 2.1 (STG) right,WT,256,4
+pred_0040,"Subc (Hippocampus, Subicular complex) right",WT,8,0
+pred_0040,Area STS1 (STS) right,WT,2066,33
+pred_0040,"Nfast (Cerebellum, Fastigial Nucleus) right",WT,5,0
+pred_0040,Area hOc4v (LingG) right,WT,10,0
+pred_0040,Area Te 2.2 (STG) right,WT,57,1
+pred_0040,Area TeI (STG) right,WT,41,1
+pred_0040,WM/unassigned,ET,2626,42
+pred_0040,Area hOc3v (LingG) left,ET,6,0
+pred_0040,Area hOc4v (LingG) left,ET,1,0
+pred_0040,Area hOc4la (LOC) right,ET,181,3
+pred_0040,Area FG2 (FusG) right,ET,437,7
+pred_0040,Area FG4 (FusG) right,ET,12,0
+pred_0040,Area FG1 (FusG) right,ET,8,0
+pred_0040,Temporal-to-Parietal (GapMap) right,ET,42,1

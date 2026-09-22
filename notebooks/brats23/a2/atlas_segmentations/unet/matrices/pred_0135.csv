@@ -1,0 +1,46 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0135,WM/unassigned,TC,705,106
+pred_0135,Area Id8 (Insula) left,TC,8,1
+pred_0135,Area Ia3 (Insula) left,TC,1,0
+pred_0135,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,199,30
+pred_0135,Area Fo3 (OFC) left,TC,21,3
+pred_0135,Area Id10 (Insula) left,TC,673,101
+pred_0135,Frontal-to-Temporal-I (GapMap) left,TC,25,4
+pred_0135,"TuTi (Basal Forebrain, Terminal islands) left",TC,1,0
+pred_0135,Frontal-to-Temporal-II (GapMap) left,TC,263,40
+pred_0135,WM/unassigned,WT,518,78
+pred_0135,Area Id8 (Insula) left,WT,111,17
+pred_0135,"BST (Basal Forebrain, Bed Nucleus) left",WT,1,0
+pred_0135,Area Ia3 (Insula) left,WT,14,2
+pred_0135,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,114,17
+pred_0135,Area Fo3 (OFC) left,WT,111,17
+pred_0135,Ch 4 (Basal Forebrain) left,WT,3,0
+pred_0135,Area Id10 (Insula) left,WT,31,5
+pred_0135,"Area PirT (PiriformCortexMesial, temporal) left",WT,1,0
+pred_0135,Frontal-to-Temporal-I (GapMap) left,WT,79,12
+pred_0135,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,3,0
+pred_0135,CM (Amygdala) left,WT,3,0
+pred_0135,IF (Amygdala) left,WT,14,2
+pred_0135,Temporal-to-Parietal (GapMap) left,WT,3,0
+pred_0135,"TuTi (Basal Forebrain, Terminal islands) left",WT,3,0
+pred_0135,Frontal-to-Temporal-II (GapMap) left,WT,120,18
+pred_0135,Area Id9 (Insula) left,WT,33,5
+pred_0135,VP (Ventral Pallidum) left,WT,36,5
+pred_0135,WM/unassigned,ET,1704,256
+pred_0135,Area Id8 (Insula) left,ET,132,20
+pred_0135,"Area PirTB (PiriformCortexMesial, temporobasal) left",ET,5,1
+pred_0135,Area Ia3 (Insula) left,ET,2,0
+pred_0135,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,463,70
+pred_0135,LB (Amygdala) left,ET,1,0
+pred_0135,Area Fo3 (OFC) left,ET,350,53
+pred_0135,Ch 4 (Basal Forebrain) left,ET,1,0
+pred_0135,Area Id10 (Insula) left,ET,673,101
+pred_0135,"Area PirT (PiriformCortexMesial, temporal) left",ET,2,0
+pred_0135,Frontal-to-Temporal-I (GapMap) left,ET,213,32
+pred_0135,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,6,1
+pred_0135,CM (Amygdala) left,ET,1,0
+pred_0135,IF (Amygdala) left,ET,27,4
+pred_0135,Temporal-to-Parietal (GapMap) left,ET,15,2
+pred_0135,"TuTi (Basal Forebrain, Terminal islands) left",ET,17,3
+pred_0135,Frontal-to-Temporal-II (GapMap) left,ET,792,119
+pred_0135,Area Id9 (Insula) left,ET,10,2

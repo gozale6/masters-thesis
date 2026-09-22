@@ -1,0 +1,46 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0123,WM/unassigned,TC,1310,18
+pred_0123,Area PF (IPL) right,TC,352,5
+pred_0123,Area Te 3 (STG) right,TC,51,1
+pred_0123,"Area TPJ (STG, SMG) right",TC,161,2
+pred_0123,Area Op1 (POperc) right,TC,27,0
+pred_0123,Area PGa (IPL) right,TC,17,0
+pred_0123,Area PFm (IPL) right,TC,27,0
+pred_0123,Area PFcm (IPL) right,TC,316,4
+pred_0123,Temporal-to-Parietal (GapMap) right,TC,192,3
+pred_0123,Area PFop (IPL) right,TC,53,1
+pred_0123,Area Te 2.2 (STG) right,TC,109,1
+pred_0123,WM/unassigned,WT,19042,256
+pred_0123,Area 3b (PostCG) right,WT,64,1
+pred_0123,Area PF (IPL) right,WT,1487,20
+pred_0123,Area 1 (PostCG) right,WT,1,0
+pred_0123,Area Te 1.0 (HESCHL) right,WT,116,2
+pred_0123,Area STS2 (STS) right,WT,233,3
+pred_0123,Area PFt (IPL) right,WT,1339,18
+pred_0123,Area Te 3 (STG) right,WT,986,13
+pred_0123,Area 6r1 (PreCG) right,WT,17,0
+pred_0123,"Area TPJ (STG, SMG) right",WT,178,2
+pred_0123,Area Op1 (POperc) right,WT,1355,18
+pred_0123,Area PGa (IPL) right,WT,462,6
+pred_0123,Area PFm (IPL) right,WT,709,10
+pred_0123,Area Te 1.1 (HESCHL) right,WT,163,2
+pred_0123,Area Op4 (POperc) right,WT,1360,18
+pred_0123,Area PGp (IPL) right,WT,7,0
+pred_0123,Area PFcm (IPL) right,WT,1284,17
+pred_0123,Temporal-to-Parietal (GapMap) right,WT,6798,91
+pred_0123,Area Te 2.1 (STG) right,WT,50,1
+pred_0123,Area STS1 (STS) right,WT,306,4
+pred_0123,Area PFop (IPL) right,WT,1002,13
+pred_0123,Area Te 2.2 (STG) right,WT,1141,15
+pred_0123,WM/unassigned,ET,7683,103
+pred_0123,Area PF (IPL) right,ET,2048,28
+pred_0123,Area Te 3 (STG) right,ET,361,5
+pred_0123,"Area TPJ (STG, SMG) right",ET,1126,15
+pred_0123,Area Op1 (POperc) right,ET,237,3
+pred_0123,Area PGa (IPL) right,ET,332,4
+pred_0123,Area PFm (IPL) right,ET,610,8
+pred_0123,Area PGp (IPL) right,ET,18,0
+pred_0123,Area PFcm (IPL) right,ET,525,7
+pred_0123,Temporal-to-Parietal (GapMap) right,ET,1616,22
+pred_0123,Area PFop (IPL) right,ET,8,0
+pred_0123,Area Te 2.2 (STG) right,ET,459,6

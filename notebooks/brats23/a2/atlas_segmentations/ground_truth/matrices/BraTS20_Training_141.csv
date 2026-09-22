@@ -1,0 +1,16 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_141,WM/unassigned,TC,7247,198,86.1,0.1,False
+BraTS20_Training_141,Frontal-to-Occipital (GapMap) left,TC,1114,30,13.2,3.0,True
+BraTS20_Training_141,Area 6d3 (SFS) left,TC,2,0,0.0,0.1,True
+BraTS20_Training_141,"Area 6ma (preSMA, mesial SFG) left",TC,50,1,0.6,1.5,True
+BraTS20_Training_141,WM/unassigned,WT,9363,256,74.9,0.1,False
+BraTS20_Training_141,"Area 6mp (SMA, mesial SFG) left",WT,60,2,0.5,3.2,True
+BraTS20_Training_141,Frontal-to-Occipital (GapMap) left,WT,2193,60,17.6,6.0,True
+BraTS20_Training_141,Area 6d1 (PreCG) left,WT,8,0,0.1,0.1,False
+BraTS20_Training_141,"Rt (Thalamus, reticular Nucleus) left",WT,7,0,0.1,0.5,False
+BraTS20_Training_141,Area 6d3 (SFS) left,WT,169,5,1.4,4.9,True
+BraTS20_Training_141,"Area 6ma (preSMA, mesial SFG) left",WT,644,18,5.2,18.7,True
+BraTS20_Training_141,Frontal-I.2 (GapMap) left,WT,11,0,0.1,0.2,False
+BraTS20_Training_141,Area 33 (ACC) left,WT,39,1,0.3,7.0,True
+BraTS20_Training_141,WM/unassigned,ET,688,19,97.2,0.0,False
+BraTS20_Training_141,Frontal-to-Occipital (GapMap) left,ET,20,1,2.8,0.1,True

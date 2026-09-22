@@ -1,0 +1,39 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_295,WM/unassigned,TC,4027,146,39.3,0.1,False
+BraTS20_Training_295,Area 1 (PostCG) right,TC,88,3,0.9,1.9,False
+BraTS20_Training_295,Area IFS4 (IFS) right,TC,12,0,0.1,1.7,False
+BraTS20_Training_295,Area 6d3 (SFS) right,TC,345,12,3.4,7.8,True
+BraTS20_Training_295,Area 6v1 (PreCG) right,TC,783,28,7.6,19.8,True
+BraTS20_Training_295,Area 4a (PreCG) right,TC,770,28,7.5,8.3,True
+BraTS20_Training_295,Area 3a (PostCG) right,TC,5,0,0.0,0.8,False
+BraTS20_Training_295,Area 8v1 (MFG) right,TC,174,6,1.7,4.8,False
+BraTS20_Training_295,Area 6v3 (PreCG) right,TC,155,6,1.5,5.5,False
+BraTS20_Training_295,Area 8v2 (MFG) right,TC,3,0,0.0,0.5,False
+BraTS20_Training_295,Area 4p (PreCG) right,TC,81,3,0.8,5.4,False
+BraTS20_Training_295,Frontal-II (GapMap) right,TC,1330,48,13.0,33.6,True
+BraTS20_Training_295,Area 6v2 (PreCG) right,TC,2477,90,24.2,64.0,True
+BraTS20_Training_295,WM/unassigned,WT,7067,256,48.7,0.1,False
+BraTS20_Training_295,Area 3b (PostCG) right,WT,370,13,2.5,16.5,False
+BraTS20_Training_295,Area 1 (PostCG) right,WT,55,2,0.4,1.2,False
+BraTS20_Training_295,Area 6d1 (PreCG) right,WT,156,6,1.1,3.3,False
+BraTS20_Training_295,Area IFS4 (IFS) right,WT,213,8,1.5,30.3,False
+BraTS20_Training_295,Area 6d3 (SFS) right,WT,1163,42,8.0,26.2,True
+BraTS20_Training_295,Area 6v1 (PreCG) right,WT,1095,40,7.5,27.7,True
+BraTS20_Training_295,Area 8d2 (SFG) right,WT,4,0,0.0,0.1,False
+BraTS20_Training_295,"Area IFJ2 (IFS, PreCS) right",WT,9,0,0.1,2.0,False
+BraTS20_Training_295,Area 4a (PreCG) right,WT,1065,39,7.3,11.5,True
+BraTS20_Training_295,Area 3a (PostCG) right,WT,380,14,2.6,57.8,False
+BraTS20_Training_295,Area 8v1 (MFG) right,WT,194,7,1.3,5.3,False
+BraTS20_Training_295,Area 6v3 (PreCG) right,WT,110,4,0.8,3.9,False
+BraTS20_Training_295,Area 8v2 (MFG) right,WT,1,0,0.0,0.2,False
+BraTS20_Training_295,Area 4p (PreCG) right,WT,628,23,4.3,41.9,False
+BraTS20_Training_295,Frontal-II (GapMap) right,WT,1177,43,8.1,29.7,True
+BraTS20_Training_295,"Area IFJ1 (IFS, PreCS) right",WT,32,1,0.2,8.0,False
+BraTS20_Training_295,Area 6v2 (PreCG) right,WT,806,29,5.5,20.8,True
+BraTS20_Training_295,WM/unassigned,ET,192,7,37.1,0.0,False
+BraTS20_Training_295,Area IFS4 (IFS) right,ET,12,0,2.3,1.7,True
+BraTS20_Training_295,Area 6d3 (SFS) right,ET,5,0,1.0,0.1,False
+BraTS20_Training_295,Area 6v1 (PreCG) right,ET,75,3,14.5,1.9,True
+BraTS20_Training_295,Area 4a (PreCG) right,ET,12,0,2.3,0.1,True
+BraTS20_Training_295,Frontal-II (GapMap) right,ET,120,4,23.2,3.0,True
+BraTS20_Training_295,Area 6v2 (PreCG) right,ET,102,4,19.7,2.6,True

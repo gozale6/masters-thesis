@@ -1,0 +1,23 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_008,WM/unassigned,TC,52,1,33.1,0.0,False
+BraTS20_Training_008,Temporal-to-Parietal (GapMap) right,TC,105,2,66.9,0.2,True
+BraTS20_Training_008,WM/unassigned,WT,15553,256,48.5,0.2,False
+BraTS20_Training_008,Area STS2 (STS) right,WT,4004,66,12.5,60.9,True
+BraTS20_Training_008,Area Id3 (Insula) right,WT,99,2,0.3,8.9,False
+BraTS20_Training_008,Area TI (STG) right,WT,318,5,1.0,30.2,False
+BraTS20_Training_008,Area FG5 (FusG) right,WT,6,0,0.0,0.5,False
+BraTS20_Training_008,Area Te 3 (STG) right,WT,364,6,1.1,8.4,True
+BraTS20_Training_008,CA2 (Hippocampus) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_008,Area FG4 (FusG) right,WT,35,1,0.1,0.8,False
+BraTS20_Training_008,Area OTS1 (OTS) right,WT,323,5,1.0,31.0,True
+BraTS20_Training_008,CA1 (Hippocampus) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_008,Temporal-to-Parietal (GapMap) right,WT,9973,164,31.1,14.8,True
+BraTS20_Training_008,Area Ia2 (Insula) right,WT,13,0,0.0,6.8,False
+BraTS20_Training_008,Area Id1 (Insula) right,WT,32,1,0.1,8.1,False
+BraTS20_Training_008,Area Te 1.2 (HESCHL) right,WT,39,1,0.1,7.5,False
+BraTS20_Training_008,Area Te 2.1 (STG) right,WT,6,0,0.0,1.2,False
+BraTS20_Training_008,Area STS1 (STS) right,WT,1063,17,3.3,32.0,True
+BraTS20_Training_008,Area TeI (STG) right,WT,247,4,0.8,19.4,False
+BraTS20_Training_008,WM/unassigned,ET,436,7,36.0,0.0,False
+BraTS20_Training_008,Area STS2 (STS) right,ET,12,0,1.0,0.2,True
+BraTS20_Training_008,Temporal-to-Parietal (GapMap) right,ET,763,13,63.0,1.1,True

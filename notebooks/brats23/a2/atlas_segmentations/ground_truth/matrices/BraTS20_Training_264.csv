@@ -1,0 +1,22 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_264,WM/unassigned,TC,12242,256,72.5,0.2,False
+BraTS20_Training_264,Area 44 (IFG) right,TC,811,17,4.8,30.5,True
+BraTS20_Training_264,Area Op8 (Frontal Operculum) right,TC,21,0,0.1,1.7,False
+BraTS20_Training_264,Area Fo6 (OFC) right,TC,84,2,0.5,3.1,True
+BraTS20_Training_264,Frontal-I.1 (GapMap) right,TC,169,4,1.0,3.1,True
+BraTS20_Training_264,Area Op9 (Frontal Operculum) right,TC,456,10,2.7,18.6,True
+BraTS20_Training_264,Area 45 (IFG) right,TC,3104,65,18.4,58.9,True
+BraTS20_Training_264,WM/unassigned,WT,5000,105,57.2,0.1,False
+BraTS20_Training_264,Area Id8 (Insula) right,WT,155,3,1.8,17.8,False
+BraTS20_Training_264,Area 6r1 (PreCG) right,WT,25,1,0.3,1.0,False
+BraTS20_Training_264,Area Id6 (Insula) right,WT,9,0,0.1,0.3,False
+BraTS20_Training_264,Area 44 (IFG) right,WT,676,14,7.7,25.4,True
+BraTS20_Training_264,Area Op8 (Frontal Operculum) right,WT,317,7,3.6,25.1,True
+BraTS20_Training_264,Area Op10 (Frontal Operculum) right,WT,4,0,0.0,2.3,False
+BraTS20_Training_264,Area Id7 (Insula) right,WT,30,1,0.3,4.2,False
+BraTS20_Training_264,Area Fo6 (OFC) right,WT,84,2,1.0,3.1,False
+BraTS20_Training_264,"Area MFG5 (MFG, IFG) right",WT,5,0,0.1,0.2,False
+BraTS20_Training_264,Frontal-to-Temporal-I (GapMap) right,WT,213,4,2.4,10.3,False
+BraTS20_Training_264,Frontal-I.1 (GapMap) right,WT,323,7,3.7,6.0,True
+BraTS20_Training_264,Area Op9 (Frontal Operculum) right,WT,1430,30,16.4,58.4,True
+BraTS20_Training_264,Area 45 (IFG) right,WT,466,10,5.3,8.8,True

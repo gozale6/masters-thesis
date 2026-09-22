@@ -1,0 +1,8 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_325,WM/unassigned,TC,9478,256,98.4,0.1,False
+BraTS20_Training_325,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) right",TC,156,4,1.6,12.8,True
+BraTS20_Training_325,WM/unassigned,WT,7058,191,96.4,0.1,False
+BraTS20_Training_325,"Ndentv (Cerebellum, Ventral Dentate Nucleus) right",WT,17,0,0.2,3.9,True
+BraTS20_Training_325,"Ninterp (Cerebellum, Interposed Nucleus) right",WT,1,0,0.0,0.3,True
+BraTS20_Training_325,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) right",WT,247,7,3.4,20.3,True
+BraTS20_Training_325,WM/unassigned,ET,125,3,100.0,0.0,False

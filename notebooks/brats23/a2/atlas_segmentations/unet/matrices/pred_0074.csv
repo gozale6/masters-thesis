@@ -1,0 +1,199 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0074,WM/unassigned,TC,29634,156
+pred_0074,Area Id8 (Insula) left,TC,8,0
+pred_0074,Area SFG4 (SFG) left,TC,9,0
+pred_0074,Area p24ab (pACC) left,TC,54,0
+pred_0074,Frontal-to-Occipital (GapMap) left,TC,1940,10
+pred_0074,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",TC,120,1
+pred_0074,Area Op6 (Frontal Operculum) left,TC,4,0
+pred_0074,Area Op7 (Frontal Operculum) left,TC,174,1
+pred_0074,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,10,0
+pred_0074,Area Id4 (Insula) left,TC,52,0
+pred_0074,"Rt (Thalamus, reticular Nucleus) left",TC,15,0
+pred_0074,Area Id6 (Insula) left,TC,639,3
+pred_0074,Area IFS4 (IFS) left,TC,5,0
+pred_0074,Area 8d2 (SFG) left,TC,24,0
+pred_0074,Area Op8 (Frontal Operculum) left,TC,54,0
+pred_0074,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,56,0
+pred_0074,"Area IFJ2 (IFS, PreCS) left",TC,14,0
+pred_0074,Area Op10 (Frontal Operculum) left,TC,12,0
+pred_0074,Area Id7 (Insula) left,TC,100,1
+pred_0074,Area p32 (pACC) left,TC,17,0
+pred_0074,Area MFG4 (MFG) left,TC,35,0
+pred_0074,Area SFG3 (SFG) left,TC,1,0
+pred_0074,Area 6v3 (PreCG) left,TC,3,0
+pred_0074,Area IFS1 (IFS) left,TC,9,0
+pred_0074,Area IFS3 (IFS) left,TC,2,0
+pred_0074,Area 8v2 (MFG) left,TC,2,0
+pred_0074,Area Id10 (Insula) left,TC,5,0
+pred_0074,Area p24c (pACC) left,TC,38,0
+pred_0074,Frontal-to-Temporal-I (GapMap) left,TC,6,0
+pred_0074,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,115,1
+pred_0074,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",TC,5,0
+pred_0074,Frontal-I.2 (GapMap) left,TC,7,0
+pred_0074,Area 33 (ACC) left,TC,290,2
+pred_0074,"AV (Thalamus, anteroventral Nucleus) left",TC,8,0
+pred_0074,VP (Ventral Pallidum) left,TC,1,0
+pred_0074,"Area IFJ1 (IFS, PreCS) left",TC,19,0
+pred_0074,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,2,0
+pred_0074,Area p24ab (pACC) right,TC,19,0
+pred_0074,Frontal-to-Occipital (GapMap) right,TC,8,0
+pred_0074,Area 33 (ACC) right,TC,187,1
+pred_0074,WM/unassigned,WT,48720,256
+pred_0074,Astr (Amygdala) left,WT,53,0
+pred_0074,Area Id8 (Insula) left,WT,702,4
+pred_0074,Area SFG4 (SFG) left,WT,1213,6
+pred_0074,"LD (Thalamus, lateral dorsal Nucleus) left",WT,197,1
+pred_0074,Area Id3 (Insula) left,WT,17,0
+pred_0074,Area p24ab (pACC) left,WT,1464,8
+pred_0074,Frontal-to-Occipital (GapMap) left,WT,3885,20
+pred_0074,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,87,0
+pred_0074,Area Op6 (Frontal Operculum) left,WT,24,0
+pred_0074,"BST (Basal Forebrain, Bed Nucleus) left",WT,21,0
+pred_0074,"AM (Thalamus, anteromedial Nucleus) left",WT,57,0
+pred_0074,Area Op7 (Frontal Operculum) left,WT,4,0
+pred_0074,Area Ig2 (Insula) left,WT,28,0
+pred_0074,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,1163,6
+pred_0074,Area Id4 (Insula) left,WT,240,1
+pred_0074,"Tu (Basal Forebrain, Tuberculum) left",WT,35,0
+pred_0074,"Rt (Thalamus, reticular Nucleus) left",WT,402,2
+pred_0074,Area Id6 (Insula) left,WT,444,2
+pred_0074,Area IFS4 (IFS) left,WT,17,0
+pred_0074,Area 6d3 (SFS) left,WT,85,0
+pred_0074,Area 44 (IFG) left,WT,2,0
+pred_0074,"Pv (Thalamus, paraventricular Nucleus) left",WT,13,0
+pred_0074,Area 8d2 (SFG) left,WT,713,4
+pred_0074,Area Ia1 (Insula) left,WT,1,0
+pred_0074,Area Op8 (Frontal Operculum) left,WT,218,1
+pred_0074,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,949,5
+pred_0074,"Area IFJ2 (IFS, PreCS) left",WT,226,1
+pred_0074,Area 25 (sACC) left,WT,174,1
+pred_0074,Area Op5 (Frontal Operculum) left,WT,45,0
+pred_0074,"MD (Thalamus, mediodorsal Nucleus) left",WT,497,3
+pred_0074,LB (Amygdala) left,WT,8,0
+pred_0074,Area Op10 (Frontal Operculum) left,WT,128,1
+pred_0074,Area MFG2 (MFG) left,WT,123,1
+pred_0074,Area Id7 (Insula) left,WT,203,1
+pred_0074,Area p32 (pACC) left,WT,2256,12
+pred_0074,Area SFG2 (SFG) left,WT,179,1
+pred_0074,"Area MFG5 (MFG, IFG) left",WT,101,1
+pred_0074,Area MFG4 (MFG) left,WT,392,2
+pred_0074,"LP (Thalamus, lateral posterior Nucleus) left",WT,200,1
+pred_0074,Area Ig3 (Insula) left,WT,134,1
+pred_0074,Area SFG3 (SFG) left,WT,272,1
+pred_0074,Area 6v3 (PreCG) left,WT,102,1
+pred_0074,Area IFS1 (IFS) left,WT,108,1
+pred_0074,Ch 4 (Basal Forebrain) left,WT,129,1
+pred_0074,Area IFS3 (IFS) left,WT,25,0
+pred_0074,Area 8v2 (MFG) left,WT,144,1
+pred_0074,"AcbM (Ventral Striatum, Medial Accumbens) left",WT,129,1
+pred_0074,Area Ig1 (Insula) left,WT,1,0
+pred_0074,Area Id10 (Insula) left,WT,384,2
+pred_0074,Area p24c (pACC) left,WT,863,5
+pred_0074,Area SFS2 (SFS) left,WT,1,0
+pred_0074,Area SFS1 (SFS) left,WT,19,0
+pred_0074,Frontal-to-Temporal-I (GapMap) left,WT,254,1
+pred_0074,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,298,2
+pred_0074,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,100,1
+pred_0074,Frontal-I.2 (GapMap) left,WT,2130,11
+pred_0074,CM (Amygdala) left,WT,130,1
+pred_0074,Area 33 (ACC) left,WT,61,0
+pred_0074,Area Id2 (Insula) left,WT,112,1
+pred_0074,Frontal-I.1 (GapMap) left,WT,197,1
+pred_0074,IF (Amygdala) left,WT,42,0
+pred_0074,Area Op9 (Frontal Operculum) left,WT,65,0
+pred_0074,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,211,1
+pred_0074,"TuTi (Basal Forebrain, Terminal islands) left",WT,227,1
+pred_0074,Area 45 (IFG) left,WT,12,0
+pred_0074,"CL (Thalamus, anterior intralaminar nuclei) left",WT,646,3
+pred_0074,Frontal-to-Temporal-II (GapMap) left,WT,525,3
+pred_0074,Area Id5 (Insula) left,WT,151,1
+pred_0074,Ch 123 (Basal Forebrain) left,WT,28,0
+pred_0074,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,78,0
+pred_0074,Area Op3 (POperc) left,WT,151,1
+pred_0074,Frontal-II (GapMap) left,WT,14,0
+pred_0074,"VLA (Thalamus, ventral lateral anterior Nucleus) left",WT,5,0
+pred_0074,Area Id9 (Insula) left,WT,73,0
+pred_0074,"AV (Thalamus, anteroventral Nucleus) left",WT,212,1
+pred_0074,VP (Ventral Pallidum) left,WT,140,1
+pred_0074,Area s32 (sACC) left,WT,121,1
+pred_0074,SF (Amygdala) left,WT,9,0
+pred_0074,"Area IFJ1 (IFS, PreCS) left",WT,191,1
+pred_0074,Area s24 (sACC) left,WT,1064,6
+pred_0074,Area 6v2 (PreCG) left,WT,20,0
+pred_0074,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,351,2
+pred_0074,Area Fo2 (OFC) left,WT,241,1
+pred_0074,"LD (Thalamus, lateral dorsal Nucleus) right",WT,216,1
+pred_0074,Area p24ab (pACC) right,WT,1276,7
+pred_0074,Frontal-to-Occipital (GapMap) right,WT,3722,20
+pred_0074,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,762,4
+pred_0074,"BST (Basal Forebrain, Bed Nucleus) right",WT,83,0
+pred_0074,"AM (Thalamus, anteromedial Nucleus) right",WT,134,1
+pred_0074,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,591,3
+pred_0074,"Rt (Thalamus, reticular Nucleus) right",WT,424,2
+pred_0074,"Pv (Thalamus, paraventricular Nucleus) right",WT,65,0
+pred_0074,Area 25 (sACC) right,WT,8,0
+pred_0074,"MD (Thalamus, mediodorsal Nucleus) right",WT,535,3
+pred_0074,Area p32 (pACC) right,WT,168,1
+pred_0074,"LP (Thalamus, lateral posterior Nucleus) right",WT,9,0
+pred_0074,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,21,0
+pred_0074,Area p24c (pACC) right,WT,241,1
+pred_0074,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,16,0
+pred_0074,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,485,3
+pred_0074,"MV (Thalamus, medioventral Nucleus) right",WT,96,1
+pred_0074,Frontal-I.2 (GapMap) right,WT,629,3
+pred_0074,Area 33 (ACC) right,WT,997,5
+pred_0074,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,410,2
+pred_0074,"CL (Thalamus, anterior intralaminar nuclei) right",WT,650,3
+pred_0074,Ch 123 (Basal Forebrain) right,WT,9,0
+pred_0074,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,63,0
+pred_0074,"VLA (Thalamus, ventral lateral anterior Nucleus) right",WT,31,0
+pred_0074,"AV (Thalamus, anteroventral Nucleus) right",WT,284,1
+pred_0074,Area s24 (sACC) right,WT,312,2
+pred_0074,WM/unassigned,ET,21723,114
+pred_0074,Area Id8 (Insula) left,ET,87,0
+pred_0074,Area SFG4 (SFG) left,ET,58,0
+pred_0074,Area p24ab (pACC) left,ET,269,1
+pred_0074,Frontal-to-Occipital (GapMap) left,ET,1393,7
+pred_0074,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",ET,332,2
+pred_0074,Area Op6 (Frontal Operculum) left,ET,58,0
+pred_0074,"BST (Basal Forebrain, Bed Nucleus) left",ET,4,0
+pred_0074,"AM (Thalamus, anteromedial Nucleus) left",ET,66,0
+pred_0074,Area Op7 (Frontal Operculum) left,ET,182,1
+pred_0074,"VLP (Thalamus, ventral lateral posterior Nucleus) left",ET,63,0
+pred_0074,Area Id4 (Insula) left,ET,223,1
+pred_0074,"Rt (Thalamus, reticular Nucleus) left",ET,79,0
+pred_0074,Area Id6 (Insula) left,ET,980,5
+pred_0074,Area IFS4 (IFS) left,ET,40,0
+pred_0074,Area 8d2 (SFG) left,ET,36,0
+pred_0074,Area Op8 (Frontal Operculum) left,ET,345,2
+pred_0074,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,465,2
+pred_0074,"Area IFJ2 (IFS, PreCS) left",ET,122,1
+pred_0074,Area Op5 (Frontal Operculum) left,ET,8,0
+pred_0074,Area Op10 (Frontal Operculum) left,ET,176,1
+pred_0074,Area Id7 (Insula) left,ET,523,3
+pred_0074,Area p32 (pACC) left,ET,245,1
+pred_0074,"Area MFG5 (MFG, IFG) left",ET,8,0
+pred_0074,Area MFG4 (MFG) left,ET,181,1
+pred_0074,Area SFG3 (SFG) left,ET,12,0
+pred_0074,Area 6v3 (PreCG) left,ET,14,0
+pred_0074,Area IFS1 (IFS) left,ET,60,0
+pred_0074,Area IFS3 (IFS) left,ET,7,0
+pred_0074,Area 8v2 (MFG) left,ET,21,0
+pred_0074,Area Id10 (Insula) left,ET,32,0
+pred_0074,Area p24c (pACC) left,ET,123,1
+pred_0074,Frontal-to-Temporal-I (GapMap) left,ET,155,1
+pred_0074,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,580,3
+pred_0074,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",ET,105,1
+pred_0074,Frontal-I.2 (GapMap) left,ET,90,0
+pred_0074,Area 33 (ACC) left,ET,209,1
+pred_0074,Area 45 (IFG) left,ET,4,0
+pred_0074,Area Id9 (Insula) left,ET,1,0
+pred_0074,"AV (Thalamus, anteroventral Nucleus) left",ET,54,0
+pred_0074,VP (Ventral Pallidum) left,ET,29,0
+pred_0074,"Area IFJ1 (IFS, PreCS) left",ET,81,0
+pred_0074,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,6,0
+pred_0074,Area p24ab (pACC) right,ET,112,1
+pred_0074,Frontal-to-Occipital (GapMap) right,ET,65,0
+pred_0074,"AM (Thalamus, anteromedial Nucleus) right",ET,1,0
+pred_0074,Area 33 (ACC) right,ET,659,3

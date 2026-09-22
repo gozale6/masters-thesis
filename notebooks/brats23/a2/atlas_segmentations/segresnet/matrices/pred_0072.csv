@@ -1,0 +1,90 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0072,WM/unassigned,TC,2181,9
+pred_0072,Frontal-to-Occipital (GapMap) left,TC,1357,6
+pred_0072,Area 7M (SPL) left,TC,76,0
+pred_0072,"Area hOc1 (V1, 17, CalcS) left",TC,25,0
+pred_0072,"Area hOc2 (V2, 18) left",TC,88,0
+pred_0072,Area hPO1 (POS) left,TC,2,0
+pred_0072,Area hOc3d (Cuneus) left,TC,206,1
+pred_0072,Frontal-to-Occipital (GapMap) right,TC,3460,15
+pred_0072,Area 7P (SPL) right,TC,3,0
+pred_0072,Area hOc6 (POS) right,TC,51,0
+pred_0072,Area 7M (SPL) right,TC,55,0
+pred_0072,"Area hOc1 (V1, 17, CalcS) right",TC,58,0
+pred_0072,"Area hOc2 (V2, 18) right",TC,626,3
+pred_0072,Area hOc4d (Cuneus) right,TC,35,0
+pred_0072,Area hPO1 (POS) right,TC,49,0
+pred_0072,Area hIP8 (IPS) right,TC,1,0
+pred_0072,Area hOc3d (Cuneus) right,TC,450,2
+pred_0072,WM/unassigned,WT,59518,256
+pred_0072,"LD (Thalamus, lateral dorsal Nucleus) left",WT,155,1
+pred_0072,"PUm (Thalamus, medial pulvinar) left",WT,238,1
+pred_0072,Frontal-to-Occipital (GapMap) left,WT,14949,64
+pred_0072,Area hOc6 (POS) left,WT,207,1
+pred_0072,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,181,1
+pred_0072,"Rt (Thalamus, reticular Nucleus) left",WT,89,0
+pred_0072,Area 4a (PreCG) left,WT,271,1
+pred_0072,Area 5M (SPL) left,WT,765,3
+pred_0072,"PUl (Thalamus, lateral pulvinar) left",WT,20,0
+pred_0072,Area Ph1 (PhG) left,WT,54,0
+pred_0072,"Area hOc1 (V1, 17, CalcS) left",WT,4192,18
+pred_0072,Area Ph3 (PhG) left,WT,376,2
+pred_0072,"Area hOc2 (V2, 18) left",WT,17,0
+pred_0072,"LP (Thalamus, lateral posterior Nucleus) left",WT,272,1
+pred_0072,Area hPO1 (POS) left,WT,3,0
+pred_0072,Area hOc3v (LingG) left,WT,1204,5
+pred_0072,"CL (Thalamus, anterior intralaminar nuclei) left",WT,5,0
+pred_0072,Area 5Ci (SPL) left,WT,1137,5
+pred_0072,Frontal-to-Temporal-II (GapMap) left,WT,7,0
+pred_0072,Area hOc3d (Cuneus) left,WT,1,0
+pred_0072,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,4,0
+pred_0072,"Subc (Hippocampus, Subicular complex) left",WT,362,2
+pred_0072,"TrS (Hippocampus, Transsubiculum) left",WT,212,1
+pred_0072,Area hOc4v (LingG) left,WT,6,0
+pred_0072,Area Ph2 (PhG) left,WT,16,0
+pred_0072,"LD (Thalamus, lateral dorsal Nucleus) right",WT,37,0
+pred_0072,"PUm (Thalamus, medial pulvinar) right",WT,8,0
+pred_0072,Frontal-to-Occipital (GapMap) right,WT,9622,41
+pred_0072,Area 7P (SPL) right,WT,211,1
+pred_0072,Area hOc6 (POS) right,WT,85,0
+pred_0072,Area 4a (PreCG) right,WT,627,3
+pred_0072,Area 5M (SPL) right,WT,847,4
+pred_0072,Area Ph1 (PhG) right,WT,139,1
+pred_0072,"Area hOc1 (V1, 17, CalcS) right",WT,5206,22
+pred_0072,Area Ph3 (PhG) right,WT,214,1
+pred_0072,"Area hOc2 (V2, 18) right",WT,2254,10
+pred_0072,Area hOc4d (Cuneus) right,WT,272,1
+pred_0072,Area hPO1 (POS) right,WT,179,1
+pred_0072,Area hOc3v (LingG) right,WT,995,4
+pred_0072,Area FG1 (FusG) right,WT,59,0
+pred_0072,Area hIP3 (IPS) right,WT,46,0
+pred_0072,Area hIP8 (IPS) right,WT,152,1
+pred_0072,Temporal-to-Parietal (GapMap) right,WT,1942,8
+pred_0072,Area 5Ci (SPL) right,WT,2035,9
+pred_0072,Area 2 (PostCS) right,WT,29,0
+pred_0072,Area hOc3d (Cuneus) right,WT,109,0
+pred_0072,Area 7A (SPL) right,WT,77,0
+pred_0072,"Subc (Hippocampus, Subicular complex) right",WT,29,0
+pred_0072,"TrS (Hippocampus, Transsubiculum) right",WT,4,0
+pred_0072,Area 5L (SPL) right,WT,20,0
+pred_0072,Area hOc4v (LingG) right,WT,1,0
+pred_0072,Area 7PC (SPL) right,WT,1,0
+pred_0072,WM/unassigned,ET,9532,41
+pred_0072,Frontal-to-Occipital (GapMap) left,ET,5379,23
+pred_0072,Area 7P (SPL) left,ET,36,0
+pred_0072,Area hOc6 (POS) left,ET,12,0
+pred_0072,Area 7M (SPL) left,ET,138,1
+pred_0072,"Area hOc1 (V1, 17, CalcS) left",ET,1081,5
+pred_0072,"Area hOc2 (V2, 18) left",ET,857,4
+pred_0072,Area hPO1 (POS) left,ET,129,1
+pred_0072,Area hOc3d (Cuneus) left,ET,572,2
+pred_0072,Frontal-to-Occipital (GapMap) right,ET,8634,37
+pred_0072,Area 7P (SPL) right,ET,71,0
+pred_0072,Area hOc6 (POS) right,ET,207,1
+pred_0072,Area 7M (SPL) right,ET,203,1
+pred_0072,"Area hOc1 (V1, 17, CalcS) right",ET,1647,7
+pred_0072,"Area hOc2 (V2, 18) right",ET,1507,6
+pred_0072,Area hOc4d (Cuneus) right,ET,153,1
+pred_0072,Area hPO1 (POS) right,ET,360,2
+pred_0072,Area hIP8 (IPS) right,ET,17,0
+pred_0072,Area hOc3d (Cuneus) right,ET,1041,4

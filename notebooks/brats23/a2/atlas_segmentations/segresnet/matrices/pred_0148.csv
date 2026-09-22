@@ -1,0 +1,45 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0148,WM/unassigned,TC,164,1
+pred_0148,Frontal-to-Occipital (GapMap) left,TC,15,0
+pred_0148,Area 8d2 (SFG) left,TC,9,0
+pred_0148,Frontal-I.2 (GapMap) left,TC,22,0
+pred_0148,WM/unassigned,WT,31329,256
+pred_0148,Area SFG4 (SFG) left,WT,99,1
+pred_0148,Area p24ab (pACC) left,WT,1321,11
+pred_0148,Frontal-to-Occipital (GapMap) left,WT,4447,36
+pred_0148,"BST (Basal Forebrain, Bed Nucleus) left",WT,11,0
+pred_0148,Area Fp2 (FPole) left,WT,14,0
+pred_0148,Area 6d3 (SFS) left,WT,71,1
+pred_0148,Area 8d2 (SFG) left,WT,171,1
+pred_0148,Area 25 (sACC) left,WT,7,0
+pred_0148,Area p32 (pACC) left,WT,2043,17
+pred_0148,Area SFG2 (SFG) left,WT,3,0
+pred_0148,Area SFG3 (SFG) left,WT,6,0
+pred_0148,"Area 6ma (preSMA, mesial SFG) left",WT,72,1
+pred_0148,Area p24c (pACC) left,WT,999,8
+pred_0148,Area SFS1 (SFS) left,WT,15,0
+pred_0148,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,264,2
+pred_0148,Frontal-I.2 (GapMap) left,WT,2727,22
+pred_0148,Area 33 (ACC) left,WT,559,5
+pred_0148,"AV (Thalamus, anteroventral Nucleus) left",WT,16,0
+pred_0148,Area s24 (sACC) left,WT,71,1
+pred_0148,"Area 6mp (SMA, mesial SFG) right",WT,102,1
+pred_0148,Area p24ab (pACC) right,WT,591,5
+pred_0148,Frontal-to-Occipital (GapMap) right,WT,3497,29
+pred_0148,Area Id6 (Insula) right,WT,4,0
+pred_0148,Area 8d2 (SFG) right,WT,109,1
+pred_0148,Area p32 (pACC) right,WT,106,1
+pred_0148,Area SFG2 (SFG) right,WT,256,2
+pred_0148,Area 6d2 (PreCG) right,WT,56,0
+pred_0148,Area IFS1 (IFS) right,WT,18,0
+pred_0148,"Area 6ma (preSMA, mesial SFG) right",WT,1818,15
+pred_0148,Area p24c (pACC) right,WT,121,1
+pred_0148,Frontal-I.2 (GapMap) right,WT,4353,36
+pred_0148,Area 33 (ACC) right,WT,1396,11
+pred_0148,Frontal-II (GapMap) right,WT,1,0
+pred_0148,Area 8d1 (SFG) right,WT,360,3
+pred_0148,WM/unassigned,ET,964,8
+pred_0148,Area SFG4 (SFG) left,ET,23,0
+pred_0148,Frontal-to-Occipital (GapMap) left,ET,134,1
+pred_0148,Area 8d2 (SFG) left,ET,226,2
+pred_0148,Frontal-I.2 (GapMap) left,ET,267,2

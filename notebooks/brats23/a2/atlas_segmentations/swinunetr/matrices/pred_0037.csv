@@ -1,0 +1,31 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0037,WM/unassigned,TC,901,13
+pred_0037,Frontal-to-Occipital (GapMap) left,TC,107,2
+pred_0037,Area 33 (ACC) left,TC,50,1
+pred_0037,Frontal-to-Occipital (GapMap) right,TC,21,0
+pred_0037,Area 33 (ACC) right,TC,1,0
+pred_0037,WM/unassigned,WT,17588,256
+pred_0037,Area p24ab (pACC) left,WT,5,0
+pred_0037,Frontal-to-Occipital (GapMap) left,WT,2352,34
+pred_0037,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,277,4
+pred_0037,"AM (Thalamus, anteromedial Nucleus) left",WT,18,0
+pred_0037,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,98,1
+pred_0037,Area Id4 (Insula) left,WT,9,0
+pred_0037,Area Id6 (Insula) left,WT,4,0
+pred_0037,Area p32 (pACC) left,WT,54,1
+pred_0037,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,59,1
+pred_0037,Frontal-I.2 (GapMap) left,WT,229,3
+pred_0037,Area 33 (ACC) left,WT,50,1
+pred_0037,"CL (Thalamus, anterior intralaminar nuclei) left",WT,1,0
+pred_0037,"AV (Thalamus, anteroventral Nucleus) left",WT,31,0
+pred_0037,Area p24ab (pACC) right,WT,208,3
+pred_0037,Frontal-to-Occipital (GapMap) right,WT,2268,33
+pred_0037,Frontal-I.2 (GapMap) right,WT,417,6
+pred_0037,Area 33 (ACC) right,WT,1355,20
+pred_0037,WM/unassigned,ET,5173,75
+pred_0037,Frontal-to-Occipital (GapMap) left,ET,635,9
+pred_0037,Frontal-I.2 (GapMap) left,ET,7,0
+pred_0037,Area 33 (ACC) left,ET,444,6
+pred_0037,Frontal-to-Occipital (GapMap) right,ET,519,8
+pred_0037,Frontal-I.2 (GapMap) right,ET,4,0
+pred_0037,Area 33 (ACC) right,ET,62,1

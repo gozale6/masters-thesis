@@ -1,0 +1,42 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0155,WM/unassigned,TC,4738,75
+pred_0155,"Area 6mp (SMA, mesial SFG) left",TC,2,0
+pred_0155,Frontal-to-Occipital (GapMap) left,TC,639,10
+pred_0155,Area 5Ci (SPL) left,TC,56,1
+pred_0155,"Area 6mp (SMA, mesial SFG) right",TC,6,0
+pred_0155,Frontal-to-Occipital (GapMap) right,TC,831,13
+pred_0155,Area 4a (PreCG) right,TC,10,0
+pred_0155,WM/unassigned,WT,16249,256
+pred_0155,"Area 6mp (SMA, mesial SFG) left",WT,498,8
+pred_0155,Frontal-to-Occipital (GapMap) left,WT,4564,72
+pred_0155,"AM (Thalamus, anteromedial Nucleus) left",WT,18,0
+pred_0155,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,69,1
+pred_0155,Area 6d3 (SFS) left,WT,42,1
+pred_0155,"MD (Thalamus, mediodorsal Nucleus) left",WT,210,3
+pred_0155,Area 4a (PreCG) left,WT,151,2
+pred_0155,Area 5M (SPL) left,WT,124,2
+pred_0155,"Area 6ma (preSMA, mesial SFG) left",WT,229,4
+pred_0155,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,66,1
+pred_0155,Area 33 (ACC) left,WT,18,0
+pred_0155,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,6,0
+pred_0155,"CL (Thalamus, anterior intralaminar nuclei) left",WT,321,5
+pred_0155,Area 5Ci (SPL) left,WT,571,9
+pred_0155,"AV (Thalamus, anteroventral Nucleus) left",WT,254,4
+pred_0155,"LD (Thalamus, lateral dorsal Nucleus) right",WT,29,0
+pred_0155,"Area 6mp (SMA, mesial SFG) right",WT,743,12
+pred_0155,Frontal-to-Occipital (GapMap) right,WT,1888,30
+pred_0155,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,14,0
+pred_0155,Area 4a (PreCG) right,WT,1011,16
+pred_0155,Area 5M (SPL) right,WT,136,2
+pred_0155,"Area 6ma (preSMA, mesial SFG) right",WT,76,1
+pred_0155,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,3,0
+pred_0155,Area 5Ci (SPL) right,WT,68,1
+pred_0155,"AV (Thalamus, anteroventral Nucleus) right",WT,26,0
+pred_0155,WM/unassigned,ET,4952,78
+pred_0155,"Area 6mp (SMA, mesial SFG) left",ET,275,4
+pred_0155,Frontal-to-Occipital (GapMap) left,ET,2432,38
+pred_0155,Area 4a (PreCG) left,ET,1,0
+pred_0155,Area 5Ci (SPL) left,ET,174,3
+pred_0155,"Area 6mp (SMA, mesial SFG) right",ET,26,0
+pred_0155,Frontal-to-Occipital (GapMap) right,ET,1717,27
+pred_0155,Area 4a (PreCG) right,ET,45,1

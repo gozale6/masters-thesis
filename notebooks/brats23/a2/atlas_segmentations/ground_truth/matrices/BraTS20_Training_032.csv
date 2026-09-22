@@ -1,0 +1,35 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_032,WM/unassigned,TC,2074,115,26.4,0.0,False
+BraTS20_Training_032,"Area 6mp (SMA, mesial SFG) right",TC,77,4,1.0,3.7,False
+BraTS20_Training_032,Frontal-to-Occipital (GapMap) right,TC,3294,183,41.9,9.7,True
+BraTS20_Training_032,Area 4a (PreCG) right,TC,818,45,10.4,8.8,True
+BraTS20_Training_032,Area 5M (SPL) right,TC,409,23,5.2,14.6,True
+BraTS20_Training_032,Area 5Ci (SPL) right,TC,1095,61,13.9,52.9,True
+BraTS20_Training_032,Area 5L (SPL) right,TC,1,0,0.0,0.0,False
+BraTS20_Training_032,Frontal-to-Occipital (GapMap) left,TC,95,5,1.2,0.3,True
+BraTS20_Training_032,Area 4a (PreCG) left,TC,4,0,0.1,0.1,False
+BraTS20_Training_032,WM/unassigned,WT,4611,256,50.8,0.1,False
+BraTS20_Training_032,"Area 6mp (SMA, mesial SFG) right",WT,836,46,9.2,39.9,True
+BraTS20_Training_032,Frontal-to-Occipital (GapMap) right,WT,1309,73,14.4,3.9,True
+BraTS20_Training_032,Area 6d1 (PreCG) right,WT,155,9,1.7,3.3,False
+BraTS20_Training_032,Area 6d3 (SFS) right,WT,10,1,0.1,0.2,False
+BraTS20_Training_032,Area 4a (PreCG) right,WT,251,14,2.8,2.7,True
+BraTS20_Training_032,Area 5M (SPL) right,WT,93,5,1.0,3.3,False
+BraTS20_Training_032,"Area 6ma (preSMA, mesial SFG) right",WT,31,2,0.3,0.9,False
+BraTS20_Training_032,Area 5Ci (SPL) right,WT,27,1,0.3,1.3,False
+BraTS20_Training_032,Area 5L (SPL) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_032,"Area 6mp (SMA, mesial SFG) left",WT,98,5,1.1,5.3,False
+BraTS20_Training_032,Frontal-to-Occipital (GapMap) left,WT,1297,72,14.3,3.5,True
+BraTS20_Training_032,Area 4a (PreCG) left,WT,234,13,2.6,8.1,True
+BraTS20_Training_032,Area 5M (SPL) left,WT,117,6,1.3,4.6,False
+BraTS20_Training_032,WM/unassigned,ET,4123,229,43.1,0.1,False
+BraTS20_Training_032,"Area 6mp (SMA, mesial SFG) right",ET,249,14,2.6,11.9,False
+BraTS20_Training_032,Frontal-to-Occipital (GapMap) right,ET,1507,84,15.8,4.5,True
+BraTS20_Training_032,Area 4a (PreCG) right,ET,887,49,9.3,9.6,True
+BraTS20_Training_032,Area 5M (SPL) right,ET,677,38,7.1,24.2,True
+BraTS20_Training_032,Area 5Ci (SPL) right,ET,899,50,9.4,43.5,True
+BraTS20_Training_032,Area 5L (SPL) right,ET,2,0,0.0,0.1,False
+BraTS20_Training_032,"Area 6mp (SMA, mesial SFG) left",ET,50,3,0.5,2.7,False
+BraTS20_Training_032,Frontal-to-Occipital (GapMap) left,ET,936,52,9.8,2.5,True
+BraTS20_Training_032,Area 4a (PreCG) left,ET,137,8,1.4,4.8,False
+BraTS20_Training_032,Area 5M (SPL) left,ET,96,5,1.0,3.8,False

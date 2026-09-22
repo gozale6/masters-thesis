@@ -1,0 +1,60 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0164,WM/unassigned,TC,115,1
+pred_0164,Area 3b (PostCG) right,TC,82,0
+pred_0164,Area 1 (PostCG) right,TC,129,1
+pred_0164,Area 6r1 (PreCG) right,TC,1,0
+pred_0164,"Area IFJ2 (IFS, PreCS) right",TC,2,0
+pred_0164,Area 4a (PreCG) right,TC,1,0
+pred_0164,Area 3a (PostCG) right,TC,3,0
+pred_0164,Area 6v3 (PreCG) right,TC,33,0
+pred_0164,Area 45 (IFG) right,TC,2,0
+pred_0164,"Area IFJ1 (IFS, PreCS) right",TC,1,0
+pred_0164,Area PFop (IPL) right,TC,3,0
+pred_0164,Area 6v2 (PreCG) right,TC,4,0
+pred_0164,WM/unassigned,WT,42103,256
+pred_0164,Area 3b (PostCG) right,WT,317,2
+pred_0164,Area 1 (PostCG) right,WT,295,2
+pred_0164,Area Te 1.0 (HESCHL) right,WT,27,0
+pred_0164,Area PFt (IPL) right,WT,29,0
+pred_0164,Area Te 3 (STG) right,WT,790,5
+pred_0164,Area 6r1 (PreCG) right,WT,1870,11
+pred_0164,Area Op6 (Frontal Operculum) right,WT,238,1
+pred_0164,"Area TPJ (STG, SMG) right",WT,10,0
+pred_0164,Area Op1 (POperc) right,WT,36,0
+pred_0164,Area IFS4 (IFS) right,WT,426,3
+pred_0164,Area 44 (IFG) right,WT,2003,12
+pred_0164,"Area IFJ2 (IFS, PreCS) right",WT,85,1
+pred_0164,Area 4a (PreCG) right,WT,78,0
+pred_0164,Area 3a (PostCG) right,WT,33,0
+pred_0164,Area 8v1 (MFG) right,WT,238,1
+pred_0164,"Area MFG5 (MFG, IFG) right",WT,29,0
+pred_0164,Area 6v3 (PreCG) right,WT,2114,13
+pred_0164,Area IFS1 (IFS) right,WT,180,1
+pred_0164,Area Op4 (POperc) right,WT,1748,11
+pred_0164,Area IFS3 (IFS) right,WT,1,0
+pred_0164,Area 8v2 (MFG) right,WT,21,0
+pred_0164,Area 4p (PreCG) right,WT,7,0
+pred_0164,Area Op9 (Frontal Operculum) right,WT,12,0
+pred_0164,Area 45 (IFG) right,WT,1412,9
+pred_0164,Area Te 1.2 (HESCHL) right,WT,29,0
+pred_0164,Area Te 2.1 (STG) right,WT,64,0
+pred_0164,Frontal-II (GapMap) right,WT,529,3
+pred_0164,Area IFS2 (IFS) right,WT,72,0
+pred_0164,"Area IFJ1 (IFS, PreCS) right",WT,102,1
+pred_0164,Area PFop (IPL) right,WT,166,1
+pred_0164,Area 6v2 (PreCG) right,WT,551,3
+pred_0164,Area Te 2.2 (STG) right,WT,243,1
+pred_0164,WM/unassigned,ET,931,6
+pred_0164,Area 3b (PostCG) right,ET,324,2
+pred_0164,Area 1 (PostCG) right,ET,472,3
+pred_0164,Area 6r1 (PreCG) right,ET,5,0
+pred_0164,"Area IFJ2 (IFS, PreCS) right",ET,51,0
+pred_0164,Area 4a (PreCG) right,ET,28,0
+pred_0164,Area 3a (PostCG) right,ET,15,0
+pred_0164,Area 6v3 (PreCG) right,ET,209,1
+pred_0164,Area Op4 (POperc) right,ET,33,0
+pred_0164,Area 4p (PreCG) right,ET,11,0
+pred_0164,Area 45 (IFG) right,ET,11,0
+pred_0164,"Area IFJ1 (IFS, PreCS) right",ET,5,0
+pred_0164,Area PFop (IPL) right,ET,37,0
+pred_0164,Area 6v2 (PreCG) right,ET,27,0

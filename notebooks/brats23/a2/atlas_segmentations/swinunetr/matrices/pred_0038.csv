@@ -1,0 +1,69 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0038,WM/unassigned,TC,14939,256
+pred_0038,"ZI (Thalamus, zona incerta) left",TC,60,1
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",TC,272,5
+pred_0038,CA2 (Hippocampus) left,TC,10,0
+pred_0038,"Area EC (Hippocampal Region, Entorhinal Cortex) left",TC,13,0
+pred_0038,Area FG4 (FusG) left,TC,85,1
+pred_0038,STN (Subthalamus) left,TC,117,2
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) left",TC,553,9
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",TC,269,5
+pred_0038,CA1 (Hippocampus) left,TC,10,0
+pred_0038,HATA (Hippocampus) left,TC,72,1
+pred_0038,"Subc (Hippocampus, Subicular complex) left",TC,227,4
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) left",TC,723,12
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) left",TC,48,1
+pred_0038,Area Ph2 (PhG) left,TC,48,1
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",TC,259,4
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) right",TC,323,6
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",TC,66,1
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) right",TC,39,1
+pred_0038,WM/unassigned,WT,9849,169
+pred_0038,"Po (Thalamus, posterior Nucleus) left",WT,42,1
+pred_0038,"ZI (Thalamus, zona incerta) left",WT,325,6
+pred_0038,CGM (Metathalamus) left,WT,27,0
+pred_0038,"PUm (Thalamus, medial pulvinar) left",WT,32,1
+pred_0038,CA2 (Hippocampus) left,WT,93,2
+pred_0038,"Li (Thalamus, limitans Nucleus) left",WT,78,1
+pred_0038,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,76,1
+pred_0038,"PUa (Thalamus, anterior pulvinar) left",WT,25,0
+pred_0038,"Pf (Thalamus, parafascicular Nucleus) left",WT,62,1
+pred_0038,Area FG4 (FusG) left,WT,105,2
+pred_0038,STN (Subthalamus) left,WT,134,2
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,82,1
+pred_0038,Area Ph3 (PhG) left,WT,41,1
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,16,0
+pred_0038,DG (Hippocampus) left,WT,4,0
+pred_0038,"VM (Thalamus, ventral medial Nucleus) left",WT,19,0
+pred_0038,"CM (Thalamus, centromedian Nucleus) left",WT,81,1
+pred_0038,CA1 (Hippocampus) left,WT,107,2
+pred_0038,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,296,5
+pred_0038,HATA (Hippocampus) left,WT,225,4
+pred_0038,"CL (Thalamus, anterior intralaminar nuclei) left",WT,33,1
+pred_0038,Frontal-to-Temporal-II (GapMap) left,WT,74,1
+pred_0038,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,13,0
+pred_0038,"Sg (Thalamus, suprageniculate Nucleus) left",WT,99,2
+pred_0038,"Subc (Hippocampus, Subicular complex) left",WT,755,13
+pred_0038,"TrS (Hippocampus, Transsubiculum) left",WT,21,0
+pred_0038,"VLA (Thalamus, ventral lateral anterior Nucleus) left",WT,6,0
+pred_0038,"VPM (Thalamus, ventral posterior medial Nucleus) left",WT,9,0
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,69,1
+pred_0038,MF (Amygdala) left,WT,2,0
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) left",WT,77,1
+pred_0038,SF (Amygdala) left,WT,88,2
+pred_0038,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) left",WT,28,0
+pred_0038,"VPi (Thalamus, ventroposterior inferior Nucleus) left",WT,51,1
+pred_0038,Area Ph2 (PhG) left,WT,141,2
+pred_0038,"ZI (Thalamus, zona incerta) right",WT,61,1
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,101,2
+pred_0038,STN (Subthalamus) right,WT,146,3
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,343,6
+pred_0038,"VM (Thalamus, ventral medial Nucleus) right",WT,2,0
+pred_0038,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,1,0
+pred_0038,HATA (Hippocampus) right,WT,1,0
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,502,9
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) right",WT,84,1
+pred_0038,WM/unassigned,ET,71,1
+pred_0038,STN (Subthalamus) left,ET,9,0
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",ET,1,0
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) right",ET,8,0

@@ -1,0 +1,86 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0202,WM/unassigned,TC,10845,175
+pred_0202,Area p24ab (pACC) left,TC,1455,23
+pred_0202,Frontal-to-Occipital (GapMap) left,TC,77,1
+pred_0202,Area Fp2 (FPole) left,TC,1360,22
+pred_0202,Area Fp1 (FPole) left,TC,83,1
+pred_0202,Area p32 (pACC) left,TC,1698,27
+pred_0202,Area p24c (pACC) left,TC,745,12
+pred_0202,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,28,0
+pred_0202,Area s32 (sACC) left,TC,88,1
+pred_0202,Area s24 (sACC) left,TC,416,7
+pred_0202,Area p24ab (pACC) right,TC,1182,19
+pred_0202,Frontal-to-Occipital (GapMap) right,TC,1,0
+pred_0202,Area Fp2 (FPole) right,TC,400,6
+pred_0202,Area Fp1 (FPole) right,TC,236,4
+pred_0202,Area p32 (pACC) right,TC,1417,23
+pred_0202,Area Fo3 (OFC) right,TC,1,0
+pred_0202,Area p24c (pACC) right,TC,1397,23
+pred_0202,Area 33 (ACC) right,TC,212,3
+pred_0202,Area s32 (sACC) right,TC,145,2
+pred_0202,Area s24 (sACC) right,TC,393,6
+pred_0202,WM/unassigned,WT,14856,239
+pred_0202,Area SFG4 (SFG) left,WT,2,0
+pred_0202,"ZI (Thalamus, zona incerta) left",WT,11,0
+pred_0202,Frontal-to-Occipital (GapMap) left,WT,3457,56
+pred_0202,"BST (Basal Forebrain, Bed Nucleus) left",WT,168,3
+pred_0202,Area Fp2 (FPole) left,WT,80,1
+pred_0202,Area 25 (sACC) left,WT,129,2
+pred_0202,Area Fp1 (FPole) left,WT,57,1
+pred_0202,STN (Subthalamus) left,WT,12,0
+pred_0202,Area p32 (pACC) left,WT,636,10
+pred_0202,Area SFG2 (SFG) left,WT,1,0
+pred_0202,Area SFG3 (SFG) left,WT,61,1
+pred_0202,"AcbM (Ventral Striatum, Medial Accumbens) left",WT,9,0
+pred_0202,Area p24c (pACC) left,WT,82,1
+pred_0202,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,102,2
+pred_0202,Frontal-I.2 (GapMap) left,WT,694,11
+pred_0202,Area 33 (ACC) left,WT,277,4
+pred_0202,Ch 123 (Basal Forebrain) left,WT,28,0
+pred_0202,VP (Ventral Pallidum) left,WT,99,2
+pred_0202,Area s32 (sACC) left,WT,60,1
+pred_0202,Area Fo1 (OFC) left,WT,12,0
+pred_0202,Area s24 (sACC) left,WT,156,3
+pred_0202,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,6,0
+pred_0202,Area p24ab (pACC) right,WT,113,2
+pred_0202,Frontal-to-Occipital (GapMap) right,WT,1403,23
+pred_0202,"BST (Basal Forebrain, Bed Nucleus) right",WT,62,1
+pred_0202,Area Fp2 (FPole) right,WT,38,1
+pred_0202,Area 25 (sACC) right,WT,73,1
+pred_0202,Area Fp1 (FPole) right,WT,63,1
+pred_0202,Area p32 (pACC) right,WT,592,10
+pred_0202,Area SFG2 (SFG) right,WT,13,0
+pred_0202,Area Fo3 (OFC) right,WT,10,0
+pred_0202,Area Op4 (POperc) right,WT,46,1
+pred_0202,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,33,1
+pred_0202,Area p24c (pACC) right,WT,215,3
+pred_0202,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,182,3
+pred_0202,Frontal-I.2 (GapMap) right,WT,2139,34
+pred_0202,Area 33 (ACC) right,WT,448,7
+pred_0202,Ch 123 (Basal Forebrain) right,WT,16,0
+pred_0202,Area s32 (sACC) right,WT,3,0
+pred_0202,Area Fo1 (OFC) right,WT,2,0
+pred_0202,Area s24 (sACC) right,WT,46,1
+pred_0202,WM/unassigned,ET,15880,256
+pred_0202,Area p24ab (pACC) left,ET,371,6
+pred_0202,Frontal-to-Occipital (GapMap) left,ET,404,7
+pred_0202,Area Fp2 (FPole) left,ET,1259,20
+pred_0202,Area 25 (sACC) left,ET,6,0
+pred_0202,Area Fp1 (FPole) left,ET,489,8
+pred_0202,Area p32 (pACC) left,ET,3134,51
+pred_0202,Area p24c (pACC) left,ET,309,5
+pred_0202,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,458,7
+pred_0202,Area s32 (sACC) left,ET,705,11
+pred_0202,Area Fo1 (OFC) left,ET,13,0
+pred_0202,Area s24 (sACC) left,ET,430,7
+pred_0202,Area p24ab (pACC) right,ET,542,9
+pred_0202,Frontal-to-Occipital (GapMap) right,ET,35,1
+pred_0202,Area Fp2 (FPole) right,ET,1831,30
+pred_0202,Area Fp1 (FPole) right,ET,886,14
+pred_0202,Area p32 (pACC) right,ET,2747,44
+pred_0202,Area Fo3 (OFC) right,ET,35,1
+pred_0202,Area p24c (pACC) right,ET,688,11
+pred_0202,Area 33 (ACC) right,ET,320,5
+pred_0202,Area s32 (sACC) right,ET,526,8
+pred_0202,Area Fo1 (OFC) right,ET,125,2
+pred_0202,Area s24 (sACC) right,ET,334,5

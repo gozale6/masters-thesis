@@ -1,0 +1,61 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0146,WM/unassigned,TC,569,4
+pred_0146,Area 3b (PostCG) right,TC,109,1
+pred_0146,Area 1 (PostCG) right,TC,15,0
+pred_0146,Area PFt (IPL) right,TC,77,0
+pred_0146,Area hIP2 (IPS) right,TC,8,0
+pred_0146,Area PFm (IPL) right,TC,3,0
+pred_0146,Area 4a (PreCG) right,TC,24,0
+pred_0146,Area 3a (PostCG) right,TC,1,0
+pred_0146,Area hIP3 (IPS) right,TC,174,1
+pred_0146,Area 4p (PreCG) right,TC,34,0
+pred_0146,Area 2 (PostCS) right,TC,262,2
+pred_0146,WM/unassigned,WT,40511,256
+pred_0146,Area 3b (PostCG) right,WT,949,6
+pred_0146,Area PF (IPL) right,WT,2042,13
+pred_0146,Area 1 (PostCG) right,WT,1258,8
+pred_0146,Area PFt (IPL) right,WT,1722,11
+pred_0146,Area 6d1 (PreCG) right,WT,362,2
+pred_0146,Area hIP6 (IPS) right,WT,405,3
+pred_0146,"Area TPJ (STG, SMG) right",WT,183,1
+pred_0146,Area Op1 (POperc) right,WT,1067,7
+pred_0146,Area IFS4 (IFS) right,WT,8,0
+pred_0146,Area 6d3 (SFS) right,WT,1272,8
+pred_0146,Area 6v1 (PreCG) right,WT,2214,14
+pred_0146,Area hIP2 (IPS) right,WT,108,1
+pred_0146,Area PGa (IPL) right,WT,436,3
+pred_0146,Area PFm (IPL) right,WT,939,6
+pred_0146,Area 4a (PreCG) right,WT,2145,14
+pred_0146,Area 3a (PostCG) right,WT,602,4
+pred_0146,Area 8v1 (MFG) right,WT,27,0
+pred_0146,Area Te 1.1 (HESCHL) right,WT,11,0
+pred_0146,Area 6v3 (PreCG) right,WT,133,1
+pred_0146,Area Op2 (POperc) right,WT,251,2
+pred_0146,Area Ig1 (Insula) right,WT,2,0
+pred_0146,Area PFcm (IPL) right,WT,2001,13
+pred_0146,Area hIP5 (IPS) right,WT,204,1
+pred_0146,Area hIP3 (IPS) right,WT,1936,12
+pred_0146,Area 4p (PreCG) right,WT,708,4
+pred_0146,Area hIP8 (IPS) right,WT,110,1
+pred_0146,Temporal-to-Parietal (GapMap) right,WT,1020,6
+pred_0146,Area hIP1 (IPS) right,WT,1016,6
+pred_0146,Area 2 (PostCS) right,WT,570,4
+pred_0146,Area 7A (SPL) right,WT,113,1
+pred_0146,Area Op3 (POperc) right,WT,312,2
+pred_0146,Frontal-II (GapMap) right,WT,1174,7
+pred_0146,Area PFop (IPL) right,WT,320,2
+pred_0146,Area 6v2 (PreCG) right,WT,1804,11
+pred_0146,Area Te 2.2 (STG) right,WT,210,1
+pred_0146,Area 7PC (SPL) right,WT,406,3
+pred_0146,WM/unassigned,ET,4033,25
+pred_0146,Area 3b (PostCG) right,ET,572,4
+pred_0146,Area PF (IPL) right,ET,13,0
+pred_0146,Area 1 (PostCG) right,ET,692,4
+pred_0146,Area PFt (IPL) right,ET,1229,8
+pred_0146,Area hIP2 (IPS) right,ET,269,2
+pred_0146,Area PFm (IPL) right,ET,86,1
+pred_0146,Area 4a (PreCG) right,ET,313,2
+pred_0146,Area 3a (PostCG) right,ET,35,0
+pred_0146,Area hIP3 (IPS) right,ET,811,5
+pred_0146,Area 4p (PreCG) right,ET,758,5
+pred_0146,Area 2 (PostCS) right,ET,1130,7

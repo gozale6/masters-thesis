@@ -1,0 +1,160 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_310,WM/unassigned,TC,41616,232,44.3,0.5,False
+BraTS20_Training_310,Astr (Amygdala) right,TC,288,2,0.3,83.5,False
+BraTS20_Training_310,Area Id8 (Insula) right,TC,870,5,0.9,100.0,False
+BraTS20_Training_310,Area Te 1.0 (HESCHL) right,TC,748,4,0.8,96.0,False
+BraTS20_Training_310,Area STS2 (STS) right,TC,5147,29,5.5,78.3,True
+BraTS20_Training_310,Area Id3 (Insula) right,TC,1114,6,1.2,100.0,False
+BraTS20_Training_310,"Area PirTB (PiriformCortexMesial, temporobasal) right",TC,34,0,0.0,89.5,False
+BraTS20_Training_310,Area TI (STG) right,TC,1053,6,1.1,100.0,False
+BraTS20_Training_310,Area Te 3 (STG) right,TC,2175,12,2.3,50.5,False
+BraTS20_Training_310,Area 6r1 (PreCG) right,TC,967,5,1.0,40.2,False
+BraTS20_Training_310,Area Op6 (Frontal Operculum) right,TC,1044,6,1.1,99.9,False
+BraTS20_Training_310,Area Op7 (Frontal Operculum) right,TC,398,2,0.4,100.0,False
+BraTS20_Training_310,Area Ia3 (Insula) right,TC,234,1,0.2,100.0,False
+BraTS20_Training_310,Area Ig2 (Insula) right,TC,51,0,0.1,8.8,False
+BraTS20_Training_310,CA2 (Hippocampus) right,TC,253,1,0.3,19.8,False
+BraTS20_Training_310,Area Id4 (Insula) right,TC,644,4,0.7,71.3,False
+BraTS20_Training_310,Area Op1 (POperc) right,TC,305,2,0.3,15.2,False
+BraTS20_Training_310,Area Id6 (Insula) right,TC,2639,15,2.8,99.9,True
+BraTS20_Training_310,Area 44 (IFG) right,TC,1931,11,2.1,72.6,False
+BraTS20_Training_310,Area Fo7 (OFC) right,TC,366,2,0.4,31.4,False
+BraTS20_Training_310,Area Ia1 (Insula) right,TC,274,2,0.3,100.0,False
+BraTS20_Training_310,VTM (Amygdala) right,TC,4,0,0.0,1.8,False
+BraTS20_Training_310,Area Op8 (Frontal Operculum) right,TC,1262,7,1.3,100.0,False
+BraTS20_Training_310,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,1369,8,1.5,81.9,False
+BraTS20_Training_310,"Area IFJ2 (IFS, PreCS) right",TC,2,0,0.0,0.4,False
+BraTS20_Training_310,Area Op5 (Frontal Operculum) right,TC,1477,8,1.6,98.3,False
+BraTS20_Training_310,LB (Amygdala) right,TC,7,0,0.0,0.8,False
+BraTS20_Training_310,Area Op10 (Frontal Operculum) right,TC,174,1,0.2,100.0,False
+BraTS20_Training_310,Area Id7 (Insula) right,TC,715,4,0.8,99.4,False
+BraTS20_Training_310,Area Fo6 (OFC) right,TC,111,1,0.1,4.1,False
+BraTS20_Training_310,Area Fo3 (OFC) right,TC,1108,6,1.2,16.4,False
+BraTS20_Training_310,Area Te 1.1 (HESCHL) right,TC,51,0,0.1,4.7,False
+BraTS20_Training_310,"Area MFG5 (MFG, IFG) right",TC,25,0,0.0,1.0,False
+BraTS20_Training_310,Area Ig3 (Insula) right,TC,73,0,0.1,14.1,False
+BraTS20_Training_310,Area IFS1 (IFS) right,TC,76,0,0.1,6.0,False
+BraTS20_Training_310,Area Op4 (POperc) right,TC,1132,6,1.2,43.0,False
+BraTS20_Training_310,Ch 4 (Basal Forebrain) right,TC,143,1,0.2,86.1,False
+BraTS20_Training_310,Area Id10 (Insula) right,TC,1601,9,1.7,98.1,False
+BraTS20_Training_310,Frontal-to-Temporal-I (GapMap) right,TC,1702,9,1.8,82.5,False
+BraTS20_Training_310,CM (Amygdala) right,TC,304,2,0.3,49.5,False
+BraTS20_Training_310,Area Id2 (Insula) right,TC,340,2,0.4,70.8,False
+BraTS20_Training_310,CA1 (Hippocampus) right,TC,60,0,0.1,3.5,False
+BraTS20_Training_310,Frontal-I.1 (GapMap) right,TC,256,1,0.3,4.8,False
+BraTS20_Training_310,IF (Amygdala) right,TC,103,1,0.1,36.1,False
+BraTS20_Training_310,Area Op9 (Frontal Operculum) right,TC,2432,14,2.6,99.3,True
+BraTS20_Training_310,Temporal-to-Parietal (GapMap) right,TC,5197,29,5.5,7.7,True
+BraTS20_Training_310,"TuTi (Basal Forebrain, Terminal islands) right",TC,88,0,0.1,24.9,False
+BraTS20_Training_310,Area 45 (IFG) right,TC,2745,15,2.9,52.1,True
+BraTS20_Training_310,Frontal-to-Temporal-II (GapMap) right,TC,1528,9,1.6,59.7,False
+BraTS20_Training_310,Area Ia2 (Insula) right,TC,192,1,0.2,100.0,False
+BraTS20_Training_310,Area Id1 (Insula) right,TC,233,1,0.2,59.1,False
+BraTS20_Training_310,Area Te 1.2 (HESCHL) right,TC,523,3,0.6,100.0,False
+BraTS20_Training_310,Area Id5 (Insula) right,TC,860,5,0.9,90.1,False
+BraTS20_Training_310,Area Te 2.1 (STG) right,TC,485,3,0.5,100.0,False
+BraTS20_Training_310,Area Op3 (POperc) right,TC,156,1,0.2,21.5,False
+BraTS20_Training_310,CA3 (Hippocampus) right,TC,10,0,0.0,1.5,False
+BraTS20_Training_310,Area STS1 (STS) right,TC,2257,13,2.4,67.9,False
+BraTS20_Training_310,Area Id9 (Insula) right,TC,916,5,1.0,100.0,False
+BraTS20_Training_310,Area IFS2 (IFS) right,TC,95,1,0.1,30.5,False
+BraTS20_Training_310,VP (Ventral Pallidum) right,TC,149,1,0.2,23.5,False
+BraTS20_Training_310,SF (Amygdala) right,TC,3,0,0.0,0.4,False
+BraTS20_Training_310,Area Te 2.2 (STG) right,TC,619,3,0.7,31.4,False
+BraTS20_Training_310,Area TeI (STG) right,TC,1256,7,1.3,98.9,False
+BraTS20_Training_310,WM/unassigned,WT,45928,256,56.4,0.6,False
+BraTS20_Training_310,Area 3b (PostCG) right,WT,71,0,0.1,3.2,False
+BraTS20_Training_310,Area CoS1 (CoS) right,WT,5,0,0.0,1.6,False
+BraTS20_Training_310,Astr (Amygdala) right,WT,53,0,0.1,15.4,False
+BraTS20_Training_310,Area Te 1.0 (HESCHL) right,WT,31,0,0.0,4.0,False
+BraTS20_Training_310,Area STS2 (STS) right,WT,1278,7,1.6,19.4,False
+BraTS20_Training_310,"ZI (Thalamus, zona incerta) right",WT,11,0,0.0,4.6,False
+BraTS20_Training_310,"Area PirTB (PiriformCortexMesial, temporobasal) right",WT,2,0,0.0,5.3,False
+BraTS20_Training_310,Area FG5 (FusG) right,WT,69,0,0.1,5.9,False
+BraTS20_Training_310,Area Te 3 (STG) right,WT,946,5,1.2,22.0,False
+BraTS20_Training_310,Area 6r1 (PreCG) right,WT,739,4,0.9,30.7,False
+BraTS20_Training_310,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,533,3,0.7,60.1,False
+BraTS20_Training_310,Area Op6 (Frontal Operculum) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_310,"Area TPJ (STG, SMG) right",WT,618,3,0.8,42.2,False
+BraTS20_Training_310,"BST (Basal Forebrain, Bed Nucleus) right",WT,62,0,0.1,34.4,False
+BraTS20_Training_310,Area Ig2 (Insula) right,WT,67,0,0.1,11.6,False
+BraTS20_Training_310,CA2 (Hippocampus) right,WT,635,4,0.8,49.6,False
+BraTS20_Training_310,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,97,1,0.1,16.3,False
+BraTS20_Training_310,Area Id4 (Insula) right,WT,157,1,0.2,17.4,False
+BraTS20_Training_310,Area Op1 (POperc) right,WT,1362,8,1.7,68.0,True
+BraTS20_Training_310,"Tu (Basal Forebrain, Tuberculum) right",WT,3,0,0.0,4.7,False
+BraTS20_Training_310,"Rt (Thalamus, reticular Nucleus) right",WT,173,1,0.2,9.0,False
+BraTS20_Training_310,Area Id6 (Insula) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_310,Area IFS4 (IFS) right,WT,3,0,0.0,0.4,False
+BraTS20_Training_310,Area 44 (IFG) right,WT,614,3,0.8,23.1,False
+BraTS20_Training_310,Area Fo7 (OFC) right,WT,393,2,0.5,33.7,False
+BraTS20_Training_310,VTM (Amygdala) right,WT,166,1,0.2,75.5,False
+BraTS20_Training_310,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,276,2,0.3,16.5,False
+BraTS20_Training_310,"Area IFJ2 (IFS, PreCS) right",WT,452,3,0.6,99.6,False
+BraTS20_Training_310,Area 25 (sACC) right,WT,15,0,0.0,3.8,False
+BraTS20_Training_310,Area Op5 (Frontal Operculum) right,WT,26,0,0.0,1.7,False
+BraTS20_Training_310,LB (Amygdala) right,WT,112,1,0.1,13.5,False
+BraTS20_Training_310,Area MFG2 (MFG) right,WT,303,2,0.4,12.2,False
+BraTS20_Training_310,Area 3a (PostCG) right,WT,28,0,0.0,4.3,False
+BraTS20_Training_310,Area FG4 (FusG) right,WT,2,0,0.0,0.0,False
+BraTS20_Training_310,Area Id7 (Insula) right,WT,4,0,0.0,0.6,False
+BraTS20_Training_310,STN (Subthalamus) right,WT,25,0,0.0,7.3,False
+BraTS20_Training_310,Area Fo6 (OFC) right,WT,205,1,0.3,7.6,False
+BraTS20_Training_310,Area Fo3 (OFC) right,WT,2071,12,2.5,30.7,True
+BraTS20_Training_310,Area Te 1.1 (HESCHL) right,WT,335,2,0.4,31.1,False
+BraTS20_Training_310,"Area MFG5 (MFG, IFG) right",WT,739,4,0.9,28.9,False
+BraTS20_Training_310,Area MFG4 (MFG) right,WT,208,1,0.3,4.5,False
+BraTS20_Training_310,"LP (Thalamus, lateral posterior Nucleus) right",WT,44,0,0.1,11.5,False
+BraTS20_Training_310,Area Ig3 (Insula) right,WT,256,1,0.3,49.5,False
+BraTS20_Training_310,Area 6v3 (PreCG) right,WT,316,2,0.4,11.3,False
+BraTS20_Training_310,Area Fo4 (OFC) right,WT,46,0,0.1,2.9,False
+BraTS20_Training_310,Area IFS1 (IFS) right,WT,787,4,1.0,62.1,False
+BraTS20_Training_310,Area Op4 (POperc) right,WT,753,4,0.9,28.6,False
+BraTS20_Training_310,Ch 4 (Basal Forebrain) right,WT,23,0,0.0,13.9,False
+BraTS20_Training_310,Area Op2 (POperc) right,WT,74,0,0.1,10.9,False
+BraTS20_Training_310,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,54,0,0.1,30.3,False
+BraTS20_Training_310,DG (Hippocampus) right,WT,27,0,0.0,13.6,False
+BraTS20_Training_310,Area Id10 (Insula) right,WT,16,0,0.0,1.0,False
+BraTS20_Training_310,Area PFcm (IPL) right,WT,227,1,0.3,9.9,False
+BraTS20_Training_310,"Area PirT (PiriformCortexMesial, temporal) right",WT,1,0,0.0,2.0,False
+BraTS20_Training_310,Frontal-to-Temporal-I (GapMap) right,WT,171,1,0.2,8.3,False
+BraTS20_Training_310,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,683,4,0.8,65.5,False
+BraTS20_Training_310,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,78,0,0.1,15.9,False
+BraTS20_Training_310,CM (Amygdala) right,WT,310,2,0.4,50.5,False
+BraTS20_Training_310,Area OTS1 (OTS) right,WT,361,2,0.4,34.6,False
+BraTS20_Training_310,Area Id2 (Insula) right,WT,93,1,0.1,19.4,False
+BraTS20_Training_310,CA1 (Hippocampus) right,WT,732,4,0.9,42.5,False
+BraTS20_Training_310,Frontal-I.1 (GapMap) right,WT,2712,15,3.3,50.4,True
+BraTS20_Training_310,IF (Amygdala) right,WT,88,0,0.1,30.9,False
+BraTS20_Training_310,Area Op9 (Frontal Operculum) right,WT,17,0,0.0,0.7,False
+BraTS20_Training_310,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,108,1,0.1,9.5,False
+BraTS20_Training_310,Temporal-to-Parietal (GapMap) right,WT,6881,38,8.5,10.2,True
+BraTS20_Training_310,HATA (Hippocampus) right,WT,29,0,0.0,10.9,False
+BraTS20_Training_310,"TuTi (Basal Forebrain, Terminal islands) right",WT,153,1,0.2,43.3,False
+BraTS20_Training_310,Area 45 (IFG) right,WT,2219,12,2.7,42.1,True
+BraTS20_Training_310,"CL (Thalamus, anterior intralaminar nuclei) right",WT,7,0,0.0,0.6,False
+BraTS20_Training_310,Frontal-to-Temporal-II (GapMap) right,WT,253,1,0.3,9.9,False
+BraTS20_Training_310,Area Id1 (Insula) right,WT,70,0,0.1,17.8,False
+BraTS20_Training_310,Area Id5 (Insula) right,WT,53,0,0.1,5.6,False
+BraTS20_Training_310,Ch 123 (Basal Forebrain) right,WT,10,0,0.0,3.9,False
+BraTS20_Training_310,Area Op3 (POperc) right,WT,533,3,0.7,73.4,False
+BraTS20_Training_310,"Subc (Hippocampus, Subicular complex) right",WT,147,1,0.2,3.5,False
+BraTS20_Training_310,CA3 (Hippocampus) right,WT,155,1,0.2,23.1,False
+BraTS20_Training_310,Frontal-II (GapMap) right,WT,137,1,0.2,3.5,False
+BraTS20_Training_310,"VLA (Thalamus, ventral lateral anterior Nucleus) right",WT,38,0,0.0,58.5,False
+BraTS20_Training_310,Area STS1 (STS) right,WT,1005,6,1.2,30.2,False
+BraTS20_Training_310,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,3,0,0.0,0.5,False
+BraTS20_Training_310,Area IFS2 (IFS) right,WT,216,1,0.3,69.5,False
+BraTS20_Training_310,VP (Ventral Pallidum) right,WT,467,3,0.6,73.5,False
+BraTS20_Training_310,MF (Amygdala) right,WT,37,0,0.0,100.0,False
+BraTS20_Training_310,SF (Amygdala) right,WT,273,2,0.3,35.5,False
+BraTS20_Training_310,Area Fo1 (OFC) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_310,"VPi (Thalamus, ventroposterior inferior Nucleus) right",WT,22,0,0.0,19.6,False
+BraTS20_Training_310,"Area IFJ1 (IFS, PreCS) right",WT,345,2,0.4,86.0,False
+BraTS20_Training_310,Area s24 (sACC) right,WT,5,0,0.0,0.3,False
+BraTS20_Training_310,Area PFop (IPL) right,WT,3,0,0.0,0.2,False
+BraTS20_Training_310,Area 6v2 (PreCG) right,WT,248,1,0.3,6.4,False
+BraTS20_Training_310,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,51,0,0.1,16.2,False
+BraTS20_Training_310,Area Fo2 (OFC) right,WT,185,1,0.2,9.5,False
+BraTS20_Training_310,Area Te 2.2 (STG) right,WT,1019,6,1.3,51.6,False
+BraTS20_Training_310,Area TeI (STG) right,WT,14,0,0.0,1.1,False

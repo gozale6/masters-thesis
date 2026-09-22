@@ -1,0 +1,47 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0112,WM/unassigned,TC,146,1
+pred_0112,Frontal-to-Occipital (GapMap) left,TC,4,0
+pred_0112,Frontal-to-Occipital (GapMap) right,TC,79,1
+pred_0112,Area 33 (ACC) right,TC,19,0
+pred_0112,WM/unassigned,WT,38444,256
+pred_0112,"Area 6mp (SMA, mesial SFG) left",WT,13,0
+pred_0112,Area p24ab (pACC) left,WT,32,0
+pred_0112,Frontal-to-Occipital (GapMap) left,WT,6770,45
+pred_0112,"AM (Thalamus, anteromedial Nucleus) left",WT,27,0
+pred_0112,Area 8d2 (SFG) left,WT,57,0
+pred_0112,Area p32 (pACC) left,WT,241,2
+pred_0112,"Area 6ma (preSMA, mesial SFG) left",WT,547,4
+pred_0112,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,2,0
+pred_0112,Frontal-I.2 (GapMap) left,WT,1793,12
+pred_0112,Area 33 (ACC) left,WT,557,4
+pred_0112,"AV (Thalamus, anteroventral Nucleus) left",WT,100,1
+pred_0112,"LD (Thalamus, lateral dorsal Nucleus) right",WT,109,1
+pred_0112,"Area 6mp (SMA, mesial SFG) right",WT,1007,7
+pred_0112,Area p24ab (pACC) right,WT,326,2
+pred_0112,"PUm (Thalamus, medial pulvinar) right",WT,1,0
+pred_0112,Frontal-to-Occipital (GapMap) right,WT,7388,49
+pred_0112,Area 6d1 (PreCG) right,WT,11,0
+pred_0112,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,140,1
+pred_0112,"AM (Thalamus, anteromedial Nucleus) right",WT,25,0
+pred_0112,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,127,1
+pred_0112,"Rt (Thalamus, reticular Nucleus) right",WT,174,1
+pred_0112,Area 8d2 (SFG) right,WT,30,0
+pred_0112,"MD (Thalamus, mediodorsal Nucleus) right",WT,2,0
+pred_0112,Area 4a (PreCG) right,WT,173,1
+pred_0112,Area p32 (pACC) right,WT,472,3
+pred_0112,Area SFG2 (SFG) right,WT,2,0
+pred_0112,Area 6d2 (PreCG) right,WT,37,0
+pred_0112,"Area 6ma (preSMA, mesial SFG) right",WT,1860,12
+pred_0112,Area p24c (pACC) right,WT,29,0
+pred_0112,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,231,2
+pred_0112,Frontal-I.2 (GapMap) right,WT,3351,22
+pred_0112,Area 33 (ACC) right,WT,1063,7
+pred_0112,"CL (Thalamus, anterior intralaminar nuclei) right",WT,75,0
+pred_0112,Area 5Ci (SPL) right,WT,4,0
+pred_0112,"AV (Thalamus, anteroventral Nucleus) right",WT,254,2
+pred_0112,Area 8d1 (SFG) right,WT,98,1
+pred_0112,WM/unassigned,ET,3548,24
+pred_0112,Frontal-to-Occipital (GapMap) left,ET,35,0
+pred_0112,Area 33 (ACC) left,ET,3,0
+pred_0112,Frontal-to-Occipital (GapMap) right,ET,1055,7
+pred_0112,Area 33 (ACC) right,ET,159,1

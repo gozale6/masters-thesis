@@ -1,0 +1,22 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_288,WM/unassigned,TC,11773,108,62.4,0.2,False
+BraTS20_Training_288,Area STS2 (STS) right,TC,488,4,2.6,7.4,True
+BraTS20_Training_288,Area FG5 (FusG) right,TC,19,0,0.1,1.6,True
+BraTS20_Training_288,Area FG4 (FusG) right,TC,90,1,0.5,2.0,True
+BraTS20_Training_288,Area OTS1 (OTS) right,TC,86,1,0.5,8.3,True
+BraTS20_Training_288,Temporal-to-Parietal (GapMap) right,TC,6412,59,34.0,9.5,True
+BraTS20_Training_288,Area STS1 (STS) right,TC,5,0,0.0,0.2,False
+BraTS20_Training_288,WM/unassigned,WT,27882,256,70.0,0.4,False
+BraTS20_Training_288,Area STS2 (STS) right,WT,2042,19,5.1,31.1,True
+BraTS20_Training_288,Area Te 3 (STG) right,WT,334,3,0.8,7.8,True
+BraTS20_Training_288,Area FG2 (FusG) right,WT,3,0,0.0,0.2,False
+BraTS20_Training_288,Area FG4 (FusG) right,WT,1619,15,4.1,35.8,True
+BraTS20_Training_288,Area OTS1 (OTS) right,WT,170,2,0.4,16.3,False
+BraTS20_Training_288,Temporal-to-Parietal (GapMap) right,WT,7067,65,17.7,10.5,True
+BraTS20_Training_288,Area STS1 (STS) right,WT,728,7,1.8,21.9,True
+BraTS20_Training_288,WM/unassigned,ET,10946,101,59.9,0.1,False
+BraTS20_Training_288,Area STS2 (STS) right,ET,1352,12,7.4,20.6,True
+BraTS20_Training_288,Area FG4 (FusG) right,ET,135,1,0.7,3.0,True
+BraTS20_Training_288,Area OTS1 (OTS) right,ET,317,3,1.7,30.4,True
+BraTS20_Training_288,Temporal-to-Parietal (GapMap) right,ET,5418,50,29.6,8.0,True
+BraTS20_Training_288,Area STS1 (STS) right,ET,115,1,0.6,3.5,True

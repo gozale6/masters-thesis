@@ -1,0 +1,48 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_044,WM/unassigned,TC,272,6,67.7,0.0,False
+BraTS20_Training_044,"Area 6mp (SMA, mesial SFG) right",TC,1,0,0.2,0.0,True
+BraTS20_Training_044,Frontal-to-Occipital (GapMap) right,TC,128,3,31.8,0.4,True
+BraTS20_Training_044,"Area 6ma (preSMA, mesial SFG) right",TC,1,0,0.2,0.0,True
+BraTS20_Training_044,WM/unassigned,WT,11003,256,63.5,0.1,False
+BraTS20_Training_044,Area Id8 (Insula) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_044,Area Te 1.0 (HESCHL) right,WT,362,8,2.1,46.5,True
+BraTS20_Training_044,"Area 6mp (SMA, mesial SFG) right",WT,10,0,0.1,0.5,False
+BraTS20_Training_044,Frontal-to-Occipital (GapMap) right,WT,562,13,3.2,1.7,True
+BraTS20_Training_044,Area Op7 (Frontal Operculum) right,WT,162,4,0.9,40.7,False
+BraTS20_Training_044,Area Ig2 (Insula) right,WT,300,7,1.7,51.8,False
+BraTS20_Training_044,Area Id4 (Insula) right,WT,558,13,3.2,61.8,True
+BraTS20_Training_044,Area Op1 (POperc) right,WT,195,5,1.1,9.7,False
+BraTS20_Training_044,"Rt (Thalamus, reticular Nucleus) right",WT,5,0,0.0,0.3,False
+BraTS20_Training_044,Area Id6 (Insula) right,WT,408,9,2.4,15.4,True
+BraTS20_Training_044,Area 6d3 (SFS) right,WT,277,6,1.6,6.2,False
+BraTS20_Training_044,Area 6v1 (PreCG) right,WT,142,3,0.8,3.6,False
+BraTS20_Training_044,Area Op8 (Frontal Operculum) right,WT,107,2,0.6,8.5,False
+BraTS20_Training_044,Area Op5 (Frontal Operculum) right,WT,198,5,1.1,13.2,False
+BraTS20_Training_044,Area 3a (PostCG) right,WT,48,1,0.3,7.3,False
+BraTS20_Training_044,Area 8v1 (MFG) right,WT,79,2,0.5,2.2,False
+BraTS20_Training_044,Area Te 1.1 (HESCHL) right,WT,167,4,1.0,15.5,False
+BraTS20_Training_044,Area Ig3 (Insula) right,WT,345,8,2.0,66.7,False
+BraTS20_Training_044,Area 6v3 (PreCG) right,WT,36,1,0.2,1.3,False
+BraTS20_Training_044,Area Op4 (POperc) right,WT,92,2,0.5,3.5,False
+BraTS20_Training_044,Area Op2 (POperc) right,WT,323,8,1.9,47.5,False
+BraTS20_Training_044,"Area 6ma (preSMA, mesial SFG) right",WT,105,2,0.6,3.0,False
+BraTS20_Training_044,Area Ig1 (Insula) right,WT,269,6,1.6,74.9,False
+BraTS20_Training_044,Area PFcm (IPL) right,WT,120,3,0.7,5.2,False
+BraTS20_Training_044,Area 4p (PreCG) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_044,Area Id2 (Insula) right,WT,135,3,0.8,28.1,False
+BraTS20_Training_044,Area Op9 (Frontal Operculum) right,WT,16,0,0.1,0.7,False
+BraTS20_Training_044,Area Id1 (Insula) right,WT,24,1,0.1,6.1,False
+BraTS20_Training_044,Area Id5 (Insula) right,WT,163,4,0.9,17.1,False
+BraTS20_Training_044,Area Te 2.1 (STG) right,WT,25,1,0.1,5.2,False
+BraTS20_Training_044,Area Op3 (POperc) right,WT,345,8,2.0,47.5,False
+BraTS20_Training_044,Frontal-II (GapMap) right,WT,253,6,1.5,6.4,False
+BraTS20_Training_044,Area 6v2 (PreCG) right,WT,486,11,2.8,12.6,True
+BraTS20_Training_044,Area Te 2.2 (STG) right,WT,13,0,0.1,0.7,False
+BraTS20_Training_044,WM/unassigned,ET,932,22,66.0,0.0,False
+BraTS20_Training_044,"Area 6mp (SMA, mesial SFG) right",ET,13,0,0.9,0.6,True
+BraTS20_Training_044,Frontal-to-Occipital (GapMap) right,ET,212,5,15.0,0.6,True
+BraTS20_Training_044,Area 6d3 (SFS) right,ET,2,0,0.1,0.0,False
+BraTS20_Training_044,Area 6v3 (PreCG) right,ET,20,0,1.4,0.7,True
+BraTS20_Training_044,"Area 6ma (preSMA, mesial SFG) right",ET,149,3,10.6,4.2,True
+BraTS20_Training_044,Frontal-II (GapMap) right,ET,6,0,0.4,0.2,False
+BraTS20_Training_044,Area 6v2 (PreCG) right,ET,78,2,5.5,2.0,True

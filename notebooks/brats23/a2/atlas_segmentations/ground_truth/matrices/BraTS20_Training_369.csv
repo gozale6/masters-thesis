@@ -1,0 +1,181 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_369,WM/unassigned,TC,10168,30,49.4,0.1,False
+BraTS20_Training_369,Area IFS4 (IFS) right,TC,297,1,1.4,42.3,False
+BraTS20_Training_369,Area 6d3 (SFS) right,TC,344,1,1.7,7.7,False
+BraTS20_Training_369,Area 6v1 (PreCG) right,TC,745,2,3.6,18.9,True
+BraTS20_Training_369,Area 8d2 (SFG) right,TC,151,0,0.7,4.9,False
+BraTS20_Training_369,"Area IFJ2 (IFS, PreCS) right",TC,294,1,1.4,64.8,False
+BraTS20_Training_369,Area Op5 (Frontal Operculum) right,TC,4,0,0.0,0.3,False
+BraTS20_Training_369,Area 4a (PreCG) right,TC,179,1,0.9,1.9,False
+BraTS20_Training_369,Area 3a (PostCG) right,TC,30,0,0.1,4.6,False
+BraTS20_Training_369,Area 8v1 (MFG) right,TC,1009,3,4.9,27.7,True
+BraTS20_Training_369,"Area MFG5 (MFG, IFG) right",TC,46,0,0.2,1.8,False
+BraTS20_Training_369,Area MFG4 (MFG) right,TC,105,0,0.5,2.3,False
+BraTS20_Training_369,Area 6v3 (PreCG) right,TC,198,1,1.0,7.1,False
+BraTS20_Training_369,Area IFS1 (IFS) right,TC,160,0,0.8,12.6,False
+BraTS20_Training_369,Area IFS3 (IFS) right,TC,365,1,1.8,83.5,False
+BraTS20_Training_369,Area 8v2 (MFG) right,TC,438,1,2.1,79.6,False
+BraTS20_Training_369,Area 4p (PreCG) right,TC,65,0,0.3,4.3,False
+BraTS20_Training_369,Frontal-II (GapMap) right,TC,2456,7,11.9,62.0,True
+BraTS20_Training_369,Area IFS2 (IFS) right,TC,4,0,0.0,1.3,False
+BraTS20_Training_369,Area 8d1 (SFG) right,TC,1,0,0.0,0.0,False
+BraTS20_Training_369,"Area IFJ1 (IFS, PreCS) right",TC,271,1,1.3,67.6,False
+BraTS20_Training_369,Area 6v2 (PreCG) right,TC,2078,6,10.1,53.7,True
+BraTS20_Training_369,Frontal-to-Occipital (GapMap) left,TC,808,2,3.9,2.2,True
+BraTS20_Training_369,Area hOc6 (POS) left,TC,2,0,0.0,0.9,False
+BraTS20_Training_369,"Area hOc1 (V1, 17, CalcS) left",TC,233,1,1.1,1.9,False
+BraTS20_Training_369,Area hOc3v (LingG) left,TC,138,0,0.7,2.3,False
+BraTS20_Training_369,WM/unassigned,WT,86031,256,53.3,1.1,False
+BraTS20_Training_369,Area 3b (PostCG) right,WT,1874,6,1.2,83.3,False
+BraTS20_Training_369,Area PF (IPL) right,WT,167,0,0.1,3.4,False
+BraTS20_Training_369,Area Id8 (Insula) right,WT,32,0,0.0,3.7,False
+BraTS20_Training_369,Area SFG4 (SFG) right,WT,1516,5,0.9,69.6,False
+BraTS20_Training_369,Area 1 (PostCG) right,WT,2719,8,1.7,59.0,True
+BraTS20_Training_369,Area Te 1.0 (HESCHL) right,WT,475,1,0.3,61.0,False
+BraTS20_Training_369,Area PFt (IPL) right,WT,2571,8,1.6,76.4,True
+BraTS20_Training_369,Area Te 3 (STG) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_369,Area MFG1 (MFG) right,WT,708,2,0.4,47.0,False
+BraTS20_Training_369,Frontal-to-Occipital (GapMap) right,WT,485,1,0.3,1.4,False
+BraTS20_Training_369,Area 6r1 (PreCG) right,WT,1839,5,1.1,76.5,False
+BraTS20_Training_369,Area 6d1 (PreCG) right,WT,686,2,0.4,14.5,False
+BraTS20_Training_369,Area Op6 (Frontal Operculum) right,WT,568,2,0.4,54.4,False
+BraTS20_Training_369,"Area TPJ (STG, SMG) right",WT,1,0,0.0,0.1,False
+BraTS20_Training_369,Area Op7 (Frontal Operculum) right,WT,244,1,0.2,61.3,False
+BraTS20_Training_369,Area Ig2 (Insula) right,WT,88,0,0.1,15.2,False
+BraTS20_Training_369,Area Id4 (Insula) right,WT,495,1,0.3,54.8,False
+BraTS20_Training_369,Area Op1 (POperc) right,WT,1948,6,1.2,97.3,False
+BraTS20_Training_369,"Rt (Thalamus, reticular Nucleus) right",WT,104,0,0.1,5.4,False
+BraTS20_Training_369,Area Id6 (Insula) right,WT,1600,5,1.0,60.6,False
+BraTS20_Training_369,Area IFS4 (IFS) right,WT,48,0,0.0,6.8,False
+BraTS20_Training_369,Area 6d3 (SFS) right,WT,689,2,0.4,15.5,False
+BraTS20_Training_369,Area 6v1 (PreCG) right,WT,1659,5,1.0,42.0,False
+BraTS20_Training_369,Area hIP2 (IPS) right,WT,377,1,0.2,48.1,False
+BraTS20_Training_369,Area 44 (IFG) right,WT,1672,5,1.0,62.8,False
+BraTS20_Training_369,Area 8d2 (SFG) right,WT,472,1,0.3,15.3,False
+BraTS20_Training_369,Area Op8 (Frontal Operculum) right,WT,928,3,0.6,73.5,False
+BraTS20_Training_369,Area Op5 (Frontal Operculum) right,WT,1009,3,0.6,67.1,False
+BraTS20_Training_369,Area PFm (IPL) right,WT,29,0,0.0,0.5,False
+BraTS20_Training_369,Area 4a (PreCG) right,WT,1544,5,1.0,16.6,False
+BraTS20_Training_369,Area Op10 (Frontal Operculum) right,WT,116,0,0.1,66.7,False
+BraTS20_Training_369,Area MFG2 (MFG) right,WT,9,0,0.0,0.4,False
+BraTS20_Training_369,Area 3a (PostCG) right,WT,231,1,0.1,35.2,False
+BraTS20_Training_369,Area Id7 (Insula) right,WT,243,1,0.2,33.8,False
+BraTS20_Training_369,"Area hOc1 (V1, 17, CalcS) right",WT,403,1,0.2,3.4,False
+BraTS20_Training_369,Area 8v1 (MFG) right,WT,361,1,0.2,9.9,False
+BraTS20_Training_369,Area SFG2 (SFG) right,WT,85,0,0.1,1.8,False
+BraTS20_Training_369,Area Te 1.1 (HESCHL) right,WT,285,1,0.2,26.4,False
+BraTS20_Training_369,"Area MFG5 (MFG, IFG) right",WT,1439,4,0.9,56.3,False
+BraTS20_Training_369,"Area hOc2 (V2, 18) right",WT,151,0,0.1,1.6,False
+BraTS20_Training_369,Area MFG4 (MFG) right,WT,3148,9,1.9,67.8,True
+BraTS20_Training_369,Area Ig3 (Insula) right,WT,514,2,0.3,99.4,False
+BraTS20_Training_369,Area SFG3 (SFG) right,WT,135,0,0.1,7.1,False
+BraTS20_Training_369,Area 6v3 (PreCG) right,WT,1770,5,1.1,63.2,False
+BraTS20_Training_369,Area IFS1 (IFS) right,WT,532,2,0.3,42.0,False
+BraTS20_Training_369,Area Op4 (POperc) right,WT,1811,5,1.1,68.8,False
+BraTS20_Training_369,Area Op2 (POperc) right,WT,657,2,0.4,96.6,False
+BraTS20_Training_369,Area Ig1 (Insula) right,WT,16,0,0.0,4.5,False
+BraTS20_Training_369,Area Id10 (Insula) right,WT,5,0,0.0,0.3,False
+BraTS20_Training_369,Area PFcm (IPL) right,WT,1397,4,0.9,60.8,False
+BraTS20_Training_369,Area SFS2 (SFS) right,WT,552,2,0.3,34.8,False
+BraTS20_Training_369,Area SFS1 (SFS) right,WT,20,0,0.0,2.4,False
+BraTS20_Training_369,Area hIP3 (IPS) right,WT,1498,4,0.9,34.2,False
+BraTS20_Training_369,Area 4p (PreCG) right,WT,948,3,0.6,63.2,False
+BraTS20_Training_369,Area Id2 (Insula) right,WT,159,0,0.1,33.1,False
+BraTS20_Training_369,Frontal-I.1 (GapMap) right,WT,455,1,0.3,8.5,False
+BraTS20_Training_369,Area Op9 (Frontal Operculum) right,WT,916,3,0.6,37.4,False
+BraTS20_Training_369,Temporal-to-Parietal (GapMap) right,WT,145,0,0.1,0.2,False
+BraTS20_Training_369,Area 45 (IFG) right,WT,2535,8,1.6,48.1,False
+BraTS20_Training_369,Area Te 1.2 (HESCHL) right,WT,200,1,0.1,38.2,False
+BraTS20_Training_369,Area Id5 (Insula) right,WT,218,1,0.1,22.9,False
+BraTS20_Training_369,Area hIP1 (IPS) right,WT,340,1,0.2,27.3,False
+BraTS20_Training_369,Area 2 (PostCS) right,WT,1396,4,0.9,51.1,False
+BraTS20_Training_369,Area hOc3d (Cuneus) right,WT,34,0,0.0,0.9,False
+BraTS20_Training_369,Area Te 2.1 (STG) right,WT,13,0,0.0,2.7,False
+BraTS20_Training_369,Area Op3 (POperc) right,WT,536,2,0.3,73.8,False
+BraTS20_Training_369,Frontal-II (GapMap) right,WT,113,0,0.1,2.9,False
+BraTS20_Training_369,Area IFS2 (IFS) right,WT,139,0,0.1,44.7,False
+BraTS20_Training_369,Area 8d1 (SFG) right,WT,15,0,0.0,0.4,False
+BraTS20_Training_369,Area PFop (IPL) right,WT,1359,4,0.8,95.5,False
+BraTS20_Training_369,Area 6v2 (PreCG) right,WT,94,0,0.1,2.4,False
+BraTS20_Training_369,Area Te 2.2 (STG) right,WT,76,0,0.0,3.9,False
+BraTS20_Training_369,Area 7PC (SPL) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_369,Area TeI (STG) right,WT,2,0,0.0,0.2,False
+BraTS20_Training_369,Area hOc4la (LOC) left,WT,10,0,0.0,0.2,False
+BraTS20_Training_369,"Po (Thalamus, posterior Nucleus) left",WT,16,0,0.0,34.0,False
+BraTS20_Training_369,CGM (Metathalamus) left,WT,17,0,0.0,19.3,False
+BraTS20_Training_369,"PUm (Thalamus, medial pulvinar) left",WT,7,0,0.0,0.9,False
+BraTS20_Training_369,"PUi (Thalamus, inferior pulvinar) left",WT,71,0,0.0,71.0,False
+BraTS20_Training_369,Frontal-to-Occipital (GapMap) left,WT,5577,17,3.5,15.2,True
+BraTS20_Training_369,Area hIP4 (IPS) left,WT,296,1,0.2,23.3,False
+BraTS20_Training_369,Area FG2 (FusG) left,WT,526,2,0.3,18.7,False
+BraTS20_Training_369,Area hOc6 (POS) left,WT,11,0,0.0,5.0,False
+BraTS20_Training_369,"Li (Thalamus, limitans Nucleus) left",WT,8,0,0.0,4.9,False
+BraTS20_Training_369,"Rt (Thalamus, reticular Nucleus) left",WT,48,0,0.0,3.1,False
+BraTS20_Training_369,"PUl (Thalamus, lateral pulvinar) left",WT,81,0,0.1,15.2,False
+BraTS20_Training_369,Area Ph1 (PhG) left,WT,1091,3,0.7,99.0,False
+BraTS20_Training_369,Area FG4 (FusG) left,WT,709,2,0.4,9.6,False
+BraTS20_Training_369,"Area hOc1 (V1, 17, CalcS) left",WT,5046,15,3.1,40.2,True
+BraTS20_Training_369,CGL (Metathalamus) left,WT,54,0,0.0,16.7,False
+BraTS20_Training_369,Area Ph3 (PhG) left,WT,652,2,0.4,99.7,False
+BraTS20_Training_369,Area hOc4lp (LOC) left,WT,69,0,0.0,1.2,False
+BraTS20_Training_369,"Area hOc2 (V2, 18) left",WT,73,0,0.0,2.0,False
+BraTS20_Training_369,Area hOc4d (Cuneus) left,WT,41,0,0.0,2.2,False
+BraTS20_Training_369,Area hPO1 (POS) left,WT,44,0,0.0,1.9,False
+BraTS20_Training_369,Area PGp (IPL) left,WT,2,0,0.0,0.0,False
+BraTS20_Training_369,Area hOc3v (LingG) left,WT,2044,6,1.3,34.5,False
+BraTS20_Training_369,"CM (Thalamus, centromedian Nucleus) left",WT,3,0,0.0,1.8,False
+BraTS20_Training_369,Area hIP5 (IPS) left,WT,134,0,0.1,5.5,False
+BraTS20_Training_369,Area FG1 (FusG) left,WT,936,3,0.6,79.3,False
+BraTS20_Training_369,CA1 (Hippocampus) left,WT,46,0,0.0,4.0,False
+BraTS20_Training_369,Temporal-to-Parietal (GapMap) left,WT,72,0,0.0,0.1,False
+BraTS20_Training_369,Frontal-to-Temporal-II (GapMap) left,WT,213,1,0.1,3.6,False
+BraTS20_Training_369,Area hOc3d (Cuneus) left,WT,26,0,0.0,0.5,False
+BraTS20_Training_369,"Sg (Thalamus, suprageniculate Nucleus) left",WT,67,0,0.0,59.8,False
+BraTS20_Training_369,"Subc (Hippocampus, Subicular complex) left",WT,1523,5,0.9,34.6,False
+BraTS20_Training_369,"TrS (Hippocampus, Transsubiculum) left",WT,326,1,0.2,100.0,False
+BraTS20_Training_369,Area FG3 (FusG) left,WT,1630,5,1.0,56.2,False
+BraTS20_Training_369,Area hOc4v (LingG) left,WT,1584,5,1.0,37.9,False
+BraTS20_Training_369,Area Ph2 (PhG) left,WT,795,2,0.5,60.1,False
+BraTS20_Training_369,Area hIP7 (IPS) left,WT,22,0,0.0,3.3,False
+BraTS20_Training_369,WM/unassigned,ET,19803,59,46.4,0.3,False
+BraTS20_Training_369,Area 3b (PostCG) right,ET,375,1,0.9,16.7,False
+BraTS20_Training_369,Area SFG4 (SFG) right,ET,106,0,0.2,4.9,False
+BraTS20_Training_369,Area 1 (PostCG) right,ET,31,0,0.1,0.7,False
+BraTS20_Training_369,Area 6r1 (PreCG) right,ET,190,1,0.4,7.9,False
+BraTS20_Training_369,Area Op7 (Frontal Operculum) right,ET,154,0,0.4,38.7,False
+BraTS20_Training_369,Area Id4 (Insula) right,ET,396,1,0.9,43.9,False
+BraTS20_Training_369,Area Id6 (Insula) right,ET,312,1,0.7,11.8,False
+BraTS20_Training_369,Area IFS4 (IFS) right,ET,206,1,0.5,29.3,False
+BraTS20_Training_369,Area 6d3 (SFS) right,ET,1685,5,3.9,37.9,True
+BraTS20_Training_369,Area 6v1 (PreCG) right,ET,1409,4,3.3,35.7,False
+BraTS20_Training_369,Area 44 (IFG) right,ET,148,0,0.3,5.6,False
+BraTS20_Training_369,Area 8d2 (SFG) right,ET,1046,3,2.4,33.9,False
+BraTS20_Training_369,Area Op8 (Frontal Operculum) right,ET,3,0,0.0,0.2,False
+BraTS20_Training_369,"Area IFJ2 (IFS, PreCS) right",ET,160,0,0.4,35.2,False
+BraTS20_Training_369,Area Op5 (Frontal Operculum) right,ET,490,1,1.1,32.6,False
+BraTS20_Training_369,Area 4a (PreCG) right,ET,1254,4,2.9,13.5,False
+BraTS20_Training_369,Area 3a (PostCG) right,ET,393,1,0.9,59.8,False
+BraTS20_Training_369,Area 8v1 (MFG) right,ET,2247,7,5.3,61.6,True
+BraTS20_Training_369,"Area MFG5 (MFG, IFG) right",ET,493,1,1.2,19.3,False
+BraTS20_Training_369,Area MFG4 (MFG) right,ET,984,3,2.3,21.2,False
+BraTS20_Training_369,Area 6v3 (PreCG) right,ET,416,1,1.0,14.8,False
+BraTS20_Training_369,Area IFS1 (IFS) right,ET,443,1,1.0,35.0,False
+BraTS20_Training_369,Area IFS3 (IFS) right,ET,72,0,0.2,16.5,False
+BraTS20_Training_369,Area 8v2 (MFG) right,ET,112,0,0.3,20.4,False
+BraTS20_Training_369,Area 4p (PreCG) right,ET,421,1,1.0,28.1,False
+BraTS20_Training_369,Area 45 (IFG) right,ET,61,0,0.1,1.2,False
+BraTS20_Training_369,Area Op3 (POperc) right,ET,190,1,0.4,26.2,False
+BraTS20_Training_369,Frontal-II (GapMap) right,ET,1233,4,2.9,31.1,False
+BraTS20_Training_369,Area IFS2 (IFS) right,ET,168,0,0.4,54.0,False
+BraTS20_Training_369,Area 8d1 (SFG) right,ET,62,0,0.1,1.6,False
+BraTS20_Training_369,"Area IFJ1 (IFS, PreCS) right",ET,130,0,0.3,32.4,False
+BraTS20_Training_369,Area 6v2 (PreCG) right,ET,1682,5,3.9,43.4,True
+BraTS20_Training_369,Frontal-to-Occipital (GapMap) left,ET,3121,9,7.3,8.5,True
+BraTS20_Training_369,Area hOc6 (POS) left,ET,209,1,0.5,94.1,False
+BraTS20_Training_369,Area Ph1 (PhG) left,ET,7,0,0.0,0.6,False
+BraTS20_Training_369,"Area hOc1 (V1, 17, CalcS) left",ET,1726,5,4.0,13.8,True
+BraTS20_Training_369,Area Ph3 (PhG) left,ET,2,0,0.0,0.3,False
+BraTS20_Training_369,Area hOc3v (LingG) left,ET,619,2,1.4,10.4,False
+BraTS20_Training_369,Area FG1 (FusG) left,ET,27,0,0.1,2.3,False
+BraTS20_Training_369,Area FG3 (FusG) left,ET,6,0,0.0,0.2,False
+BraTS20_Training_369,Area hOc4v (LingG) left,ET,129,0,0.3,3.1,False

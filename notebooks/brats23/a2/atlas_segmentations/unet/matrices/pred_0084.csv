@@ -1,0 +1,71 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0084,WM/unassigned,TC,492,8
+pred_0084,Area STS2 (STS) right,TC,19,0
+pred_0084,Area Id3 (Insula) right,TC,37,1
+pred_0084,Area TI (STG) right,TC,44,1
+pred_0084,CA2 (Hippocampus) right,TC,67,1
+pred_0084,Area OTS1 (OTS) right,TC,4,0
+pred_0084,CA1 (Hippocampus) right,TC,10,0
+pred_0084,Temporal-to-Parietal (GapMap) right,TC,6,0
+pred_0084,Frontal-to-Temporal-II (GapMap) right,TC,2,0
+pred_0084,Area Id1 (Insula) right,TC,21,0
+pred_0084,Area STS1 (STS) right,TC,14,0
+pred_0084,Area TeI (STG) right,TC,1,0
+pred_0084,WM/unassigned,WT,15040,256
+pred_0084,Astr (Amygdala) right,WT,6,0
+pred_0084,Area Id8 (Insula) right,WT,453,8
+pred_0084,Area Te 1.0 (HESCHL) right,WT,21,0
+pred_0084,Area STS2 (STS) right,WT,2928,50
+pred_0084,Area Id3 (Insula) right,WT,619,11
+pred_0084,"ZI (Thalamus, zona incerta) right",WT,8,0
+pred_0084,Area TI (STG) right,WT,966,16
+pred_0084,Area FG5 (FusG) right,WT,27,0
+pred_0084,Area Te 3 (STG) right,WT,248,4
+pred_0084,Area Ia3 (Insula) right,WT,135,2
+pred_0084,Area Ig2 (Insula) right,WT,50,1
+pred_0084,CA2 (Hippocampus) right,WT,79,1
+pred_0084,Area Id4 (Insula) right,WT,3,0
+pred_0084,"Rt (Thalamus, reticular Nucleus) right",WT,341,6
+pred_0084,Area Id6 (Insula) right,WT,670,11
+pred_0084,Area Ia1 (Insula) right,WT,134,2
+pred_0084,VTM (Amygdala) right,WT,1,0
+pred_0084,Area Op8 (Frontal Operculum) right,WT,93,2
+pred_0084,"PUl (Thalamus, lateral pulvinar) right",WT,1,0
+pred_0084,Area FG4 (FusG) right,WT,261,4
+pred_0084,STN (Subthalamus) right,WT,3,0
+pred_0084,CGL (Metathalamus) right,WT,54,1
+pred_0084,Area Te 1.1 (HESCHL) right,WT,4,0
+pred_0084,Area Id10 (Insula) right,WT,107,2
+pred_0084,Frontal-to-Temporal-I (GapMap) right,WT,172,3
+pred_0084,CM (Amygdala) right,WT,31,1
+pred_0084,Area OTS1 (OTS) right,WT,890,15
+pred_0084,Area Id2 (Insula) right,WT,19,0
+pred_0084,CA1 (Hippocampus) right,WT,27,0
+pred_0084,Area Op9 (Frontal Operculum) right,WT,77,1
+pred_0084,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,149,3
+pred_0084,Temporal-to-Parietal (GapMap) right,WT,4947,84
+pred_0084,Frontal-to-Temporal-II (GapMap) right,WT,289,5
+pred_0084,Area Ia2 (Insula) right,WT,157,3
+pred_0084,Area Id1 (Insula) right,WT,213,4
+pred_0084,Area Te 1.2 (HESCHL) right,WT,20,0
+pred_0084,Area Id5 (Insula) right,WT,10,0
+pred_0084,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,9,0
+pred_0084,CA3 (Hippocampus) right,WT,77,1
+pred_0084,Area STS1 (STS) right,WT,1199,20
+pred_0084,Area Id9 (Insula) right,WT,392,7
+pred_0084,"VPi (Thalamus, ventroposterior inferior Nucleus) right",WT,17,0
+pred_0084,Area TeI (STG) right,WT,900,15
+pred_0084,WM/unassigned,ET,2084,35
+pred_0084,Astr (Amygdala) right,ET,50,1
+pred_0084,Area STS2 (STS) right,ET,185,3
+pred_0084,Area Id3 (Insula) right,ET,270,5
+pred_0084,Area TI (STG) right,ET,30,1
+pred_0084,CA2 (Hippocampus) right,ET,335,6
+pred_0084,VTM (Amygdala) right,ET,1,0
+pred_0084,DG (Hippocampus) right,ET,1,0
+pred_0084,CA1 (Hippocampus) right,ET,211,4
+pred_0084,Temporal-to-Parietal (GapMap) right,ET,47,1
+pred_0084,Frontal-to-Temporal-II (GapMap) right,ET,2,0
+pred_0084,Area Id1 (Insula) right,ET,53,1
+pred_0084,CA3 (Hippocampus) right,ET,40,1
+pred_0084,Area STS1 (STS) right,ET,159,3

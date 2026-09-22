@@ -1,0 +1,27 @@
+2026-05-04 23:46:51,136  INFO  ======================================================================
+2026-05-04 23:46:51,136  INFO  Multi-model evaluation — comprehensive metrics
+2026-05-04 23:46:51,137  INFO  ======================================================================
+2026-05-04 23:46:51,137  INFO    Checkpoint root : checkpoints_multi
+2026-05-04 23:46:51,137  INFO    CSV             : atlas_segmentations/ground_truth/all_cases.csv
+2026-05-04 23:46:51,137  INFO    Text dir        : ../TextBraTSData
+2026-05-04 23:46:51,137  INFO    Output dir      : eval_multi_results
+2026-05-04 23:46:51,137  INFO    Model(s)        : all
+2026-05-04 23:46:51,137  INFO  ======================================================================
+2026-05-04 23:46:51,137  INFO  Loading CSV: atlas_segmentations/ground_truth/all_cases.csv
+2026-05-04 23:46:52,165  INFO    Matched: 368 | Skipped: 0
+2026-05-04 23:46:52,165  INFO  Found checkpoints: ['scifive-base', 'scifive-large', 'clinicalt5-hoss']
+2026-05-04 23:46:52,165  INFO  
+######################################################################
+2026-05-04 23:46:52,165  INFO  # Evaluating: scifive-base  (razent/SciFive-base-PMC)
+2026-05-04 23:46:52,165  INFO  ######################################################################
+2026-05-04 23:46:52,166  INFO  Val samples: 74
+2026-05-04 23:46:52,295  INFO  Loading base model: razent/SciFive-base-PMC
+2026-05-04 23:46:52,547  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-04 23:46:52,582  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-05-04 23:46:52,667  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-04 23:46:52,703  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-05-04 23:46:52,855  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-05-04 23:46:52,855  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-04 23:46:52,930  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-04 23:46:52,962  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-05-04 23:46:52,963  INFO  Applying LoRA from checkpoints_multi/scifive-base

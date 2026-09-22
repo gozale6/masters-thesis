@@ -1,0 +1,26 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0173,WM/unassigned,TC,34,6
+pred_0173,Area SFG4 (SFG) right,TC,1,0
+pred_0173,Area 8d2 (SFG) right,TC,7,1
+pred_0173,Area SFG2 (SFG) right,TC,19,3
+pred_0173,Frontal-I.2 (GapMap) right,TC,2,0
+pred_0173,WM/unassigned,WT,1485,256
+pred_0173,Area Id8 (Insula) right,WT,14,2
+pred_0173,Area SFG4 (SFG) right,WT,64,11
+pred_0173,Area Te 3 (STG) right,WT,16,3
+pred_0173,Frontal-to-Occipital (GapMap) right,WT,207,36
+pred_0173,Area Op6 (Frontal Operculum) right,WT,6,1
+pred_0173,Area Id6 (Insula) right,WT,2,0
+pred_0173,Area 44 (IFG) right,WT,103,18
+pred_0173,Area 8d2 (SFG) right,WT,67,12
+pred_0173,Area p32 (pACC) right,WT,219,38
+pred_0173,Area SFG2 (SFG) right,WT,1086,187
+pred_0173,Area SFG3 (SFG) right,WT,32,6
+pred_0173,Area p24c (pACC) right,WT,23,4
+pred_0173,Frontal-I.2 (GapMap) right,WT,683,118
+pred_0173,Area Op9 (Frontal Operculum) right,WT,5,1
+pred_0173,Area 45 (IFG) right,WT,93,16
+pred_0173,WM/unassigned,ET,572,99
+pred_0173,Area 8d2 (SFG) right,ET,30,5
+pred_0173,Area SFG2 (SFG) right,ET,291,50
+pred_0173,Frontal-I.2 (GapMap) right,ET,29,5

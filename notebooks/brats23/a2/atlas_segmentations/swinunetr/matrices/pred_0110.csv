@@ -1,0 +1,14 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0110,WM/unassigned,TC,4,0
+pred_0110,Frontal-to-Occipital (GapMap) right,TC,3,0
+pred_0110,Area p24c (pACC) right,TC,2,0
+pred_0110,WM/unassigned,WT,5850,256
+pred_0110,Area SFG4 (SFG) right,WT,14,1
+pred_0110,Area p24ab (pACC) right,WT,27,1
+pred_0110,Frontal-to-Occipital (GapMap) right,WT,1805,79
+pred_0110,Area p24c (pACC) right,WT,127,6
+pred_0110,Frontal-I.2 (GapMap) right,WT,4,0
+pred_0110,Area 33 (ACC) right,WT,700,31
+pred_0110,WM/unassigned,ET,17,1
+pred_0110,Frontal-to-Occipital (GapMap) right,ET,38,2
+pred_0110,Area p24c (pACC) right,ET,4,0

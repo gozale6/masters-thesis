@@ -1,0 +1,149 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0143,WM/unassigned,TC,4520,14
+pred_0143,Frontal-to-Occipital (GapMap) left,TC,2612,8
+pred_0143,Area 8d2 (SFG) left,TC,26,0
+pred_0143,"Area 6ma (preSMA, mesial SFG) left",TC,243,1
+pred_0143,Frontal-I.2 (GapMap) left,TC,1461,4
+pred_0143,Area 33 (ACC) left,TC,268,1
+pred_0143,Area 8d1 (SFG) left,TC,4,0
+pred_0143,Frontal-to-Occipital (GapMap) right,TC,1820,6
+pred_0143,"Area 6ma (preSMA, mesial SFG) right",TC,147,0
+pred_0143,Frontal-I.2 (GapMap) right,TC,1214,4
+pred_0143,Area 33 (ACC) right,TC,396,1
+pred_0143,Area 8d1 (SFG) right,TC,30,0
+pred_0143,WM/unassigned,WT,83345,256
+pred_0143,Astr (Amygdala) left,WT,1,0
+pred_0143,Area Id8 (Insula) left,WT,43,0
+pred_0143,Area SFG4 (SFG) left,WT,27,0
+pred_0143,"LD (Thalamus, lateral dorsal Nucleus) left",WT,192,1
+pred_0143,"Area 6mp (SMA, mesial SFG) left",WT,808,2
+pred_0143,"ZI (Thalamus, zona incerta) left",WT,143,0
+pred_0143,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",WT,52,0
+pred_0143,Area p24ab (pACC) left,WT,828,3
+pred_0143,"PUm (Thalamus, medial pulvinar) left",WT,396,1
+pred_0143,Frontal-to-Occipital (GapMap) left,WT,10226,31
+pred_0143,Area 6d1 (PreCG) left,WT,1,0
+pred_0143,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,287,1
+pred_0143,Area Op6 (Frontal Operculum) left,WT,1,0
+pred_0143,"BST (Basal Forebrain, Bed Nucleus) left",WT,145,0
+pred_0143,"AM (Thalamus, anteromedial Nucleus) left",WT,130,0
+pred_0143,Area Op7 (Frontal Operculum) left,WT,164,1
+pred_0143,Area Ig2 (Insula) left,WT,325,1
+pred_0143,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,926,3
+pred_0143,"Li (Thalamus, limitans Nucleus) left",WT,15,0
+pred_0143,Area Id4 (Insula) left,WT,91,0
+pred_0143,"Rt (Thalamus, reticular Nucleus) left",WT,962,3
+pred_0143,Area Id6 (Insula) left,WT,820,3
+pred_0143,Area IFS4 (IFS) left,WT,2,0
+pred_0143,Area 6d3 (SFS) left,WT,92,0
+pred_0143,"Pv (Thalamus, paraventricular Nucleus) left",WT,20,0
+pred_0143,"PUa (Thalamus, anterior pulvinar) left",WT,27,0
+pred_0143,Area 8d2 (SFG) left,WT,267,1
+pred_0143,Area Op8 (Frontal Operculum) left,WT,143,0
+pred_0143,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,37,0
+pred_0143,"Area IFJ2 (IFS, PreCS) left",WT,66,0
+pred_0143,Area 25 (sACC) left,WT,2,0
+pred_0143,Area Op5 (Frontal Operculum) left,WT,6,0
+pred_0143,"MD (Thalamus, mediodorsal Nucleus) left",WT,807,2
+pred_0143,Area 4a (PreCG) left,WT,281,1
+pred_0143,Area 5M (SPL) left,WT,441,1
+pred_0143,Area Op10 (Frontal Operculum) left,WT,5,0
+pred_0143,"Pf (Thalamus, parafascicular Nucleus) left",WT,19,0
+pred_0143,"PUl (Thalamus, lateral pulvinar) left",WT,419,1
+pred_0143,Area Id7 (Insula) left,WT,174,1
+pred_0143,STN (Subthalamus) left,WT,134,0
+pred_0143,Area p32 (pACC) left,WT,538,2
+pred_0143,Area SFG2 (SFG) left,WT,3,0
+pred_0143,Area Te 1.1 (HESCHL) left,WT,68,0
+pred_0143,Area MFG4 (MFG) left,WT,62,0
+pred_0143,"LP (Thalamus, lateral posterior Nucleus) left",WT,473,1
+pred_0143,Area Ig3 (Insula) left,WT,165,1
+pred_0143,Area 6v3 (PreCG) left,WT,24,0
+pred_0143,Ch 4 (Basal Forebrain) left,WT,149,0
+pred_0143,Area IFS3 (IFS) left,WT,14,0
+pred_0143,Area Op2 (POperc) left,WT,351,1
+pred_0143,"AcbM (Ventral Striatum, Medial Accumbens) left",WT,20,0
+pred_0143,"Area 6ma (preSMA, mesial SFG) left",WT,1775,5
+pred_0143,Area Ig1 (Insula) left,WT,45,0
+pred_0143,Area Id10 (Insula) left,WT,19,0
+pred_0143,"VM (Thalamus, ventral medial Nucleus) left",WT,9,0
+pred_0143,Area p24c (pACC) left,WT,533,2
+pred_0143,Area PFcm (IPL) left,WT,11,0
+pred_0143,"CM (Thalamus, centromedian Nucleus) left",WT,93,0
+pred_0143,Frontal-to-Temporal-I (GapMap) left,WT,16,0
+pred_0143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,764,2
+pred_0143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,91,0
+pred_0143,"MV (Thalamus, medioventral Nucleus) left",WT,54,0
+pred_0143,Frontal-I.2 (GapMap) left,WT,1210,4
+pred_0143,CM (Amygdala) left,WT,8,0
+pred_0143,Area 33 (ACC) left,WT,1,0
+pred_0143,Area Id2 (Insula) left,WT,95,0
+pred_0143,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,46,0
+pred_0143,HATA (Hippocampus) left,WT,17,0
+pred_0143,"CL (Thalamus, anterior intralaminar nuclei) left",WT,1011,3
+pred_0143,Area 5Ci (SPL) left,WT,90,0
+pred_0143,Frontal-to-Temporal-II (GapMap) left,WT,39,0
+pred_0143,Area Id5 (Insula) left,WT,28,0
+pred_0143,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,315,1
+pred_0143,"Sg (Thalamus, suprageniculate Nucleus) left",WT,5,0
+pred_0143,Area Op3 (POperc) left,WT,16,0
+pred_0143,"Subc (Hippocampus, Subicular complex) left",WT,1,0
+pred_0143,"VPM (Thalamus, ventral posterior medial Nucleus) left",WT,3,0
+pred_0143,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,30,0
+pred_0143,"AV (Thalamus, anteroventral Nucleus) left",WT,274,1
+pred_0143,VP (Ventral Pallidum) left,WT,380,1
+pred_0143,"sPf (Thalamus, subparafascicular Nucleus) left",WT,62,0
+pred_0143,SF (Amygdala) left,WT,17,0
+pred_0143,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) left",WT,24,0
+pred_0143,Area 8d1 (SFG) left,WT,39,0
+pred_0143,"Area IFJ1 (IFS, PreCS) left",WT,50,0
+pred_0143,Area s24 (sACC) left,WT,3,0
+pred_0143,Area 6v2 (PreCG) left,WT,61,0
+pred_0143,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,37,0
+pred_0143,Area Te 2.2 (STG) left,WT,3,0
+pred_0143,Area SFG4 (SFG) right,WT,24,0
+pred_0143,"Area 6mp (SMA, mesial SFG) right",WT,1438,4
+pred_0143,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,8,0
+pred_0143,Area p24ab (pACC) right,WT,1079,3
+pred_0143,Frontal-to-Occipital (GapMap) right,WT,6177,19
+pred_0143,Area 6d1 (PreCG) right,WT,127,0
+pred_0143,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,4,0
+pred_0143,"AM (Thalamus, anteromedial Nucleus) right",WT,111,0
+pred_0143,"Pv (Thalamus, paraventricular Nucleus) right",WT,64,0
+pred_0143,Area 8d2 (SFG) right,WT,220,1
+pred_0143,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,3,0
+pred_0143,"MD (Thalamus, mediodorsal Nucleus) right",WT,1,0
+pred_0143,Area 4a (PreCG) right,WT,444,1
+pred_0143,Area 5M (SPL) right,WT,291,1
+pred_0143,Area Fp1 (FPole) right,WT,1,0
+pred_0143,Area p32 (pACC) right,WT,2342,7
+pred_0143,Area SFG2 (SFG) right,WT,804,2
+pred_0143,Area 6d2 (PreCG) right,WT,165,1
+pred_0143,Area SFG3 (SFG) right,WT,86,0
+pred_0143,"Area 6ma (preSMA, mesial SFG) right",WT,2396,7
+pred_0143,Area p24c (pACC) right,WT,609,2
+pred_0143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,100,0
+pred_0143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,92,0
+pred_0143,"MV (Thalamus, medioventral Nucleus) right",WT,32,0
+pred_0143,Frontal-I.2 (GapMap) right,WT,1948,6
+pred_0143,Area 33 (ACC) right,WT,456,1
+pred_0143,"CL (Thalamus, anterior intralaminar nuclei) right",WT,99,0
+pred_0143,Area 5Ci (SPL) right,WT,14,0
+pred_0143,Frontal-II (GapMap) right,WT,98,0
+pred_0143,"AV (Thalamus, anteroventral Nucleus) right",WT,94,0
+pred_0143,VP (Ventral Pallidum) right,WT,32,0
+pred_0143,"sPf (Thalamus, subparafascicular Nucleus) right",WT,2,0
+pred_0143,Area 8d1 (SFG) right,WT,1063,3
+pred_0143,WM/unassigned,ET,9978,31
+pred_0143,Frontal-to-Occipital (GapMap) left,ET,1898,6
+pred_0143,Area 6d3 (SFS) left,ET,27,0
+pred_0143,Area 8d2 (SFG) left,ET,37,0
+pred_0143,"Area 6ma (preSMA, mesial SFG) left",ET,233,1
+pred_0143,Frontal-I.2 (GapMap) left,ET,1188,4
+pred_0143,Area 33 (ACC) left,ET,291,1
+pred_0143,Area 8d1 (SFG) left,ET,22,0
+pred_0143,Frontal-to-Occipital (GapMap) right,ET,1632,5
+pred_0143,"Area 6ma (preSMA, mesial SFG) right",ET,428,1
+pred_0143,Frontal-I.2 (GapMap) right,ET,605,2
+pred_0143,Area 33 (ACC) right,ET,467,1
+pred_0143,Area 8d1 (SFG) right,ET,108,0

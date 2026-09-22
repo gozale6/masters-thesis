@@ -1,0 +1,112 @@
+2026-04-24 11:13:48,303  INFO  ======================================================================
+2026-04-24 11:13:48,303  INFO  Multi-model evaluation
+2026-04-24 11:13:48,303  INFO  ======================================================================
+2026-04-24 11:13:48,303  INFO    Checkpoint root : checkpoints_multi
+2026-04-24 11:13:48,303  INFO    CSV             : atlas_segmentations/segresnet/all_cases.csv
+2026-04-24 11:13:48,303  INFO    Text dir        : ../TextBraTSData
+2026-04-24 11:13:48,303  INFO    Output dir      : eval_multi_results
+2026-04-24 11:13:48,303  INFO    Model(s)        : all
+2026-04-24 11:13:48,303  INFO  ======================================================================
+2026-04-24 11:13:48,303  INFO  Loading CSV: atlas_segmentations/segresnet/all_cases.csv
+2026-04-24 11:13:48,578  INFO    Matched: 74 | Skipped: 0
+2026-04-24 11:13:48,578  INFO  Found checkpoints: ['scifive-base', 'scifive-large', 'clinicalt5-hoss']
+2026-04-24 11:13:48,578  INFO  
+######################################################################
+2026-04-24 11:13:48,578  INFO  # Evaluating: scifive-base  (razent/SciFive-base-PMC)
+2026-04-24 11:13:48,578  INFO  ######################################################################
+2026-04-24 11:13:48,579  INFO  Val samples: 15
+2026-04-24 11:13:48,642  INFO  Loading base model: razent/SciFive-base-PMC
+2026-04-24 11:13:48,826  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:13:48,826  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-24 11:13:48,863  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:13:48,949  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:13:48,985  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:13:49,140  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 11:13:49,218  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:13:49,256  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:13:49,257  INFO  Applying LoRA adapter from checkpoints_multi/scifive-base
+2026-04-24 11:14:05,978  ERROR  sacrebleu not installed. Run: pip install sacrebleu
+2026-04-24 11:14:05,978  ERROR  [scifive-base] eval FAILED: No module named 'sacrebleu'
+Traceback (most recent call last):
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 537, in main
+    r = evaluate_one(key, args, samples, log)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 441, in evaluate_one
+    metrics = compute_metrics(predictions, references, log)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 311, in compute_metrics
+    import sacrebleu
+ModuleNotFoundError: No module named 'sacrebleu'
+2026-04-24 11:14:05,984  INFO  
+######################################################################
+2026-04-24 11:14:05,984  INFO  # Evaluating: scifive-large  (razent/SciFive-large-Pubmed)
+2026-04-24 11:14:05,984  INFO  ######################################################################
+2026-04-24 11:14:05,984  INFO  Val samples: 15
+2026-04-24 11:14:06,050  INFO  Loading base model: razent/SciFive-large-Pubmed
+2026-04-24 11:14:06,216  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:14:06,251  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:14:06,334  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:14:06,372  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:14:06,659  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 11:14:06,734  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:14:06,774  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:14:06,774  INFO  Applying LoRA adapter from checkpoints_multi/scifive-large
+2026-04-24 11:14:34,058  ERROR  sacrebleu not installed. Run: pip install sacrebleu
+2026-04-24 11:14:34,058  ERROR  [scifive-large] eval FAILED: No module named 'sacrebleu'
+Traceback (most recent call last):
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 537, in main
+    r = evaluate_one(key, args, samples, log)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 441, in evaluate_one
+    metrics = compute_metrics(predictions, references, log)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 311, in compute_metrics
+    import sacrebleu
+ModuleNotFoundError: No module named 'sacrebleu'
+2026-04-24 11:14:34,080  INFO  
+######################################################################
+2026-04-24 11:14:34,080  INFO  # Evaluating: clinicalt5-hoss  (hossboll/clinical-t5)
+2026-04-24 11:14:34,080  INFO  ######################################################################
+2026-04-24 11:14:34,080  INFO  Val samples: 15
+2026-04-24 11:14:34,135  INFO  Loading base model: hossboll/clinical-t5
+2026-04-24 11:14:34,279  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:14:34,313  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:14:34,392  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:14:34,429  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-04-24 11:14:34,524  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-24 11:14:34,600  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5 "HTTP/1.1 200 OK"
+2026-04-24 11:14:34,718  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 11:14:34,724  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/main "HTTP/1.1 200 OK"
+2026-04-24 11:14:34,753  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-24 11:14:34,754  INFO  Applying LoRA adapter from checkpoints_multi/clinicalt5-hoss
+2026-04-24 11:14:34,806  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-24 11:14:35,064  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-04-24 11:14:35,151  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-24 11:14:35,235  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-04-24 11:14:44,225  ERROR  sacrebleu not installed. Run: pip install sacrebleu
+2026-04-24 11:14:44,225  ERROR  [clinicalt5-hoss] eval FAILED: No module named 'sacrebleu'
+Traceback (most recent call last):
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 537, in main
+    r = evaluate_one(key, args, samples, log)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 441, in evaluate_one
+    metrics = compute_metrics(predictions, references, log)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/eval_multi_model.py", line 311, in compute_metrics
+    import sacrebleu
+ModuleNotFoundError: No module named 'sacrebleu'
+2026-04-24 11:14:44,280  INFO  
+Comparison saved → eval_multi_results/comparison_20260424_111348.json
+2026-04-24 11:14:44,280  INFO  
+======================================================================
+2026-04-24 11:14:44,280  INFO  RANKING BY ROUGE-1
+2026-04-24 11:14:44,280  INFO  ======================================================================
+2026-04-24 11:14:44,280  INFO    model                    R-1     R-2     R-L    BLEU   fmt%
+2026-04-24 11:14:44,280  INFO    --------------------  ------  ------  ------  ------  -----
+2026-04-24 11:14:44,280  INFO  
+  Per-field ROUGE-1 (lesion / edema / necrosis / compression):
+2026-04-24 11:14:44,280  INFO  
+  FAILED:
+2026-04-24 11:14:44,280  INFO      scifive-base: No module named 'sacrebleu'
+2026-04-24 11:14:44,280  INFO      scifive-large: No module named 'sacrebleu'
+2026-04-24 11:14:44,280  INFO      clinicalt5-hoss: No module named 'sacrebleu'

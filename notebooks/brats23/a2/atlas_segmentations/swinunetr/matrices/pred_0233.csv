@@ -1,0 +1,58 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0233,WM/unassigned,TC,1631,45
+pred_0233,Area Id8 (Insula) left,TC,24,1
+pred_0233,Area p24ab (pACC) left,TC,1,0
+pred_0233,Frontal-to-Occipital (GapMap) left,TC,6,0
+pred_0233,Area Op10 (Frontal Operculum) left,TC,1,0
+pred_0233,Area Id7 (Insula) left,TC,61,2
+pred_0233,Area Id10 (Insula) left,TC,52,1
+pred_0233,Frontal-to-Temporal-I (GapMap) left,TC,8,0
+pred_0233,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,20,1
+pred_0233,Area 33 (ACC) left,TC,2,0
+pred_0233,Area s24 (sACC) left,TC,1,0
+pred_0233,WM/unassigned,WT,7699,213
+pred_0233,Area Id8 (Insula) left,WT,246,7
+pred_0233,Area p24ab (pACC) left,WT,897,25
+pred_0233,Frontal-to-Occipital (GapMap) left,WT,1346,37
+pred_0233,"BST (Basal Forebrain, Bed Nucleus) left",WT,15,0
+pred_0233,"Tu (Basal Forebrain, Tuberculum) left",WT,13,0
+pred_0233,Area Id6 (Insula) left,WT,55,2
+pred_0233,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,962,27
+pred_0233,LB (Amygdala) left,WT,6,0
+pred_0233,Area Op10 (Frontal Operculum) left,WT,18,0
+pred_0233,Area Id7 (Insula) left,WT,97,3
+pred_0233,Area p32 (pACC) left,WT,453,13
+pred_0233,Area Fo3 (OFC) left,WT,256,7
+pred_0233,Ch 4 (Basal Forebrain) left,WT,6,0
+pred_0233,"AcbM (Ventral Striatum, Medial Accumbens) left",WT,78,2
+pred_0233,Area Id10 (Insula) left,WT,616,17
+pred_0233,Area p24c (pACC) left,WT,658,18
+pred_0233,Frontal-to-Temporal-I (GapMap) left,WT,56,2
+pred_0233,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,413,11
+pred_0233,CM (Amygdala) left,WT,4,0
+pred_0233,Area 33 (ACC) left,WT,49,1
+pred_0233,IF (Amygdala) left,WT,28,1
+pred_0233,"TuTi (Basal Forebrain, Terminal islands) left",WT,164,5
+pred_0233,Frontal-to-Temporal-II (GapMap) left,WT,376,10
+pred_0233,VP (Ventral Pallidum) left,WT,91,3
+pred_0233,Area s32 (sACC) left,WT,19,1
+pred_0233,Area s24 (sACC) left,WT,110,3
+pred_0233,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,287,8
+pred_0233,Area Fo2 (OFC) left,WT,67,2
+pred_0233,Area p24ab (pACC) right,WT,11,0
+pred_0233,Area 33 (ACC) right,WT,123,3
+pred_0233,WM/unassigned,ET,9261,256
+pred_0233,Area Id8 (Insula) left,ET,137,4
+pred_0233,Area p24ab (pACC) left,ET,80,2
+pred_0233,Frontal-to-Occipital (GapMap) left,ET,388,11
+pred_0233,Area Id6 (Insula) left,ET,49,1
+pred_0233,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,18,0
+pred_0233,Area Op10 (Frontal Operculum) left,ET,94,3
+pred_0233,Area Id7 (Insula) left,ET,547,15
+pred_0233,Area Id10 (Insula) left,ET,148,4
+pred_0233,Frontal-to-Temporal-I (GapMap) left,ET,195,5
+pred_0233,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,204,6
+pred_0233,Area 33 (ACC) left,ET,192,5
+pred_0233,Area s24 (sACC) left,ET,13,0
+pred_0233,Area p24ab (pACC) right,ET,3,0
+pred_0233,Area 33 (ACC) right,ET,7,0

@@ -1,0 +1,14 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0103,Area MFG4 (MFG) left,TC,10,1
+pred_0103,WM/unassigned,WT,2649,256
+pred_0103,Area SFG4 (SFG) left,WT,1230,119
+pred_0103,Frontal-to-Occipital (GapMap) left,WT,2,0
+pred_0103,Area 8d2 (SFG) left,WT,30,3
+pred_0103,Area MFG4 (MFG) left,WT,638,62
+pred_0103,Area SFG3 (SFG) left,WT,65,6
+pred_0103,Area 8v2 (MFG) left,WT,162,16
+pred_0103,Area SFS2 (SFS) left,WT,74,7
+pred_0103,Area SFS1 (SFS) left,WT,85,8
+pred_0103,Area Op4 (POperc) right,WT,22,2
+pred_0103,Area PFop (IPL) right,WT,6,1
+pred_0103,Area MFG4 (MFG) left,ET,19,2

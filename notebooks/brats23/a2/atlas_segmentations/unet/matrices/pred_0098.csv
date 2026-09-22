@@ -1,0 +1,50 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0098,WM/unassigned,TC,121,2
+pred_0098,Area 3b (PostCG) right,TC,47,1
+pred_0098,Area 1 (PostCG) right,TC,2,0
+pred_0098,Area 4a (PreCG) right,TC,2,0
+pred_0098,Area 3a (PostCG) right,TC,1,0
+pred_0098,Area 6v3 (PreCG) right,TC,194,2
+pred_0098,Area 4p (PreCG) right,TC,1,0
+pred_0098,Area 6v2 (PreCG) right,TC,1,0
+pred_0098,WM/unassigned,WT,20560,256
+pred_0098,Area 3b (PostCG) right,WT,839,10
+pred_0098,Area PF (IPL) right,WT,45,1
+pred_0098,Area 1 (PostCG) right,WT,1702,21
+pred_0098,Area Te 1.0 (HESCHL) right,WT,2,0
+pred_0098,Area PFt (IPL) right,WT,988,12
+pred_0098,Area Te 3 (STG) right,WT,103,1
+pred_0098,Area 6r1 (PreCG) right,WT,1734,22
+pred_0098,Area Op6 (Frontal Operculum) right,WT,71,1
+pred_0098,"Area TPJ (STG, SMG) right",WT,23,0
+pred_0098,Area Id4 (Insula) right,WT,5,0
+pred_0098,Area Op1 (POperc) right,WT,790,10
+pred_0098,Area IFS4 (IFS) right,WT,187,2
+pred_0098,Area 44 (IFG) right,WT,594,7
+pred_0098,"Area IFJ2 (IFS, PreCS) right",WT,217,3
+pred_0098,Area Op5 (Frontal Operculum) right,WT,441,5
+pred_0098,Area 4a (PreCG) right,WT,680,8
+pred_0098,Area 3a (PostCG) right,WT,283,4
+pred_0098,Area 6v3 (PreCG) right,WT,1620,20
+pred_0098,Area IFS1 (IFS) right,WT,6,0
+pred_0098,Area Op4 (POperc) right,WT,2452,31
+pred_0098,Area PFcm (IPL) right,WT,8,0
+pred_0098,Area 4p (PreCG) right,WT,222,3
+pred_0098,Area 45 (IFG) right,WT,227,3
+pred_0098,Area 2 (PostCS) right,WT,61,1
+pred_0098,Area Op3 (POperc) right,WT,239,3
+pred_0098,Frontal-II (GapMap) right,WT,423,5
+pred_0098,Area IFS2 (IFS) right,WT,27,0
+pred_0098,"Area IFJ1 (IFS, PreCS) right",WT,118,1
+pred_0098,Area PFop (IPL) right,WT,1072,13
+pred_0098,Area 6v2 (PreCG) right,WT,2122,26
+pred_0098,Area Te 2.2 (STG) right,WT,71,1
+pred_0098,WM/unassigned,ET,804,10
+pred_0098,Area 3b (PostCG) right,ET,455,6
+pred_0098,Area 1 (PostCG) right,ET,161,2
+pred_0098,Area 6r1 (PreCG) right,ET,56,1
+pred_0098,Area 4a (PreCG) right,ET,66,1
+pred_0098,Area 3a (PostCG) right,ET,50,1
+pred_0098,Area 6v3 (PreCG) right,ET,500,6
+pred_0098,Area 4p (PreCG) right,ET,44,1
+pred_0098,Area 6v2 (PreCG) right,ET,31,0

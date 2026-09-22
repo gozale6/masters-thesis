@@ -1,0 +1,24 @@
+{
+  "top_regions": {
+    "Frontal-to-Occipital (GapMap) right": {
+      "Percentage_of_Tumor": 21.73,
+      "Percentage_of_Region_Affected": 1.24
+    },
+    "Frontal-to-Occipital (GapMap) left": {
+      "Percentage_of_Tumor": 18.81,
+      "Percentage_of_Region_Affected": 0.98
+    },
+    "Temporal-to-Parietal (GapMap) right": {
+      "Percentage_of_Tumor": 8.63,
+      "Percentage_of_Region_Affected": 0.25
+    },
+    "Area hOc1 (V1, 17, CalcS) right": {
+      "Percentage_of_Tumor": 6.19,
+      "Percentage_of_Region_Affected": 0.99
+    },
+    "Subc (Hippocampus, Subicular complex) left": {
+      "Percentage_of_Tumor": 1.98,
+      "Percentage_of_Region_Affected": 0.86
+    }
+  }
+}

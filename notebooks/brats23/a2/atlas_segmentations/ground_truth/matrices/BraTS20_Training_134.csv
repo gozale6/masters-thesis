@@ -1,0 +1,39 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_134,WM/unassigned,TC,14913,204,55.4,0.2,False
+BraTS20_Training_134,Area hOc4la (LOC) right,TC,204,3,0.8,5.1,True
+BraTS20_Training_134,Area PF (IPL) right,TC,2,0,0.0,0.0,False
+BraTS20_Training_134,Area hIP4 (IPS) right,TC,31,0,0.1,2.9,False
+BraTS20_Training_134,Area PGa (IPL) right,TC,2300,32,8.5,36.0,True
+BraTS20_Training_134,Area PFm (IPL) right,TC,52,1,0.2,0.9,True
+BraTS20_Training_134,Area PGp (IPL) right,TC,3563,49,13.2,56.7,True
+BraTS20_Training_134,Temporal-to-Parietal (GapMap) right,TC,5813,80,21.6,8.6,True
+BraTS20_Training_134,Area hOc5 (LOC) right,TC,34,0,0.1,6.2,False
+BraTS20_Training_134,WM/unassigned,WT,18674,256,52.7,0.2,False
+BraTS20_Training_134,Area hOc4la (LOC) right,WT,1333,18,3.8,33.6,True
+BraTS20_Training_134,Area PF (IPL) right,WT,640,9,1.8,13.0,False
+BraTS20_Training_134,Area 1 (PostCG) right,WT,127,2,0.4,2.8,False
+BraTS20_Training_134,Area PFt (IPL) right,WT,482,7,1.4,14.3,False
+BraTS20_Training_134,Area hIP4 (IPS) right,WT,544,7,1.5,51.2,False
+BraTS20_Training_134,Area hIP6 (IPS) right,WT,939,13,2.7,42.5,False
+BraTS20_Training_134,Area hIP2 (IPS) right,WT,82,1,0.2,10.5,False
+BraTS20_Training_134,Area PGa (IPL) right,WT,1256,17,3.5,19.7,True
+BraTS20_Training_134,Area PFm (IPL) right,WT,1575,22,4.4,27.4,True
+BraTS20_Training_134,Area hOc4lp (LOC) right,WT,954,13,2.7,25.3,False
+BraTS20_Training_134,Area hPO1 (POS) right,WT,121,2,0.3,6.1,False
+BraTS20_Training_134,Area PGp (IPL) right,WT,1297,18,3.7,20.6,True
+BraTS20_Training_134,Area hIP5 (IPS) right,WT,1023,14,2.9,86.0,False
+BraTS20_Training_134,Area hIP3 (IPS) right,WT,6,0,0.0,0.1,False
+BraTS20_Training_134,Area hIP8 (IPS) right,WT,144,2,0.4,8.1,False
+BraTS20_Training_134,Temporal-to-Parietal (GapMap) right,WT,5301,73,15.0,7.9,True
+BraTS20_Training_134,Area hIP1 (IPS) right,WT,24,0,0.1,1.9,False
+BraTS20_Training_134,Area hOc5 (LOC) right,WT,228,3,0.6,41.5,False
+BraTS20_Training_134,Area hIP7 (IPS) right,WT,666,9,1.9,29.2,False
+BraTS20_Training_134,WM/unassigned,ET,11613,159,63.3,0.2,False
+BraTS20_Training_134,Area hOc4la (LOC) right,ET,628,9,3.4,15.8,True
+BraTS20_Training_134,Area PF (IPL) right,ET,25,0,0.1,0.5,False
+BraTS20_Training_134,Area hIP4 (IPS) right,ET,13,0,0.1,1.2,False
+BraTS20_Training_134,Area PGa (IPL) right,ET,1543,21,8.4,24.2,True
+BraTS20_Training_134,Area PFm (IPL) right,ET,610,8,3.3,10.6,True
+BraTS20_Training_134,Area PGp (IPL) right,ET,622,9,3.4,9.9,True
+BraTS20_Training_134,Temporal-to-Parietal (GapMap) right,ET,3234,44,17.6,4.8,True
+BraTS20_Training_134,Area hOc5 (LOC) right,ET,66,1,0.4,12.0,False

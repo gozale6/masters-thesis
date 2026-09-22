@@ -1,0 +1,38 @@
+2026-04-24 12:55:57,383  INFO  ======================================================================
+2026-04-24 12:55:57,384  INFO  Multi-model BraTS matrix → report training (ground truth)
+2026-04-24 12:55:57,384  INFO  ======================================================================
+2026-04-24 12:55:57,384  INFO    CSV         : atlas_segmentations/ground_truth/all_cases.csv
+2026-04-24 12:55:57,384  INFO    Text dir    : ../TextBraTSData
+2026-04-24 12:55:57,384  INFO    Output root : checkpoints_multi
+2026-04-24 12:55:57,384  INFO    Epochs      : 100  patience=10
+2026-04-24 12:55:57,384  INFO    Batch       : 2 (accum=4, eff=8)
+2026-04-24 12:55:57,384  INFO    LR (base)   : 3e-05
+2026-04-24 12:55:57,384  INFO    LR (large)  : 1e-05
+2026-04-24 12:55:57,384  INFO    Model(s)    : all
+2026-04-24 12:55:57,384  INFO  ======================================================================
+2026-04-24 12:55:57,384  INFO  Loading CSV: atlas_segmentations/ground_truth/all_cases.csv
+2026-04-24 12:55:57,398  INFO    38035 rows | 368 cases in CSV
+2026-04-24 12:55:58,407  INFO    Matched (matrix + report): 368  |  Skipped: 0
+2026-04-24 12:55:58,407  INFO  
+######################################################################
+2026-04-24 12:55:58,407  INFO  # Training model: scifive-base  (razent/SciFive-base-PMC)
+2026-04-24 12:55:58,407  INFO  ######################################################################
+2026-04-24 12:55:58,408  INFO  Train: 294 | Val: 74
+2026-04-24 12:55:58,408  INFO  Loading tokenizer: razent/SciFive-base-PMC
+2026-04-24 12:55:58,704  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 12:55:58,742  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 12:55:58,908  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 12:55:58,909  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-24 12:55:58,986  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 12:55:59,075  INFO  HTTP Request: GET https://huggingface.co/api/models/razent/SciFive-base-PMC/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-24 12:55:59,168  INFO  HTTP Request: GET https://huggingface.co/api/models/razent/SciFive-base-PMC/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-24 12:55:59,251  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/spiece.model "HTTP/1.1 302 Found"
+2026-04-24 12:55:59,317  INFO  Loading model: razent/SciFive-base-PMC
+2026-04-24 12:55:59,394  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 12:55:59,491  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 12:55:59,591  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 12:55:59,731  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 12:55:59,937  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-04-24 12:56:00,017  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-24 12:56:00,140  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-24 12:56:01,004  INFO  Using LR: 3e-05

@@ -1,0 +1,14 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_087,WM/unassigned,TC,24,0
+BraTS20_Training_087,STN (Subthalamus) left,TC,8,0
+BraTS20_Training_087,WM/unassigned,WT,16315,256
+BraTS20_Training_087,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",WT,14,0
+BraTS20_Training_087,STN (Subthalamus) left,WT,20,0
+BraTS20_Training_087,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,84,1
+BraTS20_Training_087,Area Te 3 (STG) right,WT,8,0
+BraTS20_Training_087,Area 44 (IFG) right,WT,105,2
+BraTS20_Training_087,Area Op9 (Frontal Operculum) right,WT,10,0
+BraTS20_Training_087,Area 45 (IFG) right,WT,499,8
+BraTS20_Training_087,WM/unassigned,ET,174,3
+BraTS20_Training_087,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",ET,1,0
+BraTS20_Training_087,STN (Subthalamus) left,ET,1,0

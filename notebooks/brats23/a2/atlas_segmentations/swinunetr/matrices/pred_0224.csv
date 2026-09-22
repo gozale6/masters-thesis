@@ -1,0 +1,44 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0224,WM/unassigned,TC,1104,85
+pred_0224,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,708,54
+pred_0224,Ch 4 (Basal Forebrain) right,TC,3,0
+pred_0224,Area Id10 (Insula) right,TC,25,2
+pred_0224,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,29,2
+pred_0224,Frontal-to-Temporal-II (GapMap) right,TC,1,0
+pred_0224,VP (Ventral Pallidum) right,TC,14,1
+pred_0224,"AcbL (Ventral Striatum, Lateral Accumbens) right",TC,6,0
+pred_0224,WM/unassigned,WT,3341,256
+pred_0224,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",WT,54,4
+pred_0224,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,212,16
+pred_0224,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,113,9
+pred_0224,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,107,8
+pred_0224,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,195,15
+pred_0224,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,265,20
+pred_0224,"AM (Thalamus, anteromedial Nucleus) right",WT,44,3
+pred_0224,Area Id6 (Insula) right,WT,7,1
+pred_0224,"Pv (Thalamus, paraventricular Nucleus) right",WT,28,2
+pred_0224,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,150,11
+pred_0224,Area 25 (sACC) right,WT,54,4
+pred_0224,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,103,8
+pred_0224,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",WT,12,1
+pred_0224,Ch 4 (Basal Forebrain) right,WT,63,5
+pred_0224,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,48,4
+pred_0224,Area Id10 (Insula) right,WT,120,9
+pred_0224,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,259,20
+pred_0224,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,122,9
+pred_0224,"MV (Thalamus, medioventral Nucleus) right",WT,13,1
+pred_0224,CM (Amygdala) right,WT,15,1
+pred_0224,"TuTi (Basal Forebrain, Terminal islands) right",WT,61,5
+pred_0224,"CL (Thalamus, anterior intralaminar nuclei) right",WT,86,7
+pred_0224,Frontal-to-Temporal-II (GapMap) right,WT,21,2
+pred_0224,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,55,4
+pred_0224,VP (Ventral Pallidum) right,WT,172,13
+pred_0224,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,19,1
+pred_0224,WM/unassigned,ET,3212,246
+pred_0224,Area Id6 (Insula) right,ET,5,0
+pred_0224,"FuP (Ventral Striatum, Fundus of Putamen) right",ET,686,53
+pred_0224,Ch 4 (Basal Forebrain) right,ET,9,1
+pred_0224,Area Id10 (Insula) right,ET,108,8
+pred_0224,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,87,7
+pred_0224,VP (Ventral Pallidum) right,ET,67,5
+pred_0224,"AcbL (Ventral Striatum, Lateral Accumbens) right",ET,32,2

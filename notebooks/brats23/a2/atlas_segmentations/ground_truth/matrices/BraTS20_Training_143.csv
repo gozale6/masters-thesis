@@ -1,0 +1,228 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_143,WM/unassigned,TC,38953,214,75.3,0.5,False
+BraTS20_Training_143,Area p24ab (pACC) right,TC,750,4,1.4,38.2,True
+BraTS20_Training_143,Frontal-to-Occipital (GapMap) right,TC,551,3,1.1,1.6,True
+BraTS20_Training_143,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,431,2,0.8,48.6,False
+BraTS20_Training_143,"BST (Basal Forebrain, Bed Nucleus) right",TC,150,1,0.3,83.3,False
+BraTS20_Training_143,"AM (Thalamus, anteromedial Nucleus) right",TC,133,1,0.3,98.5,False
+BraTS20_Training_143,"Tu (Basal Forebrain, Tuberculum) right",TC,1,0,0.0,1.6,False
+BraTS20_Training_143,"Rt (Thalamus, reticular Nucleus) right",TC,35,0,0.1,1.8,False
+BraTS20_Training_143,"Pv (Thalamus, paraventricular Nucleus) right",TC,76,0,0.1,98.7,False
+BraTS20_Training_143,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,29,0,0.1,1.7,False
+BraTS20_Training_143,Area 25 (sACC) right,TC,136,1,0.3,34.6,False
+BraTS20_Training_143,STN (Subthalamus) right,TC,3,0,0.0,0.9,False
+BraTS20_Training_143,Area p32 (pACC) right,TC,14,0,0.0,0.2,False
+BraTS20_Training_143,"AcbM (Ventral Striatum, Medial Accumbens) right",TC,118,1,0.2,66.3,False
+BraTS20_Training_143,Area p24c (pACC) right,TC,224,1,0.4,9.0,False
+BraTS20_Training_143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,322,2,0.6,30.9,False
+BraTS20_Training_143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",TC,114,1,0.2,23.2,False
+BraTS20_Training_143,"MV (Thalamus, medioventral Nucleus) right",TC,13,0,0.0,11.1,False
+BraTS20_Training_143,Frontal-I.2 (GapMap) right,TC,16,0,0.0,0.3,False
+BraTS20_Training_143,Area 33 (ACC) right,TC,1339,7,2.6,71.5,True
+BraTS20_Training_143,"TuTi (Basal Forebrain, Terminal islands) right",TC,54,0,0.1,15.3,False
+BraTS20_Training_143,"CL (Thalamus, anterior intralaminar nuclei) right",TC,55,0,0.1,4.6,False
+BraTS20_Training_143,Frontal-to-Temporal-II (GapMap) right,TC,1,0,0.0,0.0,False
+BraTS20_Training_143,Ch 123 (Basal Forebrain) right,TC,232,1,0.4,91.0,False
+BraTS20_Training_143,"AV (Thalamus, anteroventral Nucleus) right",TC,93,1,0.2,32.7,False
+BraTS20_Training_143,VP (Ventral Pallidum) right,TC,215,1,0.4,33.9,False
+BraTS20_Training_143,Area s24 (sACC) right,TC,95,1,0.2,6.6,False
+BraTS20_Training_143,"AcbL (Ventral Striatum, Lateral Accumbens) right",TC,1,0,0.0,0.3,False
+BraTS20_Training_143,Area Fo2 (OFC) right,TC,1,0,0.0,0.1,False
+BraTS20_Training_143,Area Id8 (Insula) left,TC,7,0,0.0,0.7,False
+BraTS20_Training_143,"ZI (Thalamus, zona incerta) left",TC,7,0,0.0,1.2,False
+BraTS20_Training_143,Area p24ab (pACC) left,TC,1116,6,2.2,61.1,True
+BraTS20_Training_143,Frontal-to-Occipital (GapMap) left,TC,2295,13,4.4,6.2,True
+BraTS20_Training_143,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",TC,190,1,0.4,23.5,False
+BraTS20_Training_143,"BST (Basal Forebrain, Bed Nucleus) left",TC,89,0,0.2,50.9,False
+BraTS20_Training_143,"AM (Thalamus, anteromedial Nucleus) left",TC,81,0,0.2,62.3,False
+BraTS20_Training_143,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,15,0,0.0,1.2,False
+BraTS20_Training_143,Area Id4 (Insula) left,TC,1,0,0.0,0.1,False
+BraTS20_Training_143,"Tu (Basal Forebrain, Tuberculum) left",TC,35,0,0.1,79.5,False
+BraTS20_Training_143,"Rt (Thalamus, reticular Nucleus) left",TC,5,0,0.0,0.3,False
+BraTS20_Training_143,Area Id6 (Insula) left,TC,9,0,0.0,0.3,False
+BraTS20_Training_143,"Pv (Thalamus, paraventricular Nucleus) left",TC,14,0,0.0,70.0,False
+BraTS20_Training_143,Area Op8 (Frontal Operculum) left,TC,4,0,0.0,0.3,False
+BraTS20_Training_143,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,230,1,0.4,15.6,False
+BraTS20_Training_143,Area 25 (sACC) left,TC,84,0,0.2,32.3,False
+BraTS20_Training_143,"MD (Thalamus, mediodorsal Nucleus) left",TC,3,0,0.0,0.4,False
+BraTS20_Training_143,LB (Amygdala) left,TC,2,0,0.0,0.2,False
+BraTS20_Training_143,Area Id7 (Insula) left,TC,17,0,0.0,2.1,False
+BraTS20_Training_143,Area p32 (pACC) left,TC,490,3,0.9,6.5,False
+BraTS20_Training_143,Area Fo3 (OFC) left,TC,2,0,0.0,0.0,False
+BraTS20_Training_143,Ch 4 (Basal Forebrain) left,TC,21,0,0.0,3.9,False
+BraTS20_Training_143,"AcbM (Ventral Striatum, Medial Accumbens) left",TC,135,1,0.3,75.4,False
+BraTS20_Training_143,Area Id10 (Insula) left,TC,5,0,0.0,0.3,False
+BraTS20_Training_143,"VM (Thalamus, ventral medial Nucleus) left",TC,2,0,0.0,10.0,False
+BraTS20_Training_143,Area p24c (pACC) left,TC,496,3,1.0,43.6,False
+BraTS20_Training_143,Frontal-to-Temporal-I (GapMap) left,TC,4,0,0.0,0.1,False
+BraTS20_Training_143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,366,2,0.7,36.2,False
+BraTS20_Training_143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",TC,42,0,0.1,13.9,False
+BraTS20_Training_143,Frontal-I.2 (GapMap) left,TC,3,0,0.0,0.1,False
+BraTS20_Training_143,CM (Amygdala) left,TC,15,0,0.0,3.0,False
+BraTS20_Training_143,Area 33 (ACC) left,TC,429,2,0.8,76.6,False
+BraTS20_Training_143,"VIM (Thalamus, ventral intermediate Nucleus) left",TC,7,0,0.0,0.6,False
+BraTS20_Training_143,Temporal-to-Parietal (GapMap) left,TC,6,0,0.0,0.0,False
+BraTS20_Training_143,HATA (Hippocampus) left,TC,2,0,0.0,0.5,False
+BraTS20_Training_143,"TuTi (Basal Forebrain, Terminal islands) left",TC,179,1,0.3,66.3,False
+BraTS20_Training_143,"CL (Thalamus, anterior intralaminar nuclei) left",TC,32,0,0.1,2.2,False
+BraTS20_Training_143,Frontal-to-Temporal-II (GapMap) left,TC,260,1,0.5,4.4,False
+BraTS20_Training_143,Ch 123 (Basal Forebrain) left,TC,161,1,0.3,88.0,False
+BraTS20_Training_143,"VLA (Thalamus, ventral lateral anterior Nucleus) left",TC,15,0,0.0,15.5,False
+BraTS20_Training_143,"AV (Thalamus, anteroventral Nucleus) left",TC,18,0,0.0,6.6,False
+BraTS20_Training_143,VP (Ventral Pallidum) left,TC,278,2,0.5,51.6,False
+BraTS20_Training_143,Area s32 (sACC) left,TC,5,0,0.0,0.4,False
+BraTS20_Training_143,SF (Amygdala) left,TC,53,0,0.1,8.4,False
+BraTS20_Training_143,Area s24 (sACC) left,TC,257,1,0.5,17.8,False
+BraTS20_Training_143,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,91,0,0.2,25.3,False
+BraTS20_Training_143,Area Fo2 (OFC) left,TC,4,0,0.0,0.2,False
+BraTS20_Training_143,WM/unassigned,WT,14293,79,60.3,0.2,False
+BraTS20_Training_143,"ZI (Thalamus, zona incerta) right",WT,1,0,0.0,0.4,False
+BraTS20_Training_143,Area p24ab (pACC) right,WT,18,0,0.1,0.9,False
+BraTS20_Training_143,Frontal-to-Occipital (GapMap) right,WT,2406,13,10.2,7.1,True
+BraTS20_Training_143,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,17,0,0.1,1.9,False
+BraTS20_Training_143,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,22,0,0.1,3.7,False
+BraTS20_Training_143,"Tu (Basal Forebrain, Tuberculum) right",WT,5,0,0.0,7.8,False
+BraTS20_Training_143,"Rt (Thalamus, reticular Nucleus) right",WT,56,0,0.2,2.9,False
+BraTS20_Training_143,Area Id6 (Insula) right,WT,206,1,0.9,7.8,False
+BraTS20_Training_143,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,703,4,3.0,42.1,False
+BraTS20_Training_143,"MD (Thalamus, mediodorsal Nucleus) right",WT,22,0,0.1,2.7,False
+BraTS20_Training_143,Area Id7 (Insula) right,WT,170,1,0.7,23.6,False
+BraTS20_Training_143,Area p32 (pACC) right,WT,236,1,1.0,4.1,False
+BraTS20_Training_143,Ch 4 (Basal Forebrain) right,WT,33,0,0.1,19.9,False
+BraTS20_Training_143,Area p24c (pACC) right,WT,241,1,1.0,9.7,False
+BraTS20_Training_143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,44,0,0.2,4.2,False
+BraTS20_Training_143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,7,0,0.0,1.4,False
+BraTS20_Training_143,Frontal-I.2 (GapMap) right,WT,886,5,3.7,16.2,True
+BraTS20_Training_143,CM (Amygdala) right,WT,8,0,0.0,1.3,False
+BraTS20_Training_143,Area Op9 (Frontal Operculum) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_143,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,42,0,0.2,3.7,False
+BraTS20_Training_143,"TuTi (Basal Forebrain, Terminal islands) right",WT,75,0,0.3,21.2,False
+BraTS20_Training_143,"CL (Thalamus, anterior intralaminar nuclei) right",WT,30,0,0.1,2.5,False
+BraTS20_Training_143,Frontal-to-Temporal-II (GapMap) right,WT,23,0,0.1,0.9,False
+BraTS20_Training_143,"VLA (Thalamus, ventral lateral anterior Nucleus) right",WT,12,0,0.1,18.5,False
+BraTS20_Training_143,"AV (Thalamus, anteroventral Nucleus) right",WT,13,0,0.1,4.6,False
+BraTS20_Training_143,VP (Ventral Pallidum) right,WT,71,0,0.3,11.2,False
+BraTS20_Training_143,Area s32 (sACC) right,WT,4,0,0.0,0.3,False
+BraTS20_Training_143,Area s24 (sACC) right,WT,28,0,0.1,1.9,False
+BraTS20_Training_143,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,31,0,0.1,9.8,False
+BraTS20_Training_143,Area Fo2 (OFC) right,WT,16,0,0.1,0.8,False
+BraTS20_Training_143,"ZI (Thalamus, zona incerta) left",WT,12,0,0.1,2.1,False
+BraTS20_Training_143,Area p24ab (pACC) left,WT,34,0,0.1,1.9,False
+BraTS20_Training_143,Frontal-to-Occipital (GapMap) left,WT,1425,8,6.0,3.9,True
+BraTS20_Training_143,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,1,0,0.0,0.1,False
+BraTS20_Training_143,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,19,0,0.1,1.5,False
+BraTS20_Training_143,Area Id4 (Insula) left,WT,9,0,0.0,1.0,False
+BraTS20_Training_143,"Rt (Thalamus, reticular Nucleus) left",WT,25,0,0.1,1.6,False
+BraTS20_Training_143,Area Id6 (Insula) left,WT,14,0,0.1,0.5,False
+BraTS20_Training_143,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,4,0,0.0,0.3,False
+BraTS20_Training_143,"MD (Thalamus, mediodorsal Nucleus) left",WT,11,0,0.0,1.3,False
+BraTS20_Training_143,LB (Amygdala) left,WT,20,0,0.1,2.1,False
+BraTS20_Training_143,"Pf (Thalamus, parafascicular Nucleus) left",WT,1,0,0.0,1.2,False
+BraTS20_Training_143,Area p32 (pACC) left,WT,841,5,3.6,11.1,True
+BraTS20_Training_143,Area Fo3 (OFC) left,WT,5,0,0.0,0.1,False
+BraTS20_Training_143,Ch 4 (Basal Forebrain) left,WT,14,0,0.1,2.6,False
+BraTS20_Training_143,"VM (Thalamus, ventral medial Nucleus) left",WT,5,0,0.0,25.0,False
+BraTS20_Training_143,Area p24c (pACC) left,WT,83,0,0.4,7.3,False
+BraTS20_Training_143,"CM (Thalamus, centromedian Nucleus) left",WT,2,0,0.0,1.2,False
+BraTS20_Training_143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,5,0,0.0,1.7,False
+BraTS20_Training_143,Frontal-I.2 (GapMap) left,WT,1117,6,4.7,21.2,True
+BraTS20_Training_143,CM (Amygdala) left,WT,65,0,0.3,13.0,False
+BraTS20_Training_143,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,36,0,0.2,3.2,False
+BraTS20_Training_143,Temporal-to-Parietal (GapMap) left,WT,12,0,0.1,0.0,False
+BraTS20_Training_143,"CL (Thalamus, anterior intralaminar nuclei) left",WT,67,0,0.3,4.6,False
+BraTS20_Training_143,Frontal-to-Temporal-II (GapMap) left,WT,45,0,0.2,0.8,False
+BraTS20_Training_143,"Subc (Hippocampus, Subicular complex) left",WT,1,0,0.0,0.0,False
+BraTS20_Training_143,"AV (Thalamus, anteroventral Nucleus) left",WT,39,0,0.2,14.2,False
+BraTS20_Training_143,Area s32 (sACC) left,WT,9,0,0.0,0.6,False
+BraTS20_Training_143,MF (Amygdala) left,WT,2,0,0.0,9.1,False
+BraTS20_Training_143,"sPf (Thalamus, subparafascicular Nucleus) left",WT,1,0,0.0,0.8,False
+BraTS20_Training_143,SF (Amygdala) left,WT,37,0,0.2,5.9,False
+BraTS20_Training_143,Area s24 (sACC) left,WT,5,0,0.0,0.3,False
+BraTS20_Training_143,Area Fo2 (OFC) left,WT,2,0,0.0,0.1,False
+BraTS20_Training_143,WM/unassigned,ET,46605,256,64.4,0.6,False
+BraTS20_Training_143,"ZI (Thalamus, zona incerta) right",ET,8,0,0.0,3.3,False
+BraTS20_Training_143,Area p24ab (pACC) right,ET,1192,7,1.6,60.8,False
+BraTS20_Training_143,Frontal-to-Occipital (GapMap) right,ET,2333,13,3.2,6.9,True
+BraTS20_Training_143,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,428,2,0.6,48.3,False
+BraTS20_Training_143,"BST (Basal Forebrain, Bed Nucleus) right",ET,30,0,0.0,16.7,False
+BraTS20_Training_143,"AM (Thalamus, anteromedial Nucleus) right",ET,2,0,0.0,1.5,False
+BraTS20_Training_143,"VLP (Thalamus, ventral lateral posterior Nucleus) right",ET,15,0,0.0,2.5,False
+BraTS20_Training_143,"Tu (Basal Forebrain, Tuberculum) right",ET,57,0,0.1,89.1,False
+BraTS20_Training_143,"Rt (Thalamus, reticular Nucleus) right",ET,56,0,0.1,2.9,False
+BraTS20_Training_143,"Pv (Thalamus, paraventricular Nucleus) right",ET,1,0,0.0,1.3,False
+BraTS20_Training_143,"FuP (Ventral Striatum, Fundus of Putamen) right",ET,185,1,0.3,11.1,False
+BraTS20_Training_143,Area 25 (sACC) right,ET,257,1,0.4,65.4,False
+BraTS20_Training_143,"MD (Thalamus, mediodorsal Nucleus) right",ET,163,1,0.2,20.0,False
+BraTS20_Training_143,STN (Subthalamus) right,ET,1,0,0.0,0.3,False
+BraTS20_Training_143,Area p32 (pACC) right,ET,69,0,0.1,1.2,False
+BraTS20_Training_143,"AcbM (Ventral Striatum, Medial Accumbens) right",ET,60,0,0.1,33.7,False
+BraTS20_Training_143,Area p24c (pACC) right,ET,1304,7,1.8,52.4,True
+BraTS20_Training_143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,677,4,0.9,64.9,False
+BraTS20_Training_143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",ET,368,2,0.5,74.8,False
+BraTS20_Training_143,"MV (Thalamus, medioventral Nucleus) right",ET,102,1,0.1,87.2,False
+BraTS20_Training_143,Frontal-I.2 (GapMap) right,ET,73,0,0.1,1.3,False
+BraTS20_Training_143,Area 33 (ACC) right,ET,534,3,0.7,28.5,False
+BraTS20_Training_143,"VIM (Thalamus, ventral intermediate Nucleus) right",ET,71,0,0.1,6.3,False
+BraTS20_Training_143,"TuTi (Basal Forebrain, Terminal islands) right",ET,74,0,0.1,21.0,False
+BraTS20_Training_143,"CL (Thalamus, anterior intralaminar nuclei) right",ET,326,2,0.5,27.1,False
+BraTS20_Training_143,Frontal-to-Temporal-II (GapMap) right,ET,136,1,0.2,5.3,False
+BraTS20_Training_143,Ch 123 (Basal Forebrain) right,ET,23,0,0.0,9.0,False
+BraTS20_Training_143,"VLA (Thalamus, ventral lateral anterior Nucleus) right",ET,22,0,0.0,33.8,False
+BraTS20_Training_143,"AV (Thalamus, anteroventral Nucleus) right",ET,170,1,0.2,59.9,False
+BraTS20_Training_143,VP (Ventral Pallidum) right,ET,349,2,0.5,55.0,False
+BraTS20_Training_143,Area s32 (sACC) right,ET,34,0,0.0,2.2,False
+BraTS20_Training_143,Area s24 (sACC) right,ET,1173,6,1.6,81.2,False
+BraTS20_Training_143,"AcbL (Ventral Striatum, Lateral Accumbens) right",ET,273,1,0.4,86.7,False
+BraTS20_Training_143,Area Fo2 (OFC) right,ET,29,0,0.0,1.5,False
+BraTS20_Training_143,Area Id8 (Insula) left,ET,59,0,0.1,5.5,False
+BraTS20_Training_143,"ZI (Thalamus, zona incerta) left",ET,210,1,0.3,37.5,False
+BraTS20_Training_143,Area p24ab (pACC) left,ET,664,4,0.9,36.4,False
+BraTS20_Training_143,Frontal-to-Occipital (GapMap) left,ET,1924,11,2.7,5.2,True
+BraTS20_Training_143,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",ET,616,3,0.9,76.3,False
+BraTS20_Training_143,"BST (Basal Forebrain, Bed Nucleus) left",ET,86,0,0.1,49.1,False
+BraTS20_Training_143,"AM (Thalamus, anteromedial Nucleus) left",ET,49,0,0.1,37.7,False
+BraTS20_Training_143,Area Op7 (Frontal Operculum) left,ET,21,0,0.0,4.0,False
+BraTS20_Training_143,"VLP (Thalamus, ventral lateral posterior Nucleus) left",ET,76,0,0.1,6.1,False
+BraTS20_Training_143,"Tu (Basal Forebrain, Tuberculum) left",ET,9,0,0.0,20.5,False
+BraTS20_Training_143,"Rt (Thalamus, reticular Nucleus) left",ET,37,0,0.1,2.4,False
+BraTS20_Training_143,Area Id6 (Insula) left,ET,756,4,1.0,25.8,False
+BraTS20_Training_143,"Pv (Thalamus, paraventricular Nucleus) left",ET,6,0,0.0,30.0,False
+BraTS20_Training_143,Area Op8 (Frontal Operculum) left,ET,2,0,0.0,0.2,False
+BraTS20_Training_143,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,1242,7,1.7,84.0,True
+BraTS20_Training_143,Area 25 (sACC) left,ET,176,1,0.2,67.7,False
+BraTS20_Training_143,"MD (Thalamus, mediodorsal Nucleus) left",ET,155,1,0.2,18.9,False
+BraTS20_Training_143,LB (Amygdala) left,ET,28,0,0.0,2.9,False
+BraTS20_Training_143,Area Op10 (Frontal Operculum) left,ET,1,0,0.0,0.3,False
+BraTS20_Training_143,Area Id7 (Insula) left,ET,421,2,0.6,51.0,False
+BraTS20_Training_143,STN (Subthalamus) left,ET,101,1,0.1,33.2,False
+BraTS20_Training_143,Area p32 (pACC) left,ET,1700,9,2.3,22.5,True
+BraTS20_Training_143,Area Fo3 (OFC) left,ET,10,0,0.0,0.2,False
+BraTS20_Training_143,Ch 4 (Basal Forebrain) left,ET,431,2,0.6,79.2,False
+BraTS20_Training_143,"AcbM (Ventral Striatum, Medial Accumbens) left",ET,44,0,0.1,24.6,False
+BraTS20_Training_143,Area Id10 (Insula) left,ET,78,0,0.1,5.4,False
+BraTS20_Training_143,Area p24c (pACC) left,ET,558,3,0.8,49.1,False
+BraTS20_Training_143,Frontal-to-Temporal-I (GapMap) left,ET,55,0,0.1,1.4,False
+BraTS20_Training_143,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,644,4,0.9,63.8,False
+BraTS20_Training_143,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",ET,248,1,0.3,81.8,False
+BraTS20_Training_143,"MV (Thalamus, medioventral Nucleus) left",ET,54,0,0.1,100.0,False
+BraTS20_Training_143,Frontal-I.2 (GapMap) left,ET,180,1,0.2,3.4,False
+BraTS20_Training_143,CM (Amygdala) left,ET,162,1,0.2,32.4,False
+BraTS20_Training_143,Area 33 (ACC) left,ET,131,1,0.2,23.4,False
+BraTS20_Training_143,"VIM (Thalamus, ventral intermediate Nucleus) left",ET,240,1,0.3,21.4,False
+BraTS20_Training_143,Temporal-to-Parietal (GapMap) left,ET,44,0,0.1,0.1,False
+BraTS20_Training_143,HATA (Hippocampus) left,ET,4,0,0.0,1.0,False
+BraTS20_Training_143,"TuTi (Basal Forebrain, Terminal islands) left",ET,91,0,0.1,33.7,False
+BraTS20_Training_143,"CL (Thalamus, anterior intralaminar nuclei) left",ET,524,3,0.7,36.0,False
+BraTS20_Training_143,Frontal-to-Temporal-II (GapMap) left,ET,879,5,1.2,14.8,False
+BraTS20_Training_143,Area Id5 (Insula) left,ET,2,0,0.0,0.3,False
+BraTS20_Training_143,Ch 123 (Basal Forebrain) left,ET,22,0,0.0,12.0,False
+BraTS20_Training_143,"VPL (Thalamus, ventral posterior lateral Nucleus) left",ET,9,0,0.0,1.5,False
+BraTS20_Training_143,"VLA (Thalamus, ventral lateral anterior Nucleus) left",ET,81,0,0.1,83.5,False
+BraTS20_Training_143,"AV (Thalamus, anteroventral Nucleus) left",ET,118,1,0.2,43.1,False
+BraTS20_Training_143,VP (Ventral Pallidum) left,ET,261,1,0.4,48.4,False
+BraTS20_Training_143,Area s32 (sACC) left,ET,18,0,0.0,1.3,False
+BraTS20_Training_143,MF (Amygdala) left,ET,2,0,0.0,9.1,False
+BraTS20_Training_143,SF (Amygdala) left,ET,283,2,0.4,44.8,False
+BraTS20_Training_143,Area s24 (sACC) left,ET,930,5,1.3,64.5,False
+BraTS20_Training_143,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,268,1,0.4,74.7,False
+BraTS20_Training_143,Area Fo2 (OFC) left,ET,450,2,0.6,22.9,False

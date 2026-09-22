@@ -1,0 +1,48 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0024,WM/unassigned,TC,3226,114
+pred_0024,Area 3b (PostCG) right,TC,1,0
+pred_0024,Area PF (IPL) right,TC,1422,50
+pred_0024,Area 1 (PostCG) right,TC,6,0
+pred_0024,Area PFt (IPL) right,TC,485,17
+pred_0024,Area Te 3 (STG) right,TC,12,0
+pred_0024,"Area TPJ (STG, SMG) right",TC,819,29
+pred_0024,Area Op1 (POperc) right,TC,718,25
+pred_0024,Area PFm (IPL) right,TC,9,0
+pred_0024,Area Op4 (POperc) right,TC,293,10
+pred_0024,Area PFcm (IPL) right,TC,1204,43
+pred_0024,Area PFop (IPL) right,TC,1193,42
+pred_0024,Area Te 2.2 (STG) right,TC,175,6
+pred_0024,WM/unassigned,WT,7244,256
+pred_0024,Area 3b (PostCG) right,WT,393,14
+pred_0024,Area PF (IPL) right,WT,898,32
+pred_0024,Area 1 (PostCG) right,WT,280,10
+pred_0024,Area PFt (IPL) right,WT,603,21
+pred_0024,Area Te 3 (STG) right,WT,317,11
+pred_0024,Area 6r1 (PreCG) right,WT,1,0
+pred_0024,"Area TPJ (STG, SMG) right",WT,59,2
+pred_0024,Area Op1 (POperc) right,WT,61,2
+pred_0024,Area hIP2 (IPS) right,WT,2,0
+pred_0024,Area PGa (IPL) right,WT,228,8
+pred_0024,Area PFm (IPL) right,WT,1499,53
+pred_0024,Area Op4 (POperc) right,WT,508,18
+pred_0024,Area Op2 (POperc) right,WT,1,0
+pred_0024,Area PFcm (IPL) right,WT,507,18
+pred_0024,Area hIP3 (IPS) right,WT,158,6
+pred_0024,Temporal-to-Parietal (GapMap) right,WT,1338,47
+pred_0024,Area 2 (PostCS) right,WT,11,0
+pred_0024,Area PFop (IPL) right,WT,17,1
+pred_0024,Area Te 2.2 (STG) right,WT,248,9
+pred_0024,WM/unassigned,ET,3987,141
+pred_0024,Area 3b (PostCG) right,ET,9,0
+pred_0024,Area PF (IPL) right,ET,1333,47
+pred_0024,Area 1 (PostCG) right,ET,103,4
+pred_0024,Area PFt (IPL) right,ET,467,17
+pred_0024,Area Te 3 (STG) right,ET,155,5
+pred_0024,"Area TPJ (STG, SMG) right",ET,572,20
+pred_0024,Area Op1 (POperc) right,ET,361,13
+pred_0024,Area PFm (IPL) right,ET,35,1
+pred_0024,Area Op4 (POperc) right,ET,290,10
+pred_0024,Area PFcm (IPL) right,ET,233,8
+pred_0024,Temporal-to-Parietal (GapMap) right,ET,20,1
+pred_0024,Area PFop (IPL) right,ET,205,7
+pred_0024,Area Te 2.2 (STG) right,ET,411,15

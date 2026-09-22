@@ -1,0 +1,32 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0111,WM/unassigned,TC,324,15
+pred_0111,"Area 6mp (SMA, mesial SFG) left",TC,3,0
+pred_0111,Frontal-to-Occipital (GapMap) left,TC,38,2
+pred_0111,"Area 6ma (preSMA, mesial SFG) left",TC,28,1
+pred_0111,"Area 6mp (SMA, mesial SFG) right",TC,267,12
+pred_0111,Frontal-to-Occipital (GapMap) right,TC,235,11
+pred_0111,"Area 6ma (preSMA, mesial SFG) right",TC,571,27
+pred_0111,WM/unassigned,WT,5485,256
+pred_0111,"Area 6mp (SMA, mesial SFG) left",WT,678,32
+pred_0111,Frontal-to-Occipital (GapMap) left,WT,2766,129
+pred_0111,Area 4a (PreCG) left,WT,12,1
+pred_0111,"Area 6ma (preSMA, mesial SFG) left",WT,1077,50
+pred_0111,Frontal-I.2 (GapMap) left,WT,243,11
+pred_0111,Area 33 (ACC) left,WT,113,5
+pred_0111,"Area 6mp (SMA, mesial SFG) right",WT,710,33
+pred_0111,Frontal-to-Occipital (GapMap) right,WT,1991,93
+pred_0111,Area 6d1 (PreCG) right,WT,98,5
+pred_0111,Area 4a (PreCG) right,WT,511,24
+pred_0111,"Area 6ma (preSMA, mesial SFG) right",WT,341,16
+pred_0111,Frontal-I.2 (GapMap) right,WT,653,30
+pred_0111,Area 33 (ACC) right,WT,146,7
+pred_0111,WM/unassigned,ET,4445,207
+pred_0111,"Area 6mp (SMA, mesial SFG) left",ET,103,5
+pred_0111,Frontal-to-Occipital (GapMap) left,ET,743,35
+pred_0111,"Area 6ma (preSMA, mesial SFG) left",ET,477,22
+pred_0111,Frontal-I.2 (GapMap) left,ET,1,0
+pred_0111,"Area 6mp (SMA, mesial SFG) right",ET,880,41
+pred_0111,Frontal-to-Occipital (GapMap) right,ET,3479,162
+pred_0111,Area 6d1 (PreCG) right,ET,94,4
+pred_0111,"Area 6ma (preSMA, mesial SFG) right",ET,1552,72
+pred_0111,Area 33 (ACC) right,ET,11,1

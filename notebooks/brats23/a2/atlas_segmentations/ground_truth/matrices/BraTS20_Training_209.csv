@@ -1,0 +1,31 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_209,WM/unassigned,TC,10113,212,40.9,0.1,False
+BraTS20_Training_209,Area STS2 (STS) right,TC,3992,84,16.1,60.7,True
+BraTS20_Training_209,Area Te 3 (STG) right,TC,203,4,0.8,4.7,True
+BraTS20_Training_209,Area FG4 (FusG) right,TC,4,0,0.0,0.1,True
+BraTS20_Training_209,Temporal-to-Parietal (GapMap) right,TC,8637,181,34.9,12.8,True
+BraTS20_Training_209,Area STS1 (STS) right,TC,1784,37,7.2,53.6,True
+BraTS20_Training_209,WM/unassigned,WT,12190,256,60.5,0.2,False
+BraTS20_Training_209,Area Te 1.0 (HESCHL) right,WT,20,0,0.1,2.6,False
+BraTS20_Training_209,Area STS2 (STS) right,WT,1763,37,8.7,26.8,True
+BraTS20_Training_209,Area Id3 (Insula) right,WT,48,1,0.2,4.3,False
+BraTS20_Training_209,Area TI (STG) right,WT,399,8,2.0,37.9,True
+BraTS20_Training_209,Area Te 3 (STG) right,WT,337,7,1.7,7.8,True
+BraTS20_Training_209,Area Ia1 (Insula) right,WT,3,0,0.0,1.1,False
+BraTS20_Training_209,Area FG4 (FusG) right,WT,86,2,0.4,1.9,False
+BraTS20_Training_209,Area OTS1 (OTS) right,WT,48,1,0.2,4.6,False
+BraTS20_Training_209,Area Id2 (Insula) right,WT,2,0,0.0,0.4,False
+BraTS20_Training_209,Temporal-to-Parietal (GapMap) right,WT,4651,98,23.1,6.9,True
+BraTS20_Training_209,Frontal-to-Temporal-II (GapMap) right,WT,10,0,0.0,0.4,False
+BraTS20_Training_209,Area Ia2 (Insula) right,WT,78,2,0.4,40.6,False
+BraTS20_Training_209,Area Te 2.1 (STG) right,WT,26,1,0.1,5.4,False
+BraTS20_Training_209,Area STS1 (STS) right,WT,155,3,0.8,4.7,False
+BraTS20_Training_209,Area Te 2.2 (STG) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_209,Area TeI (STG) right,WT,338,7,1.7,26.6,True
+BraTS20_Training_209,WM/unassigned,ET,11472,241,59.0,0.1,False
+BraTS20_Training_209,Area STS2 (STS) right,ET,591,12,3.0,9.0,True
+BraTS20_Training_209,Area Te 3 (STG) right,ET,834,18,4.3,19.4,True
+BraTS20_Training_209,Area FG4 (FusG) right,ET,233,5,1.2,5.2,True
+BraTS20_Training_209,Area OTS1 (OTS) right,ET,86,2,0.4,8.3,False
+BraTS20_Training_209,Temporal-to-Parietal (GapMap) right,ET,5076,107,26.1,7.5,True
+BraTS20_Training_209,Area STS1 (STS) right,ET,1166,24,6.0,35.1,True

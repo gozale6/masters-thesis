@@ -1,0 +1,25 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0223,WM/unassigned,TC,488,24
+pred_0223,Area STS2 (STS) right,TC,13,1
+pred_0223,Area Te 3 (STG) right,TC,55,3
+pred_0223,"Area TPJ (STG, SMG) right",TC,44,2
+pred_0223,Temporal-to-Parietal (GapMap) right,TC,21,1
+pred_0223,Area STS1 (STS) right,TC,12,1
+pred_0223,WM/unassigned,WT,2790,137
+pred_0223,Area PF (IPL) right,WT,5,0
+pred_0223,Area STS2 (STS) right,WT,208,10
+pred_0223,Area Te 3 (STG) right,WT,64,3
+pred_0223,"Area TPJ (STG, SMG) right",WT,123,6
+pred_0223,Area Op4 (POperc) right,WT,8,0
+pred_0223,Temporal-to-Parietal (GapMap) right,WT,418,20
+pred_0223,Area STS1 (STS) right,WT,271,13
+pred_0223,Area Te 2.2 (STG) right,WT,43,2
+pred_0223,WM/unassigned,ET,5223,256
+pred_0223,Area PF (IPL) right,ET,30,1
+pred_0223,Area STS2 (STS) right,ET,392,19
+pred_0223,Area Te 3 (STG) right,ET,1732,85
+pred_0223,"Area TPJ (STG, SMG) right",ET,349,17
+pred_0223,Area Op4 (POperc) right,ET,17,1
+pred_0223,Temporal-to-Parietal (GapMap) right,ET,824,40
+pred_0223,Area STS1 (STS) right,ET,255,12
+pred_0223,Area Te 2.2 (STG) right,ET,73,4

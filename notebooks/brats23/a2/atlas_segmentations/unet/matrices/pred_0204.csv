@@ -1,0 +1,48 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0204,WM/unassigned,TC,1812,47
+pred_0204,Area 3b (PostCG) right,TC,11,0
+pred_0204,Area 1 (PostCG) right,TC,3,0
+pred_0204,Area 6r1 (PreCG) right,TC,321,8
+pred_0204,Area IFS4 (IFS) right,TC,22,1
+pred_0204,Area 44 (IFG) right,TC,405,11
+pred_0204,"Area IFJ2 (IFS, PreCS) right",TC,103,3
+pred_0204,Area 6v3 (PreCG) right,TC,505,13
+pred_0204,Area 45 (IFG) right,TC,121,3
+pred_0204,Area IFS2 (IFS) right,TC,22,1
+pred_0204,"Area IFJ1 (IFS, PreCS) right",TC,140,4
+pred_0204,Area 6v2 (PreCG) right,TC,127,3
+pred_0204,WM/unassigned,WT,9862,256
+pred_0204,Area 3b (PostCG) right,WT,533,14
+pred_0204,Area 1 (PostCG) right,WT,102,3
+pred_0204,Area 6r1 (PreCG) right,WT,416,11
+pred_0204,"Area TPJ (STG, SMG) right",WT,5,0
+pred_0204,Area Op1 (POperc) right,WT,41,1
+pred_0204,Area IFS4 (IFS) right,WT,283,7
+pred_0204,Area 44 (IFG) right,WT,61,2
+pred_0204,"Area IFJ2 (IFS, PreCS) right",WT,161,4
+pred_0204,Area Op5 (Frontal Operculum) right,WT,4,0
+pred_0204,Area 3a (PostCG) right,WT,117,3
+pred_0204,Area 6v3 (PreCG) right,WT,519,13
+pred_0204,Area IFS1 (IFS) right,WT,20,1
+pred_0204,Area Op4 (POperc) right,WT,427,11
+pred_0204,Area 4p (PreCG) right,WT,69,2
+pred_0204,Area 45 (IFG) right,WT,142,4
+pred_0204,Frontal-II (GapMap) right,WT,757,20
+pred_0204,Area IFS2 (IFS) right,WT,61,2
+pred_0204,"Area IFJ1 (IFS, PreCS) right",WT,94,2
+pred_0204,Area PFop (IPL) right,WT,79,2
+pred_0204,Area 6v2 (PreCG) right,WT,543,14
+pred_0204,Area Te 2.2 (STG) right,WT,111,3
+pred_0204,WM/unassigned,ET,2499,65
+pred_0204,Area 3b (PostCG) right,ET,103,3
+pred_0204,Area 1 (PostCG) right,ET,15,0
+pred_0204,Area 6r1 (PreCG) right,ET,550,14
+pred_0204,Area IFS4 (IFS) right,ET,2,0
+pred_0204,Area 44 (IFG) right,ET,231,6
+pred_0204,"Area IFJ2 (IFS, PreCS) right",ET,76,2
+pred_0204,Area 3a (PostCG) right,ET,22,1
+pred_0204,Area 6v3 (PreCG) right,ET,926,24
+pred_0204,Area 45 (IFG) right,ET,309,8
+pred_0204,Area IFS2 (IFS) right,ET,3,0
+pred_0204,"Area IFJ1 (IFS, PreCS) right",ET,7,0
+pred_0204,Area 6v2 (PreCG) right,ET,334,9

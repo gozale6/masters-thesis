@@ -1,0 +1,25 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_079,WM/unassigned,TC,749,117,35.0,0.0,False
+BraTS20_Training_079,Area 3b (PostCG) right,TC,74,12,3.5,3.3,True
+BraTS20_Training_079,Area PF (IPL) right,TC,83,13,3.9,1.7,True
+BraTS20_Training_079,Area 1 (PostCG) right,TC,207,32,9.7,4.5,True
+BraTS20_Training_079,Area PFt (IPL) right,TC,864,135,40.4,25.7,True
+BraTS20_Training_079,Area PFm (IPL) right,TC,9,1,0.4,0.2,False
+BraTS20_Training_079,Area PFcm (IPL) right,TC,6,1,0.3,0.3,False
+BraTS20_Training_079,Area 2 (PostCS) right,TC,141,22,6.6,5.2,True
+BraTS20_Training_079,Area PFop (IPL) right,TC,6,1,0.3,0.4,False
+BraTS20_Training_079,WM/unassigned,WT,1637,256,44.5,0.0,False
+BraTS20_Training_079,Area 3b (PostCG) right,WT,171,27,4.7,7.6,True
+BraTS20_Training_079,Area PF (IPL) right,WT,237,37,6.4,4.8,True
+BraTS20_Training_079,Area 1 (PostCG) right,WT,598,94,16.3,13.0,True
+BraTS20_Training_079,Area PFt (IPL) right,WT,616,96,16.8,18.3,True
+BraTS20_Training_079,Area 4a (PreCG) right,WT,12,2,0.3,0.1,False
+BraTS20_Training_079,Area PFcm (IPL) right,WT,11,2,0.3,0.5,False
+BraTS20_Training_079,Area hIP3 (IPS) right,WT,36,6,1.0,0.8,False
+BraTS20_Training_079,Area 2 (PostCS) right,WT,314,49,8.5,11.5,True
+BraTS20_Training_079,Area PFop (IPL) right,WT,44,7,1.2,3.1,False
+BraTS20_Training_079,WM/unassigned,ET,494,77,33.6,0.0,False
+BraTS20_Training_079,Area 3b (PostCG) right,ET,149,23,10.1,6.6,True
+BraTS20_Training_079,Area 1 (PostCG) right,ET,128,20,8.7,2.8,True
+BraTS20_Training_079,Area PFt (IPL) right,ET,563,88,38.3,16.7,True
+BraTS20_Training_079,Area 2 (PostCS) right,ET,136,21,9.3,5.0,True

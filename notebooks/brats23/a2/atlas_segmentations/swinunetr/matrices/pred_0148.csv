@@ -1,0 +1,43 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0148,WM/unassigned,TC,190,2
+pred_0148,Frontal-to-Occipital (GapMap) left,TC,23,0
+pred_0148,Area 8d2 (SFG) left,TC,8,0
+pred_0148,Frontal-I.2 (GapMap) left,TC,31,0
+pred_0148,WM/unassigned,WT,29701,256
+pred_0148,Area SFG4 (SFG) left,WT,102,1
+pred_0148,"LD (Thalamus, lateral dorsal Nucleus) left",WT,38,0
+pred_0148,Area p24ab (pACC) left,WT,1249,11
+pred_0148,Frontal-to-Occipital (GapMap) left,WT,4737,41
+pred_0148,"BST (Basal Forebrain, Bed Nucleus) left",WT,13,0
+pred_0148,"AM (Thalamus, anteromedial Nucleus) left",WT,10,0
+pred_0148,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,2,0
+pred_0148,Area 6d3 (SFS) left,WT,20,0
+pred_0148,Area 8d2 (SFG) left,WT,208,2
+pred_0148,Area 25 (sACC) left,WT,13,0
+pred_0148,"MD (Thalamus, mediodorsal Nucleus) left",WT,1,0
+pred_0148,Area p32 (pACC) left,WT,1132,10
+pred_0148,"Area 6ma (preSMA, mesial SFG) left",WT,34,0
+pred_0148,Area p24c (pACC) left,WT,953,8
+pred_0148,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,287,2
+pred_0148,Frontal-I.2 (GapMap) left,WT,2367,20
+pred_0148,Area 33 (ACC) left,WT,560,5
+pred_0148,"CL (Thalamus, anterior intralaminar nuclei) left",WT,9,0
+pred_0148,"AV (Thalamus, anteroventral Nucleus) left",WT,132,1
+pred_0148,Area s24 (sACC) left,WT,77,1
+pred_0148,"Area 6mp (SMA, mesial SFG) right",WT,19,0
+pred_0148,Area p24ab (pACC) right,WT,668,6
+pred_0148,Frontal-to-Occipital (GapMap) right,WT,3473,30
+pred_0148,Area 8d2 (SFG) right,WT,165,1
+pred_0148,Area p32 (pACC) right,WT,97,1
+pred_0148,Area SFG2 (SFG) right,WT,226,2
+pred_0148,Area 6d2 (PreCG) right,WT,85,1
+pred_0148,"Area 6ma (preSMA, mesial SFG) right",WT,1728,15
+pred_0148,Area p24c (pACC) right,WT,178,2
+pred_0148,Frontal-I.2 (GapMap) right,WT,4124,36
+pred_0148,Area 33 (ACC) right,WT,1471,13
+pred_0148,Area 8d1 (SFG) right,WT,386,3
+pred_0148,WM/unassigned,ET,1049,9
+pred_0148,Area SFG4 (SFG) left,ET,26,0
+pred_0148,Frontal-to-Occipital (GapMap) left,ET,151,1
+pred_0148,Area 8d2 (SFG) left,ET,263,2
+pred_0148,Frontal-I.2 (GapMap) left,ET,317,3

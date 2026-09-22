@@ -1,0 +1,20 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_217,WM/unassigned,TC,2321,70
+BraTS20_Training_217,Area Fo5 (OFC) right,TC,9,0
+BraTS20_Training_217,Area Fo6 (OFC) right,TC,20,1
+BraTS20_Training_217,WM/unassigned,WT,8526,256
+BraTS20_Training_217,Area STS2 (STS) right,WT,458,14
+BraTS20_Training_217,Area FG5 (FusG) right,WT,122,4
+BraTS20_Training_217,Area Fo5 (OFC) right,WT,35,1
+BraTS20_Training_217,Area Fo7 (OFC) right,WT,5,0
+BraTS20_Training_217,Area Fo6 (OFC) right,WT,1451,44
+BraTS20_Training_217,Area OTS1 (OTS) right,WT,86,3
+BraTS20_Training_217,CA1 (Hippocampus) right,WT,1,0
+BraTS20_Training_217,Frontal-I.1 (GapMap) right,WT,738,22
+BraTS20_Training_217,Temporal-to-Parietal (GapMap) right,WT,1555,47
+BraTS20_Training_217,"Subc (Hippocampus, Subicular complex) right",WT,1,0
+BraTS20_Training_217,Area STS1 (STS) right,WT,9,0
+BraTS20_Training_217,WM/unassigned,ET,8231,247
+BraTS20_Training_217,Area Fo5 (OFC) right,ET,104,3
+BraTS20_Training_217,Area Fo6 (OFC) right,ET,529,16
+BraTS20_Training_217,Area Fo4 (OFC) right,ET,2,0

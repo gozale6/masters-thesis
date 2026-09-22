@@ -1,0 +1,45 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_159,WM/unassigned,TC,909,26,20.9,0.0,False
+BraTS20_Training_159,Area PF (IPL) right,TC,629,18,14.5,12.8,True
+BraTS20_Training_159,Area Te 3 (STG) right,TC,94,3,2.2,2.2,False
+BraTS20_Training_159,"Area TPJ (STG, SMG) right",TC,638,18,14.7,43.5,True
+BraTS20_Training_159,Area PGa (IPL) right,TC,211,6,4.9,3.3,True
+BraTS20_Training_159,Area PFm (IPL) right,TC,55,2,1.3,1.0,False
+BraTS20_Training_159,Area PGp (IPL) right,TC,1,0,0.0,0.0,False
+BraTS20_Training_159,Area PFcm (IPL) right,TC,255,7,5.9,11.1,True
+BraTS20_Training_159,Temporal-to-Parietal (GapMap) right,TC,1348,38,31.0,2.0,True
+BraTS20_Training_159,Area PFop (IPL) right,TC,6,0,0.1,0.4,False
+BraTS20_Training_159,Area Te 2.2 (STG) right,TC,203,6,4.7,10.3,False
+BraTS20_Training_159,WM/unassigned,WT,9052,256,57.6,0.1,False
+BraTS20_Training_159,Area PF (IPL) right,WT,479,14,3.0,9.7,True
+BraTS20_Training_159,Area Te 1.0 (HESCHL) right,WT,218,6,1.4,28.0,False
+BraTS20_Training_159,Area Te 3 (STG) right,WT,233,7,1.5,5.4,False
+BraTS20_Training_159,Area 6r1 (PreCG) right,WT,23,1,0.1,1.0,False
+BraTS20_Training_159,Area Op6 (Frontal Operculum) right,WT,87,2,0.6,8.3,False
+BraTS20_Training_159,"Area TPJ (STG, SMG) right",WT,237,7,1.5,16.2,False
+BraTS20_Training_159,Area Op1 (POperc) right,WT,576,16,3.7,28.8,True
+BraTS20_Training_159,Area Id6 (Insula) right,WT,9,0,0.1,0.3,False
+BraTS20_Training_159,Area PGa (IPL) right,WT,267,8,1.7,4.2,False
+BraTS20_Training_159,Area Op8 (Frontal Operculum) right,WT,5,0,0.0,0.4,False
+BraTS20_Training_159,Area Op5 (Frontal Operculum) right,WT,242,7,1.5,16.1,False
+BraTS20_Training_159,Area PFm (IPL) right,WT,111,3,0.7,1.9,False
+BraTS20_Training_159,Area Te 1.1 (HESCHL) right,WT,81,2,0.5,7.5,False
+BraTS20_Training_159,Area Op4 (POperc) right,WT,371,10,2.4,14.1,False
+BraTS20_Training_159,Area PGp (IPL) right,WT,2,0,0.0,0.0,False
+BraTS20_Training_159,Area PFcm (IPL) right,WT,1166,33,7.4,50.7,True
+BraTS20_Training_159,Temporal-to-Parietal (GapMap) right,WT,1191,34,7.6,1.8,True
+BraTS20_Training_159,Area Te 1.2 (HESCHL) right,WT,88,2,0.6,16.8,False
+BraTS20_Training_159,Area Te 2.1 (STG) right,WT,175,5,1.1,36.1,False
+BraTS20_Training_159,Area STS1 (STS) right,WT,98,3,0.6,2.9,False
+BraTS20_Training_159,Area PFop (IPL) right,WT,137,4,0.9,9.6,False
+BraTS20_Training_159,Area Te 2.2 (STG) right,WT,875,25,5.6,44.3,True
+BraTS20_Training_159,WM/unassigned,ET,1206,34,27.6,0.0,False
+BraTS20_Training_159,Area PF (IPL) right,ET,418,12,9.6,8.5,True
+BraTS20_Training_159,Area Te 3 (STG) right,ET,2,0,0.0,0.0,False
+BraTS20_Training_159,"Area TPJ (STG, SMG) right",ET,351,10,8.0,24.0,True
+BraTS20_Training_159,Area PGa (IPL) right,ET,462,13,10.6,7.2,True
+BraTS20_Training_159,Area PFm (IPL) right,ET,336,10,7.7,5.8,True
+BraTS20_Training_159,Area PFcm (IPL) right,ET,169,5,3.9,7.4,False
+BraTS20_Training_159,Temporal-to-Parietal (GapMap) right,ET,1345,38,30.8,2.0,True
+BraTS20_Training_159,Area PFop (IPL) right,ET,3,0,0.1,0.2,False
+BraTS20_Training_159,Area Te 2.2 (STG) right,ET,70,2,1.6,3.5,False

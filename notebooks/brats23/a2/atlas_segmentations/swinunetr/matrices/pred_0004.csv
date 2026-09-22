@@ -1,0 +1,28 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0004,WM/unassigned,TC,36,2
+pred_0004,Area SFG4 (SFG) right,TC,14,1
+pred_0004,Area SFG2 (SFG) right,TC,2,0
+pred_0004,Area SFG3 (SFG) right,TC,29,1
+pred_0004,WM/unassigned,WT,5517,256
+pred_0004,Area SFG4 (SFG) right,WT,194,9
+pred_0004,Area IFS4 (IFS) right,WT,1,0
+pred_0004,Area 6d3 (SFS) right,WT,212,10
+pred_0004,Area 8d2 (SFG) right,WT,12,1
+pred_0004,"Area IFJ2 (IFS, PreCS) right",WT,1,0
+pred_0004,Area SFG2 (SFG) right,WT,41,2
+pred_0004,"Area MFG5 (MFG, IFG) right",WT,7,0
+pred_0004,Area MFG4 (MFG) right,WT,468,22
+pred_0004,Area SFG3 (SFG) right,WT,13,1
+pred_0004,Area 6v3 (PreCG) right,WT,2,0
+pred_0004,Area IFS1 (IFS) right,WT,116,5
+pred_0004,Area IFS3 (IFS) right,WT,73,3
+pred_0004,Area 8v2 (MFG) right,WT,13,1
+pred_0004,Frontal-I.1 (GapMap) right,WT,4,0
+pred_0004,Area 45 (IFG) right,WT,57,3
+pred_0004,Frontal-II (GapMap) right,WT,461,21
+pred_0004,"Area IFJ1 (IFS, PreCS) right",WT,34,2
+pred_0004,Area 6v2 (PreCG) right,WT,64,3
+pred_0004,WM/unassigned,ET,280,13
+pred_0004,Area SFG4 (SFG) right,ET,92,4
+pred_0004,Area SFG2 (SFG) right,ET,84,4
+pred_0004,Area SFG3 (SFG) right,ET,146,7

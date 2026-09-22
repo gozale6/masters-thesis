@@ -1,0 +1,41 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0135,WM/unassigned,TC,699,103
+pred_0135,Area Id8 (Insula) left,TC,3,0
+pred_0135,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,197,29
+pred_0135,Area Fo3 (OFC) left,TC,24,4
+pred_0135,Area Id10 (Insula) left,TC,663,98
+pred_0135,Frontal-to-Temporal-I (GapMap) left,TC,12,2
+pred_0135,"TuTi (Basal Forebrain, Terminal islands) left",TC,1,0
+pred_0135,Frontal-to-Temporal-II (GapMap) left,TC,261,39
+pred_0135,WM/unassigned,WT,354,52
+pred_0135,Area Id8 (Insula) left,WT,139,21
+pred_0135,Area Ia3 (Insula) left,WT,19,3
+pred_0135,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,105,16
+pred_0135,Area Fo3 (OFC) left,WT,59,9
+pred_0135,Ch 4 (Basal Forebrain) left,WT,2,0
+pred_0135,Area Id10 (Insula) left,WT,31,5
+pred_0135,Frontal-to-Temporal-I (GapMap) left,WT,57,8
+pred_0135,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,2,0
+pred_0135,IF (Amygdala) left,WT,16,2
+pred_0135,Temporal-to-Parietal (GapMap) left,WT,2,0
+pred_0135,"TuTi (Basal Forebrain, Terminal islands) left",WT,4,1
+pred_0135,Frontal-to-Temporal-II (GapMap) left,WT,135,20
+pred_0135,Area Id9 (Insula) left,WT,46,7
+pred_0135,WM/unassigned,ET,1730,256
+pred_0135,Area Id8 (Insula) left,ET,142,21
+pred_0135,"Area PirTB (PiriformCortexMesial, temporobasal) left",ET,5,1
+pred_0135,Area Ia3 (Insula) left,ET,2,0
+pred_0135,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,460,68
+pred_0135,LB (Amygdala) left,ET,1,0
+pred_0135,Area Fo3 (OFC) left,ET,360,53
+pred_0135,Ch 4 (Basal Forebrain) left,ET,1,0
+pred_0135,Area Id10 (Insula) left,ET,685,101
+pred_0135,"Area PirT (PiriformCortexMesial, temporal) left",ET,3,0
+pred_0135,Frontal-to-Temporal-I (GapMap) left,ET,225,33
+pred_0135,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,5,1
+pred_0135,CM (Amygdala) left,ET,1,0
+pred_0135,IF (Amygdala) left,ET,25,4
+pred_0135,Temporal-to-Parietal (GapMap) left,ET,16,2
+pred_0135,"TuTi (Basal Forebrain, Terminal islands) left",ET,19,3
+pred_0135,Frontal-to-Temporal-II (GapMap) left,ET,797,118
+pred_0135,Area Id9 (Insula) left,ET,9,1

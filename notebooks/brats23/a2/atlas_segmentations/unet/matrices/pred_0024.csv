@@ -1,0 +1,49 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0024,WM/unassigned,TC,3350,118
+pred_0024,Area 3b (PostCG) right,TC,7,0
+pred_0024,Area PF (IPL) right,TC,1447,51
+pred_0024,Area 1 (PostCG) right,TC,15,1
+pred_0024,Area PFt (IPL) right,TC,492,17
+pred_0024,Area Te 3 (STG) right,TC,21,1
+pred_0024,"Area TPJ (STG, SMG) right",TC,814,29
+pred_0024,Area Op1 (POperc) right,TC,715,25
+pred_0024,Area PFm (IPL) right,TC,14,0
+pred_0024,Area Op4 (POperc) right,TC,316,11
+pred_0024,Area PFcm (IPL) right,TC,1245,44
+pred_0024,Temporal-to-Parietal (GapMap) right,TC,8,0
+pred_0024,Area PFop (IPL) right,TC,1192,42
+pred_0024,Area Te 2.2 (STG) right,TC,178,6
+pred_0024,WM/unassigned,WT,7275,256
+pred_0024,Area 3b (PostCG) right,WT,389,14
+pred_0024,Area PF (IPL) right,WT,960,34
+pred_0024,Area 1 (PostCG) right,WT,275,10
+pred_0024,Area PFt (IPL) right,WT,669,24
+pred_0024,Area Te 3 (STG) right,WT,343,12
+pred_0024,Area 6r1 (PreCG) right,WT,1,0
+pred_0024,"Area TPJ (STG, SMG) right",WT,55,2
+pred_0024,Area Op1 (POperc) right,WT,83,3
+pred_0024,Area hIP2 (IPS) right,WT,2,0
+pred_0024,Area PGa (IPL) right,WT,253,9
+pred_0024,Area PFm (IPL) right,WT,1618,57
+pred_0024,Area Op4 (POperc) right,WT,493,17
+pred_0024,Area Op2 (POperc) right,WT,1,0
+pred_0024,Area PFcm (IPL) right,WT,418,15
+pred_0024,Area hIP3 (IPS) right,WT,159,6
+pred_0024,Temporal-to-Parietal (GapMap) right,WT,1365,48
+pred_0024,Area 2 (PostCS) right,WT,14,0
+pred_0024,Area PFop (IPL) right,WT,16,1
+pred_0024,Area Te 2.2 (STG) right,WT,275,10
+pred_0024,WM/unassigned,ET,4423,156
+pred_0024,Area 3b (PostCG) right,ET,9,0
+pred_0024,Area PF (IPL) right,ET,1412,50
+pred_0024,Area 1 (PostCG) right,ET,109,4
+pred_0024,Area PFt (IPL) right,ET,461,16
+pred_0024,Area Te 3 (STG) right,ET,209,7
+pred_0024,"Area TPJ (STG, SMG) right",ET,595,21
+pred_0024,Area Op1 (POperc) right,ET,361,13
+pred_0024,Area PFm (IPL) right,ET,25,1
+pred_0024,Area Op4 (POperc) right,ET,284,10
+pred_0024,Area PFcm (IPL) right,ET,291,10
+pred_0024,Temporal-to-Parietal (GapMap) right,ET,21,1
+pred_0024,Area PFop (IPL) right,ET,208,7
+pred_0024,Area Te 2.2 (STG) right,ET,424,15

@@ -1,0 +1,50 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0058,WM/unassigned,TC,1893,35
+pred_0058,Frontal-to-Occipital (GapMap) left,TC,78,1
+pred_0058,"LD (Thalamus, lateral dorsal Nucleus) right",TC,55,1
+pred_0058,Frontal-to-Occipital (GapMap) right,TC,319,6
+pred_0058,"VLP (Thalamus, ventral lateral posterior Nucleus) right",TC,29,1
+pred_0058,"Rt (Thalamus, reticular Nucleus) right",TC,23,0
+pred_0058,"MD (Thalamus, mediodorsal Nucleus) right",TC,9,0
+pred_0058,"LP (Thalamus, lateral posterior Nucleus) right",TC,12,0
+pred_0058,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",TC,3,0
+pred_0058,"CL (Thalamus, anterior intralaminar nuclei) right",TC,8,0
+pred_0058,"VPL (Thalamus, ventral posterior lateral Nucleus) right",TC,2,0
+pred_0058,"AV (Thalamus, anteroventral Nucleus) right",TC,3,0
+pred_0058,WM/unassigned,WT,13673,256
+pred_0058,"LD (Thalamus, lateral dorsal Nucleus) left",WT,178,3
+pred_0058,Frontal-to-Occipital (GapMap) left,WT,1335,25
+pred_0058,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,125,2
+pred_0058,"MD (Thalamus, mediodorsal Nucleus) left",WT,328,6
+pred_0058,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,2,0
+pred_0058,"CL (Thalamus, anterior intralaminar nuclei) left",WT,148,3
+pred_0058,"AV (Thalamus, anteroventral Nucleus) left",WT,172,3
+pred_0058,"Area 6mp (SMA, mesial SFG) right",WT,33,1
+pred_0058,"PUm (Thalamus, medial pulvinar) right",WT,3,0
+pred_0058,Frontal-to-Occipital (GapMap) right,WT,3513,66
+pred_0058,"AM (Thalamus, anteromedial Nucleus) right",WT,6,0
+pred_0058,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,17,0
+pred_0058,"Rt (Thalamus, reticular Nucleus) right",WT,51,1
+pred_0058,"PUa (Thalamus, anterior pulvinar) right",WT,1,0
+pred_0058,"MD (Thalamus, mediodorsal Nucleus) right",WT,316,6
+pred_0058,Area 4a (PreCG) right,WT,104,2
+pred_0058,"LP (Thalamus, lateral posterior Nucleus) right",WT,18,0
+pred_0058,Area Op2 (POperc) right,WT,26,0
+pred_0058,Area PFcm (IPL) right,WT,16,0
+pred_0058,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,15,0
+pred_0058,"CL (Thalamus, anterior intralaminar nuclei) right",WT,65,1
+pred_0058,Area 5Ci (SPL) right,WT,101,2
+pred_0058,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,5,0
+pred_0058,"AV (Thalamus, anteroventral Nucleus) right",WT,61,1
+pred_0058,WM/unassigned,ET,8017,150
+pred_0058,Frontal-to-Occipital (GapMap) left,ET,650,12
+pred_0058,"LD (Thalamus, lateral dorsal Nucleus) right",ET,233,4
+pred_0058,Frontal-to-Occipital (GapMap) right,ET,1467,27
+pred_0058,"VLP (Thalamus, ventral lateral posterior Nucleus) right",ET,186,3
+pred_0058,"Rt (Thalamus, reticular Nucleus) right",ET,217,4
+pred_0058,"MD (Thalamus, mediodorsal Nucleus) right",ET,165,3
+pred_0058,"LP (Thalamus, lateral posterior Nucleus) right",ET,259,5
+pred_0058,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",ET,98,2
+pred_0058,"CL (Thalamus, anterior intralaminar nuclei) right",ET,241,5
+pred_0058,"VPL (Thalamus, ventral posterior lateral Nucleus) right",ET,30,1
+pred_0058,"AV (Thalamus, anteroventral Nucleus) right",ET,159,3

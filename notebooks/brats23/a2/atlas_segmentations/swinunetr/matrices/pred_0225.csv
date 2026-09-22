@@ -1,0 +1,128 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0225,WM/unassigned,TC,4938,83
+pred_0225,Area p24ab (pACC) left,TC,12,0
+pred_0225,Frontal-to-Occipital (GapMap) left,TC,1,0
+pred_0225,"BST (Basal Forebrain, Bed Nucleus) left",TC,25,0
+pred_0225,"Tu (Basal Forebrain, Tuberculum) left",TC,44,1
+pred_0225,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,156,3
+pred_0225,Area 25 (sACC) left,TC,105,2
+pred_0225,LB (Amygdala) left,TC,9,0
+pred_0225,Ch 4 (Basal Forebrain) left,TC,96,2
+pred_0225,"AcbM (Ventral Striatum, Medial Accumbens) left",TC,33,1
+pred_0225,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,575,10
+pred_0225,CM (Amygdala) left,TC,56,1
+pred_0225,Temporal-to-Parietal (GapMap) left,TC,2,0
+pred_0225,HATA (Hippocampus) left,TC,17,0
+pred_0225,"TuTi (Basal Forebrain, Terminal islands) left",TC,223,4
+pred_0225,Frontal-to-Temporal-II (GapMap) left,TC,243,4
+pred_0225,Ch 123 (Basal Forebrain) left,TC,77,1
+pred_0225,"SNR (Midbrain, Substantia Nigra pars reticulata) left",TC,7,0
+pred_0225,VP (Ventral Pallidum) left,TC,130,2
+pred_0225,SF (Amygdala) left,TC,76,1
+pred_0225,Area s24 (sACC) left,TC,173,3
+pred_0225,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,304,5
+pred_0225,Area Fo2 (OFC) left,TC,7,0
+pred_0225,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",TC,1,0
+pred_0225,"Tu (Basal Forebrain, Tuberculum) right",TC,1,0
+pred_0225,Area 25 (sACC) right,TC,101,2
+pred_0225,"SNC (Midbrain, Substantia Nigra pars compacta) right",TC,10,0
+pred_0225,"AcbM (Ventral Striatum, Medial Accumbens) right",TC,18,0
+pred_0225,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,96,2
+pred_0225,Area 33 (ACC) right,TC,1,0
+pred_0225,Frontal-to-Temporal-II (GapMap) right,TC,8,0
+pred_0225,Ch 123 (Basal Forebrain) right,TC,24,0
+pred_0225,"SNR (Midbrain, Substantia Nigra pars reticulata) right",TC,10,0
+pred_0225,Area s24 (sACC) right,TC,77,1
+pred_0225,"AcbL (Ventral Striatum, Lateral Accumbens) right",TC,31,1
+pred_0225,Area Fo2 (OFC) right,TC,1,0
+pred_0225,WM/unassigned,WT,7950,134
+pred_0225,Area p24ab (pACC) left,WT,204,3
+pred_0225,Frontal-to-Occipital (GapMap) left,WT,68,1
+pred_0225,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,1,0
+pred_0225,"BST (Basal Forebrain, Bed Nucleus) left",WT,29,0
+pred_0225,CA2 (Hippocampus) left,WT,16,0
+pred_0225,VTM (Amygdala) left,WT,5,0
+pred_0225,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,714,12
+pred_0225,Area 25 (sACC) left,WT,5,0
+pred_0225,LB (Amygdala) left,WT,59,1
+pred_0225,STN (Subthalamus) left,WT,37,1
+pred_0225,Area p32 (pACC) left,WT,22,0
+pred_0225,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,33,1
+pred_0225,Area Fo3 (OFC) left,WT,45,1
+pred_0225,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,3,0
+pred_0225,Ch 4 (Basal Forebrain) left,WT,56,1
+pred_0225,Area Id10 (Insula) left,WT,278,5
+pred_0225,Area p24c (pACC) left,WT,19,0
+pred_0225,CM (Amygdala) left,WT,34,1
+pred_0225,Area 33 (ACC) left,WT,78,1
+pred_0225,CA1 (Hippocampus) left,WT,69,1
+pred_0225,IF (Amygdala) left,WT,3,0
+pred_0225,Temporal-to-Parietal (GapMap) left,WT,10,0
+pred_0225,HATA (Hippocampus) left,WT,40,1
+pred_0225,"TuTi (Basal Forebrain, Terminal islands) left",WT,2,0
+pred_0225,Frontal-to-Temporal-II (GapMap) left,WT,411,7
+pred_0225,"Subc (Hippocampus, Subicular complex) left",WT,93,2
+pred_0225,CA3 (Hippocampus) left,WT,2,0
+pred_0225,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,131,2
+pred_0225,Area s32 (sACC) left,WT,96,2
+pred_0225,SF (Amygdala) left,WT,114,2
+pred_0225,Area s24 (sACC) left,WT,295,5
+pred_0225,Area Fo2 (OFC) left,WT,279,5
+pred_0225,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,241,4
+pred_0225,Area p24ab (pACC) right,WT,9,0
+pred_0225,"BST (Basal Forebrain, Bed Nucleus) right",WT,13,0
+pred_0225,"Tu (Basal Forebrain, Tuberculum) right",WT,12,0
+pred_0225,Area 25 (sACC) right,WT,2,0
+pred_0225,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,24,0
+pred_0225,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,30,1
+pred_0225,Area 33 (ACC) right,WT,69,1
+pred_0225,"TuTi (Basal Forebrain, Terminal islands) right",WT,5,0
+pred_0225,Frontal-to-Temporal-II (GapMap) right,WT,58,1
+pred_0225,Ch 123 (Basal Forebrain) right,WT,8,0
+pred_0225,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,20,0
+pred_0225,VP (Ventral Pallidum) right,WT,4,0
+pred_0225,Area s24 (sACC) right,WT,72,1
+pred_0225,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,2,0
+pred_0225,Area Fo2 (OFC) right,WT,12,0
+pred_0225,WM/unassigned,ET,15238,256
+pred_0225,Area p24ab (pACC) left,ET,155,3
+pred_0225,Frontal-to-Occipital (GapMap) left,ET,17,0
+pred_0225,"BST (Basal Forebrain, Bed Nucleus) left",ET,32,1
+pred_0225,VTM (Amygdala) left,ET,2,0
+pred_0225,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,295,5
+pred_0225,Area 25 (sACC) left,ET,150,3
+pred_0225,LB (Amygdala) left,ET,44,1
+pred_0225,Ch 4 (Basal Forebrain) left,ET,142,2
+pred_0225,"AcbM (Ventral Striatum, Medial Accumbens) left",ET,146,2
+pred_0225,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,435,7
+pred_0225,CM (Amygdala) left,ET,102,2
+pred_0225,Area 33 (ACC) left,ET,11,0
+pred_0225,CA1 (Hippocampus) left,ET,1,0
+pred_0225,Temporal-to-Parietal (GapMap) left,ET,1,0
+pred_0225,HATA (Hippocampus) left,ET,72,1
+pred_0225,"TuTi (Basal Forebrain, Terminal islands) left",ET,45,1
+pred_0225,Frontal-to-Temporal-II (GapMap) left,ET,431,7
+pred_0225,Ch 123 (Basal Forebrain) left,ET,106,2
+pred_0225,"Subc (Hippocampus, Subicular complex) left",ET,5,0
+pred_0225,"SNR (Midbrain, Substantia Nigra pars reticulata) left",ET,41,1
+pred_0225,VP (Ventral Pallidum) left,ET,409,7
+pred_0225,SF (Amygdala) left,ET,213,4
+pred_0225,Area s24 (sACC) left,ET,443,7
+pred_0225,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,55,1
+pred_0225,Area Fo2 (OFC) left,ET,59,1
+pred_0225,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",ET,25,0
+pred_0225,"BST (Basal Forebrain, Bed Nucleus) right",ET,18,0
+pred_0225,"Tu (Basal Forebrain, Tuberculum) right",ET,18,0
+pred_0225,Area 25 (sACC) right,ET,290,5
+pred_0225,"SNC (Midbrain, Substantia Nigra pars compacta) right",ET,70,1
+pred_0225,"AcbM (Ventral Striatum, Medial Accumbens) right",ET,160,3
+pred_0225,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,371,6
+pred_0225,Area 33 (ACC) right,ET,33,1
+pred_0225,"TuTi (Basal Forebrain, Terminal islands) right",ET,69,1
+pred_0225,Frontal-to-Temporal-II (GapMap) right,ET,57,1
+pred_0225,Ch 123 (Basal Forebrain) right,ET,204,3
+pred_0225,"SNR (Midbrain, Substantia Nigra pars reticulata) right",ET,113,2
+pred_0225,VP (Ventral Pallidum) right,ET,34,1
+pred_0225,Area s24 (sACC) right,ET,371,6
+pred_0225,"AcbL (Ventral Striatum, Lateral Accumbens) right",ET,171,3
+pred_0225,Area Fo2 (OFC) right,ET,14,0

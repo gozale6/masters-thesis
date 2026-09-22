@@ -1,0 +1,56 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0186,WM/unassigned,TC,219,5
+pred_0186,Area STS2 (STS) right,TC,2,0
+pred_0186,Area 6r1 (PreCG) right,TC,4,0
+pred_0186,Area 6v3 (PreCG) right,TC,42,1
+pred_0186,Area STS1 (STS) right,TC,14,0
+pred_0186,WM/unassigned,WT,11785,256
+pred_0186,Area p24ab (pACC) left,WT,987,21
+pred_0186,Area Fp2 (FPole) left,WT,9,0
+pred_0186,Area p32 (pACC) left,WT,678,15
+pred_0186,Area p24c (pACC) left,WT,242,5
+pred_0186,Area s32 (sACC) left,WT,221,5
+pred_0186,Area 3b (PostCG) right,WT,117,3
+pred_0186,Area 1 (PostCG) right,WT,65,1
+pred_0186,Area STS2 (STS) right,WT,10,0
+pred_0186,Area PFt (IPL) right,WT,21,0
+pred_0186,Area p24ab (pACC) right,WT,221,5
+pred_0186,Area 6r1 (PreCG) right,WT,564,12
+pred_0186,Area Fp2 (FPole) right,WT,48,1
+pred_0186,Area IFS4 (IFS) right,WT,555,12
+pred_0186,Area 44 (IFG) right,WT,1537,33
+pred_0186,Area Op8 (Frontal Operculum) right,WT,1,0
+pred_0186,"Area IFJ2 (IFS, PreCS) right",WT,196,4
+pred_0186,Area 4a (PreCG) right,WT,4,0
+pred_0186,Area 3a (PostCG) right,WT,25,1
+pred_0186,Area Fo6 (OFC) right,WT,225,5
+pred_0186,Area p32 (pACC) right,WT,428,9
+pred_0186,"Area MFG5 (MFG, IFG) right",WT,760,17
+pred_0186,Area MFG4 (MFG) right,WT,659,14
+pred_0186,Area 6v3 (PreCG) right,WT,203,4
+pred_0186,Area IFS1 (IFS) right,WT,709,15
+pred_0186,Area Op4 (POperc) right,WT,87,2
+pred_0186,Area IFS3 (IFS) right,WT,175,4
+pred_0186,Area 8v2 (MFG) right,WT,153,3
+pred_0186,Area p24c (pACC) right,WT,58,1
+pred_0186,Area 4p (PreCG) right,WT,17,0
+pred_0186,Frontal-I.1 (GapMap) right,WT,374,8
+pred_0186,Area Op9 (Frontal Operculum) right,WT,512,11
+pred_0186,Area 45 (IFG) right,WT,2652,58
+pred_0186,Frontal-II (GapMap) right,WT,806,18
+pred_0186,Area STS1 (STS) right,WT,37,1
+pred_0186,Area IFS2 (IFS) right,WT,284,6
+pred_0186,Area s32 (sACC) right,WT,73,2
+pred_0186,"Area IFJ1 (IFS, PreCS) right",WT,358,8
+pred_0186,Area PFop (IPL) right,WT,132,3
+pred_0186,Area 6v2 (PreCG) right,WT,652,14
+pred_0186,WM/unassigned,ET,5860,127
+pred_0186,Area 3b (PostCG) right,ET,318,7
+pred_0186,Area 1 (PostCG) right,ET,238,5
+pred_0186,Area STS2 (STS) right,ET,63,1
+pred_0186,Area 6r1 (PreCG) right,ET,782,17
+pred_0186,Area 3a (PostCG) right,ET,5,0
+pred_0186,Area 6v3 (PreCG) right,ET,1868,41
+pred_0186,Area Op4 (POperc) right,ET,84,2
+pred_0186,Area STS1 (STS) right,ET,209,5
+pred_0186,Area 6v2 (PreCG) right,ET,79,2

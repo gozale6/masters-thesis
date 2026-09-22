@@ -1,0 +1,36 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_195,WM/unassigned,TC,5904,102
+BraTS20_Training_195,Area CoS1 (CoS) right,TC,2,0
+BraTS20_Training_195,Area STS2 (STS) right,TC,81,1
+BraTS20_Training_195,Area FG5 (FusG) right,TC,264,5
+BraTS20_Training_195,CA2 (Hippocampus) right,TC,1,0
+BraTS20_Training_195,Area FG4 (FusG) right,TC,835,14
+BraTS20_Training_195,Area OTS1 (OTS) right,TC,952,16
+BraTS20_Training_195,CA1 (Hippocampus) right,TC,1,0
+BraTS20_Training_195,Temporal-to-Parietal (GapMap) right,TC,5475,94
+BraTS20_Training_195,Area STS1 (STS) right,TC,2,0
+BraTS20_Training_195,WM/unassigned,WT,14872,256
+BraTS20_Training_195,Area CoS1 (CoS) right,WT,21,0
+BraTS20_Training_195,Area STS2 (STS) right,WT,2921,50
+BraTS20_Training_195,Area TI (STG) right,WT,20,0
+BraTS20_Training_195,Area FG5 (FusG) right,WT,19,0
+BraTS20_Training_195,Area Te 3 (STG) right,WT,51,1
+BraTS20_Training_195,CA2 (Hippocampus) right,WT,44,1
+BraTS20_Training_195,Area FG4 (FusG) right,WT,342,6
+BraTS20_Training_195,CA1 (Hippocampus) right,WT,106,2
+BraTS20_Training_195,Temporal-to-Parietal (GapMap) right,WT,2687,46
+BraTS20_Training_195,Area STS1 (STS) right,WT,442,8
+BraTS20_Training_195,Area FG3 (FusG) right,WT,31,1
+BraTS20_Training_195,Area Ph2 (PhG) right,WT,58,1
+BraTS20_Training_195,Area TeI (STG) right,WT,12,0
+BraTS20_Training_195,WM/unassigned,ET,9337,161
+BraTS20_Training_195,Area CoS1 (CoS) right,ET,60,1
+BraTS20_Training_195,Area STS2 (STS) right,ET,1017,18
+BraTS20_Training_195,Area FG5 (FusG) right,ET,444,8
+BraTS20_Training_195,CA2 (Hippocampus) right,ET,38,1
+BraTS20_Training_195,Area FG4 (FusG) right,ET,1023,18
+BraTS20_Training_195,Area OTS1 (OTS) right,ET,90,2
+BraTS20_Training_195,CA1 (Hippocampus) right,ET,60,1
+BraTS20_Training_195,Temporal-to-Parietal (GapMap) right,ET,4167,72
+BraTS20_Training_195,Area STS1 (STS) right,ET,78,1
+BraTS20_Training_195,Area FG3 (FusG) right,ET,21,0

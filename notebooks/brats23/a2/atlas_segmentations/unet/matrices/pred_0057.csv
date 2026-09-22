@@ -1,0 +1,44 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0057,WM/unassigned,TC,771,33
+pred_0057,Area 3b (PostCG) right,TC,26,1
+pred_0057,Area PFt (IPL) right,TC,20,1
+pred_0057,Area hIP2 (IPS) right,TC,1,0
+pred_0057,Area 4a (PreCG) right,TC,5,0
+pred_0057,Area 3a (PostCG) right,TC,5,0
+pred_0057,Area hIP3 (IPS) right,TC,208,9
+pred_0057,Area 4p (PreCG) right,TC,389,17
+pred_0057,Area 2 (PostCS) right,TC,77,3
+pred_0057,WM/unassigned,WT,5917,256
+pred_0057,Area 3b (PostCG) right,WT,478,21
+pred_0057,Area 1 (PostCG) right,WT,265,11
+pred_0057,Area PFt (IPL) right,WT,477,21
+pred_0057,Area Te 3 (STG) right,WT,167,7
+pred_0057,Area 6r1 (PreCG) right,WT,379,16
+pred_0057,Area Op6 (Frontal Operculum) right,WT,6,0
+pred_0057,Area hIP2 (IPS) right,WT,25,1
+pred_0057,Area PFm (IPL) right,WT,3,0
+pred_0057,Area 4a (PreCG) right,WT,153,7
+pred_0057,Area 3a (PostCG) right,WT,75,3
+pred_0057,Area 6v3 (PreCG) right,WT,355,15
+pred_0057,Area Op4 (POperc) right,WT,915,40
+pred_0057,Area hIP3 (IPS) right,WT,52,2
+pred_0057,Area 4p (PreCG) right,WT,157,7
+pred_0057,Temporal-to-Parietal (GapMap) right,WT,66,3
+pred_0057,Area hIP1 (IPS) right,WT,21,1
+pred_0057,Area 2 (PostCS) right,WT,127,5
+pred_0057,Area 6v2 (PreCG) right,WT,41,2
+pred_0057,Area Te 2.2 (STG) right,WT,9,0
+pred_0057,Area 7PC (SPL) right,WT,19,1
+pred_0057,WM/unassigned,ET,5829,252
+pred_0057,Area 3b (PostCG) right,ET,463,20
+pred_0057,Area PFt (IPL) right,ET,282,12
+pred_0057,Area hIP2 (IPS) right,ET,375,16
+pred_0057,Area PFm (IPL) right,ET,7,0
+pred_0057,Area 4a (PreCG) right,ET,118,5
+pred_0057,Area 3a (PostCG) right,ET,195,8
+pred_0057,Area hIP3 (IPS) right,ET,1312,57
+pred_0057,Area 4p (PreCG) right,ET,587,25
+pred_0057,Temporal-to-Parietal (GapMap) right,ET,18,1
+pred_0057,Area hIP1 (IPS) right,ET,297,13
+pred_0057,Area 2 (PostCS) right,ET,1147,50
+pred_0057,Area 7PC (SPL) right,ET,74,3

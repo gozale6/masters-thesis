@@ -1,0 +1,42 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_122,WM/unassigned,TC,1229,39,59.6,0.0,False
+BraTS20_Training_122,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,139,4,6.7,11.1,True
+BraTS20_Training_122,"Rt (Thalamus, reticular Nucleus) left",TC,261,8,12.7,16.9,True
+BraTS20_Training_122,"LP (Thalamus, lateral posterior Nucleus) left",TC,342,11,16.6,72.3,True
+BraTS20_Training_122,"CL (Thalamus, anterior intralaminar nuclei) left",TC,1,0,0.0,0.1,True
+BraTS20_Training_122,"VPL (Thalamus, ventral posterior lateral Nucleus) left",TC,91,3,4.4,14.9,True
+BraTS20_Training_122,WM/unassigned,WT,7995,256,73.3,0.1,False
+BraTS20_Training_122,Area Te 1.0 (HESCHL) left,WT,12,0,0.1,1.9,False
+BraTS20_Training_122,"LD (Thalamus, lateral dorsal Nucleus) left",WT,4,0,0.0,2.0,False
+BraTS20_Training_122,"PUm (Thalamus, medial pulvinar) left",WT,8,0,0.1,1.0,False
+BraTS20_Training_122,Area Ig2 (Insula) left,WT,298,10,2.7,48.0,True
+BraTS20_Training_122,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,35,1,0.3,2.8,False
+BraTS20_Training_122,Area Op1 (POperc) left,WT,89,3,0.8,4.1,False
+BraTS20_Training_122,"Rt (Thalamus, reticular Nucleus) left",WT,196,6,1.8,12.7,True
+BraTS20_Training_122,"PUa (Thalamus, anterior pulvinar) left",WT,9,0,0.1,5.1,False
+BraTS20_Training_122,"PUl (Thalamus, lateral pulvinar) left",WT,157,5,1.4,29.4,False
+BraTS20_Training_122,Area Te 1.1 (HESCHL) left,WT,727,23,6.7,60.1,True
+BraTS20_Training_122,Area Ig3 (Insula) left,WT,104,3,1.0,24.1,False
+BraTS20_Training_122,Area Op2 (POperc) left,WT,646,21,5.9,63.1,True
+BraTS20_Training_122,Area Ig1 (Insula) left,WT,151,5,1.4,44.3,False
+BraTS20_Training_122,Area PFcm (IPL) left,WT,93,3,0.9,3.2,False
+BraTS20_Training_122,Area Id2 (Insula) left,WT,25,1,0.2,3.8,False
+BraTS20_Training_122,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,44,1,0.4,3.9,False
+BraTS20_Training_122,Frontal-to-Temporal-II (GapMap) left,WT,17,1,0.2,0.3,False
+BraTS20_Training_122,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,34,1,0.3,5.6,False
+BraTS20_Training_122,Area Op3 (POperc) left,WT,1,0,0.0,0.1,False
+BraTS20_Training_122,Area Te 2.2 (STG) left,WT,266,9,2.4,14.3,True
+BraTS20_Training_122,WM/unassigned,ET,2480,79,68.7,0.0,False
+BraTS20_Training_122,"LD (Thalamus, lateral dorsal Nucleus) left",ET,51,2,1.4,25.9,False
+BraTS20_Training_122,"PUm (Thalamus, medial pulvinar) left",ET,62,2,1.7,7.7,False
+BraTS20_Training_122,Area Ig2 (Insula) left,ET,29,1,0.8,4.7,False
+BraTS20_Training_122,"VLP (Thalamus, ventral lateral posterior Nucleus) left",ET,367,12,10.2,29.3,True
+BraTS20_Training_122,"Rt (Thalamus, reticular Nucleus) left",ET,171,5,4.7,11.1,True
+BraTS20_Training_122,"PUa (Thalamus, anterior pulvinar) left",ET,15,0,0.4,8.5,False
+BraTS20_Training_122,"PUl (Thalamus, lateral pulvinar) left",ET,24,1,0.7,4.5,False
+BraTS20_Training_122,Area Te 1.1 (HESCHL) left,ET,22,1,0.6,1.8,False
+BraTS20_Training_122,"LP (Thalamus, lateral posterior Nucleus) left",ET,131,4,3.6,27.7,True
+BraTS20_Training_122,Area Ig1 (Insula) left,ET,1,0,0.0,0.3,False
+BraTS20_Training_122,"VIM (Thalamus, ventral intermediate Nucleus) left",ET,4,0,0.1,0.4,False
+BraTS20_Training_122,"CL (Thalamus, anterior intralaminar nuclei) left",ET,108,3,3.0,7.4,True
+BraTS20_Training_122,"VPL (Thalamus, ventral posterior lateral Nucleus) left",ET,146,5,4.0,23.9,True

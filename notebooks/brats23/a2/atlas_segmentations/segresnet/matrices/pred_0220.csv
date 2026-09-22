@@ -1,0 +1,30 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0220,WM/unassigned,TC,1430,35
+pred_0220,Area STS2 (STS) right,TC,935,23
+pred_0220,Area Te 3 (STG) right,TC,121,3
+pred_0220,Area FG4 (FusG) right,TC,2,0
+pred_0220,Area OTS1 (OTS) right,TC,19,0
+pred_0220,Temporal-to-Parietal (GapMap) right,TC,2449,60
+pred_0220,Area STS1 (STS) right,TC,174,4
+pred_0220,WM/unassigned,WT,10391,256
+pred_0220,Area STS2 (STS) right,WT,1315,32
+pred_0220,Area TI (STG) right,WT,7,0
+pred_0220,Area FG5 (FusG) right,WT,75,2
+pred_0220,Area Te 3 (STG) right,WT,1061,26
+pred_0220,CA2 (Hippocampus) right,WT,7,0
+pred_0220,Area FG4 (FusG) right,WT,1051,26
+pred_0220,Area OTS1 (OTS) right,WT,674,17
+pred_0220,Temporal-to-Parietal (GapMap) right,WT,3269,81
+pred_0220,Area Te 2.1 (STG) right,WT,144,4
+pred_0220,Area STS1 (STS) right,WT,1308,32
+pred_0220,Area Te 2.2 (STG) right,WT,109,3
+pred_0220,Area TeI (STG) right,WT,1,0
+pred_0220,WM/unassigned,ET,4644,114
+pred_0220,Area STS2 (STS) right,ET,1714,42
+pred_0220,Area Te 3 (STG) right,ET,514,13
+pred_0220,Area FG4 (FusG) right,ET,48,1
+pred_0220,Area OTS1 (OTS) right,ET,122,3
+pred_0220,Temporal-to-Parietal (GapMap) right,ET,5996,148
+pred_0220,Area Te 2.1 (STG) right,ET,7,0
+pred_0220,Area STS1 (STS) right,ET,821,20
+pred_0220,Area Te 2.2 (STG) right,ET,3,0

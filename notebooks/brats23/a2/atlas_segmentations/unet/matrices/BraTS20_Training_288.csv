@@ -1,0 +1,141 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_288,WM/unassigned,TC,17197,178
+BraTS20_Training_288,Astr (Amygdala) left,TC,67,1
+BraTS20_Training_288,Area Id8 (Insula) left,TC,441,5
+BraTS20_Training_288,Area Id3 (Insula) left,TC,7,0
+BraTS20_Training_288,"Area PirTB (PiriformCortexMesial, temporobasal) left",TC,2,0
+BraTS20_Training_288,Area TI (STG) left,TC,2,0
+BraTS20_Training_288,Area FG5 (FusG) left,TC,85,1
+BraTS20_Training_288,Area Ia3 (Insula) left,TC,64,1
+BraTS20_Training_288,CA2 (Hippocampus) left,TC,154,2
+BraTS20_Training_288,"Area EC (Hippocampal Region, Entorhinal Cortex) left",TC,260,3
+BraTS20_Training_288,"Tu (Basal Forebrain, Tuberculum) left",TC,41,0
+BraTS20_Training_288,Area Id6 (Insula) left,TC,4,0
+BraTS20_Training_288,VTM (Amygdala) left,TC,72,1
+BraTS20_Training_288,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,514,5
+BraTS20_Training_288,Area 25 (sACC) left,TC,8,0
+BraTS20_Training_288,LB (Amygdala) left,TC,630,7
+BraTS20_Training_288,Area FG4 (FusG) left,TC,14,0
+BraTS20_Training_288,STN (Subthalamus) left,TC,8,0
+BraTS20_Training_288,"SNC (Midbrain, Substantia Nigra pars compacta) left",TC,45,0
+BraTS20_Training_288,Area Fo3 (OFC) left,TC,2282,24
+BraTS20_Training_288,Ch 4 (Basal Forebrain) left,TC,157,2
+BraTS20_Training_288,"AcbM (Ventral Striatum, Medial Accumbens) left",TC,5,0
+BraTS20_Training_288,DG (Hippocampus) left,TC,86,1
+BraTS20_Training_288,Area Id10 (Insula) left,TC,1343,14
+BraTS20_Training_288,"Area PirT (PiriformCortexMesial, temporal) left",TC,13,0
+BraTS20_Training_288,Frontal-to-Temporal-I (GapMap) left,TC,507,5
+BraTS20_Training_288,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,38,0
+BraTS20_Training_288,CM (Amygdala) left,TC,321,3
+BraTS20_Training_288,CA1 (Hippocampus) left,TC,460,5
+BraTS20_Training_288,IF (Amygdala) left,TC,182,2
+BraTS20_Training_288,Temporal-to-Parietal (GapMap) left,TC,4993,52
+BraTS20_Training_288,HATA (Hippocampus) left,TC,313,3
+BraTS20_Training_288,"TuTi (Basal Forebrain, Terminal islands) left",TC,122,1
+BraTS20_Training_288,Frontal-to-Temporal-II (GapMap) left,TC,1736,18
+BraTS20_Training_288,Area Ia2 (Insula) left,TC,23,0
+BraTS20_Training_288,Ch 123 (Basal Forebrain) left,TC,15,0
+BraTS20_Training_288,"Subc (Hippocampus, Subicular complex) left",TC,1126,12
+BraTS20_Training_288,CA3 (Hippocampus) left,TC,40,0
+BraTS20_Training_288,Area Id9 (Insula) left,TC,127,1
+BraTS20_Training_288,"SNR (Midbrain, Substantia Nigra pars reticulata) left",TC,88,1
+BraTS20_Training_288,VP (Ventral Pallidum) left,TC,86,1
+BraTS20_Training_288,Area s32 (sACC) left,TC,103,1
+BraTS20_Training_288,MF (Amygdala) left,TC,20,0
+BraTS20_Training_288,SF (Amygdala) left,TC,565,6
+BraTS20_Training_288,Area Fo1 (OFC) left,TC,295,3
+BraTS20_Training_288,Area s24 (sACC) left,TC,13,0
+BraTS20_Training_288,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,97,1
+BraTS20_Training_288,Area Fo2 (OFC) left,TC,1354,14
+BraTS20_Training_288,WM/unassigned,WT,24717,256
+BraTS20_Training_288,Area CoS1 (CoS) left,WT,19,0
+BraTS20_Training_288,Area Id8 (Insula) left,WT,231,2
+BraTS20_Training_288,Area STS2 (STS) left,WT,42,0
+BraTS20_Training_288,Area Id3 (Insula) left,WT,166,2
+BraTS20_Training_288,"ZI (Thalamus, zona incerta) left",WT,48,0
+BraTS20_Training_288,Area TI (STG) left,WT,145,2
+BraTS20_Training_288,Area FG5 (FusG) left,WT,326,3
+BraTS20_Training_288,"BST (Basal Forebrain, Bed Nucleus) left",WT,25,0
+BraTS20_Training_288,Area Ia3 (Insula) left,WT,207,2
+BraTS20_Training_288,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,148,2
+BraTS20_Training_288,Area Id6 (Insula) left,WT,50,1
+BraTS20_Training_288,Area Ia1 (Insula) left,WT,14,0
+BraTS20_Training_288,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,83,1
+BraTS20_Training_288,Area 25 (sACC) left,WT,208,2
+BraTS20_Training_288,Area FG4 (FusG) left,WT,641,7
+BraTS20_Training_288,STN (Subthalamus) left,WT,59,1
+BraTS20_Training_288,CGL (Metathalamus) left,WT,56,1
+BraTS20_Training_288,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,110,1
+BraTS20_Training_288,Area Fo3 (OFC) left,WT,669,7
+BraTS20_Training_288,Ch 4 (Basal Forebrain) left,WT,84,1
+BraTS20_Training_288,"AcbM (Ventral Striatum, Medial Accumbens) left",WT,18,0
+BraTS20_Training_288,DG (Hippocampus) left,WT,51,1
+BraTS20_Training_288,Area Id10 (Insula) left,WT,38,0
+BraTS20_Training_288,"Area PirT (PiriformCortexMesial, temporal) left",WT,5,0
+BraTS20_Training_288,Frontal-to-Temporal-I (GapMap) left,WT,261,3
+BraTS20_Training_288,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,342,4
+BraTS20_Training_288,CA1 (Hippocampus) left,WT,168,2
+BraTS20_Training_288,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,20,0
+BraTS20_Training_288,Temporal-to-Parietal (GapMap) left,WT,3763,39
+BraTS20_Training_288,Frontal-to-Temporal-II (GapMap) left,WT,954,10
+BraTS20_Training_288,Area Ia2 (Insula) left,WT,121,1
+BraTS20_Training_288,Area Id1 (Insula) left,WT,5,0
+BraTS20_Training_288,Area Id5 (Insula) left,WT,4,0
+BraTS20_Training_288,Ch 123 (Basal Forebrain) left,WT,60,1
+BraTS20_Training_288,"Subc (Hippocampus, Subicular complex) left",WT,479,5
+BraTS20_Training_288,CA3 (Hippocampus) left,WT,38,0
+BraTS20_Training_288,Area Id9 (Insula) left,WT,246,3
+BraTS20_Training_288,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,96,1
+BraTS20_Training_288,Area FG3 (FusG) left,WT,183,2
+BraTS20_Training_288,VP (Ventral Pallidum) left,WT,83,1
+BraTS20_Training_288,Area s32 (sACC) left,WT,198,2
+BraTS20_Training_288,Area Fo1 (OFC) left,WT,215,2
+BraTS20_Training_288,"VPi (Thalamus, ventroposterior inferior Nucleus) left",WT,1,0
+BraTS20_Training_288,Area s24 (sACC) left,WT,466,5
+BraTS20_Training_288,Area Ph2 (PhG) left,WT,11,0
+BraTS20_Training_288,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,1,0
+BraTS20_Training_288,Area Fo2 (OFC) left,WT,474,5
+BraTS20_Training_288,Area Fo2 (OFC) right,WT,40,0
+BraTS20_Training_288,WM/unassigned,ET,7260,75
+BraTS20_Training_288,Astr (Amygdala) left,ET,138,1
+BraTS20_Training_288,Area Id3 (Insula) left,ET,263,3
+BraTS20_Training_288,"Area PirTB (PiriformCortexMesial, temporobasal) left",ET,3,0
+BraTS20_Training_288,Area TI (STG) left,ET,77,1
+BraTS20_Training_288,Area FG5 (FusG) left,ET,42,0
+BraTS20_Training_288,"BST (Basal Forebrain, Bed Nucleus) left",ET,1,0
+BraTS20_Training_288,Area Ia3 (Insula) left,ET,69,1
+BraTS20_Training_288,CA2 (Hippocampus) left,ET,67,1
+BraTS20_Training_288,"Area EC (Hippocampal Region, Entorhinal Cortex) left",ET,326,3
+BraTS20_Training_288,"Tu (Basal Forebrain, Tuberculum) left",ET,3,0
+BraTS20_Training_288,Area Ia1 (Insula) left,ET,1,0
+BraTS20_Training_288,VTM (Amygdala) left,ET,2,0
+BraTS20_Training_288,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,882,9
+BraTS20_Training_288,Area 25 (sACC) left,ET,24,0
+BraTS20_Training_288,LB (Amygdala) left,ET,339,4
+BraTS20_Training_288,Area FG4 (FusG) left,ET,58,1
+BraTS20_Training_288,STN (Subthalamus) left,ET,127,1
+BraTS20_Training_288,"SNC (Midbrain, Substantia Nigra pars compacta) left",ET,11,0
+BraTS20_Training_288,Area Fo3 (OFC) left,ET,148,2
+BraTS20_Training_288,Ch 4 (Basal Forebrain) left,ET,303,3
+BraTS20_Training_288,"AcbM (Ventral Striatum, Medial Accumbens) left",ET,151,2
+BraTS20_Training_288,DG (Hippocampus) left,ET,32,0
+BraTS20_Training_288,Area Id10 (Insula) left,ET,29,0
+BraTS20_Training_288,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,216,2
+BraTS20_Training_288,CM (Amygdala) left,ET,179,2
+BraTS20_Training_288,CA1 (Hippocampus) left,ET,86,1
+BraTS20_Training_288,IF (Amygdala) left,ET,98,1
+BraTS20_Training_288,Temporal-to-Parietal (GapMap) left,ET,865,9
+BraTS20_Training_288,HATA (Hippocampus) left,ET,71,1
+BraTS20_Training_288,"TuTi (Basal Forebrain, Terminal islands) left",ET,148,2
+BraTS20_Training_288,Frontal-to-Temporal-II (GapMap) left,ET,1870,19
+BraTS20_Training_288,Area Ia2 (Insula) left,ET,27,0
+BraTS20_Training_288,Ch 123 (Basal Forebrain) left,ET,102,1
+BraTS20_Training_288,"Subc (Hippocampus, Subicular complex) left",ET,1217,13
+BraTS20_Training_288,CA3 (Hippocampus) left,ET,67,1
+BraTS20_Training_288,Area Id9 (Insula) left,ET,34,0
+BraTS20_Training_288,"SNR (Midbrain, Substantia Nigra pars reticulata) left",ET,449,5
+BraTS20_Training_288,VP (Ventral Pallidum) left,ET,370,4
+BraTS20_Training_288,MF (Amygdala) left,ET,2,0
+BraTS20_Training_288,SF (Amygdala) left,ET,66,1
+BraTS20_Training_288,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,261,3
+BraTS20_Training_288,Area Fo2 (OFC) left,ET,76,1

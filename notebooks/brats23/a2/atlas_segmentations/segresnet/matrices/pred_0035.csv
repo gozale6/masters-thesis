@@ -1,0 +1,45 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0035,WM/unassigned,TC,23,0
+pred_0035,Area FG4 (FusG) right,TC,35,1
+pred_0035,Area OTS1 (OTS) right,TC,2,0
+pred_0035,Temporal-to-Parietal (GapMap) right,TC,6,0
+pred_0035,"Subc (Hippocampus, Subicular complex) right",TC,1,0
+pred_0035,Area Ph2 (PhG) right,TC,2,0
+pred_0035,WM/unassigned,WT,12587,256
+pred_0035,Area hOc4la (LOC) right,WT,306,6
+pred_0035,Area CoS1 (CoS) right,WT,4,0
+pred_0035,Area Te 1.0 (HESCHL) right,WT,29,1
+pred_0035,Area STS2 (STS) right,WT,349,7
+pred_0035,Area FG5 (FusG) right,WT,29,1
+pred_0035,Frontal-to-Occipital (GapMap) right,WT,113,2
+pred_0035,Area FG2 (FusG) right,WT,49,1
+pred_0035,"Area TPJ (STG, SMG) right",WT,125,3
+pred_0035,Area PGa (IPL) right,WT,137,3
+pred_0035,Area Ph1 (PhG) right,WT,337,7
+pred_0035,Area FG4 (FusG) right,WT,857,17
+pred_0035,"Area hOc1 (V1, 17, CalcS) right",WT,58,1
+pred_0035,Area Ph3 (PhG) right,WT,92,2
+pred_0035,Area Te 1.1 (HESCHL) right,WT,10,0
+pred_0035,DG (Hippocampus) right,WT,4,0
+pred_0035,Area PGp (IPL) right,WT,8,0
+pred_0035,Area PFcm (IPL) right,WT,1,0
+pred_0035,Area FG1 (FusG) right,WT,99,2
+pred_0035,Area OTS1 (OTS) right,WT,537,11
+pred_0035,CA1 (Hippocampus) right,WT,4,0
+pred_0035,Temporal-to-Parietal (GapMap) right,WT,8761,178
+pred_0035,Area Te 2.1 (STG) right,WT,64,1
+pred_0035,"Subc (Hippocampus, Subicular complex) right",WT,192,4
+pred_0035,"TrS (Hippocampus, Transsubiculum) right",WT,76,2
+pred_0035,Area STS1 (STS) right,WT,664,14
+pred_0035,Area FG3 (FusG) right,WT,49,1
+pred_0035,Area hOc5 (LOC) right,WT,399,8
+pred_0035,Area Ph2 (PhG) right,WT,212,4
+pred_0035,Area Te 2.2 (STG) right,WT,449,9
+pred_0035,Area TeI (STG) right,WT,14,0
+pred_0035,WM/unassigned,ET,63,1
+pred_0035,Area FG4 (FusG) right,ET,335,7
+pred_0035,Area OTS1 (OTS) right,ET,58,1
+pred_0035,Temporal-to-Parietal (GapMap) right,ET,105,2
+pred_0035,"Subc (Hippocampus, Subicular complex) right",ET,12,0
+pred_0035,Area FG3 (FusG) right,ET,3,0
+pred_0035,Area Ph2 (PhG) right,ET,62,1

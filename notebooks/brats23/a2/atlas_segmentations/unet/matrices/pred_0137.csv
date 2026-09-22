@@ -1,0 +1,48 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0137,WM/unassigned,TC,3663,58
+pred_0137,Area p24ab (pACC) left,TC,286,5
+pred_0137,Frontal-to-Occipital (GapMap) left,TC,130,2
+pred_0137,Area p32 (pACC) left,TC,31,0
+pred_0137,Area p24c (pACC) left,TC,4,0
+pred_0137,Area 33 (ACC) left,TC,3,0
+pred_0137,Area p24ab (pACC) right,TC,882,14
+pred_0137,Frontal-to-Occipital (GapMap) right,TC,607,10
+pred_0137,Area p32 (pACC) right,TC,30,0
+pred_0137,Area p24c (pACC) right,TC,516,8
+pred_0137,Area 33 (ACC) right,TC,1214,19
+pred_0137,WM/unassigned,WT,16099,256
+pred_0137,Area SFG4 (SFG) left,WT,1,0
+pred_0137,Area p24ab (pACC) left,WT,621,10
+pred_0137,Frontal-to-Occipital (GapMap) left,WT,2463,39
+pred_0137,Area Fp2 (FPole) left,WT,21,0
+pred_0137,Area p32 (pACC) left,WT,2186,35
+pred_0137,Area SFG2 (SFG) left,WT,180,3
+pred_0137,Area SFG3 (SFG) left,WT,61,1
+pred_0137,Area p24c (pACC) left,WT,360,6
+pred_0137,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,1,0
+pred_0137,Frontal-I.2 (GapMap) left,WT,708,11
+pred_0137,Area 33 (ACC) left,WT,385,6
+pred_0137,Area s24 (sACC) left,WT,20,0
+pred_0137,Area SFG4 (SFG) right,WT,25,0
+pred_0137,Area p24ab (pACC) right,WT,347,6
+pred_0137,Frontal-to-Occipital (GapMap) right,WT,1022,16
+pred_0137,Area Fp2 (FPole) right,WT,124,2
+pred_0137,Area Fp1 (FPole) right,WT,36,1
+pred_0137,Area p32 (pACC) right,WT,2797,44
+pred_0137,Area SFG2 (SFG) right,WT,404,6
+pred_0137,Area SFG3 (SFG) right,WT,113,2
+pred_0137,Area p24c (pACC) right,WT,603,10
+pred_0137,Frontal-I.2 (GapMap) right,WT,2085,33
+pred_0137,Area 33 (ACC) right,WT,161,3
+pred_0137,Area 8d1 (SFG) right,WT,2,0
+pred_0137,WM/unassigned,ET,6673,106
+pred_0137,Area p24ab (pACC) left,ET,535,9
+pred_0137,Frontal-to-Occipital (GapMap) left,ET,821,13
+pred_0137,Area p32 (pACC) left,ET,209,3
+pred_0137,Area p24c (pACC) left,ET,19,0
+pred_0137,Area 33 (ACC) left,ET,51,1
+pred_0137,Area p24ab (pACC) right,ET,557,9
+pred_0137,Frontal-to-Occipital (GapMap) right,ET,1091,17
+pred_0137,Area p32 (pACC) right,ET,234,4
+pred_0137,Area p24c (pACC) right,ET,808,13
+pred_0137,Area 33 (ACC) right,ET,420,7

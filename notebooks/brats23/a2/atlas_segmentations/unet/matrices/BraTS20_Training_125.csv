@@ -1,0 +1,112 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_125,WM/unassigned,TC,2485,9
+BraTS20_Training_125,Frontal-to-Occipital (GapMap) left,TC,230,1
+BraTS20_Training_125,Area p32 (pACC) left,TC,2,0
+BraTS20_Training_125,"Area 6ma (preSMA, mesial SFG) left",TC,2,0
+BraTS20_Training_125,Frontal-I.2 (GapMap) left,TC,28,0
+BraTS20_Training_125,Area 33 (ACC) left,TC,13,0
+BraTS20_Training_125,"AV (Thalamus, anteroventral Nucleus) left",TC,3,0
+BraTS20_Training_125,"Area 6mp (SMA, mesial SFG) right",TC,69,0
+BraTS20_Training_125,Area p24ab (pACC) right,TC,11,0
+BraTS20_Training_125,Frontal-to-Occipital (GapMap) right,TC,1839,7
+BraTS20_Training_125,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,29,0
+BraTS20_Training_125,"AM (Thalamus, anteromedial Nucleus) right",TC,45,0
+BraTS20_Training_125,"VLP (Thalamus, ventral lateral posterior Nucleus) right",TC,4,0
+BraTS20_Training_125,"Rt (Thalamus, reticular Nucleus) right",TC,10,0
+BraTS20_Training_125,"MD (Thalamus, mediodorsal Nucleus) right",TC,2,0
+BraTS20_Training_125,Area p32 (pACC) right,TC,2,0
+BraTS20_Training_125,"Area 6ma (preSMA, mesial SFG) right",TC,306,1
+BraTS20_Training_125,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",TC,81,0
+BraTS20_Training_125,Frontal-I.2 (GapMap) right,TC,220,1
+BraTS20_Training_125,Area 33 (ACC) right,TC,25,0
+BraTS20_Training_125,"CL (Thalamus, anterior intralaminar nuclei) right",TC,3,0
+BraTS20_Training_125,"AV (Thalamus, anteroventral Nucleus) right",TC,115,0
+BraTS20_Training_125,WM/unassigned,WT,70679,256
+BraTS20_Training_125,Area SFG4 (SFG) left,WT,4,0
+BraTS20_Training_125,"LD (Thalamus, lateral dorsal Nucleus) left",WT,187,1
+BraTS20_Training_125,"Area 6mp (SMA, mesial SFG) left",WT,274,1
+BraTS20_Training_125,Area p24ab (pACC) left,WT,1200,4
+BraTS20_Training_125,Frontal-to-Occipital (GapMap) left,WT,10033,36
+BraTS20_Training_125,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,572,2
+BraTS20_Training_125,"AM (Thalamus, anteromedial Nucleus) left",WT,121,0
+BraTS20_Training_125,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,949,3
+BraTS20_Training_125,Area Id4 (Insula) left,WT,10,0
+BraTS20_Training_125,"Rt (Thalamus, reticular Nucleus) left",WT,277,1
+BraTS20_Training_125,Area Id6 (Insula) left,WT,31,0
+BraTS20_Training_125,Area 6d3 (SFS) left,WT,103,0
+BraTS20_Training_125,"Pv (Thalamus, paraventricular Nucleus) left",WT,2,0
+BraTS20_Training_125,Area 8d2 (SFG) left,WT,308,1
+BraTS20_Training_125,"Area IFJ2 (IFS, PreCS) left",WT,162,1
+BraTS20_Training_125,"MD (Thalamus, mediodorsal Nucleus) left",WT,181,1
+BraTS20_Training_125,Area 4a (PreCG) left,WT,30,0
+BraTS20_Training_125,Area 5M (SPL) left,WT,189,1
+BraTS20_Training_125,Area p32 (pACC) left,WT,2072,8
+BraTS20_Training_125,Area SFG2 (SFG) left,WT,122,0
+BraTS20_Training_125,Area Ig3 (Insula) left,WT,6,0
+BraTS20_Training_125,Area SFG3 (SFG) left,WT,1,0
+BraTS20_Training_125,Area 6v3 (PreCG) left,WT,10,0
+BraTS20_Training_125,"Area 6ma (preSMA, mesial SFG) left",WT,1704,6
+BraTS20_Training_125,Area p24c (pACC) left,WT,853,3
+BraTS20_Training_125,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,276,1
+BraTS20_Training_125,Frontal-I.2 (GapMap) left,WT,3195,12
+BraTS20_Training_125,Area 33 (ACC) left,WT,9,0
+BraTS20_Training_125,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,47,0
+BraTS20_Training_125,"CL (Thalamus, anterior intralaminar nuclei) left",WT,368,1
+BraTS20_Training_125,Area 5Ci (SPL) left,WT,80,0
+BraTS20_Training_125,Area Op3 (POperc) left,WT,41,0
+BraTS20_Training_125,Frontal-II (GapMap) left,WT,5,0
+BraTS20_Training_125,"AV (Thalamus, anteroventral Nucleus) left",WT,267,1
+BraTS20_Training_125,Area 8d1 (SFG) left,WT,1,0
+BraTS20_Training_125,"Area IFJ1 (IFS, PreCS) left",WT,41,0
+BraTS20_Training_125,"LD (Thalamus, lateral dorsal Nucleus) right",WT,280,1
+BraTS20_Training_125,"Area 6mp (SMA, mesial SFG) right",WT,1478,5
+BraTS20_Training_125,Area p24ab (pACC) right,WT,780,3
+BraTS20_Training_125,Frontal-to-Occipital (GapMap) right,WT,7713,28
+BraTS20_Training_125,Area 6d1 (PreCG) right,WT,119,0
+BraTS20_Training_125,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,174,1
+BraTS20_Training_125,"AM (Thalamus, anteromedial Nucleus) right",WT,43,0
+BraTS20_Training_125,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,238,1
+BraTS20_Training_125,"Rt (Thalamus, reticular Nucleus) right",WT,337,1
+BraTS20_Training_125,Area 6d3 (SFS) right,WT,34,0
+BraTS20_Training_125,"Pv (Thalamus, paraventricular Nucleus) right",WT,25,0
+BraTS20_Training_125,Area 8d2 (SFG) right,WT,112,0
+BraTS20_Training_125,"MD (Thalamus, mediodorsal Nucleus) right",WT,133,0
+BraTS20_Training_125,Area 4a (PreCG) right,WT,542,2
+BraTS20_Training_125,Area 5M (SPL) right,WT,102,0
+BraTS20_Training_125,Area p32 (pACC) right,WT,1534,6
+BraTS20_Training_125,Area SFG2 (SFG) right,WT,404,1
+BraTS20_Training_125,"LP (Thalamus, lateral posterior Nucleus) right",WT,105,0
+BraTS20_Training_125,Area 6d2 (PreCG) right,WT,141,1
+BraTS20_Training_125,Area SFG3 (SFG) right,WT,13,0
+BraTS20_Training_125,"Area 6ma (preSMA, mesial SFG) right",WT,1724,6
+BraTS20_Training_125,Area p24c (pACC) right,WT,264,1
+BraTS20_Training_125,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,63,0
+BraTS20_Training_125,Frontal-I.2 (GapMap) right,WT,3257,12
+BraTS20_Training_125,Area 33 (ACC) right,WT,357,1
+BraTS20_Training_125,"CL (Thalamus, anterior intralaminar nuclei) right",WT,183,1
+BraTS20_Training_125,Area 5Ci (SPL) right,WT,904,3
+BraTS20_Training_125,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,16,0
+BraTS20_Training_125,"AV (Thalamus, anteroventral Nucleus) right",WT,17,0
+BraTS20_Training_125,Area 8d1 (SFG) right,WT,660,2
+BraTS20_Training_125,WM/unassigned,ET,19533,71
+BraTS20_Training_125,Frontal-to-Occipital (GapMap) left,ET,3115,11
+BraTS20_Training_125,Area p32 (pACC) left,ET,46,0
+BraTS20_Training_125,"Area 6ma (preSMA, mesial SFG) left",ET,22,0
+BraTS20_Training_125,Frontal-I.2 (GapMap) left,ET,242,1
+BraTS20_Training_125,Area 33 (ACC) left,ET,538,2
+BraTS20_Training_125,"AV (Thalamus, anteroventral Nucleus) left",ET,4,0
+BraTS20_Training_125,"Area 6mp (SMA, mesial SFG) right",ET,106,0
+BraTS20_Training_125,Area p24ab (pACC) right,ET,137,0
+BraTS20_Training_125,Frontal-to-Occipital (GapMap) right,ET,3965,14
+BraTS20_Training_125,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,281,1
+BraTS20_Training_125,"AM (Thalamus, anteromedial Nucleus) right",ET,46,0
+BraTS20_Training_125,"VLP (Thalamus, ventral lateral posterior Nucleus) right",ET,134,0
+BraTS20_Training_125,"Rt (Thalamus, reticular Nucleus) right",ET,79,0
+BraTS20_Training_125,"MD (Thalamus, mediodorsal Nucleus) right",ET,29,0
+BraTS20_Training_125,Area p32 (pACC) right,ET,17,0
+BraTS20_Training_125,"Area 6ma (preSMA, mesial SFG) right",ET,332,1
+BraTS20_Training_125,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",ET,210,1
+BraTS20_Training_125,Frontal-I.2 (GapMap) right,ET,874,3
+BraTS20_Training_125,Area 33 (ACC) right,ET,1205,4
+BraTS20_Training_125,"CL (Thalamus, anterior intralaminar nuclei) right",ET,49,0
+BraTS20_Training_125,"AV (Thalamus, anteroventral Nucleus) right",ET,152,1

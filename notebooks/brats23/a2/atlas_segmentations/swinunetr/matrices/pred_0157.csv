@@ -1,0 +1,89 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0157,WM/unassigned,TC,1768,7
+pred_0157,Area hOc4la (LOC) right,TC,202,1
+pred_0157,Area hIP4 (IPS) right,TC,124,0
+pred_0157,Area hOc6 (POS) right,TC,1,0
+pred_0157,Area Ph1 (PhG) right,TC,1,0
+pred_0157,"Area hOc1 (V1, 17, CalcS) right",TC,51,0
+pred_0157,Area hOc4lp (LOC) right,TC,426,2
+pred_0157,"Area hOc2 (V2, 18) right",TC,1,0
+pred_0157,Area hOc4d (Cuneus) right,TC,125,0
+pred_0157,Area hOc3v (LingG) right,TC,6,0
+pred_0157,Area FG1 (FusG) right,TC,9,0
+pred_0157,Temporal-to-Parietal (GapMap) right,TC,130,1
+pred_0157,Area hOc3d (Cuneus) right,TC,12,0
+pred_0157,Area hOc5 (LOC) right,TC,12,0
+pred_0157,Area hOc4v (LingG) right,TC,57,0
+pred_0157,Area hIP7 (IPS) right,TC,175,1
+pred_0157,WM/unassigned,WT,64184,256
+pred_0157,Area hOc4la (LOC) right,WT,1580,6
+pred_0157,Area PF (IPL) right,WT,911,4
+pred_0157,Area STS2 (STS) right,WT,141,1
+pred_0157,Area PFt (IPL) right,WT,51,0
+pred_0157,"PUm (Thalamus, medial pulvinar) right",WT,98,0
+pred_0157,"PUi (Thalamus, inferior pulvinar) right",WT,1,0
+pred_0157,Frontal-to-Occipital (GapMap) right,WT,3096,12
+pred_0157,Area hIP4 (IPS) right,WT,340,1
+pred_0157,Area FG2 (FusG) right,WT,198,1
+pred_0157,Area hIP6 (IPS) right,WT,808,3
+pred_0157,"Area TPJ (STG, SMG) right",WT,466,2
+pred_0157,Area hOc6 (POS) right,WT,369,1
+pred_0157,CA2 (Hippocampus) right,WT,116,0
+pred_0157,Area Op1 (POperc) right,WT,5,0
+pred_0157,"Rt (Thalamus, reticular Nucleus) right",WT,54,0
+pred_0157,Area hIP2 (IPS) right,WT,226,1
+pred_0157,Area PGa (IPL) right,WT,3424,14
+pred_0157,Area PFm (IPL) right,WT,1361,5
+pred_0157,"PUl (Thalamus, lateral pulvinar) right",WT,385,2
+pred_0157,Area Ph1 (PhG) right,WT,1820,7
+pred_0157,Area FG4 (FusG) right,WT,1102,4
+pred_0157,"Area hOc1 (V1, 17, CalcS) right",WT,2910,12
+pred_0157,Area Ph3 (PhG) right,WT,722,3
+pred_0157,Area hOc4lp (LOC) right,WT,616,2
+pred_0157,Area Te 1.1 (HESCHL) right,WT,335,1
+pred_0157,"Area hOc2 (V2, 18) right",WT,913,4
+pred_0157,"LP (Thalamus, lateral posterior Nucleus) right",WT,47,0
+pred_0157,Area hOc4d (Cuneus) right,WT,29,0
+pred_0157,Area hPO1 (POS) right,WT,131,1
+pred_0157,DG (Hippocampus) right,WT,62,0
+pred_0157,Area PGp (IPL) right,WT,2429,10
+pred_0157,Area Ig1 (Insula) right,WT,18,0
+pred_0157,Area hOc3v (LingG) right,WT,774,3
+pred_0157,Area PFcm (IPL) right,WT,1099,4
+pred_0157,Area hIP5 (IPS) right,WT,686,3
+pred_0157,Area FG1 (FusG) right,WT,829,3
+pred_0157,Area hIP3 (IPS) right,WT,2496,10
+pred_0157,CA1 (Hippocampus) right,WT,223,1
+pred_0157,Area hIP8 (IPS) right,WT,1055,4
+pred_0157,Temporal-to-Parietal (GapMap) right,WT,23114,92
+pred_0157,Area hIP1 (IPS) right,WT,1153,5
+pred_0157,Area 2 (PostCS) right,WT,12,0
+pred_0157,Area hOc3d (Cuneus) right,WT,393,2
+pred_0157,Area 7A (SPL) right,WT,327,1
+pred_0157,"Subc (Hippocampus, Subicular complex) right",WT,417,2
+pred_0157,"TrS (Hippocampus, Transsubiculum) right",WT,90,0
+pred_0157,CA3 (Hippocampus) right,WT,77,0
+pred_0157,Area STS1 (STS) right,WT,535,2
+pred_0157,Area FG3 (FusG) right,WT,631,3
+pred_0157,Area hOc5 (LOC) right,WT,257,1
+pred_0157,Area hOc4v (LingG) right,WT,833,3
+pred_0157,Area Ph2 (PhG) right,WT,877,3
+pred_0157,Area Te 2.2 (STG) right,WT,665,3
+pred_0157,Area hIP7 (IPS) right,WT,937,4
+pred_0157,Area 7PC (SPL) right,WT,40,0
+pred_0157,WM/unassigned,ET,12569,50
+pred_0157,Area hOc4la (LOC) right,ET,888,4
+pred_0157,Frontal-to-Occipital (GapMap) right,ET,13,0
+pred_0157,Area hIP4 (IPS) right,ET,507,2
+pred_0157,Area Ph1 (PhG) right,ET,38,0
+pred_0157,"Area hOc1 (V1, 17, CalcS) right",ET,474,2
+pred_0157,Area hOc4lp (LOC) right,ET,1916,8
+pred_0157,"Area hOc2 (V2, 18) right",ET,1,0
+pred_0157,Area hOc4d (Cuneus) right,ET,713,3
+pred_0157,Area hOc3v (LingG) right,ET,280,1
+pred_0157,Area FG1 (FusG) right,ET,205,1
+pred_0157,Temporal-to-Parietal (GapMap) right,ET,3107,12
+pred_0157,Area hOc3d (Cuneus) right,ET,251,1
+pred_0157,Area hOc5 (LOC) right,ET,280,1
+pred_0157,Area hOc4v (LingG) right,ET,617,2
+pred_0157,Area hIP7 (IPS) right,ET,813,3

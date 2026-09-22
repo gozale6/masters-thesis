@@ -1,0 +1,14 @@
+case_id,brats23_id,pred_index,atlas_region_id,atlas_region_name,brats_label,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,0,WM/unassigned,1,TC,24,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,88,region_88,1,TC,8,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,0,WM/unassigned,2,WT,16315,256
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,18,region_18,2,WT,14,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,25,region_25,2,WT,8,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,59,region_59,2,WT,105,2
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,88,region_88,2,WT,20,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,150,region_150,2,WT,10,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,155,region_155,2,WT,499,8
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,181,region_181,2,WT,84,1
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,0,WM/unassigned,3,ET,174,3
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,18,region_18,3,ET,1,0
+BraTS20_Training_266,BraTS-GLI-01437-000,pred_0188,88,region_88,3,ET,1,0

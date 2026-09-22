@@ -1,0 +1,123 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0080,WM/unassigned,TC,25609,141
+pred_0080,Area Id8 (Insula) right,TC,32,0
+pred_0080,Area STS2 (STS) right,TC,841,5
+pred_0080,Area TI (STG) right,TC,59,0
+pred_0080,Area Te 3 (STG) right,TC,1806,10
+pred_0080,Area 6r1 (PreCG) right,TC,118,1
+pred_0080,Area Op6 (Frontal Operculum) right,TC,464,3
+pred_0080,Area Id6 (Insula) right,TC,54,0
+pred_0080,Area 44 (IFG) right,TC,928,5
+pred_0080,Area Op8 (Frontal Operculum) right,TC,576,3
+pred_0080,Area Op5 (Frontal Operculum) right,TC,1,0
+pred_0080,Area Fo6 (OFC) right,TC,1,0
+pred_0080,Area Op4 (POperc) right,TC,2,0
+pred_0080,Frontal-to-Temporal-I (GapMap) right,TC,40,0
+pred_0080,Area Op9 (Frontal Operculum) right,TC,715,4
+pred_0080,Temporal-to-Parietal (GapMap) right,TC,270,1
+pred_0080,Area 45 (IFG) right,TC,676,4
+pred_0080,Area Te 1.2 (HESCHL) right,TC,140,1
+pred_0080,Area Te 2.1 (STG) right,TC,2,0
+pred_0080,Area STS1 (STS) right,TC,176,1
+pred_0080,Area Id9 (Insula) right,TC,166,1
+pred_0080,Area Te 2.2 (STG) right,TC,1,0
+pred_0080,Area TeI (STG) right,TC,603,3
+pred_0080,WM/unassigned,WT,46591,256
+pred_0080,Area Id8 (Insula) right,WT,1,0
+pred_0080,Area Te 1.0 (HESCHL) right,WT,611,3
+pred_0080,Area STS2 (STS) right,WT,2466,14
+pred_0080,Area Id3 (Insula) right,WT,563,3
+pred_0080,Area TI (STG) right,WT,363,2
+pred_0080,Area Te 3 (STG) right,WT,1220,7
+pred_0080,Area MFG1 (MFG) right,WT,132,1
+pred_0080,Area 6r1 (PreCG) right,WT,1203,7
+pred_0080,Area Op6 (Frontal Operculum) right,WT,6,0
+pred_0080,Area Fo5 (OFC) right,WT,41,0
+pred_0080,"Area TPJ (STG, SMG) right",WT,81,0
+pred_0080,Area Op7 (Frontal Operculum) right,WT,334,2
+pred_0080,Area Ia3 (Insula) right,WT,2,0
+pred_0080,Area Ig2 (Insula) right,WT,260,1
+pred_0080,CA2 (Hippocampus) right,WT,66,0
+pred_0080,Area Id4 (Insula) right,WT,881,5
+pred_0080,Area Op1 (POperc) right,WT,942,5
+pred_0080,"Rt (Thalamus, reticular Nucleus) right",WT,359,2
+pred_0080,Area Id6 (Insula) right,WT,1162,6
+pred_0080,Area IFS4 (IFS) right,WT,425,2
+pred_0080,Area 44 (IFG) right,WT,1075,6
+pred_0080,Area Fo7 (OFC) right,WT,5,0
+pred_0080,Area Ia1 (Insula) right,WT,124,1
+pred_0080,Area Op8 (Frontal Operculum) right,WT,204,1
+pred_0080,"Area IFJ2 (IFS, PreCS) right",WT,454,2
+pred_0080,Area Op5 (Frontal Operculum) right,WT,980,5
+pred_0080,Area Op10 (Frontal Operculum) right,WT,10,0
+pred_0080,Area MFG2 (MFG) right,WT,29,0
+pred_0080,Area Id7 (Insula) right,WT,4,0
+pred_0080,Area Fo6 (OFC) right,WT,1714,9
+pred_0080,CGL (Metathalamus) right,WT,36,0
+pred_0080,Area Te 1.1 (HESCHL) right,WT,621,3
+pred_0080,"Area MFG5 (MFG, IFG) right",WT,683,4
+pred_0080,Area MFG4 (MFG) right,WT,536,3
+pred_0080,Area Ig3 (Insula) right,WT,512,3
+pred_0080,Area 6v3 (PreCG) right,WT,786,4
+pred_0080,Area IFS1 (IFS) right,WT,1154,6
+pred_0080,Area Op4 (POperc) right,WT,1136,6
+pred_0080,Area IFS3 (IFS) right,WT,21,0
+pred_0080,Area Op2 (POperc) right,WT,417,2
+pred_0080,Area Ig1 (Insula) right,WT,100,1
+pred_0080,Area PFcm (IPL) right,WT,213,1
+pred_0080,Frontal-to-Temporal-I (GapMap) right,WT,124,1
+pred_0080,Area OTS1 (OTS) right,WT,24,0
+pred_0080,Area Id2 (Insula) right,WT,472,3
+pred_0080,Frontal-I.1 (GapMap) right,WT,2314,13
+pred_0080,Area Op9 (Frontal Operculum) right,WT,550,3
+pred_0080,Temporal-to-Parietal (GapMap) right,WT,7774,43
+pred_0080,Area 45 (IFG) right,WT,3110,17
+pred_0080,Area Id1 (Insula) right,WT,269,1
+pred_0080,Area Te 1.2 (HESCHL) right,WT,5,0
+pred_0080,Area Id5 (Insula) right,WT,767,4
+pred_0080,Area Te 2.1 (STG) right,WT,156,1
+pred_0080,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,6,0
+pred_0080,Area Op3 (POperc) right,WT,630,3
+pred_0080,"Subc (Hippocampus, Subicular complex) right",WT,49,0
+pred_0080,CA3 (Hippocampus) right,WT,157,1
+pred_0080,Frontal-II (GapMap) right,WT,377,2
+pred_0080,Area STS1 (STS) right,WT,2249,12
+pred_0080,Area Id9 (Insula) right,WT,19,0
+pred_0080,Area IFS2 (IFS) right,WT,311,2
+pred_0080,"Area IFJ1 (IFS, PreCS) right",WT,381,2
+pred_0080,Area PFop (IPL) right,WT,53,0
+pred_0080,Area 6v2 (PreCG) right,WT,758,4
+pred_0080,Area Te 2.2 (STG) right,WT,929,5
+pred_0080,Area TeI (STG) right,WT,340,2
+pred_0080,WM/unassigned,ET,25969,143
+pred_0080,Area Id8 (Insula) right,ET,238,1
+pred_0080,Area Te 1.0 (HESCHL) right,ET,63,0
+pred_0080,Area STS2 (STS) right,ET,1574,9
+pred_0080,Area Id3 (Insula) right,ET,2,0
+pred_0080,Area TI (STG) right,ET,293,2
+pred_0080,Area Te 3 (STG) right,ET,597,3
+pred_0080,Area 6r1 (PreCG) right,ET,506,3
+pred_0080,Area Op6 (Frontal Operculum) right,ET,575,3
+pred_0080,Area Op7 (Frontal Operculum) right,ET,44,0
+pred_0080,Area Ia3 (Insula) right,ET,8,0
+pred_0080,Area Id4 (Insula) right,ET,20,0
+pred_0080,Area Id6 (Insula) right,ET,718,4
+pred_0080,Area 44 (IFG) right,ET,640,4
+pred_0080,Area Ia1 (Insula) right,ET,28,0
+pred_0080,Area Op8 (Frontal Operculum) right,ET,478,3
+pred_0080,Area Op5 (Frontal Operculum) right,ET,492,3
+pred_0080,Area Id7 (Insula) right,ET,1,0
+pred_0080,Area Fo6 (OFC) right,ET,167,1
+pred_0080,Area Op4 (POperc) right,ET,231,1
+pred_0080,Frontal-to-Temporal-I (GapMap) right,ET,314,2
+pred_0080,Frontal-I.1 (GapMap) right,ET,3,0
+pred_0080,Area Op9 (Frontal Operculum) right,ET,965,5
+pred_0080,Temporal-to-Parietal (GapMap) right,ET,692,4
+pred_0080,Area 45 (IFG) right,ET,1412,8
+pred_0080,Area Te 1.2 (HESCHL) right,ET,378,2
+pred_0080,Area Id5 (Insula) right,ET,89,0
+pred_0080,Area Te 2.1 (STG) right,ET,237,1
+pred_0080,Area STS1 (STS) right,ET,445,2
+pred_0080,Area Id9 (Insula) right,ET,486,3
+pred_0080,Area Te 2.2 (STG) right,ET,35,0
+pred_0080,Area TeI (STG) right,ET,327,2

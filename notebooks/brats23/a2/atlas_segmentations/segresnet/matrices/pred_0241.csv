@@ -1,0 +1,28 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0241,WM/unassigned,TC,5,1
+pred_0241,Area s32 (sACC) left,TC,1,0
+pred_0241,Area s24 (sACC) left,TC,3,1
+pred_0241,Area Fo2 (OFC) left,TC,6,1
+pred_0241,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) right",TC,22,5
+pred_0241,WM/unassigned,WT,1078,256
+pred_0241,Frontal-to-Temporal-II (GapMap) left,WT,101,24
+pred_0241,Area s32 (sACC) left,WT,180,43
+pred_0241,Area s24 (sACC) left,WT,54,13
+pred_0241,Area Fo2 (OFC) left,WT,505,120
+pred_0241,"Ndentv (Cerebellum, Ventral Dentate Nucleus) right",WT,2,0
+pred_0241,Area 25 (sACC) right,WT,31,7
+pred_0241,"Ninterp (Cerebellum, Interposed Nucleus) right",WT,17,4
+pred_0241,Frontal-to-Temporal-II (GapMap) right,WT,109,26
+pred_0241,Area s32 (sACC) right,WT,108,26
+pred_0241,Area s24 (sACC) right,WT,191,45
+pred_0241,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,1,0
+pred_0241,Area Fo2 (OFC) right,WT,187,44
+pred_0241,WM/unassigned,ET,402,95
+pred_0241,Area s32 (sACC) left,ET,36,9
+pred_0241,Area s24 (sACC) left,ET,63,15
+pred_0241,Area Fo2 (OFC) left,ET,147,35
+pred_0241,"Ndentv (Cerebellum, Ventral Dentate Nucleus) right",ET,15,4
+pred_0241,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) right",ET,59,14
+pred_0241,Area s32 (sACC) right,ET,1,0
+pred_0241,Area s24 (sACC) right,ET,6,1
+pred_0241,Area Fo2 (OFC) right,ET,7,2

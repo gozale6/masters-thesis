@@ -1,0 +1,39 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_294,WM/unassigned,TC,20270,201,56.1,0.3,False
+BraTS20_Training_294,Area STS2 (STS) right,TC,4154,41,11.5,63.2,True
+BraTS20_Training_294,Area TI (STG) right,TC,1,0,0.0,0.1,False
+BraTS20_Training_294,Area FG5 (FusG) right,TC,45,0,0.1,3.8,True
+BraTS20_Training_294,Area Te 3 (STG) right,TC,1046,10,2.9,24.3,True
+BraTS20_Training_294,Area FG4 (FusG) right,TC,15,0,0.0,0.3,False
+BraTS20_Training_294,Area OTS1 (OTS) right,TC,26,0,0.1,2.5,False
+BraTS20_Training_294,Temporal-to-Parietal (GapMap) right,TC,10199,101,28.2,15.1,True
+BraTS20_Training_294,Area STS1 (STS) right,TC,368,4,1.0,11.1,True
+BraTS20_Training_294,WM/unassigned,WT,25865,256,55.4,0.3,False
+BraTS20_Training_294,Area CoS1 (CoS) right,WT,6,0,0.0,1.9,False
+BraTS20_Training_294,Area Te 1.0 (HESCHL) right,WT,40,0,0.1,5.1,False
+BraTS20_Training_294,Area STS2 (STS) right,WT,2250,22,4.8,34.2,True
+BraTS20_Training_294,Area Id3 (Insula) right,WT,377,4,0.8,33.8,False
+BraTS20_Training_294,Area TI (STG) right,WT,927,9,2.0,88.0,False
+BraTS20_Training_294,Area FG5 (FusG) right,WT,160,2,0.3,13.6,False
+BraTS20_Training_294,Area Te 3 (STG) right,WT,1518,15,3.3,35.2,True
+BraTS20_Training_294,Area Ia3 (Insula) right,WT,40,0,0.1,17.1,False
+BraTS20_Training_294,Area Ia1 (Insula) right,WT,159,2,0.3,58.0,False
+BraTS20_Training_294,Area FG4 (FusG) right,WT,1404,14,3.0,31.0,True
+BraTS20_Training_294,Area Te 1.1 (HESCHL) right,WT,4,0,0.0,0.4,False
+BraTS20_Training_294,Area Op4 (POperc) right,WT,71,1,0.2,2.7,False
+BraTS20_Training_294,Area OTS1 (OTS) right,WT,895,9,1.9,85.9,False
+BraTS20_Training_294,Area Id2 (Insula) right,WT,32,0,0.1,6.7,False
+BraTS20_Training_294,CA1 (Hippocampus) right,WT,49,0,0.1,2.8,False
+BraTS20_Training_294,Temporal-to-Parietal (GapMap) right,WT,8854,88,19.0,13.1,True
+BraTS20_Training_294,Frontal-to-Temporal-II (GapMap) right,WT,22,0,0.0,0.9,False
+BraTS20_Training_294,Area Ia2 (Insula) right,WT,150,1,0.3,78.1,False
+BraTS20_Training_294,Area Id1 (Insula) right,WT,9,0,0.0,2.3,False
+BraTS20_Training_294,Area Te 1.2 (HESCHL) right,WT,30,0,0.1,5.7,False
+BraTS20_Training_294,Area Id5 (Insula) right,WT,25,0,0.1,2.6,False
+BraTS20_Training_294,Area Te 2.1 (STG) right,WT,172,2,0.4,35.5,False
+BraTS20_Training_294,Area STS1 (STS) right,WT,2476,25,5.3,74.4,True
+BraTS20_Training_294,Area Id9 (Insula) right,WT,168,2,0.4,18.3,False
+BraTS20_Training_294,Area FG3 (FusG) right,WT,44,0,0.1,3.1,False
+BraTS20_Training_294,Area Ph2 (PhG) right,WT,143,1,0.3,13.5,False
+BraTS20_Training_294,Area Te 2.2 (STG) right,WT,158,2,0.3,8.0,False
+BraTS20_Training_294,Area TeI (STG) right,WT,642,6,1.4,50.6,False

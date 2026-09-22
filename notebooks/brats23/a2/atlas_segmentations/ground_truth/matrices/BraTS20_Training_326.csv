@@ -1,0 +1,56 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_326,WM/unassigned,TC,58962,256,47.5,0.8,False
+BraTS20_Training_326,Frontal-to-Occipital (GapMap) right,TC,20281,88,16.3,59.9,True
+BraTS20_Training_326,Area 7P (SPL) right,TC,779,3,0.6,19.4,False
+BraTS20_Training_326,Area hOc6 (POS) right,TC,387,2,0.3,100.0,False
+BraTS20_Training_326,Area 7M (SPL) right,TC,366,2,0.3,99.2,False
+BraTS20_Training_326,Area 5M (SPL) right,TC,105,0,0.1,3.8,False
+BraTS20_Training_326,Area Ph1 (PhG) right,TC,27,0,0.0,1.5,False
+BraTS20_Training_326,"Area hOc1 (V1, 17, CalcS) right",TC,5721,25,4.6,47.6,True
+BraTS20_Training_326,Area Ph3 (PhG) right,TC,337,1,0.3,40.9,False
+BraTS20_Training_326,"Area hOc2 (V2, 18) right",TC,3857,17,3.1,41.9,True
+BraTS20_Training_326,Area hOc4d (Cuneus) right,TC,801,3,0.6,37.2,False
+BraTS20_Training_326,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",TC,28,0,0.0,42.4,False
+BraTS20_Training_326,Area hPO1 (POS) right,TC,723,3,0.6,36.2,False
+BraTS20_Training_326,Area hOc3v (LingG) right,TC,423,2,0.3,11.1,False
+BraTS20_Training_326,Area FG1 (FusG) right,TC,16,0,0.0,1.1,False
+BraTS20_Training_326,Area hIP8 (IPS) right,TC,59,0,0.0,3.3,False
+BraTS20_Training_326,Temporal-to-Parietal (GapMap) right,TC,2138,9,1.7,3.2,False
+BraTS20_Training_326,Area 5Ci (SPL) right,TC,200,1,0.2,9.7,False
+BraTS20_Training_326,Area hOc3d (Cuneus) right,TC,2308,10,1.9,58.8,False
+BraTS20_Training_326,Area 7A (SPL) right,TC,27,0,0.0,0.4,False
+BraTS20_Training_326,"Subc (Hippocampus, Subicular complex) right",TC,99,0,0.1,2.4,False
+BraTS20_Training_326,"TrS (Hippocampus, Transsubiculum) right",TC,88,0,0.1,18.7,False
+BraTS20_Training_326,Area hOc4v (LingG) right,TC,26,0,0.0,0.8,False
+BraTS20_Training_326,Area hIP7 (IPS) right,TC,51,0,0.0,2.2,False
+BraTS20_Training_326,Frontal-to-Occipital (GapMap) left,TC,17948,78,14.5,48.8,True
+BraTS20_Training_326,Area 7P (SPL) left,TC,556,2,0.4,21.7,False
+BraTS20_Training_326,Area hIP6 (IPS) left,TC,1,0,0.0,0.0,False
+BraTS20_Training_326,Area hOc6 (POS) left,TC,117,1,0.1,52.7,False
+BraTS20_Training_326,Area 7M (SPL) left,TC,397,2,0.3,96.6,False
+BraTS20_Training_326,"Area hOc1 (V1, 17, CalcS) left",TC,3424,15,2.8,27.3,True
+BraTS20_Training_326,"SNC (Midbrain, Substantia Nigra pars compacta) left",TC,42,0,0.0,6.6,False
+BraTS20_Training_326,Area Ph3 (PhG) left,TC,113,0,0.1,17.3,False
+BraTS20_Training_326,"Area hOc2 (V2, 18) left",TC,1104,5,0.9,29.8,False
+BraTS20_Training_326,Area hOc4d (Cuneus) left,TC,49,0,0.0,2.6,False
+BraTS20_Training_326,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",TC,64,0,0.1,22.5,False
+BraTS20_Training_326,Area hPO1 (POS) left,TC,635,3,0.5,27.3,False
+BraTS20_Training_326,Area hOc3v (LingG) left,TC,736,3,0.6,12.4,False
+BraTS20_Training_326,Area hIP5 (IPS) left,TC,3,0,0.0,0.1,False
+BraTS20_Training_326,Area hIP3 (IPS) left,TC,15,0,0.0,0.5,False
+BraTS20_Training_326,Area hIP8 (IPS) left,TC,74,0,0.1,4.0,False
+BraTS20_Training_326,Area 5Ci (SPL) left,TC,47,0,0.0,3.8,False
+BraTS20_Training_326,Area hIP1 (IPS) left,TC,1,0,0.0,0.0,False
+BraTS20_Training_326,Area hOc3d (Cuneus) left,TC,926,4,0.7,19.2,False
+BraTS20_Training_326,Area 7A (SPL) left,TC,62,0,0.0,0.7,False
+BraTS20_Training_326,"Subc (Hippocampus, Subicular complex) left",TC,17,0,0.0,0.4,False
+BraTS20_Training_326,"TrS (Hippocampus, Transsubiculum) left",TC,18,0,0.0,5.5,False
+BraTS20_Training_326,Area hIP7 (IPS) left,TC,1,0,0.0,0.2,False
+BraTS20_Training_326,WM/unassigned,ET,502,2,42.0,0.0,False
+BraTS20_Training_326,Frontal-to-Occipital (GapMap) right,ET,249,1,20.9,0.7,True
+BraTS20_Training_326,Area 7P (SPL) right,ET,6,0,0.5,0.1,True
+BraTS20_Training_326,Area 7M (SPL) right,ET,3,0,0.3,0.8,True
+BraTS20_Training_326,Temporal-to-Parietal (GapMap) right,ET,106,0,8.9,0.2,True
+BraTS20_Training_326,Frontal-to-Occipital (GapMap) left,ET,323,1,27.1,0.9,True
+BraTS20_Training_326,Area 7P (SPL) left,ET,3,0,0.3,0.1,False
+BraTS20_Training_326,Area 7M (SPL) left,ET,2,0,0.2,0.5,False

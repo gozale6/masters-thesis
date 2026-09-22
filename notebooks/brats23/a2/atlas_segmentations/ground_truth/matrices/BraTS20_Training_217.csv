@@ -1,0 +1,25 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_217,WM/unassigned,TC,2569,91,83.8,0.0,False
+BraTS20_Training_217,"Ndentv (Cerebellum, Ventral Dentate Nucleus) left",TC,12,0,0.4,3.0,True
+BraTS20_Training_217,"Area hOc1 (V1, 17, CalcS) left",TC,95,3,3.1,0.8,True
+BraTS20_Training_217,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) left",TC,6,0,0.2,0.4,True
+BraTS20_Training_217,Area hOc3v (LingG) left,TC,203,7,6.6,3.4,True
+BraTS20_Training_217,Area FG1 (FusG) left,TC,2,0,0.1,0.2,False
+BraTS20_Training_217,Area hOc4v (LingG) left,TC,179,6,5.8,4.3,True
+BraTS20_Training_217,WM/unassigned,WT,6947,247,68.7,0.1,False
+BraTS20_Training_217,"Area hOc1 (V1, 17, CalcS) right",WT,117,4,1.2,1.0,False
+BraTS20_Training_217,"Area hOc2 (V2, 18) right",WT,6,0,0.1,0.1,False
+BraTS20_Training_217,"Ndentv (Cerebellum, Ventral Dentate Nucleus) left",WT,215,8,2.1,53.8,True
+BraTS20_Training_217,"Ninterp (Cerebellum, Interposed Nucleus) left",WT,47,2,0.5,23.5,False
+BraTS20_Training_217,"Area hOc1 (V1, 17, CalcS) left",WT,590,21,5.8,4.7,True
+BraTS20_Training_217,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) left",WT,224,8,2.2,14.3,True
+BraTS20_Training_217,Area hOc3v (LingG) left,WT,1229,44,12.2,20.7,True
+BraTS20_Training_217,Area FG1 (FusG) left,WT,116,4,1.1,9.8,False
+BraTS20_Training_217,Area hOc4v (LingG) left,WT,614,22,6.1,14.7,True
+BraTS20_Training_217,WM/unassigned,ET,7207,256,81.8,0.1,False
+BraTS20_Training_217,"Ndentv (Cerebellum, Ventral Dentate Nucleus) left",ET,15,1,0.2,3.8,True
+BraTS20_Training_217,"Area hOc1 (V1, 17, CalcS) left",ET,445,16,5.0,3.5,True
+BraTS20_Training_217,"Ndentd (Cerebellum, Dorsal Dentate Nucleus) left",ET,11,0,0.1,0.7,False
+BraTS20_Training_217,Area hOc3v (LingG) left,ET,516,18,5.9,8.7,True
+BraTS20_Training_217,Area FG1 (FusG) left,ET,74,3,0.8,6.3,True
+BraTS20_Training_217,Area hOc4v (LingG) left,ET,545,19,6.2,13.0,True

@@ -1,0 +1,41 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_329,WM/unassigned,TC,22160,256,48.4,0.3,False
+BraTS20_Training_329,Area hOc4la (LOC) right,TC,362,4,0.8,9.1,False
+BraTS20_Training_329,Area CoS1 (CoS) right,TC,5,0,0.0,1.6,False
+BraTS20_Training_329,Area STS2 (STS) right,TC,1426,16,3.1,21.7,True
+BraTS20_Training_329,Area Id3 (Insula) right,TC,2,0,0.0,0.2,False
+BraTS20_Training_329,Area TI (STG) right,TC,7,0,0.0,0.7,False
+BraTS20_Training_329,Area FG2 (FusG) right,TC,517,6,1.1,42.3,True
+BraTS20_Training_329,CA2 (Hippocampus) right,TC,135,2,0.3,10.6,False
+BraTS20_Training_329,Area Ph1 (PhG) right,TC,136,2,0.3,7.3,False
+BraTS20_Training_329,Area FG4 (FusG) right,TC,1262,15,2.8,27.9,True
+BraTS20_Training_329,"Area hOc1 (V1, 17, CalcS) right",TC,49,1,0.1,0.4,False
+BraTS20_Training_329,DG (Hippocampus) right,TC,4,0,0.0,2.0,False
+BraTS20_Training_329,Area FG1 (FusG) right,TC,20,0,0.0,1.3,False
+BraTS20_Training_329,Area OTS1 (OTS) right,TC,291,3,0.6,27.9,False
+BraTS20_Training_329,CA1 (Hippocampus) right,TC,192,2,0.4,11.1,False
+BraTS20_Training_329,Temporal-to-Parietal (GapMap) right,TC,17396,201,38.0,25.8,True
+BraTS20_Training_329,Area Id1 (Insula) right,TC,28,0,0.1,7.1,False
+BraTS20_Training_329,CA3 (Hippocampus) right,TC,5,0,0.0,0.7,False
+BraTS20_Training_329,Area STS1 (STS) right,TC,1276,15,2.8,38.4,True
+BraTS20_Training_329,Area hOc5 (LOC) right,TC,137,2,0.3,25.0,False
+BraTS20_Training_329,Area Ph2 (PhG) right,TC,366,4,0.8,34.6,False
+BraTS20_Training_329,Area Te 2.2 (STG) right,TC,6,0,0.0,0.3,False
+BraTS20_Training_329,WM/unassigned,WT,7944,92,46.3,0.1,False
+BraTS20_Training_329,Area hOc4la (LOC) right,WT,1072,12,6.2,27.0,True
+BraTS20_Training_329,Area STS2 (STS) right,WT,1427,16,8.3,21.7,True
+BraTS20_Training_329,Area Id3 (Insula) right,WT,41,0,0.2,3.7,False
+BraTS20_Training_329,Area TI (STG) right,WT,107,1,0.6,10.2,False
+BraTS20_Training_329,Area FG5 (FusG) right,WT,22,0,0.1,1.9,False
+BraTS20_Training_329,Area FG2 (FusG) right,WT,225,3,1.3,18.4,False
+BraTS20_Training_329,Area FG4 (FusG) right,WT,235,3,1.4,5.2,False
+BraTS20_Training_329,Area hOc4lp (LOC) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_329,Area FG1 (FusG) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_329,Area OTS1 (OTS) right,WT,274,3,1.6,26.3,True
+BraTS20_Training_329,CA1 (Hippocampus) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_329,Temporal-to-Parietal (GapMap) right,WT,5303,61,30.9,7.9,True
+BraTS20_Training_329,Area Id1 (Insula) right,WT,2,0,0.0,0.5,False
+BraTS20_Training_329,Area STS1 (STS) right,WT,393,5,2.3,11.8,True
+BraTS20_Training_329,Area hOc5 (LOC) right,WT,54,1,0.3,9.8,False
+BraTS20_Training_329,Area hOc4v (LingG) right,WT,40,0,0.2,1.2,False
+BraTS20_Training_329,Area TeI (STG) right,WT,10,0,0.1,0.8,False

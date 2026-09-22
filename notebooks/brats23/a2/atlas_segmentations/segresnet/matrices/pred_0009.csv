@@ -1,0 +1,30 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0009,WM/unassigned,TC,3903,50
+pred_0009,Area STS2 (STS) right,TC,22,0
+pred_0009,Area Te 3 (STG) right,TC,1,0
+pred_0009,Temporal-to-Parietal (GapMap) right,TC,34,0
+pred_0009,WM/unassigned,WT,19862,256
+pred_0009,Area Id8 (Insula) right,WT,12,0
+pred_0009,Area STS2 (STS) right,WT,2835,37
+pred_0009,Area TI (STG) right,WT,395,5
+pred_0009,Area Te 3 (STG) right,WT,1262,16
+pred_0009,Area 6r1 (PreCG) right,WT,37,0
+pred_0009,Area Op6 (Frontal Operculum) right,WT,654,8
+pred_0009,Area Id6 (Insula) right,WT,97,1
+pred_0009,Area 44 (IFG) right,WT,1002,13
+pred_0009,Area Op8 (Frontal Operculum) right,WT,355,5
+pred_0009,Area Op5 (Frontal Operculum) right,WT,21,0
+pred_0009,Area Fo6 (OFC) right,WT,242,3
+pred_0009,Frontal-to-Temporal-I (GapMap) right,WT,164,2
+pred_0009,Area Op9 (Frontal Operculum) right,WT,1008,13
+pred_0009,Temporal-to-Parietal (GapMap) right,WT,2590,33
+pred_0009,Area 45 (IFG) right,WT,922,12
+pred_0009,Area Te 1.2 (HESCHL) right,WT,227,3
+pred_0009,Area STS1 (STS) right,WT,561,7
+pred_0009,Area Id9 (Insula) right,WT,89,1
+pred_0009,Area TeI (STG) right,WT,939,12
+pred_0009,WM/unassigned,ET,16097,207
+pred_0009,Area STS2 (STS) right,ET,266,3
+pred_0009,Area Te 3 (STG) right,ET,173,2
+pred_0009,Temporal-to-Parietal (GapMap) right,ET,865,11
+pred_0009,Area TeI (STG) right,ET,6,0

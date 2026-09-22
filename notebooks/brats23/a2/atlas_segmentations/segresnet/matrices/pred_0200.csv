@@ -1,0 +1,90 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0200,WM/unassigned,TC,42,1
+pred_0200,Area p24ab (pACC) left,TC,1,0
+pred_0200,Area p32 (pACC) left,TC,1,0
+pred_0200,Area 3b (PostCG) right,TC,11,0
+pred_0200,Area p24ab (pACC) right,TC,2,0
+pred_0200,Area 6r1 (PreCG) right,TC,19,0
+pred_0200,Area IFS4 (IFS) right,TC,7,0
+pred_0200,Area 44 (IFG) right,TC,13,0
+pred_0200,"Area IFJ2 (IFS, PreCS) right",TC,53,1
+pred_0200,"Area MFG5 (MFG, IFG) right",TC,2,0
+pred_0200,Area 6v3 (PreCG) right,TC,5,0
+pred_0200,Area IFS1 (IFS) right,TC,1,0
+pred_0200,Area Op4 (POperc) right,TC,2,0
+pred_0200,Frontal-II (GapMap) right,TC,3,0
+pred_0200,"Area IFJ1 (IFS, PreCS) right",TC,8,0
+pred_0200,Area 6v2 (PreCG) right,TC,7,0
+pred_0200,WM/unassigned,WT,7553,190
+pred_0200,Area p24ab (pACC) left,WT,70,2
+pred_0200,Area p32 (pACC) left,WT,16,0
+pred_0200,Area p24c (pACC) left,WT,27,1
+pred_0200,Area 3b (PostCG) right,WT,31,1
+pred_0200,Area 1 (PostCG) right,WT,66,2
+pred_0200,Area Te 1.0 (HESCHL) right,WT,118,3
+pred_0200,Area PFt (IPL) right,WT,9,0
+pred_0200,Area p24ab (pACC) right,WT,16,0
+pred_0200,Area MFG1 (MFG) right,WT,27,1
+pred_0200,Frontal-to-Occipital (GapMap) right,WT,173,4
+pred_0200,Area 6r1 (PreCG) right,WT,110,3
+pred_0200,Area Op6 (Frontal Operculum) right,WT,102,3
+pred_0200,Area Op7 (Frontal Operculum) right,WT,8,0
+pred_0200,Area Id4 (Insula) right,WT,36,1
+pred_0200,Area Op1 (POperc) right,WT,333,8
+pred_0200,Area IFS4 (IFS) right,WT,140,4
+pred_0200,Area 44 (IFG) right,WT,177,4
+pred_0200,Area Op8 (Frontal Operculum) right,WT,2,0
+pred_0200,"Area IFJ2 (IFS, PreCS) right",WT,38,1
+pred_0200,Area Op5 (Frontal Operculum) right,WT,524,13
+pred_0200,Area 3a (PostCG) right,WT,30,1
+pred_0200,"Area MFG5 (MFG, IFG) right",WT,518,13
+pred_0200,Area MFG4 (MFG) right,WT,35,1
+pred_0200,Area Ig3 (Insula) right,WT,6,0
+pred_0200,Area 6v3 (PreCG) right,WT,648,16
+pred_0200,Area IFS1 (IFS) right,WT,391,10
+pred_0200,Area Op4 (POperc) right,WT,493,12
+pred_0200,Area IFS3 (IFS) right,WT,68,2
+pred_0200,Area 8v2 (MFG) right,WT,1,0
+pred_0200,Area Id2 (Insula) right,WT,99,2
+pred_0200,Area Op9 (Frontal Operculum) right,WT,61,2
+pred_0200,Area 45 (IFG) right,WT,259,6
+pred_0200,Area Te 1.2 (HESCHL) right,WT,94,2
+pred_0200,Area Id5 (Insula) right,WT,15,0
+pred_0200,Area Op3 (POperc) right,WT,74,2
+pred_0200,Frontal-II (GapMap) right,WT,1003,25
+pred_0200,Area IFS2 (IFS) right,WT,82,2
+pred_0200,"Area IFJ1 (IFS, PreCS) right",WT,54,1
+pred_0200,Area PFop (IPL) right,WT,206,5
+pred_0200,Area 6v2 (PreCG) right,WT,196,5
+pred_0200,WM/unassigned,ET,10201,256
+pred_0200,Area p24ab (pACC) left,ET,206,5
+pred_0200,Area p32 (pACC) left,ET,49,1
+pred_0200,Area p24c (pACC) left,ET,10,0
+pred_0200,Area 3b (PostCG) right,ET,565,14
+pred_0200,Area 1 (PostCG) right,ET,156,4
+pred_0200,Area Te 1.0 (HESCHL) right,ET,29,1
+pred_0200,Area p24ab (pACC) right,ET,13,0
+pred_0200,Area MFG1 (MFG) right,ET,202,5
+pred_0200,Frontal-to-Occipital (GapMap) right,ET,86,2
+pred_0200,Area 6r1 (PreCG) right,ET,1965,49
+pred_0200,Area Op6 (Frontal Operculum) right,ET,126,3
+pred_0200,Area Op7 (Frontal Operculum) right,ET,2,0
+pred_0200,Area Op1 (POperc) right,ET,173,4
+pred_0200,Area IFS4 (IFS) right,ET,555,14
+pred_0200,Area 44 (IFG) right,ET,1510,38
+pred_0200,"Area IFJ2 (IFS, PreCS) right",ET,363,9
+pred_0200,Area Op5 (Frontal Operculum) right,ET,626,16
+pred_0200,Area 3a (PostCG) right,ET,38,1
+pred_0200,"Area MFG5 (MFG, IFG) right",ET,299,8
+pred_0200,Area MFG4 (MFG) right,ET,326,8
+pred_0200,Area 6v3 (PreCG) right,ET,1039,26
+pred_0200,Area IFS1 (IFS) right,ET,297,7
+pred_0200,Area Op4 (POperc) right,ET,1003,25
+pred_0200,Area IFS3 (IFS) right,ET,14,0
+pred_0200,Area 45 (IFG) right,ET,707,18
+pred_0200,Area Te 1.2 (HESCHL) right,ET,30,1
+pred_0200,Frontal-II (GapMap) right,ET,1221,31
+pred_0200,Area IFS2 (IFS) right,ET,174,4
+pred_0200,"Area IFJ1 (IFS, PreCS) right",ET,338,8
+pred_0200,Area PFop (IPL) right,ET,274,7
+pred_0200,Area 6v2 (PreCG) right,ET,607,15

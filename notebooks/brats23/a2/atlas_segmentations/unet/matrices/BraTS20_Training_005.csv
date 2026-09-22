@@ -1,0 +1,24 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_005,WM/unassigned,TC,1379,39
+BraTS20_Training_005,Area SFG4 (SFG) right,TC,18,1
+BraTS20_Training_005,Area MFG4 (MFG) right,TC,18,1
+BraTS20_Training_005,Area IFS1 (IFS) right,TC,6,0
+BraTS20_Training_005,Area 45 (IFG) right,TC,78,2
+BraTS20_Training_005,WM/unassigned,WT,2428,69
+BraTS20_Training_005,Area SFG4 (SFG) right,WT,186,5
+BraTS20_Training_005,Area 6r1 (PreCG) right,WT,23,1
+BraTS20_Training_005,Area 44 (IFG) right,WT,291,8
+BraTS20_Training_005,Area SFG2 (SFG) right,WT,12,0
+BraTS20_Training_005,"Area MFG5 (MFG, IFG) right",WT,5,0
+BraTS20_Training_005,Area MFG4 (MFG) right,WT,47,1
+BraTS20_Training_005,Area IFS1 (IFS) right,WT,21,1
+BraTS20_Training_005,Area Op9 (Frontal Operculum) right,WT,97,3
+BraTS20_Training_005,Area 45 (IFG) right,WT,604,17
+BraTS20_Training_005,Area IFS2 (IFS) right,WT,21,1
+BraTS20_Training_005,WM/unassigned,ET,9025,256
+BraTS20_Training_005,Area SFG4 (SFG) right,ET,308,9
+BraTS20_Training_005,Area SFG2 (SFG) right,ET,24,1
+BraTS20_Training_005,"Area MFG5 (MFG, IFG) right",ET,20,1
+BraTS20_Training_005,Area MFG4 (MFG) right,ET,230,7
+BraTS20_Training_005,Area IFS1 (IFS) right,ET,120,3
+BraTS20_Training_005,Area 45 (IFG) right,ET,471,13

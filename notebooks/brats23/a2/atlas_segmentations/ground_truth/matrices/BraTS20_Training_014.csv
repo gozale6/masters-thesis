@@ -1,0 +1,33 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_014,WM/unassigned,TC,5723,55,61.5,0.1,False
+BraTS20_Training_014,Area STS2 (STS) right,TC,236,2,2.5,3.6,True
+BraTS20_Training_014,Area FG4 (FusG) right,TC,65,1,0.7,1.4,True
+BraTS20_Training_014,Area OTS1 (OTS) right,TC,33,0,0.4,3.2,True
+BraTS20_Training_014,Temporal-to-Parietal (GapMap) right,TC,3256,31,35.0,4.8,True
+BraTS20_Training_014,WM/unassigned,WT,26539,256,50.2,0.3,False
+BraTS20_Training_014,Area hOc4la (LOC) right,WT,90,1,0.2,2.3,False
+BraTS20_Training_014,Area Te 1.0 (HESCHL) right,WT,94,1,0.2,12.1,False
+BraTS20_Training_014,Area STS2 (STS) right,WT,3857,37,7.3,58.7,True
+BraTS20_Training_014,Area Id3 (Insula) right,WT,22,0,0.0,2.0,False
+BraTS20_Training_014,Area TI (STG) right,WT,290,3,0.5,27.5,False
+BraTS20_Training_014,Area Te 3 (STG) right,WT,1200,12,2.3,27.8,True
+BraTS20_Training_014,Area FG2 (FusG) right,WT,74,1,0.1,6.1,False
+BraTS20_Training_014,"Area TPJ (STG, SMG) right",WT,113,1,0.2,7.7,False
+BraTS20_Training_014,Area FG4 (FusG) right,WT,896,9,1.7,19.8,True
+BraTS20_Training_014,Area Te 1.1 (HESCHL) right,WT,88,1,0.2,8.2,False
+BraTS20_Training_014,Area OTS1 (OTS) right,WT,103,1,0.2,9.9,False
+BraTS20_Training_014,Area Id2 (Insula) right,WT,4,0,0.0,0.8,False
+BraTS20_Training_014,Temporal-to-Parietal (GapMap) right,WT,15317,148,29.0,22.7,True
+BraTS20_Training_014,Area Id1 (Insula) right,WT,134,1,0.3,34.0,False
+BraTS20_Training_014,Area Te 1.2 (HESCHL) right,WT,21,0,0.0,4.0,False
+BraTS20_Training_014,Area Te 2.1 (STG) right,WT,87,1,0.2,17.9,False
+BraTS20_Training_014,Area STS1 (STS) right,WT,2980,29,5.6,89.6,True
+BraTS20_Training_014,Area hOc5 (LOC) right,WT,41,0,0.1,7.5,False
+BraTS20_Training_014,Area Te 2.2 (STG) right,WT,454,4,0.9,23.0,False
+BraTS20_Training_014,Area TeI (STG) right,WT,424,4,0.8,33.4,False
+BraTS20_Training_014,WM/unassigned,ET,11447,110,62.7,0.1,False
+BraTS20_Training_014,Area STS2 (STS) right,ET,1344,13,7.4,20.4,True
+BraTS20_Training_014,Area FG4 (FusG) right,ET,121,1,0.7,2.7,True
+BraTS20_Training_014,Area OTS1 (OTS) right,ET,130,1,0.7,12.5,True
+BraTS20_Training_014,Temporal-to-Parietal (GapMap) right,ET,5212,50,28.6,7.7,True
+BraTS20_Training_014,Area STS1 (STS) right,ET,1,0,0.0,0.0,True

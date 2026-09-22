@@ -1,0 +1,40 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_105,WM/unassigned,TC,402,11,19.4,0.0,False
+BraTS20_Training_105,Area STS2 (STS) right,TC,1448,40,69.9,22.0,True
+BraTS20_Training_105,Area Id3 (Insula) right,TC,1,0,0.0,0.1,False
+BraTS20_Training_105,Area TI (STG) right,TC,43,1,2.1,4.1,True
+BraTS20_Training_105,Area Te 3 (STG) right,TC,77,2,3.7,1.8,True
+BraTS20_Training_105,Temporal-to-Parietal (GapMap) right,TC,9,0,0.4,0.0,False
+BraTS20_Training_105,Area STS1 (STS) right,TC,77,2,3.7,2.3,True
+BraTS20_Training_105,Area TeI (STG) right,TC,16,0,0.8,1.3,True
+BraTS20_Training_105,WM/unassigned,WT,9375,256,54.9,0.1,False
+BraTS20_Training_105,Area STS2 (STS) right,WT,1042,28,6.1,15.9,True
+BraTS20_Training_105,Area Id3 (Insula) right,WT,92,3,0.5,8.3,False
+BraTS20_Training_105,Area TI (STG) right,WT,243,7,1.4,23.1,True
+BraTS20_Training_105,Area Te 3 (STG) right,WT,407,11,2.4,9.4,True
+BraTS20_Training_105,CA2 (Hippocampus) right,WT,149,4,0.9,11.6,False
+BraTS20_Training_105,Area Ia1 (Insula) right,WT,1,0,0.0,0.4,False
+BraTS20_Training_105,CM (Amygdala) right,WT,1,0,0.0,0.2,False
+BraTS20_Training_105,Area OTS1 (OTS) right,WT,26,1,0.2,2.5,False
+BraTS20_Training_105,Area Id2 (Insula) right,WT,1,0,0.0,0.2,False
+BraTS20_Training_105,CA1 (Hippocampus) right,WT,80,2,0.5,4.6,False
+BraTS20_Training_105,Temporal-to-Parietal (GapMap) right,WT,5072,138,29.7,7.5,True
+BraTS20_Training_105,"TuTi (Basal Forebrain, Terminal islands) right",WT,1,0,0.0,0.3,False
+BraTS20_Training_105,Frontal-to-Temporal-II (GapMap) right,WT,13,0,0.1,0.5,False
+BraTS20_Training_105,Area Ia2 (Insula) right,WT,71,2,0.4,37.0,False
+BraTS20_Training_105,Area Id1 (Insula) right,WT,63,2,0.4,16.0,False
+BraTS20_Training_105,Area Te 1.2 (HESCHL) right,WT,14,0,0.1,2.7,False
+BraTS20_Training_105,Area Id5 (Insula) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_105,Area STS1 (STS) right,WT,239,7,1.4,7.2,True
+BraTS20_Training_105,Area TeI (STG) right,WT,143,4,0.8,11.3,False
+BraTS20_Training_105,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,41,1,0.2,6.5,False
+BraTS20_Training_105,WM/unassigned,ET,2323,63,39.8,0.0,False
+BraTS20_Training_105,Area STS2 (STS) right,ET,1888,52,32.3,28.7,True
+BraTS20_Training_105,Area Id3 (Insula) right,ET,2,0,0.0,0.2,False
+BraTS20_Training_105,Area TI (STG) right,ET,221,6,3.8,21.0,True
+BraTS20_Training_105,Area Te 3 (STG) right,ET,224,6,3.8,5.2,True
+BraTS20_Training_105,Area Ia1 (Insula) right,ET,2,0,0.0,0.7,False
+BraTS20_Training_105,Temporal-to-Parietal (GapMap) right,ET,614,17,10.5,0.9,True
+BraTS20_Training_105,Area Ia2 (Insula) right,ET,5,0,0.1,2.6,False
+BraTS20_Training_105,Area STS1 (STS) right,ET,406,11,6.9,12.2,True
+BraTS20_Training_105,Area TeI (STG) right,ET,159,4,2.7,12.5,False

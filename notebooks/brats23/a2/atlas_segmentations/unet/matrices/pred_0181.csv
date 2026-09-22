@@ -1,0 +1,96 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0181,WM/unassigned,TC,282,2
+pred_0181,Area 3b (PostCG) right,TC,11,0
+pred_0181,Area PF (IPL) right,TC,9,0
+pred_0181,Area 1 (PostCG) right,TC,22,0
+pred_0181,Area PFt (IPL) right,TC,85,1
+pred_0181,Area 6r1 (PreCG) right,TC,3,0
+pred_0181,Area 6d1 (PreCG) right,TC,22,0
+pred_0181,Area 6d3 (SFS) right,TC,17,0
+pred_0181,Area 6v1 (PreCG) right,TC,223,2
+pred_0181,Area hIP2 (IPS) right,TC,10,0
+pred_0181,Area 44 (IFG) right,TC,11,0
+pred_0181,"Area IFJ2 (IFS, PreCS) right",TC,1,0
+pred_0181,Area PFm (IPL) right,TC,8,0
+pred_0181,Area 4a (PreCG) right,TC,63,0
+pred_0181,Area hIP3 (IPS) right,TC,23,0
+pred_0181,Area 4p (PreCG) right,TC,15,0
+pred_0181,Area 2 (PostCS) right,TC,71,1
+pred_0181,Area IFS2 (IFS) right,TC,2,0
+pred_0181,Area 6v2 (PreCG) right,TC,2,0
+pred_0181,WM/unassigned,WT,33155,256
+pred_0181,Area 3b (PostCG) right,WT,1107,9
+pred_0181,Area PF (IPL) right,WT,2455,19
+pred_0181,Area 1 (PostCG) right,WT,1387,11
+pred_0181,Area PFt (IPL) right,WT,1366,11
+pred_0181,Area 6r1 (PreCG) right,WT,507,4
+pred_0181,Area 6d1 (PreCG) right,WT,160,1
+pred_0181,Area Op6 (Frontal Operculum) right,WT,5,0
+pred_0181,Area hIP6 (IPS) right,WT,4,0
+pred_0181,"Area TPJ (STG, SMG) right",WT,45,0
+pred_0181,Area Op7 (Frontal Operculum) right,WT,104,1
+pred_0181,Area Id4 (Insula) right,WT,8,0
+pred_0181,Area Op1 (POperc) right,WT,183,1
+pred_0181,Area IFS4 (IFS) right,WT,56,0
+pred_0181,Area 6d3 (SFS) right,WT,762,6
+pred_0181,Area 6v1 (PreCG) right,WT,807,6
+pred_0181,Area hIP2 (IPS) right,WT,204,2
+pred_0181,Area 44 (IFG) right,WT,749,6
+pred_0181,Area PGa (IPL) right,WT,630,5
+pred_0181,Area Op8 (Frontal Operculum) right,WT,132,1
+pred_0181,"Area IFJ2 (IFS, PreCS) right",WT,250,2
+pred_0181,Area Op5 (Frontal Operculum) right,WT,148,1
+pred_0181,Area PFm (IPL) right,WT,2173,17
+pred_0181,Area 4a (PreCG) right,WT,1906,15
+pred_0181,Area 3a (PostCG) right,WT,563,4
+pred_0181,Area 8v1 (MFG) right,WT,2378,18
+pred_0181,"Area MFG5 (MFG, IFG) right",WT,34,0
+pred_0181,Area 6v3 (PreCG) right,WT,91,1
+pred_0181,Area IFS1 (IFS) right,WT,284,2
+pred_0181,Area IFS3 (IFS) right,WT,17,0
+pred_0181,Area Op2 (POperc) right,WT,33,0
+pred_0181,Area 8v2 (MFG) right,WT,102,1
+pred_0181,Area PFcm (IPL) right,WT,1326,10
+pred_0181,Area hIP3 (IPS) right,WT,2401,19
+pred_0181,Area 4p (PreCG) right,WT,1289,10
+pred_0181,Area Op9 (Frontal Operculum) right,WT,139,1
+pred_0181,Temporal-to-Parietal (GapMap) right,WT,515,4
+pred_0181,Area 45 (IFG) right,WT,190,1
+pred_0181,Area hIP1 (IPS) right,WT,1213,9
+pred_0181,Area 2 (PostCS) right,WT,878,7
+pred_0181,Area 7A (SPL) right,WT,303,2
+pred_0181,Area Op3 (POperc) right,WT,8,0
+pred_0181,Frontal-II (GapMap) right,WT,2410,19
+pred_0181,Area IFS2 (IFS) right,WT,202,2
+pred_0181,Area 8d1 (SFG) right,WT,2,0
+pred_0181,"Area IFJ1 (IFS, PreCS) right",WT,88,1
+pred_0181,Area PFop (IPL) right,WT,759,6
+pred_0181,Area 6v2 (PreCG) right,WT,2703,21
+pred_0181,Area 7PC (SPL) right,WT,609,5
+pred_0181,WM/unassigned,ET,8310,64
+pred_0181,Area 3b (PostCG) right,ET,297,2
+pred_0181,Area PF (IPL) right,ET,173,1
+pred_0181,Area 1 (PostCG) right,ET,629,5
+pred_0181,Area PFt (IPL) right,ET,1811,14
+pred_0181,Area 6r1 (PreCG) right,ET,46,0
+pred_0181,Area 6d1 (PreCG) right,ET,627,5
+pred_0181,Area Id4 (Insula) right,ET,4,0
+pred_0181,Area 6d3 (SFS) right,ET,720,6
+pred_0181,Area 6v1 (PreCG) right,ET,2723,21
+pred_0181,Area hIP2 (IPS) right,ET,315,2
+pred_0181,Area 44 (IFG) right,ET,231,2
+pred_0181,Area Op8 (Frontal Operculum) right,ET,2,0
+pred_0181,"Area IFJ2 (IFS, PreCS) right",ET,11,0
+pred_0181,Area Op5 (Frontal Operculum) right,ET,198,2
+pred_0181,Area PFm (IPL) right,ET,338,3
+pred_0181,Area 4a (PreCG) right,ET,501,4
+pred_0181,Area 3a (PostCG) right,ET,1,0
+pred_0181,Area 6v3 (PreCG) right,ET,7,0
+pred_0181,Area PFcm (IPL) right,ET,2,0
+pred_0181,Area hIP3 (IPS) right,ET,606,5
+pred_0181,Area 4p (PreCG) right,ET,81,1
+pred_0181,Area 45 (IFG) right,ET,16,0
+pred_0181,Area 2 (PostCS) right,ET,1063,8
+pred_0181,Area Op3 (POperc) right,ET,6,0
+pred_0181,Area IFS2 (IFS) right,ET,97,1
+pred_0181,Area 6v2 (PreCG) right,ET,18,0

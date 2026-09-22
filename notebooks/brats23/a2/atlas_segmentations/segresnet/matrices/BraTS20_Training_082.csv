@@ -1,0 +1,36 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_082,WM/unassigned,TC,949,78
+BraTS20_Training_082,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,669,55
+BraTS20_Training_082,Area Id10 (Insula) right,TC,8,1
+BraTS20_Training_082,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,30,2
+BraTS20_Training_082,VP (Ventral Pallidum) right,TC,2,0
+BraTS20_Training_082,"AcbL (Ventral Striatum, Lateral Accumbens) right",TC,1,0
+BraTS20_Training_082,WM/unassigned,WT,1768,145
+BraTS20_Training_082,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,2,0
+BraTS20_Training_082,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,5,0
+BraTS20_Training_082,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,237,19
+BraTS20_Training_082,"AM (Thalamus, anteromedial Nucleus) right",WT,37,3
+BraTS20_Training_082,Area Id6 (Insula) right,WT,2,0
+BraTS20_Training_082,"Pv (Thalamus, paraventricular Nucleus) right",WT,29,2
+BraTS20_Training_082,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,107,9
+BraTS20_Training_082,Area 25 (sACC) right,WT,45,4
+BraTS20_Training_082,Ch 4 (Basal Forebrain) right,WT,52,4
+BraTS20_Training_082,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,45,4
+BraTS20_Training_082,Area Id10 (Insula) right,WT,29,2
+BraTS20_Training_082,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,219,18
+BraTS20_Training_082,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,109,9
+BraTS20_Training_082,"MV (Thalamus, medioventral Nucleus) right",WT,11,1
+BraTS20_Training_082,CM (Amygdala) right,WT,2,0
+BraTS20_Training_082,"TuTi (Basal Forebrain, Terminal islands) right",WT,23,2
+BraTS20_Training_082,"CL (Thalamus, anterior intralaminar nuclei) right",WT,60,5
+BraTS20_Training_082,Frontal-to-Temporal-II (GapMap) right,WT,1,0
+BraTS20_Training_082,VP (Ventral Pallidum) right,WT,145,12
+BraTS20_Training_082,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,6,0
+BraTS20_Training_082,WM/unassigned,ET,3124,256
+BraTS20_Training_082,Area Id6 (Insula) right,ET,3,0
+BraTS20_Training_082,"FuP (Ventral Striatum, Fundus of Putamen) right",ET,702,58
+BraTS20_Training_082,Ch 4 (Basal Forebrain) right,ET,7,1
+BraTS20_Training_082,Area Id10 (Insula) right,ET,66,5
+BraTS20_Training_082,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,96,8
+BraTS20_Training_082,VP (Ventral Pallidum) right,ET,64,5
+BraTS20_Training_082,"AcbL (Ventral Striatum, Lateral Accumbens) right",ET,31,3

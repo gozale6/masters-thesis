@@ -1,0 +1,8 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0105,WM/unassigned,TC,139,41
+pred_0105,Temporal-to-Parietal (GapMap) right,TC,13,4
+pred_0105,WM/unassigned,WT,638,186
+pred_0105,Frontal-to-Occipital (GapMap) left,WT,17,5
+pred_0105,Temporal-to-Parietal (GapMap) right,WT,172,50
+pred_0105,WM/unassigned,ET,877,256
+pred_0105,Temporal-to-Parietal (GapMap) right,ET,219,64

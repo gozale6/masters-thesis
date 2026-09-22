@@ -1,0 +1,89 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0159,WM/unassigned,TC,25146,256
+pred_0159,Area p24ab (pACC) left,TC,17,0
+pred_0159,Frontal-to-Occipital (GapMap) left,TC,3483,35
+pred_0159,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",TC,1,0
+pred_0159,"AM (Thalamus, anteromedial Nucleus) left",TC,7,0
+pred_0159,"Pv (Thalamus, paraventricular Nucleus) left",TC,1,0
+pred_0159,Area p32 (pACC) left,TC,330,3
+pred_0159,Frontal-I.2 (GapMap) left,TC,643,7
+pred_0159,Area 33 (ACC) left,TC,560,6
+pred_0159,"AV (Thalamus, anteroventral Nucleus) left",TC,5,0
+pred_0159,"LD (Thalamus, lateral dorsal Nucleus) right",TC,38,0
+pred_0159,Area p24ab (pACC) right,TC,255,3
+pred_0159,Frontal-to-Occipital (GapMap) right,TC,4347,44
+pred_0159,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,445,5
+pred_0159,"BST (Basal Forebrain, Bed Nucleus) right",TC,5,0
+pred_0159,"AM (Thalamus, anteromedial Nucleus) right",TC,134,1
+pred_0159,"VLP (Thalamus, ventral lateral posterior Nucleus) right",TC,36,0
+pred_0159,"Rt (Thalamus, reticular Nucleus) right",TC,91,1
+pred_0159,"Pv (Thalamus, paraventricular Nucleus) right",TC,19,0
+pred_0159,Area 8d2 (SFG) right,TC,2,0
+pred_0159,"MD (Thalamus, mediodorsal Nucleus) right",TC,11,0
+pred_0159,Area p32 (pACC) right,TC,122,1
+pred_0159,"Area 6ma (preSMA, mesial SFG) right",TC,1,0
+pred_0159,Area p24c (pACC) right,TC,44,0
+pred_0159,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",TC,331,3
+pred_0159,Frontal-I.2 (GapMap) right,TC,1906,19
+pred_0159,Area 33 (ACC) right,TC,1318,13
+pred_0159,"VIM (Thalamus, ventral intermediate Nucleus) right",TC,1,0
+pred_0159,"CL (Thalamus, anterior intralaminar nuclei) right",TC,52,1
+pred_0159,"AV (Thalamus, anteroventral Nucleus) right",TC,281,3
+pred_0159,WM/unassigned,WT,8244,84
+pred_0159,Area SFG4 (SFG) left,WT,3,0
+pred_0159,Area p24ab (pACC) left,WT,47,0
+pred_0159,Frontal-to-Occipital (GapMap) left,WT,1760,18
+pred_0159,Area p32 (pACC) left,WT,12,0
+pred_0159,Area SFG2 (SFG) left,WT,1,0
+pred_0159,"Area 6ma (preSMA, mesial SFG) left",WT,398,4
+pred_0159,Frontal-I.2 (GapMap) left,WT,1428,15
+pred_0159,"AV (Thalamus, anteroventral Nucleus) left",WT,1,0
+pred_0159,Area 8d1 (SFG) left,WT,140,1
+pred_0159,Area SFG4 (SFG) right,WT,1,0
+pred_0159,"LD (Thalamus, lateral dorsal Nucleus) right",WT,3,0
+pred_0159,Area p24ab (pACC) right,WT,4,0
+pred_0159,Frontal-to-Occipital (GapMap) right,WT,643,7
+pred_0159,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,4,0
+pred_0159,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,1,0
+pred_0159,Area 6d3 (SFS) right,WT,1,0
+pred_0159,Area 8d2 (SFG) right,WT,14,0
+pred_0159,"MD (Thalamus, mediodorsal Nucleus) right",WT,1,0
+pred_0159,Area p32 (pACC) right,WT,22,0
+pred_0159,Area SFG2 (SFG) right,WT,30,0
+pred_0159,"Area 6ma (preSMA, mesial SFG) right",WT,100,1
+pred_0159,Area p24c (pACC) right,WT,62,1
+pred_0159,Frontal-I.2 (GapMap) right,WT,621,6
+pred_0159,Area 8d1 (SFG) right,WT,1,0
+pred_0159,WM/unassigned,ET,19750,201
+pred_0159,Area p24ab (pACC) left,ET,154,2
+pred_0159,Frontal-to-Occipital (GapMap) left,ET,1806,18
+pred_0159,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",ET,4,0
+pred_0159,"AM (Thalamus, anteromedial Nucleus) left",ET,82,1
+pred_0159,Area p32 (pACC) left,ET,399,4
+pred_0159,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",ET,2,0
+pred_0159,Frontal-I.2 (GapMap) left,ET,989,10
+pred_0159,"CL (Thalamus, anterior intralaminar nuclei) left",ET,3,0
+pred_0159,"AV (Thalamus, anteroventral Nucleus) left",ET,84,1
+pred_0159,Area SFG4 (SFG) right,ET,3,0
+pred_0159,"LD (Thalamus, lateral dorsal Nucleus) right",ET,72,1
+pred_0159,Area p24ab (pACC) right,ET,566,6
+pred_0159,Frontal-to-Occipital (GapMap) right,ET,1449,15
+pred_0159,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,183,2
+pred_0159,"BST (Basal Forebrain, Bed Nucleus) right",ET,45,0
+pred_0159,"AM (Thalamus, anteromedial Nucleus) right",ET,1,0
+pred_0159,"VLP (Thalamus, ventral lateral posterior Nucleus) right",ET,271,3
+pred_0159,"Rt (Thalamus, reticular Nucleus) right",ET,165,2
+pred_0159,Area 6d3 (SFS) right,ET,5,0
+pred_0159,"Pv (Thalamus, paraventricular Nucleus) right",ET,43,0
+pred_0159,Area 8d2 (SFG) right,ET,186,2
+pred_0159,"MD (Thalamus, mediodorsal Nucleus) right",ET,176,2
+pred_0159,Area p32 (pACC) right,ET,470,5
+pred_0159,"Area 6ma (preSMA, mesial SFG) right",ET,34,0
+pred_0159,Area p24c (pACC) right,ET,362,4
+pred_0159,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,22,0
+pred_0159,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",ET,78,1
+pred_0159,Frontal-I.2 (GapMap) right,ET,900,9
+pred_0159,Area 33 (ACC) right,ET,261,3
+pred_0159,"VIM (Thalamus, ventral intermediate Nucleus) right",ET,6,0
+pred_0159,"CL (Thalamus, anterior intralaminar nuclei) right",ET,183,2
+pred_0159,"AV (Thalamus, anteroventral Nucleus) right",ET,3,0

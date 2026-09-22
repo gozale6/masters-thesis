@@ -1,0 +1,50 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_189,WM/unassigned,TC,1497,10
+BraTS20_Training_189,"Area 6mp (SMA, mesial SFG) left",TC,68,0
+BraTS20_Training_189,Frontal-to-Occipital (GapMap) left,TC,2177,15
+BraTS20_Training_189,Area 4a (PreCG) left,TC,60,0
+BraTS20_Training_189,Area 5M (SPL) left,TC,184,1
+BraTS20_Training_189,Area 5Ci (SPL) left,TC,15,0
+BraTS20_Training_189,"Area 6mp (SMA, mesial SFG) right",TC,110,1
+BraTS20_Training_189,Frontal-to-Occipital (GapMap) right,TC,1691,12
+BraTS20_Training_189,Area 4a (PreCG) right,TC,33,0
+BraTS20_Training_189,Area 5M (SPL) right,TC,117,1
+BraTS20_Training_189,Area 5Ci (SPL) right,TC,255,2
+BraTS20_Training_189,WM/unassigned,WT,37450,256
+BraTS20_Training_189,"LD (Thalamus, lateral dorsal Nucleus) left",WT,81,1
+BraTS20_Training_189,"Area 6mp (SMA, mesial SFG) left",WT,3,0
+BraTS20_Training_189,Frontal-to-Occipital (GapMap) left,WT,6564,45
+BraTS20_Training_189,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,2,0
+BraTS20_Training_189,Area 4a (PreCG) left,WT,12,0
+BraTS20_Training_189,Area 5M (SPL) left,WT,26,0
+BraTS20_Training_189,"Area 6ma (preSMA, mesial SFG) left",WT,369,3
+BraTS20_Training_189,Frontal-I.2 (GapMap) left,WT,12,0
+BraTS20_Training_189,Area 33 (ACC) left,WT,196,1
+BraTS20_Training_189,Area 5Ci (SPL) left,WT,481,3
+BraTS20_Training_189,"AV (Thalamus, anteroventral Nucleus) left",WT,11,0
+BraTS20_Training_189,"LD (Thalamus, lateral dorsal Nucleus) right",WT,288,2
+BraTS20_Training_189,"Area 6mp (SMA, mesial SFG) right",WT,106,1
+BraTS20_Training_189,Frontal-to-Occipital (GapMap) right,WT,11818,81
+BraTS20_Training_189,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,117,1
+BraTS20_Training_189,"Rt (Thalamus, reticular Nucleus) right",WT,64,0
+BraTS20_Training_189,"MD (Thalamus, mediodorsal Nucleus) right",WT,37,0
+BraTS20_Training_189,Area 4a (PreCG) right,WT,24,0
+BraTS20_Training_189,Area 5M (SPL) right,WT,125,1
+BraTS20_Training_189,"LP (Thalamus, lateral posterior Nucleus) right",WT,121,1
+BraTS20_Training_189,"Area 6ma (preSMA, mesial SFG) right",WT,1312,9
+BraTS20_Training_189,Area 33 (ACC) right,WT,140,1
+BraTS20_Training_189,"CL (Thalamus, anterior intralaminar nuclei) right",WT,89,1
+BraTS20_Training_189,Area 5Ci (SPL) right,WT,483,3
+BraTS20_Training_189,"AV (Thalamus, anteroventral Nucleus) right",WT,53,0
+BraTS20_Training_189,WM/unassigned,ET,8050,55
+BraTS20_Training_189,"Area 6mp (SMA, mesial SFG) left",ET,583,4
+BraTS20_Training_189,Frontal-to-Occipital (GapMap) left,ET,3838,26
+BraTS20_Training_189,Area 4a (PreCG) left,ET,5,0
+BraTS20_Training_189,Area 5M (SPL) left,ET,186,1
+BraTS20_Training_189,Area 5Ci (SPL) left,ET,258,2
+BraTS20_Training_189,"Area 6mp (SMA, mesial SFG) right",ET,945,6
+BraTS20_Training_189,Frontal-to-Occipital (GapMap) right,ET,4375,30
+BraTS20_Training_189,Area 4a (PreCG) right,ET,1127,8
+BraTS20_Training_189,Area 5M (SPL) right,ET,95,1
+BraTS20_Training_189,"Area 6ma (preSMA, mesial SFG) right",ET,3,0
+BraTS20_Training_189,Area 5Ci (SPL) right,ET,1180,8

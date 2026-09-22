@@ -1,0 +1,92 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0196,WM/unassigned,TC,6178,47
+pred_0196,Area SFG4 (SFG) right,TC,343,3
+pred_0196,Area MFG1 (MFG) right,TC,1167,9
+pred_0196,Area MFG2 (MFG) right,TC,259,2
+pred_0196,"Area MFG5 (MFG, IFG) right",TC,1828,14
+pred_0196,Area MFG4 (MFG) right,TC,3482,26
+pred_0196,Area SFG3 (SFG) right,TC,112,1
+pred_0196,Area IFS1 (IFS) right,TC,551,4
+pred_0196,Area IFS3 (IFS) right,TC,90,1
+pred_0196,Area SFS2 (SFS) right,TC,759,6
+pred_0196,Area SFS1 (SFS) right,TC,10,0
+pred_0196,Frontal-I.1 (GapMap) right,TC,1151,9
+pred_0196,Area Op9 (Frontal Operculum) right,TC,41,0
+pred_0196,Area 45 (IFG) right,TC,1344,10
+pred_0196,Frontal-II (GapMap) right,TC,10,0
+pred_0196,Area IFS2 (IFS) right,TC,107,1
+pred_0196,WM/unassigned,WT,33794,256
+pred_0196,Area Id8 (Insula) right,WT,478,4
+pred_0196,Area SFG4 (SFG) right,WT,391,3
+pred_0196,Area Te 3 (STG) right,WT,96,1
+pred_0196,Area MFG1 (MFG) right,WT,39,0
+pred_0196,Area 6r1 (PreCG) right,WT,1277,10
+pred_0196,Area Op6 (Frontal Operculum) right,WT,161,1
+pred_0196,Area Fo5 (OFC) right,WT,51,0
+pred_0196,Area Op7 (Frontal Operculum) right,WT,398,3
+pred_0196,Area Id4 (Insula) right,WT,178,1
+pred_0196,Area Id6 (Insula) right,WT,1430,11
+pred_0196,Area IFS4 (IFS) right,WT,632,5
+pred_0196,Area 6d3 (SFS) right,WT,11,0
+pred_0196,Area 6v1 (PreCG) right,WT,1,0
+pred_0196,Area 44 (IFG) right,WT,2624,20
+pred_0196,Area Fo7 (OFC) right,WT,64,0
+pred_0196,Area 8d2 (SFG) right,WT,1256,10
+pred_0196,Area Op8 (Frontal Operculum) right,WT,1106,8
+pred_0196,"Area IFJ2 (IFS, PreCS) right",WT,454,3
+pred_0196,Area Op5 (Frontal Operculum) right,WT,395,3
+pred_0196,Area Op10 (Frontal Operculum) right,WT,16,0
+pred_0196,Area Fp1 (FPole) right,WT,177,1
+pred_0196,Area MFG2 (MFG) right,WT,296,2
+pred_0196,Area Id7 (Insula) right,WT,434,3
+pred_0196,Area Fo6 (OFC) right,WT,1239,9
+pred_0196,Area 8v1 (MFG) right,WT,1995,15
+pred_0196,Area SFG2 (SFG) right,WT,117,1
+pred_0196,"Area MFG5 (MFG, IFG) right",WT,305,2
+pred_0196,Area MFG4 (MFG) right,WT,182,1
+pred_0196,Area SFG3 (SFG) right,WT,17,0
+pred_0196,Area 6v3 (PreCG) right,WT,1707,13
+pred_0196,Area Fo4 (OFC) right,WT,443,3
+pred_0196,Area IFS1 (IFS) right,WT,178,1
+pred_0196,Area Op4 (POperc) right,WT,6,0
+pred_0196,Area IFS3 (IFS) right,WT,122,1
+pred_0196,Area 8v2 (MFG) right,WT,329,2
+pred_0196,Area Id10 (Insula) right,WT,30,0
+pred_0196,Area SFS2 (SFS) right,WT,155,1
+pred_0196,Area SFS1 (SFS) right,WT,222,2
+pred_0196,Frontal-to-Temporal-I (GapMap) right,WT,48,0
+pred_0196,Frontal-I.1 (GapMap) right,WT,1630,12
+pred_0196,Area Op9 (Frontal Operculum) right,WT,1258,10
+pred_0196,Temporal-to-Parietal (GapMap) right,WT,39,0
+pred_0196,Area 45 (IFG) right,WT,2617,20
+pred_0196,Area Op3 (POperc) right,WT,18,0
+pred_0196,Frontal-II (GapMap) right,WT,3601,27
+pred_0196,Area IFS2 (IFS) right,WT,15,0
+pred_0196,Area 8d1 (SFG) right,WT,26,0
+pred_0196,"Area IFJ1 (IFS, PreCS) right",WT,395,3
+pred_0196,Area 6v2 (PreCG) right,WT,2460,19
+pred_0196,Area TeI (STG) right,WT,13,0
+pred_0196,WM/unassigned,ET,9450,72
+pred_0196,Area SFG4 (SFG) right,ET,709,5
+pred_0196,Area MFG1 (MFG) right,ET,297,2
+pred_0196,Area IFS4 (IFS) right,ET,47,0
+pred_0196,Area 44 (IFG) right,ET,8,0
+pred_0196,Area 8d2 (SFG) right,ET,1,0
+pred_0196,Area Op8 (Frontal Operculum) right,ET,36,0
+pred_0196,Area Op10 (Frontal Operculum) right,ET,158,1
+pred_0196,Area MFG2 (MFG) right,ET,725,5
+pred_0196,Area Id7 (Insula) right,ET,102,1
+pred_0196,"Area MFG5 (MFG, IFG) right",ET,424,3
+pred_0196,Area MFG4 (MFG) right,ET,796,6
+pred_0196,Area SFG3 (SFG) right,ET,19,0
+pred_0196,Area IFS1 (IFS) right,ET,533,4
+pred_0196,Area IFS3 (IFS) right,ET,225,2
+pred_0196,Area 8v2 (MFG) right,ET,213,2
+pred_0196,Area SFS2 (SFS) right,ET,559,4
+pred_0196,Area SFS1 (SFS) right,ET,237,2
+pred_0196,Frontal-I.1 (GapMap) right,ET,1071,8
+pred_0196,Area Op9 (Frontal Operculum) right,ET,792,6
+pred_0196,Area 45 (IFG) right,ET,1034,8
+pred_0196,Frontal-II (GapMap) right,ET,21,0
+pred_0196,Area IFS2 (IFS) right,ET,189,1
+pred_0196,"Area IFJ1 (IFS, PreCS) right",ET,6,0

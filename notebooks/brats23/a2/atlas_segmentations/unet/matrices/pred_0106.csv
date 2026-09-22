@@ -1,0 +1,42 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0106,WM/unassigned,TC,231,3
+pred_0106,WM/unassigned,WT,19365,256
+pred_0106,"ZI (Thalamus, zona incerta) left",WT,262,3
+pred_0106,CGM (Metathalamus) left,WT,17,0
+pred_0106,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",WT,166,2
+pred_0106,"PUi (Thalamus, inferior pulvinar) left",WT,27,0
+pred_0106,CA2 (Hippocampus) left,WT,50,1
+pred_0106,"Li (Thalamus, limitans Nucleus) left",WT,44,1
+pred_0106,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,205,3
+pred_0106,"Pf (Thalamus, parafascicular Nucleus) left",WT,4,0
+pred_0106,Area FG4 (FusG) left,WT,658,9
+pred_0106,STN (Subthalamus) left,WT,164,2
+pred_0106,CGL (Metathalamus) left,WT,110,1
+pred_0106,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,635,8
+pred_0106,Area Ph3 (PhG) left,WT,20,0
+pred_0106,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,188,2
+pred_0106,"VM (Thalamus, ventral medial Nucleus) left",WT,4,0
+pred_0106,"CM (Thalamus, centromedian Nucleus) left",WT,43,1
+pred_0106,CA1 (Hippocampus) left,WT,78,1
+pred_0106,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,88,1
+pred_0106,Temporal-to-Parietal (GapMap) left,WT,207,3
+pred_0106,HATA (Hippocampus) left,WT,141,2
+pred_0106,Frontal-to-Temporal-II (GapMap) left,WT,135,2
+pred_0106,"Sg (Thalamus, suprageniculate Nucleus) left",WT,92,1
+pred_0106,"Subc (Hippocampus, Subicular complex) left",WT,1767,23
+pred_0106,"TrS (Hippocampus, Transsubiculum) left",WT,12,0
+pred_0106,CA3 (Hippocampus) left,WT,1,0
+pred_0106,"VPM (Thalamus, ventral posterior medial Nucleus) left",WT,7,0
+pred_0106,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,781,10
+pred_0106,Area FG3 (FusG) left,WT,9,0
+pred_0106,"sPf (Thalamus, subparafascicular Nucleus) left",WT,18,0
+pred_0106,SF (Amygdala) left,WT,1,0
+pred_0106,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) left",WT,28,0
+pred_0106,"VPi (Thalamus, ventroposterior inferior Nucleus) left",WT,40,1
+pred_0106,Area Ph2 (PhG) left,WT,255,3
+pred_0106,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,187,2
+pred_0106,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,218,3
+pred_0106,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",WT,7,0
+pred_0106,HATA (Hippocampus) right,WT,3,0
+pred_0106,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,162,2
+pred_0106,WM/unassigned,ET,1565,21

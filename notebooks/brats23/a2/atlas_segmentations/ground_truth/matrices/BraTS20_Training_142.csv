@@ -1,0 +1,32 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_142,WM/unassigned,TC,249,19,80.3,0.0,False
+BraTS20_Training_142,Area PF (IPL) right,TC,1,0,0.3,0.0,False
+BraTS20_Training_142,Area PFt (IPL) right,TC,3,0,1.0,0.1,True
+BraTS20_Training_142,"Area TPJ (STG, SMG) right",TC,6,0,1.9,0.4,True
+BraTS20_Training_142,Area PFcm (IPL) right,TC,45,3,14.5,2.0,True
+BraTS20_Training_142,Area hIP3 (IPS) right,TC,3,0,1.0,0.1,True
+BraTS20_Training_142,Temporal-to-Parietal (GapMap) right,TC,3,0,1.0,0.0,True
+BraTS20_Training_142,WM/unassigned,WT,3340,256,41.8,0.0,False
+BraTS20_Training_142,Area PF (IPL) right,WT,361,28,4.5,7.3,True
+BraTS20_Training_142,Area PFt (IPL) right,WT,645,49,8.1,19.2,True
+BraTS20_Training_142,"Area TPJ (STG, SMG) right",WT,89,7,1.1,6.1,False
+BraTS20_Training_142,Area Op1 (POperc) right,WT,21,2,0.3,1.0,False
+BraTS20_Training_142,Area hIP2 (IPS) right,WT,20,2,0.3,2.6,False
+BraTS20_Training_142,Area PGa (IPL) right,WT,286,22,3.6,4.5,False
+BraTS20_Training_142,Area PFm (IPL) right,WT,1434,110,18.0,24.9,True
+BraTS20_Training_142,Area PFcm (IPL) right,WT,588,45,7.4,25.6,True
+BraTS20_Training_142,Area hIP3 (IPS) right,WT,148,11,1.9,3.4,False
+BraTS20_Training_142,Temporal-to-Parietal (GapMap) right,WT,725,56,9.1,1.1,True
+BraTS20_Training_142,Area hIP1 (IPS) right,WT,122,9,1.5,9.8,False
+BraTS20_Training_142,Area Te 2.2 (STG) right,WT,202,15,2.5,10.2,False
+BraTS20_Training_142,WM/unassigned,ET,3286,252,70.2,0.0,False
+BraTS20_Training_142,Area PF (IPL) right,ET,157,12,3.4,3.2,True
+BraTS20_Training_142,Area PFt (IPL) right,ET,61,5,1.3,1.8,False
+BraTS20_Training_142,"Area TPJ (STG, SMG) right",ET,32,2,0.7,2.2,False
+BraTS20_Training_142,Area hIP2 (IPS) right,ET,1,0,0.0,0.1,False
+BraTS20_Training_142,Area PFm (IPL) right,ET,74,6,1.6,1.3,True
+BraTS20_Training_142,Area PFcm (IPL) right,ET,695,53,14.9,30.2,True
+BraTS20_Training_142,Area hIP3 (IPS) right,ET,123,9,2.6,2.8,True
+BraTS20_Training_142,Temporal-to-Parietal (GapMap) right,ET,220,17,4.7,0.3,True
+BraTS20_Training_142,Area hIP1 (IPS) right,ET,9,1,0.2,0.7,False
+BraTS20_Training_142,Area Te 2.2 (STG) right,ET,20,2,0.4,1.0,False

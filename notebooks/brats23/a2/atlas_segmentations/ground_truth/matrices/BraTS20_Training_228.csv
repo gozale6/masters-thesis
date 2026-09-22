@@ -1,0 +1,40 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_228,WM/unassigned,TC,1760,13,52.7,0.0,False
+BraTS20_Training_228,Area STS2 (STS) right,TC,332,3,9.9,5.1,True
+BraTS20_Training_228,Temporal-to-Parietal (GapMap) right,TC,1249,10,37.4,1.9,True
+BraTS20_Training_228,Area STS1 (STS) right,TC,1,0,0.0,0.0,True
+BraTS20_Training_228,WM/unassigned,WT,33588,256,56.4,0.4,False
+BraTS20_Training_228,Area PF (IPL) right,WT,5,0,0.0,0.1,False
+BraTS20_Training_228,Area Te 1.0 (HESCHL) right,WT,446,3,0.7,57.3,False
+BraTS20_Training_228,Area STS2 (STS) right,WT,3514,27,5.9,53.5,True
+BraTS20_Training_228,Area Id3 (Insula) right,WT,548,4,0.9,49.2,False
+BraTS20_Training_228,Area TI (STG) right,WT,542,4,0.9,51.5,False
+BraTS20_Training_228,Area Te 3 (STG) right,WT,3004,23,5.0,69.7,True
+BraTS20_Training_228,Area 6r1 (PreCG) right,WT,155,1,0.3,6.4,False
+BraTS20_Training_228,Area Op6 (Frontal Operculum) right,WT,854,7,1.4,81.7,True
+BraTS20_Training_228,"Area TPJ (STG, SMG) right",WT,165,1,0.3,11.3,False
+BraTS20_Training_228,Area Ia3 (Insula) right,WT,12,0,0.0,5.1,False
+BraTS20_Training_228,Area Op1 (POperc) right,WT,23,0,0.0,1.1,False
+BraTS20_Training_228,Area Id6 (Insula) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_228,Area 44 (IFG) right,WT,157,1,0.3,5.9,False
+BraTS20_Training_228,Area PGa (IPL) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_228,Area Ia1 (Insula) right,WT,55,0,0.1,20.1,False
+BraTS20_Training_228,Area Op8 (Frontal Operculum) right,WT,111,1,0.2,8.8,False
+BraTS20_Training_228,Area Op5 (Frontal Operculum) right,WT,427,3,0.7,28.4,False
+BraTS20_Training_228,Area Op4 (POperc) right,WT,331,3,0.6,12.6,False
+BraTS20_Training_228,Temporal-to-Parietal (GapMap) right,WT,11581,88,19.4,17.2,True
+BraTS20_Training_228,Frontal-to-Temporal-II (GapMap) right,WT,63,0,0.1,2.5,False
+BraTS20_Training_228,Area Ia2 (Insula) right,WT,65,0,0.1,33.9,False
+BraTS20_Training_228,Area Id1 (Insula) right,WT,23,0,0.0,5.8,False
+BraTS20_Training_228,Area Te 1.2 (HESCHL) right,WT,438,3,0.7,83.7,False
+BraTS20_Training_228,Area Id5 (Insula) right,WT,1,0,0.0,0.1,False
+BraTS20_Training_228,Area Te 2.1 (STG) right,WT,332,3,0.6,68.5,False
+BraTS20_Training_228,Area STS1 (STS) right,WT,2189,17,3.7,65.8,True
+BraTS20_Training_228,Area Id9 (Insula) right,WT,70,1,0.1,7.6,False
+BraTS20_Training_228,Area Te 2.2 (STG) right,WT,223,2,0.4,11.3,False
+BraTS20_Training_228,Area TeI (STG) right,WT,650,5,1.1,51.2,False
+BraTS20_Training_228,WM/unassigned,ET,5934,45,54.4,0.1,False
+BraTS20_Training_228,Area STS2 (STS) right,ET,2361,18,21.6,35.9,True
+BraTS20_Training_228,Area Te 3 (STG) right,ET,130,1,1.2,3.0,True
+BraTS20_Training_228,Temporal-to-Parietal (GapMap) right,ET,2262,17,20.7,3.4,True
+BraTS20_Training_228,Area STS1 (STS) right,ET,223,2,2.0,6.7,True

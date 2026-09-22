@@ -1,0 +1,160 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_279,WM/unassigned,TC,67774,256
+BraTS20_Training_279,Area SFG4 (SFG) left,TC,973,4
+BraTS20_Training_279,Area p24ab (pACC) left,TC,1702,6
+BraTS20_Training_279,Frontal-to-Occipital (GapMap) left,TC,5518,21
+BraTS20_Training_279,"BST (Basal Forebrain, Bed Nucleus) left",TC,59,0
+BraTS20_Training_279,Area Fp2 (FPole) left,TC,842,3
+BraTS20_Training_279,Area 6d3 (SFS) left,TC,79,0
+BraTS20_Training_279,Area 8d2 (SFG) left,TC,759,3
+BraTS20_Training_279,Area 25 (sACC) left,TC,93,0
+BraTS20_Training_279,Area Op10 (Frontal Operculum) left,TC,23,0
+BraTS20_Training_279,Area Fp1 (FPole) left,TC,133,1
+BraTS20_Training_279,Area MFG2 (MFG) left,TC,98,0
+BraTS20_Training_279,Area Id7 (Insula) left,TC,113,0
+BraTS20_Training_279,Area p32 (pACC) left,TC,6364,24
+BraTS20_Training_279,Area SFG2 (SFG) left,TC,1064,4
+BraTS20_Training_279,Area MFG4 (MFG) left,TC,355,1
+BraTS20_Training_279,Area SFG3 (SFG) left,TC,891,3
+BraTS20_Training_279,Area 8v2 (MFG) left,TC,41,0
+BraTS20_Training_279,"AcbM (Ventral Striatum, Medial Accumbens) left",TC,130,0
+BraTS20_Training_279,"Area 6ma (preSMA, mesial SFG) left",TC,24,0
+BraTS20_Training_279,Area p24c (pACC) left,TC,1125,4
+BraTS20_Training_279,Area SFS2 (SFS) left,TC,12,0
+BraTS20_Training_279,Area SFS1 (SFS) left,TC,128,0
+BraTS20_Training_279,Frontal-to-Temporal-I (GapMap) left,TC,31,0
+BraTS20_Training_279,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,770,3
+BraTS20_Training_279,Frontal-I.2 (GapMap) left,TC,4034,15
+BraTS20_Training_279,Area 33 (ACC) left,TC,560,2
+BraTS20_Training_279,Frontal-I.1 (GapMap) left,TC,33,0
+BraTS20_Training_279,"TuTi (Basal Forebrain, Terminal islands) left",TC,1,0
+BraTS20_Training_279,Frontal-to-Temporal-II (GapMap) left,TC,2,0
+BraTS20_Training_279,Ch 123 (Basal Forebrain) left,TC,63,0
+BraTS20_Training_279,VP (Ventral Pallidum) left,TC,5,0
+BraTS20_Training_279,Area s24 (sACC) left,TC,482,2
+BraTS20_Training_279,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,36,0
+BraTS20_Training_279,Area p24ab (pACC) right,TC,1621,6
+BraTS20_Training_279,Frontal-to-Occipital (GapMap) right,TC,4361,16
+BraTS20_Training_279,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,108,0
+BraTS20_Training_279,"BST (Basal Forebrain, Bed Nucleus) right",TC,60,0
+BraTS20_Training_279,"AM (Thalamus, anteromedial Nucleus) right",TC,67,0
+BraTS20_Training_279,Area Fp2 (FPole) right,TC,205,1
+BraTS20_Training_279,"Rt (Thalamus, reticular Nucleus) right",TC,2,0
+BraTS20_Training_279,"Pv (Thalamus, paraventricular Nucleus) right",TC,19,0
+BraTS20_Training_279,Area 8d2 (SFG) right,TC,16,0
+BraTS20_Training_279,Area 25 (sACC) right,TC,174,1
+BraTS20_Training_279,Area Fp1 (FPole) right,TC,45,0
+BraTS20_Training_279,Area p32 (pACC) right,TC,3458,13
+BraTS20_Training_279,Area SFG2 (SFG) right,TC,398,2
+BraTS20_Training_279,Area SFG3 (SFG) right,TC,216,1
+BraTS20_Training_279,"AcbM (Ventral Striatum, Medial Accumbens) right",TC,70,0
+BraTS20_Training_279,"Area 6ma (preSMA, mesial SFG) right",TC,29,0
+BraTS20_Training_279,Area p24c (pACC) right,TC,1633,6
+BraTS20_Training_279,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,311,1
+BraTS20_Training_279,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",TC,14,0
+BraTS20_Training_279,Frontal-I.2 (GapMap) right,TC,4507,17
+BraTS20_Training_279,Area 33 (ACC) right,TC,1767,7
+BraTS20_Training_279,Ch 123 (Basal Forebrain) right,TC,53,0
+BraTS20_Training_279,"AV (Thalamus, anteroventral Nucleus) right",TC,32,0
+BraTS20_Training_279,Area s24 (sACC) right,TC,175,1
+BraTS20_Training_279,WM/unassigned,WT,23037,87
+BraTS20_Training_279,Area Id8 (Insula) left,WT,42,0
+BraTS20_Training_279,Area SFG4 (SFG) left,WT,690,3
+BraTS20_Training_279,Area p24ab (pACC) left,WT,115,0
+BraTS20_Training_279,Frontal-to-Occipital (GapMap) left,WT,689,3
+BraTS20_Training_279,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,74,0
+BraTS20_Training_279,"BST (Basal Forebrain, Bed Nucleus) left",WT,59,0
+BraTS20_Training_279,"AM (Thalamus, anteromedial Nucleus) left",WT,39,0
+BraTS20_Training_279,Area Fp2 (FPole) left,WT,849,3
+BraTS20_Training_279,Area Id6 (Insula) left,WT,84,0
+BraTS20_Training_279,Area IFS4 (IFS) left,WT,12,0
+BraTS20_Training_279,Area 6d3 (SFS) left,WT,416,2
+BraTS20_Training_279,Area Fo7 (OFC) left,WT,1,0
+BraTS20_Training_279,"Pv (Thalamus, paraventricular Nucleus) left",WT,1,0
+BraTS20_Training_279,Area 8d2 (SFG) left,WT,237,1
+BraTS20_Training_279,Area Op8 (Frontal Operculum) left,WT,4,0
+BraTS20_Training_279,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,38,0
+BraTS20_Training_279,"Area IFJ2 (IFS, PreCS) left",WT,3,0
+BraTS20_Training_279,Area 25 (sACC) left,WT,3,0
+BraTS20_Training_279,Area Op10 (Frontal Operculum) left,WT,200,1
+BraTS20_Training_279,Area Fp1 (FPole) left,WT,1047,4
+BraTS20_Training_279,Area MFG2 (MFG) left,WT,436,2
+BraTS20_Training_279,Area Id7 (Insula) left,WT,417,2
+BraTS20_Training_279,Area p32 (pACC) left,WT,805,3
+BraTS20_Training_279,Area 8v1 (MFG) left,WT,5,0
+BraTS20_Training_279,Area SFG2 (SFG) left,WT,758,3
+BraTS20_Training_279,Area Fo3 (OFC) left,WT,9,0
+BraTS20_Training_279,"Area MFG5 (MFG, IFG) left",WT,31,0
+BraTS20_Training_279,Area MFG4 (MFG) left,WT,380,1
+BraTS20_Training_279,Area SFG3 (SFG) left,WT,771,3
+BraTS20_Training_279,Area IFS1 (IFS) left,WT,24,0
+BraTS20_Training_279,Area IFS3 (IFS) left,WT,25,0
+BraTS20_Training_279,Area 8v2 (MFG) left,WT,148,1
+BraTS20_Training_279,"AcbM (Ventral Striatum, Medial Accumbens) left",WT,1,0
+BraTS20_Training_279,"Area 6ma (preSMA, mesial SFG) left",WT,147,1
+BraTS20_Training_279,Area Id10 (Insula) left,WT,29,0
+BraTS20_Training_279,Area SFS2 (SFS) left,WT,62,0
+BraTS20_Training_279,Area SFS1 (SFS) left,WT,104,0
+BraTS20_Training_279,Frontal-to-Temporal-I (GapMap) left,WT,238,1
+BraTS20_Training_279,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,215,1
+BraTS20_Training_279,Frontal-I.2 (GapMap) left,WT,270,1
+BraTS20_Training_279,Frontal-I.1 (GapMap) left,WT,623,2
+BraTS20_Training_279,Area 45 (IFG) left,WT,14,0
+BraTS20_Training_279,Ch 123 (Basal Forebrain) left,WT,18,0
+BraTS20_Training_279,VP (Ventral Pallidum) left,WT,53,0
+BraTS20_Training_279,Area s32 (sACC) left,WT,315,1
+BraTS20_Training_279,Area 8d1 (SFG) left,WT,9,0
+BraTS20_Training_279,"Area IFJ1 (IFS, PreCS) left",WT,48,0
+BraTS20_Training_279,Area s24 (sACC) left,WT,404,2
+BraTS20_Training_279,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,75,0
+BraTS20_Training_279,Area Fo2 (OFC) left,WT,9,0
+BraTS20_Training_279,Area SFG4 (SFG) right,WT,25,0
+BraTS20_Training_279,Area p24ab (pACC) right,WT,252,1
+BraTS20_Training_279,Frontal-to-Occipital (GapMap) right,WT,634,2
+BraTS20_Training_279,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,67,0
+BraTS20_Training_279,"BST (Basal Forebrain, Bed Nucleus) right",WT,22,0
+BraTS20_Training_279,"AM (Thalamus, anteromedial Nucleus) right",WT,41,0
+BraTS20_Training_279,Area Fp2 (FPole) right,WT,688,3
+BraTS20_Training_279,"Pv (Thalamus, paraventricular Nucleus) right",WT,35,0
+BraTS20_Training_279,Area 8d2 (SFG) right,WT,61,0
+BraTS20_Training_279,Area 25 (sACC) right,WT,3,0
+BraTS20_Training_279,Area Fp1 (FPole) right,WT,133,1
+BraTS20_Training_279,Area p32 (pACC) right,WT,970,4
+BraTS20_Training_279,Area SFG2 (SFG) right,WT,570,2
+BraTS20_Training_279,Area SFG3 (SFG) right,WT,357,1
+BraTS20_Training_279,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,55,0
+BraTS20_Training_279,"Area 6ma (preSMA, mesial SFG) right",WT,159,1
+BraTS20_Training_279,Area p24c (pACC) right,WT,540,2
+BraTS20_Training_279,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,189,1
+BraTS20_Training_279,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,40,0
+BraTS20_Training_279,Frontal-I.2 (GapMap) right,WT,327,1
+BraTS20_Training_279,Area 33 (ACC) right,WT,96,0
+BraTS20_Training_279,"TuTi (Basal Forebrain, Terminal islands) right",WT,4,0
+BraTS20_Training_279,Ch 123 (Basal Forebrain) right,WT,55,0
+BraTS20_Training_279,"AV (Thalamus, anteroventral Nucleus) right",WT,54,0
+BraTS20_Training_279,VP (Ventral Pallidum) right,WT,22,0
+BraTS20_Training_279,Area 8d1 (SFG) right,WT,67,0
+BraTS20_Training_279,Area s24 (sACC) right,WT,264,1
+BraTS20_Training_279,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,6,0
+BraTS20_Training_279,WM/unassigned,ET,840,3
+BraTS20_Training_279,Area p24ab (pACC) left,ET,9,0
+BraTS20_Training_279,Frontal-to-Occipital (GapMap) left,ET,17,0
+BraTS20_Training_279,"BST (Basal Forebrain, Bed Nucleus) left",ET,43,0
+BraTS20_Training_279,Area p32 (pACC) left,ET,11,0
+BraTS20_Training_279,"Area 6ma (preSMA, mesial SFG) left",ET,5,0
+BraTS20_Training_279,Area p24c (pACC) left,ET,12,0
+BraTS20_Training_279,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,15,0
+BraTS20_Training_279,Frontal-I.2 (GapMap) left,ET,1,0
+BraTS20_Training_279,Ch 123 (Basal Forebrain) left,ET,7,0
+BraTS20_Training_279,VP (Ventral Pallidum) left,ET,6,0
+BraTS20_Training_279,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,1,0
+BraTS20_Training_279,Area p24ab (pACC) right,ET,2,0
+BraTS20_Training_279,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,122,0
+BraTS20_Training_279,"BST (Basal Forebrain, Bed Nucleus) right",ET,86,0
+BraTS20_Training_279,"Rt (Thalamus, reticular Nucleus) right",ET,1,0
+BraTS20_Training_279,"Pv (Thalamus, paraventricular Nucleus) right",ET,1,0
+BraTS20_Training_279,"AcbM (Ventral Striatum, Medial Accumbens) right",ET,24,0
+BraTS20_Training_279,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,20,0
+BraTS20_Training_279,Frontal-I.2 (GapMap) right,ET,5,0
+BraTS20_Training_279,Ch 123 (Basal Forebrain) right,ET,19,0
+BraTS20_Training_279,Area s24 (sACC) right,ET,1,0

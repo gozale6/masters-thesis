@@ -1,0 +1,24 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0189,WM/unassigned,TC,1379,39
+pred_0189,Area SFG4 (SFG) right,TC,18,1
+pred_0189,Area MFG4 (MFG) right,TC,18,1
+pred_0189,Area IFS1 (IFS) right,TC,6,0
+pred_0189,Area 45 (IFG) right,TC,78,2
+pred_0189,WM/unassigned,WT,2428,69
+pred_0189,Area SFG4 (SFG) right,WT,186,5
+pred_0189,Area 6r1 (PreCG) right,WT,23,1
+pred_0189,Area 44 (IFG) right,WT,291,8
+pred_0189,Area SFG2 (SFG) right,WT,12,0
+pred_0189,"Area MFG5 (MFG, IFG) right",WT,5,0
+pred_0189,Area MFG4 (MFG) right,WT,47,1
+pred_0189,Area IFS1 (IFS) right,WT,21,1
+pred_0189,Area Op9 (Frontal Operculum) right,WT,97,3
+pred_0189,Area 45 (IFG) right,WT,604,17
+pred_0189,Area IFS2 (IFS) right,WT,21,1
+pred_0189,WM/unassigned,ET,9025,256
+pred_0189,Area SFG4 (SFG) right,ET,308,9
+pred_0189,Area SFG2 (SFG) right,ET,24,1
+pred_0189,"Area MFG5 (MFG, IFG) right",ET,20,1
+pred_0189,Area MFG4 (MFG) right,ET,230,7
+pred_0189,Area IFS1 (IFS) right,ET,120,3
+pred_0189,Area 45 (IFG) right,ET,471,13

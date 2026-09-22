@@ -1,0 +1,34 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_111,WM/unassigned,TC,6148,135,73.4,0.1,False
+BraTS20_Training_111,Temporal-to-Parietal (GapMap) right,TC,2129,47,25.4,3.2,True
+BraTS20_Training_111,Area Id1 (Insula) right,TC,1,0,0.0,0.3,True
+BraTS20_Training_111,Area STS1 (STS) right,TC,101,2,1.2,3.0,True
+BraTS20_Training_111,Area TeI (STG) right,TC,1,0,0.0,0.1,True
+BraTS20_Training_111,WM/unassigned,WT,11620,256,66.8,0.2,False
+BraTS20_Training_111,Area Te 1.0 (HESCHL) right,WT,8,0,0.0,1.0,False
+BraTS20_Training_111,Area STS2 (STS) right,WT,1913,42,11.0,29.1,True
+BraTS20_Training_111,Area Id3 (Insula) right,WT,9,0,0.1,0.8,False
+BraTS20_Training_111,Area TI (STG) right,WT,4,0,0.0,0.4,False
+BraTS20_Training_111,Area Te 3 (STG) right,WT,355,8,2.0,8.2,True
+BraTS20_Training_111,Area Ig2 (Insula) right,WT,4,0,0.0,0.7,False
+BraTS20_Training_111,CA2 (Hippocampus) right,WT,177,4,1.0,13.8,True
+BraTS20_Training_111,Area Te 1.1 (HESCHL) right,WT,89,2,0.5,8.3,False
+BraTS20_Training_111,DG (Hippocampus) right,WT,4,0,0.0,2.0,False
+BraTS20_Training_111,Area Ig1 (Insula) right,WT,40,1,0.2,11.1,False
+BraTS20_Training_111,CA1 (Hippocampus) right,WT,53,1,0.3,3.1,False
+BraTS20_Training_111,Temporal-to-Parietal (GapMap) right,WT,2504,55,14.4,3.7,True
+BraTS20_Training_111,Area Id1 (Insula) right,WT,9,0,0.1,2.3,False
+BraTS20_Training_111,Area Te 2.1 (STG) right,WT,22,0,0.1,4.5,False
+BraTS20_Training_111,CA3 (Hippocampus) right,WT,27,1,0.2,4.0,False
+BraTS20_Training_111,Area STS1 (STS) right,WT,480,11,2.8,14.4,True
+BraTS20_Training_111,Area Te 2.2 (STG) right,WT,41,1,0.2,2.1,False
+BraTS20_Training_111,Area TeI (STG) right,WT,33,1,0.2,2.6,False
+BraTS20_Training_111,WM/unassigned,ET,11397,251,64.9,0.1,False
+BraTS20_Training_111,Area STS2 (STS) right,ET,96,2,0.5,1.5,True
+BraTS20_Training_111,Area TI (STG) right,ET,32,1,0.2,3.0,False
+BraTS20_Training_111,Temporal-to-Parietal (GapMap) right,ET,4957,109,28.2,7.3,True
+BraTS20_Training_111,Area Id1 (Insula) right,ET,46,1,0.3,11.7,True
+BraTS20_Training_111,Area Te 2.1 (STG) right,ET,1,0,0.0,0.2,False
+BraTS20_Training_111,Area STS1 (STS) right,ET,953,21,5.4,28.7,True
+BraTS20_Training_111,Area Te 2.2 (STG) right,ET,4,0,0.0,0.2,False
+BraTS20_Training_111,Area TeI (STG) right,ET,84,2,0.5,6.6,True

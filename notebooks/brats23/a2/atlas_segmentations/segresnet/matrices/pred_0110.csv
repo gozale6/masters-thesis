@@ -1,0 +1,17 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0110,WM/unassigned,TC,1,0
+pred_0110,Frontal-to-Occipital (GapMap) right,TC,5,0
+pred_0110,Area p24c (pACC) right,TC,3,0
+pred_0110,WM/unassigned,WT,5798,256
+pred_0110,HATA (Hippocampus) left,WT,1,0
+pred_0110,SF (Amygdala) left,WT,1,0
+pred_0110,Area SFG4 (SFG) right,WT,1,0
+pred_0110,Area p24ab (pACC) right,WT,28,1
+pred_0110,Frontal-to-Occipital (GapMap) right,WT,1697,75
+pred_0110,Area 8d2 (SFG) right,WT,3,0
+pred_0110,Area p24c (pACC) right,WT,114,5
+pred_0110,Frontal-I.2 (GapMap) right,WT,2,0
+pred_0110,Area 33 (ACC) right,WT,695,31
+pred_0110,WM/unassigned,ET,34,2
+pred_0110,Frontal-to-Occipital (GapMap) right,ET,51,2
+pred_0110,Area p24c (pACC) right,ET,11,0

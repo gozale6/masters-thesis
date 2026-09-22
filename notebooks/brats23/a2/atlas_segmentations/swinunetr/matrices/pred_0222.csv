@@ -1,0 +1,91 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0222,WM/unassigned,TC,551,2
+pred_0222,Area Te 1.0 (HESCHL) right,TC,9,0
+pred_0222,Area STS2 (STS) right,TC,261,1
+pred_0222,Area TI (STG) right,TC,1,0
+pred_0222,Area Te 3 (STG) right,TC,326,1
+pred_0222,Area 6r1 (PreCG) right,TC,10,0
+pred_0222,Area Op6 (Frontal Operculum) right,TC,70,0
+pred_0222,Area 44 (IFG) right,TC,1,0
+pred_0222,Area Op5 (Frontal Operculum) right,TC,9,0
+pred_0222,Area Op4 (POperc) right,TC,36,0
+pred_0222,Area Te 1.2 (HESCHL) right,TC,277,1
+pred_0222,Area Te 2.1 (STG) right,TC,160,1
+pred_0222,Area STS1 (STS) right,TC,197,1
+pred_0222,Area Te 2.2 (STG) right,TC,30,0
+pred_0222,Area TeI (STG) right,TC,175,1
+pred_0222,WM/unassigned,WT,57898,256
+pred_0222,Area 3b (PostCG) right,WT,903,4
+pred_0222,Area PF (IPL) right,WT,257,1
+pred_0222,Astr (Amygdala) right,WT,5,0
+pred_0222,Area 1 (PostCG) right,WT,575,3
+pred_0222,Area Te 1.0 (HESCHL) right,WT,615,3
+pred_0222,Area STS2 (STS) right,WT,2976,13
+pred_0222,Area Id3 (Insula) right,WT,836,4
+pred_0222,Area TI (STG) right,WT,418,2
+pred_0222,Area Te 3 (STG) right,WT,1398,6
+pred_0222,Area 6r1 (PreCG) right,WT,2232,10
+pred_0222,Area Op6 (Frontal Operculum) right,WT,272,1
+pred_0222,"Area TPJ (STG, SMG) right",WT,1380,6
+pred_0222,Area Op7 (Frontal Operculum) right,WT,238,1
+pred_0222,Area Ia3 (Insula) right,WT,4,0
+pred_0222,Area Ig2 (Insula) right,WT,579,3
+pred_0222,CA2 (Hippocampus) right,WT,354,2
+pred_0222,Area Id4 (Insula) right,WT,888,4
+pred_0222,Area Op1 (POperc) right,WT,2002,9
+pred_0222,Area Id6 (Insula) right,WT,1166,5
+pred_0222,Area IFS4 (IFS) right,WT,510,2
+pred_0222,Area 44 (IFG) right,WT,2633,12
+pred_0222,Area Ia1 (Insula) right,WT,240,1
+pred_0222,Area Op8 (Frontal Operculum) right,WT,983,4
+pred_0222,"Area IFJ2 (IFS, PreCS) right",WT,454,2
+pred_0222,Area Op5 (Frontal Operculum) right,WT,1402,6
+pred_0222,Area 4a (PreCG) right,WT,130,1
+pred_0222,Area 3a (PostCG) right,WT,381,2
+pred_0222,Area Te 1.1 (HESCHL) right,WT,1012,4
+pred_0222,"Area MFG5 (MFG, IFG) right",WT,6,0
+pred_0222,Area Ig3 (Insula) right,WT,510,2
+pred_0222,Area 6v3 (PreCG) right,WT,1813,8
+pred_0222,Area IFS1 (IFS) right,WT,576,3
+pred_0222,Area Op4 (POperc) right,WT,1683,7
+pred_0222,Area Op2 (POperc) right,WT,620,3
+pred_0222,DG (Hippocampus) right,WT,71,0
+pred_0222,Area Ig1 (Insula) right,WT,234,1
+pred_0222,Area PFcm (IPL) right,WT,1446,6
+pred_0222,Area 4p (PreCG) right,WT,219,1
+pred_0222,Area OTS1 (OTS) right,WT,59,0
+pred_0222,Area Id2 (Insula) right,WT,480,2
+pred_0222,CA1 (Hippocampus) right,WT,221,1
+pred_0222,Area Op9 (Frontal Operculum) right,WT,1082,5
+pred_0222,Temporal-to-Parietal (GapMap) right,WT,8934,40
+pred_0222,Area 45 (IFG) right,WT,1985,9
+pred_0222,Frontal-to-Temporal-II (GapMap) right,WT,8,0
+pred_0222,Area Id1 (Insula) right,WT,303,1
+pred_0222,Area Te 1.2 (HESCHL) right,WT,3,0
+pred_0222,Area Id5 (Insula) right,WT,905,4
+pred_0222,Area Te 2.1 (STG) right,WT,167,1
+pred_0222,Area Op3 (POperc) right,WT,726,3
+pred_0222,CA3 (Hippocampus) right,WT,14,0
+pred_0222,Frontal-II (GapMap) right,WT,583,3
+pred_0222,Area STS1 (STS) right,WT,1787,8
+pred_0222,Area Id9 (Insula) right,WT,275,1
+pred_0222,Area IFS2 (IFS) right,WT,294,1
+pred_0222,"Area IFJ1 (IFS, PreCS) right",WT,382,2
+pred_0222,Area PFop (IPL) right,WT,615,3
+pred_0222,Area 6v2 (PreCG) right,WT,1392,6
+pred_0222,Area Te 2.2 (STG) right,WT,1724,8
+pred_0222,Area TeI (STG) right,WT,438,2
+pred_0222,WM/unassigned,ET,3170,14
+pred_0222,Area Te 1.0 (HESCHL) right,ET,151,1
+pred_0222,Area STS2 (STS) right,ET,1348,6
+pred_0222,Area Te 3 (STG) right,ET,2050,9
+pred_0222,Area 6r1 (PreCG) right,ET,98,0
+pred_0222,Area Op6 (Frontal Operculum) right,ET,703,3
+pred_0222,Area 44 (IFG) right,ET,24,0
+pred_0222,Area Op5 (Frontal Operculum) right,ET,92,0
+pred_0222,Area Op4 (POperc) right,ET,784,3
+pred_0222,Area Te 1.2 (HESCHL) right,ET,243,1
+pred_0222,Area Te 2.1 (STG) right,ET,158,1
+pred_0222,Area STS1 (STS) right,ET,919,4
+pred_0222,Area Te 2.2 (STG) right,ET,188,1
+pred_0222,Area TeI (STG) right,ET,404,2

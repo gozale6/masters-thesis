@@ -1,0 +1,66 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_227,WM/unassigned,TC,426,6
+BraTS20_Training_227,Astr (Amygdala) right,TC,2,0
+BraTS20_Training_227,Area STS2 (STS) right,TC,10,0
+BraTS20_Training_227,Area Id3 (Insula) right,TC,40,1
+BraTS20_Training_227,Area TI (STG) right,TC,29,0
+BraTS20_Training_227,CA2 (Hippocampus) right,TC,82,1
+BraTS20_Training_227,CA1 (Hippocampus) right,TC,17,0
+BraTS20_Training_227,Temporal-to-Parietal (GapMap) right,TC,1,0
+BraTS20_Training_227,Area Id1 (Insula) right,TC,35,0
+BraTS20_Training_227,CA3 (Hippocampus) right,TC,1,0
+BraTS20_Training_227,Area STS1 (STS) right,TC,7,0
+BraTS20_Training_227,WM/unassigned,WT,18427,256
+BraTS20_Training_227,Astr (Amygdala) right,WT,7,0
+BraTS20_Training_227,Area Id8 (Insula) right,WT,489,7
+BraTS20_Training_227,Area Te 1.0 (HESCHL) right,WT,20,0
+BraTS20_Training_227,Area STS2 (STS) right,WT,2979,41
+BraTS20_Training_227,Area Id3 (Insula) right,WT,620,9
+BraTS20_Training_227,"ZI (Thalamus, zona incerta) right",WT,11,0
+BraTS20_Training_227,Area TI (STG) right,WT,989,14
+BraTS20_Training_227,Area FG5 (FusG) right,WT,28,0
+BraTS20_Training_227,Area Te 3 (STG) right,WT,289,4
+BraTS20_Training_227,Area Ia3 (Insula) right,WT,161,2
+BraTS20_Training_227,Area Ig2 (Insula) right,WT,48,1
+BraTS20_Training_227,CA2 (Hippocampus) right,WT,77,1
+BraTS20_Training_227,Area Id4 (Insula) right,WT,2,0
+BraTS20_Training_227,"Rt (Thalamus, reticular Nucleus) right",WT,296,4
+BraTS20_Training_227,Area Id6 (Insula) right,WT,796,11
+BraTS20_Training_227,Area Ia1 (Insula) right,WT,195,3
+BraTS20_Training_227,Area Op8 (Frontal Operculum) right,WT,157,2
+BraTS20_Training_227,Area FG4 (FusG) right,WT,231,3
+BraTS20_Training_227,STN (Subthalamus) right,WT,4,0
+BraTS20_Training_227,CGL (Metathalamus) right,WT,68,1
+BraTS20_Training_227,Area Id10 (Insula) right,WT,133,2
+BraTS20_Training_227,Frontal-to-Temporal-I (GapMap) right,WT,384,5
+BraTS20_Training_227,CM (Amygdala) right,WT,15,0
+BraTS20_Training_227,Area OTS1 (OTS) right,WT,875,12
+BraTS20_Training_227,Area Id2 (Insula) right,WT,22,0
+BraTS20_Training_227,CA1 (Hippocampus) right,WT,31,0
+BraTS20_Training_227,Area Op9 (Frontal Operculum) right,WT,173,2
+BraTS20_Training_227,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,167,2
+BraTS20_Training_227,Temporal-to-Parietal (GapMap) right,WT,5251,73
+BraTS20_Training_227,Frontal-to-Temporal-II (GapMap) right,WT,345,5
+BraTS20_Training_227,Area Ia2 (Insula) right,WT,155,2
+BraTS20_Training_227,Area Id1 (Insula) right,WT,206,3
+BraTS20_Training_227,Area Te 1.2 (HESCHL) right,WT,19,0
+BraTS20_Training_227,Area Id5 (Insula) right,WT,44,1
+BraTS20_Training_227,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,19,0
+BraTS20_Training_227,CA3 (Hippocampus) right,WT,77,1
+BraTS20_Training_227,Area STS1 (STS) right,WT,968,13
+BraTS20_Training_227,Area Id9 (Insula) right,WT,464,6
+BraTS20_Training_227,"VPi (Thalamus, ventroposterior inferior Nucleus) right",WT,36,1
+BraTS20_Training_227,Area TeI (STG) right,WT,924,13
+BraTS20_Training_227,WM/unassigned,ET,1998,28
+BraTS20_Training_227,Astr (Amygdala) right,ET,43,1
+BraTS20_Training_227,Area STS2 (STS) right,ET,190,3
+BraTS20_Training_227,Area Id3 (Insula) right,ET,277,4
+BraTS20_Training_227,Area TI (STG) right,ET,30,0
+BraTS20_Training_227,CA2 (Hippocampus) right,ET,296,4
+BraTS20_Training_227,DG (Hippocampus) right,ET,1,0
+BraTS20_Training_227,CA1 (Hippocampus) right,ET,134,2
+BraTS20_Training_227,Temporal-to-Parietal (GapMap) right,ET,45,1
+BraTS20_Training_227,Frontal-to-Temporal-II (GapMap) right,ET,2,0
+BraTS20_Training_227,Area Id1 (Insula) right,ET,47,1
+BraTS20_Training_227,CA3 (Hippocampus) right,ET,36,1
+BraTS20_Training_227,Area STS1 (STS) right,ET,155,2

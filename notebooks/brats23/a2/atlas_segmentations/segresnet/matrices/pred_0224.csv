@@ -1,0 +1,36 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0224,WM/unassigned,TC,949,78
+pred_0224,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,669,55
+pred_0224,Area Id10 (Insula) right,TC,8,1
+pred_0224,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,30,2
+pred_0224,VP (Ventral Pallidum) right,TC,2,0
+pred_0224,"AcbL (Ventral Striatum, Lateral Accumbens) right",TC,1,0
+pred_0224,WM/unassigned,WT,1768,145
+pred_0224,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,2,0
+pred_0224,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,5,0
+pred_0224,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,237,19
+pred_0224,"AM (Thalamus, anteromedial Nucleus) right",WT,37,3
+pred_0224,Area Id6 (Insula) right,WT,2,0
+pred_0224,"Pv (Thalamus, paraventricular Nucleus) right",WT,29,2
+pred_0224,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,107,9
+pred_0224,Area 25 (sACC) right,WT,45,4
+pred_0224,Ch 4 (Basal Forebrain) right,WT,52,4
+pred_0224,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,45,4
+pred_0224,Area Id10 (Insula) right,WT,29,2
+pred_0224,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,219,18
+pred_0224,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,109,9
+pred_0224,"MV (Thalamus, medioventral Nucleus) right",WT,11,1
+pred_0224,CM (Amygdala) right,WT,2,0
+pred_0224,"TuTi (Basal Forebrain, Terminal islands) right",WT,23,2
+pred_0224,"CL (Thalamus, anterior intralaminar nuclei) right",WT,60,5
+pred_0224,Frontal-to-Temporal-II (GapMap) right,WT,1,0
+pred_0224,VP (Ventral Pallidum) right,WT,145,12
+pred_0224,"AcbL (Ventral Striatum, Lateral Accumbens) right",WT,6,0
+pred_0224,WM/unassigned,ET,3124,256
+pred_0224,Area Id6 (Insula) right,ET,3,0
+pred_0224,"FuP (Ventral Striatum, Fundus of Putamen) right",ET,702,58
+pred_0224,Ch 4 (Basal Forebrain) right,ET,7,1
+pred_0224,Area Id10 (Insula) right,ET,66,5
+pred_0224,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,96,8
+pred_0224,VP (Ventral Pallidum) right,ET,64,5
+pred_0224,"AcbL (Ventral Striatum, Lateral Accumbens) right",ET,31,3

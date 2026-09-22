@@ -1,0 +1,126 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0062,WM/unassigned,TC,8977,152
+pred_0062,Area 3b (PostCG) right,TC,61,1
+pred_0062,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,16,0
+pred_0062,Area Ig2 (Insula) right,TC,3,0
+pred_0062,"VLP (Thalamus, ventral lateral posterior Nucleus) right",TC,115,2
+pred_0062,Area Id4 (Insula) right,TC,418,7
+pred_0062,"Rt (Thalamus, reticular Nucleus) right",TC,183,3
+pred_0062,Area Id6 (Insula) right,TC,2,0
+pred_0062,Area IFS4 (IFS) right,TC,191,3
+pred_0062,Area 6v1 (PreCG) right,TC,324,5
+pred_0062,"Area IFJ2 (IFS, PreCS) right",TC,165,3
+pred_0062,Area Op5 (Frontal Operculum) right,TC,30,1
+pred_0062,Area 4a (PreCG) right,TC,169,3
+pred_0062,Area 3a (PostCG) right,TC,299,5
+pred_0062,Area Ig3 (Insula) right,TC,125,2
+pred_0062,Area 6v3 (PreCG) right,TC,196,3
+pred_0062,Area IFS1 (IFS) right,TC,50,1
+pred_0062,Area Op2 (POperc) right,TC,33,1
+pred_0062,Area 8v2 (MFG) right,TC,4,0
+pred_0062,Area 4p (PreCG) right,TC,341,6
+pred_0062,"VIM (Thalamus, ventral intermediate Nucleus) right",TC,14,0
+pred_0062,Area Id5 (Insula) right,TC,1,0
+pred_0062,"VPL (Thalamus, ventral posterior lateral Nucleus) right",TC,5,0
+pred_0062,Area Op3 (POperc) right,TC,258,4
+pred_0062,Frontal-II (GapMap) right,TC,1509,26
+pred_0062,"Area IFJ1 (IFS, PreCS) right",TC,232,4
+pred_0062,Area 6v2 (PreCG) right,TC,1951,33
+pred_0062,WM/unassigned,WT,15135,256
+pred_0062,Frontal-to-Occipital (GapMap) left,WT,107,2
+pred_0062,Area 3b (PostCG) right,WT,444,8
+pred_0062,Area 1 (PostCG) right,WT,259,4
+pred_0062,Area Te 1.0 (HESCHL) right,WT,14,0
+pred_0062,"LD (Thalamus, lateral dorsal Nucleus) right",WT,49,1
+pred_0062,Area PFt (IPL) right,WT,743,13
+pred_0062,Frontal-to-Occipital (GapMap) right,WT,595,10
+pred_0062,Area 6r1 (PreCG) right,WT,320,5
+pred_0062,Area 6d1 (PreCG) right,WT,1,0
+pred_0062,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,131,2
+pred_0062,Area Fo5 (OFC) right,WT,355,6
+pred_0062,Area Ig2 (Insula) right,WT,92,2
+pred_0062,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,69,1
+pred_0062,Area Id4 (Insula) right,WT,36,1
+pred_0062,Area Op1 (POperc) right,WT,743,13
+pred_0062,"Rt (Thalamus, reticular Nucleus) right",WT,79,1
+pred_0062,Area Id6 (Insula) right,WT,7,0
+pred_0062,Area IFS4 (IFS) right,WT,358,6
+pred_0062,Area 6d3 (SFS) right,WT,322,5
+pred_0062,Area 6v1 (PreCG) right,WT,932,16
+pred_0062,Area 44 (IFG) right,WT,328,6
+pred_0062,Area Fo7 (OFC) right,WT,42,1
+pred_0062,"Area IFJ2 (IFS, PreCS) right",WT,152,3
+pred_0062,Area Op5 (Frontal Operculum) right,WT,140,2
+pred_0062,"MD (Thalamus, mediodorsal Nucleus) right",WT,4,0
+pred_0062,Area 4a (PreCG) right,WT,645,11
+pred_0062,Area MFG2 (MFG) right,WT,62,1
+pred_0062,Area 3a (PostCG) right,WT,26,0
+pred_0062,Area Fo6 (OFC) right,WT,911,15
+pred_0062,Area 8v1 (MFG) right,WT,621,11
+pred_0062,Area Te 1.1 (HESCHL) right,WT,176,3
+pred_0062,"Area MFG5 (MFG, IFG) right",WT,132,2
+pred_0062,"LP (Thalamus, lateral posterior Nucleus) right",WT,18,0
+pred_0062,Area Ig3 (Insula) right,WT,148,3
+pred_0062,Area 6v3 (PreCG) right,WT,600,10
+pred_0062,Area Fo4 (OFC) right,WT,163,3
+pred_0062,Area IFS1 (IFS) right,WT,111,2
+pred_0062,Area Op4 (POperc) right,WT,88,1
+pred_0062,Area IFS3 (IFS) right,WT,42,1
+pred_0062,Area Op2 (POperc) right,WT,414,7
+pred_0062,Area 8v2 (MFG) right,WT,8,0
+pred_0062,Area Ig1 (Insula) right,WT,125,2
+pred_0062,Area PFcm (IPL) right,WT,96,2
+pred_0062,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,193,3
+pred_0062,Area 4p (PreCG) right,WT,199,3
+pred_0062,Area Id2 (Insula) right,WT,10,0
+pred_0062,Frontal-I.1 (GapMap) right,WT,1119,19
+pred_0062,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,20,0
+pred_0062,Area 45 (IFG) right,WT,176,3
+pred_0062,"CL (Thalamus, anterior intralaminar nuclei) right",WT,115,2
+pred_0062,Area Id5 (Insula) right,WT,21,0
+pred_0062,Area 2 (PostCS) right,WT,16,0
+pred_0062,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,44,1
+pred_0062,Area Op3 (POperc) right,WT,213,4
+pred_0062,Frontal-II (GapMap) right,WT,1300,22
+pred_0062,Area IFS2 (IFS) right,WT,90,2
+pred_0062,"AV (Thalamus, anteroventral Nucleus) right",WT,163,3
+pred_0062,"Area IFJ1 (IFS, PreCS) right",WT,82,1
+pred_0062,Area PFop (IPL) right,WT,146,2
+pred_0062,Area 6v2 (PreCG) right,WT,391,7
+pred_0062,WM/unassigned,ET,14220,241
+pred_0062,Area 3b (PostCG) right,ET,602,10
+pred_0062,"LD (Thalamus, lateral dorsal Nucleus) right",ET,1,0
+pred_0062,Area 6r1 (PreCG) right,ET,4,0
+pred_0062,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,165,3
+pred_0062,Area Ig2 (Insula) right,ET,62,1
+pred_0062,"VLP (Thalamus, ventral lateral posterior Nucleus) right",ET,390,7
+pred_0062,Area Id4 (Insula) right,ET,193,3
+pred_0062,"Rt (Thalamus, reticular Nucleus) right",ET,531,9
+pred_0062,Area Id6 (Insula) right,ET,58,1
+pred_0062,Area IFS4 (IFS) right,ET,124,2
+pred_0062,Area 6d3 (SFS) right,ET,169,3
+pred_0062,Area 6v1 (PreCG) right,ET,477,8
+pred_0062,"Area IFJ2 (IFS, PreCS) right",ET,137,2
+pred_0062,Area Op5 (Frontal Operculum) right,ET,140,2
+pred_0062,Area 4a (PreCG) right,ET,581,10
+pred_0062,Area 3a (PostCG) right,ET,322,5
+pred_0062,Area 8v1 (MFG) right,ET,33,1
+pred_0062,"LP (Thalamus, lateral posterior Nucleus) right",ET,7,0
+pred_0062,Area Ig3 (Insula) right,ET,215,4
+pred_0062,Area 6v3 (PreCG) right,ET,289,5
+pred_0062,Area IFS1 (IFS) right,ET,81,1
+pred_0062,Area Op2 (POperc) right,ET,226,4
+pred_0062,Area 8v2 (MFG) right,ET,19,0
+pred_0062,Area Ig1 (Insula) right,ET,35,1
+pred_0062,Area 4p (PreCG) right,ET,296,5
+pred_0062,Area Id2 (Insula) right,ET,13,0
+pred_0062,"VIM (Thalamus, ventral intermediate Nucleus) right",ET,94,2
+pred_0062,"CL (Thalamus, anterior intralaminar nuclei) right",ET,14,0
+pred_0062,Area Id5 (Insula) right,ET,113,2
+pred_0062,"VPL (Thalamus, ventral posterior lateral Nucleus) right",ET,86,1
+pred_0062,Area Op3 (POperc) right,ET,255,4
+pred_0062,Frontal-II (GapMap) right,ET,1027,17
+pred_0062,"VLA (Thalamus, ventral lateral anterior Nucleus) right",ET,2,0
+pred_0062,Area IFS2 (IFS) right,ET,11,0
+pred_0062,"Area IFJ1 (IFS, PreCS) right",ET,87,1
+pred_0062,Area 6v2 (PreCG) right,ET,839,14

@@ -1,0 +1,108 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0033,WM/unassigned,TC,6178,20
+pred_0033,Area PF (IPL) right,TC,670,2
+pred_0033,Area Te 3 (STG) right,TC,278,1
+pred_0033,"Area TPJ (STG, SMG) right",TC,409,1
+pred_0033,Area Op1 (POperc) right,TC,3,0
+pred_0033,Area PGa (IPL) right,TC,960,3
+pred_0033,Area PFm (IPL) right,TC,194,1
+pred_0033,Area Te 1.1 (HESCHL) right,TC,4,0
+pred_0033,Area PGp (IPL) right,TC,56,0
+pred_0033,Area PFcm (IPL) right,TC,44,0
+pred_0033,Temporal-to-Parietal (GapMap) right,TC,6879,22
+pred_0033,Area hOc5 (LOC) right,TC,2,0
+pred_0033,Area Te 2.2 (STG) right,TC,127,0
+pred_0033,WM/unassigned,WT,80294,256
+pred_0033,Area 3b (PostCG) right,WT,1437,5
+pred_0033,Area hOc4la (LOC) right,WT,1369,4
+pred_0033,Area PF (IPL) right,WT,1949,6
+pred_0033,Area 1 (PostCG) right,WT,1405,4
+pred_0033,Area Te 1.0 (HESCHL) right,WT,734,2
+pred_0033,Area STS2 (STS) right,WT,504,2
+pred_0033,Area PFt (IPL) right,WT,2856,9
+pred_0033,Area Te 3 (STG) right,WT,1218,4
+pred_0033,Frontal-to-Occipital (GapMap) right,WT,14,0
+pred_0033,Area 6r1 (PreCG) right,WT,2313,7
+pred_0033,Area 6d1 (PreCG) right,WT,128,0
+pred_0033,Area hIP4 (IPS) right,WT,885,3
+pred_0033,Area Op6 (Frontal Operculum) right,WT,446,1
+pred_0033,Area FG2 (FusG) right,WT,3,0
+pred_0033,Area hIP6 (IPS) right,WT,1116,4
+pred_0033,"Area TPJ (STG, SMG) right",WT,194,1
+pred_0033,Area Ig2 (Insula) right,WT,273,1
+pred_0033,CA2 (Hippocampus) right,WT,59,0
+pred_0033,Area Id4 (Insula) right,WT,212,1
+pred_0033,Area Op1 (POperc) right,WT,1882,6
+pred_0033,Area Id6 (Insula) right,WT,23,0
+pred_0033,Area IFS4 (IFS) right,WT,90,0
+pred_0033,Area 6d3 (SFS) right,WT,113,0
+pred_0033,Area 6v1 (PreCG) right,WT,714,2
+pred_0033,Area hIP2 (IPS) right,WT,627,2
+pred_0033,Area 44 (IFG) right,WT,1559,5
+pred_0033,Area PGa (IPL) right,WT,1842,6
+pred_0033,Area Op8 (Frontal Operculum) right,WT,47,0
+pred_0033,"Area IFJ2 (IFS, PreCS) right",WT,341,1
+pred_0033,Area Op5 (Frontal Operculum) right,WT,1311,4
+pred_0033,Area PFm (IPL) right,WT,2286,7
+pred_0033,Area 4a (PreCG) right,WT,1138,4
+pred_0033,Area Ph1 (PhG) right,WT,651,2
+pred_0033,Area 3a (PostCG) right,WT,657,2
+pred_0033,Area FG4 (FusG) right,WT,192,1
+pred_0033,"Area hOc1 (V1, 17, CalcS) right",WT,137,0
+pred_0033,Area hOc4lp (LOC) right,WT,520,2
+pred_0033,Area Te 1.1 (HESCHL) right,WT,874,3
+pred_0033,Area Ig3 (Insula) right,WT,424,1
+pred_0033,Area 6v3 (PreCG) right,WT,1901,6
+pred_0033,Area Op4 (POperc) right,WT,2462,8
+pred_0033,Area Op2 (POperc) right,WT,675,2
+pred_0033,DG (Hippocampus) right,WT,31,0
+pred_0033,Area PGp (IPL) right,WT,2665,8
+pred_0033,Area Ig1 (Insula) right,WT,245,1
+pred_0033,Area PFcm (IPL) right,WT,1202,4
+pred_0033,Area hIP5 (IPS) right,WT,613,2
+pred_0033,Area FG1 (FusG) right,WT,243,1
+pred_0033,Area hIP3 (IPS) right,WT,2885,9
+pred_0033,Area 4p (PreCG) right,WT,1412,5
+pred_0033,Area Id2 (Insula) right,WT,127,0
+pred_0033,CA1 (Hippocampus) right,WT,137,0
+pred_0033,Area hIP8 (IPS) right,WT,399,1
+pred_0033,Area Op9 (Frontal Operculum) right,WT,6,0
+pred_0033,Temporal-to-Parietal (GapMap) right,WT,5873,19
+pred_0033,Area 45 (IFG) right,WT,308,1
+pred_0033,Area Id1 (Insula) right,WT,5,0
+pred_0033,Area Te 1.2 (HESCHL) right,WT,243,1
+pred_0033,Area Id5 (Insula) right,WT,16,0
+pred_0033,Area hIP1 (IPS) right,WT,1205,4
+pred_0033,Area 2 (PostCS) right,WT,1372,4
+pred_0033,Area Te 2.1 (STG) right,WT,217,1
+pred_0033,Area 7A (SPL) right,WT,152,0
+pred_0033,Area Op3 (POperc) right,WT,719,2
+pred_0033,CA3 (Hippocampus) right,WT,16,0
+pred_0033,Frontal-II (GapMap) right,WT,867,3
+pred_0033,Area STS1 (STS) right,WT,1034,3
+pred_0033,Area FG3 (FusG) right,WT,1,0
+pred_0033,Area hOc5 (LOC) right,WT,267,1
+pred_0033,"Area IFJ1 (IFS, PreCS) right",WT,16,0
+pred_0033,Area hOc4v (LingG) right,WT,18,0
+pred_0033,Area PFop (IPL) right,WT,1050,3
+pred_0033,Area 6v2 (PreCG) right,WT,2638,8
+pred_0033,Area Ph2 (PhG) right,WT,374,1
+pred_0033,Area Te 2.2 (STG) right,WT,963,3
+pred_0033,Area hIP7 (IPS) right,WT,1002,3
+pred_0033,Area 7PC (SPL) right,WT,424,1
+pred_0033,Area TeI (STG) right,WT,300,1
+pred_0033,WM/unassigned,ET,20552,66
+pred_0033,Area hOc4la (LOC) right,ET,5,0
+pred_0033,Area PF (IPL) right,ET,1065,3
+pred_0033,Area STS2 (STS) right,ET,77,0
+pred_0033,Area Te 3 (STG) right,ET,384,1
+pred_0033,"Area TPJ (STG, SMG) right",ET,835,3
+pred_0033,Area Op1 (POperc) right,ET,117,0
+pred_0033,Area PGa (IPL) right,ET,2064,7
+pred_0033,Area PFm (IPL) right,ET,1076,3
+pred_0033,Area Te 1.1 (HESCHL) right,ET,180,1
+pred_0033,Area PGp (IPL) right,ET,739,2
+pred_0033,Area PFcm (IPL) right,ET,1033,3
+pred_0033,Temporal-to-Parietal (GapMap) right,ET,8528,27
+pred_0033,Area hOc5 (LOC) right,ET,280,1
+pred_0033,Area Te 2.2 (STG) right,ET,702,2

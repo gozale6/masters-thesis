@@ -1,0 +1,24 @@
+{
+  "top_regions": {
+    "Temporal-to-Parietal (GapMap) right": {
+      "Percentage_of_Tumor": 27.56,
+      "Percentage_of_Region_Affected": 0.64
+    },
+    "Frontal-to-Occipital (GapMap) right": {
+      "Percentage_of_Tumor": 12.73,
+      "Percentage_of_Region_Affected": 0.59
+    },
+    "Frontal-to-Occipital (GapMap) left": {
+      "Percentage_of_Tumor": 12.09,
+      "Percentage_of_Region_Affected": 0.52
+    },
+    "Area hOc1 (V1, 17, CalcS) right": {
+      "Percentage_of_Tumor": 7.96,
+      "Percentage_of_Region_Affected": 1.04
+    },
+    "VLP (Thalamus, ventral lateral posterior Nucleus) left": {
+      "Percentage_of_Tumor": 3.69,
+      "Percentage_of_Region_Affected": 4.63
+    }
+  }
+}

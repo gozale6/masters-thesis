@@ -1,0 +1,59 @@
+[
+  {
+    "model_key": "scifive-base",
+    "model_name": "razent/SciFive-base-PMC",
+    "metrics": {
+      "rouge1": 0.4519729761485025,
+      "rouge2": 0.20876321723046368,
+      "rougeL": 0.3308242053712804,
+      "bleu": 0.08893946493580578,
+      "format_compliance": 0.0,
+      "per_field_rouge1": {
+        "lesion": 0.5810378099143078,
+        "edema": 0.4553630814811816,
+        "necrosis": 0.4433573282577146,
+        "compression": 0.2868417524934991
+      },
+      "n_samples": 74
+    },
+    "generate_sec": 78.6435136795044
+  },
+  {
+    "model_key": "scifive-large",
+    "model_name": "razent/SciFive-large-Pubmed",
+    "metrics": {
+      "rouge1": 0.4806995285616727,
+      "rouge2": 0.22257491331560622,
+      "rougeL": 0.34081484317970967,
+      "bleu": 0.09826990099256232,
+      "format_compliance": 0.0,
+      "per_field_rouge1": {
+        "lesion": 0.5855497470430252,
+        "edema": 0.48776343033254,
+        "necrosis": 0.43578277695022455,
+        "compression": 0.2853167390792337
+      },
+      "n_samples": 74
+    },
+    "generate_sec": 149.05995559692383
+  },
+  {
+    "model_key": "clinicalt5-hoss",
+    "model_name": "hossboll/clinical-t5",
+    "metrics": {
+      "rouge1": 0.4527523136399657,
+      "rouge2": 0.2272557238831889,
+      "rougeL": 0.34041044214829086,
+      "bleu": 0.0770107896905616,
+      "format_compliance": 0.0,
+      "per_field_rouge1": {
+        "lesion": 0.618901362737666,
+        "edema": 0.4567605321767545,
+        "necrosis": 0.46675123013075515,
+        "compression": 0.3283696906150757
+      },
+      "n_samples": 74
+    },
+    "generate_sec": 40.759864807128906
+  }
+]

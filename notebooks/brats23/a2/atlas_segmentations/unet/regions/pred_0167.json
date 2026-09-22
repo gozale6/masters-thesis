@@ -1,0 +1,24 @@
+{
+  "top_regions": {
+    "Frontal-to-Occipital (GapMap) right": {
+      "Percentage_of_Tumor": 31.02,
+      "Percentage_of_Region_Affected": 2.19
+    },
+    "Frontal-to-Occipital (GapMap) left": {
+      "Percentage_of_Tumor": 23.91,
+      "Percentage_of_Region_Affected": 1.55
+    },
+    "Area hOc1 (V1, 17, CalcS) right": {
+      "Percentage_of_Tumor": 6.52,
+      "Percentage_of_Region_Affected": 1.3
+    },
+    "Temporal-to-Parietal (GapMap) right": {
+      "Percentage_of_Tumor": 3.43,
+      "Percentage_of_Region_Affected": 0.12
+    },
+    "Area hOc2 (V2, 18) right": {
+      "Percentage_of_Tumor": 3.39,
+      "Percentage_of_Region_Affected": 0.88
+    }
+  }
+}

@@ -1,0 +1,13 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_204,WM/unassigned,TC,378,14,82.2,0.0,False
+BraTS20_Training_204,Area STS2 (STS) right,TC,30,1,6.5,0.5,True
+BraTS20_Training_204,Temporal-to-Parietal (GapMap) right,TC,52,2,11.3,0.1,True
+BraTS20_Training_204,WM/unassigned,WT,6562,239,67.3,0.1,False
+BraTS20_Training_204,Area STS2 (STS) right,WT,1466,53,15.0,22.3,True
+BraTS20_Training_204,Area Te 3 (STG) right,WT,342,12,3.5,7.9,True
+BraTS20_Training_204,Temporal-to-Parietal (GapMap) right,WT,1057,39,10.8,1.6,True
+BraTS20_Training_204,Area STS1 (STS) right,WT,330,12,3.4,9.9,True
+BraTS20_Training_204,WM/unassigned,ET,7023,256,79.3,0.1,False
+BraTS20_Training_204,Area STS2 (STS) right,ET,883,32,10.0,13.4,True
+BraTS20_Training_204,Area Te 3 (STG) right,ET,73,3,0.8,1.7,True
+BraTS20_Training_204,Temporal-to-Parietal (GapMap) right,ET,879,32,9.9,1.3,True

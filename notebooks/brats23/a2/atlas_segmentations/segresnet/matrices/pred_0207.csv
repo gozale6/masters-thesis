@@ -1,0 +1,83 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0207,WM/unassigned,TC,10618,177
+pred_0207,Area p24ab (pACC) left,TC,36,1
+pred_0207,Frontal-to-Occipital (GapMap) left,TC,350,6
+pred_0207,"BST (Basal Forebrain, Bed Nucleus) left",TC,1,0
+pred_0207,Area p32 (pACC) left,TC,16,0
+pred_0207,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,3,0
+pred_0207,Frontal-I.2 (GapMap) left,TC,1,0
+pred_0207,Area 33 (ACC) left,TC,274,5
+pred_0207,Area p24ab (pACC) right,TC,56,1
+pred_0207,Frontal-to-Occipital (GapMap) right,TC,133,2
+pred_0207,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,4,0
+pred_0207,"BST (Basal Forebrain, Bed Nucleus) right",TC,29,0
+pred_0207,"AM (Thalamus, anteromedial Nucleus) right",TC,3,0
+pred_0207,"Pv (Thalamus, paraventricular Nucleus) right",TC,1,0
+pred_0207,Area p32 (pACC) right,TC,23,0
+pred_0207,"AcbM (Ventral Striatum, Medial Accumbens) right",TC,1,0
+pred_0207,Area p24c (pACC) right,TC,2,0
+pred_0207,Frontal-I.2 (GapMap) right,TC,6,0
+pred_0207,Area 33 (ACC) right,TC,438,7
+pred_0207,"AV (Thalamus, anteroventral Nucleus) right",TC,1,0
+pred_0207,WM/unassigned,WT,5766,96
+pred_0207,Area p24ab (pACC) left,WT,245,4
+pred_0207,Frontal-to-Occipital (GapMap) left,WT,1213,20
+pred_0207,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,4,0
+pred_0207,"BST (Basal Forebrain, Bed Nucleus) left",WT,9,0
+pred_0207,Area 25 (sACC) left,WT,1,0
+pred_0207,Area p32 (pACC) left,WT,424,7
+pred_0207,Area SFG2 (SFG) left,WT,149,2
+pred_0207,Area p24c (pACC) left,WT,116,2
+pred_0207,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,8,0
+pred_0207,Frontal-I.2 (GapMap) left,WT,669,11
+pred_0207,Area 33 (ACC) left,WT,15,0
+pred_0207,Ch 123 (Basal Forebrain) left,WT,2,0
+pred_0207,Area s24 (sACC) left,WT,1,0
+pred_0207,Area p24ab (pACC) right,WT,175,3
+pred_0207,Frontal-to-Occipital (GapMap) right,WT,1282,21
+pred_0207,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,99,2
+pred_0207,"BST (Basal Forebrain, Bed Nucleus) right",WT,7,0
+pred_0207,"AM (Thalamus, anteromedial Nucleus) right",WT,20,0
+pred_0207,"Pv (Thalamus, paraventricular Nucleus) right",WT,29,0
+pred_0207,Area 25 (sACC) right,WT,7,0
+pred_0207,Area p32 (pACC) right,WT,803,13
+pred_0207,Area SFG2 (SFG) right,WT,728,12
+pred_0207,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,10,0
+pred_0207,Area p24c (pACC) right,WT,384,6
+pred_0207,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,90,1
+pred_0207,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,1,0
+pred_0207,Frontal-I.2 (GapMap) right,WT,1677,28
+pred_0207,Area 33 (ACC) right,WT,88,1
+pred_0207,Ch 123 (Basal Forebrain) right,WT,1,0
+pred_0207,"AV (Thalamus, anteroventral Nucleus) right",WT,13,0
+pred_0207,VP (Ventral Pallidum) right,WT,5,0
+pred_0207,WM/unassigned,ET,15382,256
+pred_0207,Area p24ab (pACC) left,ET,326,5
+pred_0207,Frontal-to-Occipital (GapMap) left,ET,1392,23
+pred_0207,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",ET,15,0
+pred_0207,"BST (Basal Forebrain, Bed Nucleus) left",ET,4,0
+pred_0207,"AM (Thalamus, anteromedial Nucleus) left",ET,21,0
+pred_0207,Area 25 (sACC) left,ET,4,0
+pred_0207,Area p32 (pACC) left,ET,317,5
+pred_0207,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,113,2
+pred_0207,Frontal-I.2 (GapMap) left,ET,47,1
+pred_0207,Area 33 (ACC) left,ET,128,2
+pred_0207,Ch 123 (Basal Forebrain) left,ET,4,0
+pred_0207,Area s24 (sACC) left,ET,1,0
+pred_0207,Area p24ab (pACC) right,ET,477,8
+pred_0207,Frontal-to-Occipital (GapMap) right,ET,1475,25
+pred_0207,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,92,2
+pred_0207,"BST (Basal Forebrain, Bed Nucleus) right",ET,127,2
+pred_0207,"AM (Thalamus, anteromedial Nucleus) right",ET,48,1
+pred_0207,"Pv (Thalamus, paraventricular Nucleus) right",ET,9,0
+pred_0207,Area 25 (sACC) right,ET,42,1
+pred_0207,Area p32 (pACC) right,ET,414,7
+pred_0207,"AcbM (Ventral Striatum, Medial Accumbens) right",ET,40,1
+pred_0207,Area p24c (pACC) right,ET,44,1
+pred_0207,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,46,1
+pred_0207,Frontal-I.2 (GapMap) right,ET,641,11
+pred_0207,Area 33 (ACC) right,ET,1000,17
+pred_0207,Ch 123 (Basal Forebrain) right,ET,39,1
+pred_0207,"AV (Thalamus, anteroventral Nucleus) right",ET,27,0
+pred_0207,VP (Ventral Pallidum) right,ET,1,0
+pred_0207,Area s24 (sACC) right,ET,1,0

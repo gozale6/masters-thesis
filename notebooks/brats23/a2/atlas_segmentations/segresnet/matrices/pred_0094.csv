@@ -1,0 +1,97 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0094,WM/unassigned,TC,16787,182
+pred_0094,"LD (Thalamus, lateral dorsal Nucleus) left",TC,123,1
+pred_0094,"PUm (Thalamus, medial pulvinar) left",TC,94,1
+pred_0094,Frontal-to-Occipital (GapMap) left,TC,2077,23
+pred_0094,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,259,3
+pred_0094,"Rt (Thalamus, reticular Nucleus) left",TC,214,2
+pred_0094,"PUa (Thalamus, anterior pulvinar) left",TC,20,0
+pred_0094,"MD (Thalamus, mediodorsal Nucleus) left",TC,16,0
+pred_0094,"PUl (Thalamus, lateral pulvinar) left",TC,78,1
+pred_0094,Area Ph1 (PhG) left,TC,2,0
+pred_0094,Area Ph3 (PhG) left,TC,10,0
+pred_0094,Area Te 1.1 (HESCHL) left,TC,22,0
+pred_0094,"LP (Thalamus, lateral posterior Nucleus) left",TC,311,3
+pred_0094,Area Op2 (POperc) left,TC,14,0
+pred_0094,Area Ig1 (Insula) left,TC,3,0
+pred_0094,Area PFcm (IPL) left,TC,1,0
+pred_0094,"CL (Thalamus, anterior intralaminar nuclei) left",TC,19,0
+pred_0094,Frontal-to-Temporal-II (GapMap) left,TC,10,0
+pred_0094,"VPL (Thalamus, ventral posterior lateral Nucleus) left",TC,46,0
+pred_0094,"Subc (Hippocampus, Subicular complex) left",TC,30,0
+pred_0094,"TrS (Hippocampus, Transsubiculum) left",TC,25,0
+pred_0094,Area Ph2 (PhG) left,TC,20,0
+pred_0094,Area Te 2.2 (STG) left,TC,1,0
+pred_0094,Frontal-to-Occipital (GapMap) right,TC,1520,16
+pred_0094,WM/unassigned,WT,16797,182
+pred_0094,"PUm (Thalamus, medial pulvinar) left",WT,56,1
+pred_0094,"PUi (Thalamus, inferior pulvinar) left",WT,2,0
+pred_0094,Frontal-to-Occipital (GapMap) left,WT,5783,63
+pred_0094,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,3,0
+pred_0094,Area hOc6 (POS) left,WT,111,1
+pred_0094,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,277,3
+pred_0094,"Rt (Thalamus, reticular Nucleus) left",WT,126,1
+pred_0094,"PUa (Thalamus, anterior pulvinar) left",WT,5,0
+pred_0094,"MD (Thalamus, mediodorsal Nucleus) left",WT,201,2
+pred_0094,"PUl (Thalamus, lateral pulvinar) left",WT,8,0
+pred_0094,Area Ph1 (PhG) left,WT,4,0
+pred_0094,"Area hOc1 (V1, 17, CalcS) left",WT,306,3
+pred_0094,Area Ph3 (PhG) left,WT,17,0
+pred_0094,Area Te 1.1 (HESCHL) left,WT,2,0
+pred_0094,Area Op2 (POperc) left,WT,76,1
+pred_0094,Area Ig1 (Insula) left,WT,8,0
+pred_0094,Area PFcm (IPL) left,WT,2,0
+pred_0094,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,30,0
+pred_0094,"CL (Thalamus, anterior intralaminar nuclei) left",WT,154,2
+pred_0094,Area 5Ci (SPL) left,WT,386,4
+pred_0094,Frontal-to-Temporal-II (GapMap) left,WT,4,0
+pred_0094,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,46,0
+pred_0094,"Subc (Hippocampus, Subicular complex) left",WT,81,1
+pred_0094,"TrS (Hippocampus, Transsubiculum) left",WT,7,0
+pred_0094,"AV (Thalamus, anteroventral Nucleus) left",WT,135,1
+pred_0094,Area Ph2 (PhG) left,WT,8,0
+pred_0094,"LD (Thalamus, lateral dorsal Nucleus) right",WT,9,0
+pred_0094,Frontal-to-Occipital (GapMap) right,WT,2462,27
+pred_0094,Area 5M (SPL) right,WT,59,1
+pred_0094,"Area hOc1 (V1, 17, CalcS) right",WT,1,0
+pred_0094,Area Te 1.1 (HESCHL) right,WT,5,0
+pred_0094,Area PFcm (IPL) right,WT,9,0
+pred_0094,Area hIP3 (IPS) right,WT,1,0
+pred_0094,Area hIP8 (IPS) right,WT,10,0
+pred_0094,Temporal-to-Parietal (GapMap) right,WT,1,0
+pred_0094,Area 5Ci (SPL) right,WT,209,2
+pred_0094,Area hIP1 (IPS) right,WT,6,0
+pred_0094,WM/unassigned,ET,23595,256
+pred_0094,"LD (Thalamus, lateral dorsal Nucleus) left",ET,74,1
+pred_0094,"PUm (Thalamus, medial pulvinar) left",ET,441,5
+pred_0094,"PUi (Thalamus, inferior pulvinar) left",ET,9,0
+pred_0094,Frontal-to-Occipital (GapMap) left,ET,5262,57
+pred_0094,"VLP (Thalamus, ventral lateral posterior Nucleus) left",ET,399,4
+pred_0094,"Rt (Thalamus, reticular Nucleus) left",ET,400,4
+pred_0094,"PUa (Thalamus, anterior pulvinar) left",ET,42,0
+pred_0094,"MD (Thalamus, mediodorsal Nucleus) left",ET,77,1
+pred_0094,"PUl (Thalamus, lateral pulvinar) left",ET,411,4
+pred_0094,Area Ph1 (PhG) left,ET,141,2
+pred_0094,"Area hOc1 (V1, 17, CalcS) left",ET,54,1
+pred_0094,Area Ph3 (PhG) left,ET,109,1
+pred_0094,Area Te 1.1 (HESCHL) left,ET,278,3
+pred_0094,"LP (Thalamus, lateral posterior Nucleus) left",ET,162,2
+pred_0094,Area Op2 (POperc) left,ET,222,2
+pred_0094,Area Ig1 (Insula) left,ET,86,1
+pred_0094,Area PFcm (IPL) left,ET,14,0
+pred_0094,"CL (Thalamus, anterior intralaminar nuclei) left",ET,278,3
+pred_0094,Frontal-to-Temporal-II (GapMap) left,ET,53,1
+pred_0094,"VPL (Thalamus, ventral posterior lateral Nucleus) left",ET,199,2
+pred_0094,"Subc (Hippocampus, Subicular complex) left",ET,497,5
+pred_0094,"TrS (Hippocampus, Transsubiculum) left",ET,162,2
+pred_0094,Area FG3 (FusG) left,ET,5,0
+pred_0094,"AV (Thalamus, anteroventral Nucleus) left",ET,22,0
+pred_0094,Area Ph2 (PhG) left,ET,128,1
+pred_0094,Area Te 2.2 (STG) left,ET,26,0
+pred_0094,"LD (Thalamus, lateral dorsal Nucleus) right",ET,6,0
+pred_0094,Frontal-to-Occipital (GapMap) right,ET,4026,44
+pred_0094,"Area hOc1 (V1, 17, CalcS) right",ET,9,0
+pred_0094,Area Te 1.1 (HESCHL) right,ET,2,0
+pred_0094,Area PFcm (IPL) right,ET,1,0
+pred_0094,Temporal-to-Parietal (GapMap) right,ET,7,0
+pred_0094,Area 5Ci (SPL) right,ET,63,1

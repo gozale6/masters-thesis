@@ -1,0 +1,123 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0119,WM/unassigned,TC,4808,16
+pred_0119,Frontal-to-Occipital (GapMap) left,TC,2031,7
+pred_0119,Area hOc6 (POS) left,TC,32,0
+pred_0119,Area Fo7 (OFC) left,TC,10,0
+pred_0119,"Area hOc1 (V1, 17, CalcS) left",TC,1826,6
+pred_0119,Area Ph3 (PhG) left,TC,4,0
+pred_0119,Area Fo3 (OFC) left,TC,34,0
+pred_0119,"Area hOc2 (V2, 18) left",TC,115,0
+pred_0119,Area hOc3v (LingG) left,TC,41,0
+pred_0119,Frontal-to-Temporal-I (GapMap) left,TC,7,0
+pred_0119,Area hOc3d (Cuneus) left,TC,15,0
+pred_0119,"Subc (Hippocampus, Subicular complex) left",TC,2,0
+pred_0119,Frontal-to-Occipital (GapMap) right,TC,2221,7
+pred_0119,Area hOc6 (POS) right,TC,17,0
+pred_0119,"Area hOc1 (V1, 17, CalcS) right",TC,2867,9
+pred_0119,Area Ph3 (PhG) right,TC,10,0
+pred_0119,"Area hOc2 (V2, 18) right",TC,948,3
+pred_0119,Area hOc4d (Cuneus) right,TC,11,0
+pred_0119,Area hOc3v (LingG) right,TC,23,0
+pred_0119,Temporal-to-Parietal (GapMap) right,TC,410,1
+pred_0119,Area hOc3d (Cuneus) right,TC,105,0
+pred_0119,"TrS (Hippocampus, Transsubiculum) right",TC,3,0
+pred_0119,WM/unassigned,WT,77332,256
+pred_0119,Area Id8 (Insula) left,WT,9,0
+pred_0119,"LD (Thalamus, lateral dorsal Nucleus) left",WT,131,0
+pred_0119,Area p24ab (pACC) left,WT,5,0
+pred_0119,"PUm (Thalamus, medial pulvinar) left",WT,433,1
+pred_0119,Frontal-to-Occipital (GapMap) left,WT,13019,43
+pred_0119,Area 7P (SPL) left,WT,8,0
+pred_0119,Area hOc6 (POS) left,WT,130,0
+pred_0119,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,47,0
+pred_0119,"Li (Thalamus, limitans Nucleus) left",WT,151,0
+pred_0119,"Rt (Thalamus, reticular Nucleus) left",WT,3,0
+pred_0119,Area Fo7 (OFC) left,WT,165,1
+pred_0119,Area 7M (SPL) left,WT,89,0
+pred_0119,"MD (Thalamus, mediodorsal Nucleus) left",WT,78,0
+pred_0119,"Pf (Thalamus, parafascicular Nucleus) left",WT,28,0
+pred_0119,"PUl (Thalamus, lateral pulvinar) left",WT,116,0
+pred_0119,Area Ph1 (PhG) left,WT,158,1
+pred_0119,Area Id7 (Insula) left,WT,17,0
+pred_0119,Area p32 (pACC) left,WT,2,0
+pred_0119,"Area hOc1 (V1, 17, CalcS) left",WT,1459,5
+pred_0119,Area Ph3 (PhG) left,WT,342,1
+pred_0119,Area Fo3 (OFC) left,WT,236,1
+pred_0119,"Area hOc2 (V2, 18) left",WT,886,3
+pred_0119,"LP (Thalamus, lateral posterior Nucleus) left",WT,201,1
+pred_0119,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,2,0
+pred_0119,Area Fo4 (OFC) left,WT,61,0
+pred_0119,Area hPO1 (POS) left,WT,230,1
+pred_0119,Area Id10 (Insula) left,WT,2,0
+pred_0119,Area hOc3v (LingG) left,WT,940,3
+pred_0119,"CM (Thalamus, centromedian Nucleus) left",WT,12,0
+pred_0119,Frontal-to-Temporal-I (GapMap) left,WT,132,0
+pred_0119,"CL (Thalamus, anterior intralaminar nuclei) left",WT,53,0
+pred_0119,Area 5Ci (SPL) left,WT,458,2
+pred_0119,Frontal-to-Temporal-II (GapMap) left,WT,8,0
+pred_0119,Area hOc3d (Cuneus) left,WT,784,3
+pred_0119,"Sg (Thalamus, suprageniculate Nucleus) left",WT,9,0
+pred_0119,"Subc (Hippocampus, Subicular complex) left",WT,397,1
+pred_0119,"TrS (Hippocampus, Transsubiculum) left",WT,230,1
+pred_0119,Area s32 (sACC) left,WT,13,0
+pred_0119,Area Ph2 (PhG) left,WT,52,0
+pred_0119,"LD (Thalamus, lateral dorsal Nucleus) right",WT,151,0
+pred_0119,"PUm (Thalamus, medial pulvinar) right",WT,346,1
+pred_0119,Frontal-to-Occipital (GapMap) right,WT,13376,44
+pred_0119,Area 7P (SPL) right,WT,18,0
+pred_0119,Area hIP6 (IPS) right,WT,28,0
+pred_0119,Area hOc6 (POS) right,WT,299,1
+pred_0119,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,97,0
+pred_0119,"Li (Thalamus, limitans Nucleus) right",WT,61,0
+pred_0119,"PUa (Thalamus, anterior pulvinar) right",WT,34,0
+pred_0119,Area 7M (SPL) right,WT,246,1
+pred_0119,"MD (Thalamus, mediodorsal Nucleus) right",WT,259,1
+pred_0119,"PUl (Thalamus, lateral pulvinar) right",WT,6,0
+pred_0119,Area Ph1 (PhG) right,WT,1137,4
+pred_0119,"Area hOc1 (V1, 17, CalcS) right",WT,3145,10
+pred_0119,Area Ph3 (PhG) right,WT,732,2
+pred_0119,Area hOc4lp (LOC) right,WT,8,0
+pred_0119,"Area hOc2 (V2, 18) right",WT,3718,12
+pred_0119,"LP (Thalamus, lateral posterior Nucleus) right",WT,176,1
+pred_0119,Area hOc4d (Cuneus) right,WT,1497,5
+pred_0119,Area hPO1 (POS) right,WT,734,2
+pred_0119,Area hOc3v (LingG) right,WT,1704,6
+pred_0119,Area hIP5 (IPS) right,WT,83,0
+pred_0119,Area FG1 (FusG) right,WT,473,2
+pred_0119,Area hIP8 (IPS) right,WT,613,2
+pred_0119,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,1,0
+pred_0119,Temporal-to-Parietal (GapMap) right,WT,915,3
+pred_0119,"CL (Thalamus, anterior intralaminar nuclei) right",WT,155,1
+pred_0119,Area 5Ci (SPL) right,WT,152,1
+pred_0119,Area hOc3d (Cuneus) right,WT,2741,9
+pred_0119,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,2,0
+pred_0119,"Subc (Hippocampus, Subicular complex) right",WT,133,0
+pred_0119,"TrS (Hippocampus, Transsubiculum) right",WT,164,1
+pred_0119,Area FG3 (FusG) right,WT,15,0
+pred_0119,Area hOc4v (LingG) right,WT,629,2
+pred_0119,Area hIP7 (IPS) right,WT,820,3
+pred_0119,WM/unassigned,ET,12210,40
+pred_0119,Frontal-to-Occipital (GapMap) left,ET,4103,14
+pred_0119,Area hOc6 (POS) left,ET,60,0
+pred_0119,Area Fo7 (OFC) left,ET,134,0
+pred_0119,"Area hOc1 (V1, 17, CalcS) left",ET,2609,9
+pred_0119,Area Ph3 (PhG) left,ET,2,0
+pred_0119,Area Fo3 (OFC) left,ET,130,0
+pred_0119,"Area hOc2 (V2, 18) left",ET,381,1
+pred_0119,Area Id10 (Insula) left,ET,2,0
+pred_0119,Area hOc3v (LingG) left,ET,140,0
+pred_0119,Frontal-to-Temporal-I (GapMap) left,ET,166,1
+pred_0119,Area hOc3d (Cuneus) left,ET,41,0
+pred_0119,"Subc (Hippocampus, Subicular complex) left",ET,9,0
+pred_0119,"LD (Thalamus, lateral dorsal Nucleus) right",ET,1,0
+pred_0119,Frontal-to-Occipital (GapMap) right,ET,3645,12
+pred_0119,Area hOc6 (POS) right,ET,71,0
+pred_0119,"Area hOc1 (V1, 17, CalcS) right",ET,2934,10
+pred_0119,Area Ph3 (PhG) right,ET,36,0
+pred_0119,"Area hOc2 (V2, 18) right",ET,1461,5
+pred_0119,Area hOc4d (Cuneus) right,ET,4,0
+pred_0119,Area hOc3v (LingG) right,ET,199,1
+pred_0119,Temporal-to-Parietal (GapMap) right,ET,1662,6
+pred_0119,Area hOc3d (Cuneus) right,ET,117,0
+pred_0119,"Subc (Hippocampus, Subicular complex) right",ET,65,0
+pred_0119,"TrS (Hippocampus, Transsubiculum) right",ET,10,0

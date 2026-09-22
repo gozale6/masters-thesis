@@ -1,0 +1,31 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_041,WM/unassigned,TC,18768,138,97.9,0.2,False
+BraTS20_Training_041,Area hOc4la (LOC) right,TC,126,1,0.7,3.2,True
+BraTS20_Training_041,Area FG2 (FusG) right,TC,22,0,0.1,1.8,True
+BraTS20_Training_041,Area hOc4lp (LOC) right,TC,16,0,0.1,0.4,True
+BraTS20_Training_041,Area hOc3v (LingG) right,TC,22,0,0.1,0.6,True
+BraTS20_Training_041,Area hOc4v (LingG) right,TC,215,2,1.1,6.2,True
+BraTS20_Training_041,WM/unassigned,WT,34935,256,52.1,0.5,False
+BraTS20_Training_041,Area hOc4la (LOC) right,WT,3006,22,4.5,75.7,True
+BraTS20_Training_041,Area STS2 (STS) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_041,Area hIP4 (IPS) right,WT,99,1,0.1,9.3,False
+BraTS20_Training_041,Area FG2 (FusG) right,WT,865,6,1.3,70.8,False
+BraTS20_Training_041,Area PGa (IPL) right,WT,1195,9,1.8,18.7,True
+BraTS20_Training_041,Area PFm (IPL) right,WT,18,0,0.0,0.3,False
+BraTS20_Training_041,Area FG4 (FusG) right,WT,307,2,0.5,6.8,False
+BraTS20_Training_041,Area hOc4lp (LOC) right,WT,1668,12,2.5,44.2,True
+BraTS20_Training_041,Area hOc4d (Cuneus) right,WT,35,0,0.1,1.6,False
+BraTS20_Training_041,Area PGp (IPL) right,WT,2014,15,3.0,32.0,True
+BraTS20_Training_041,Area hOc3v (LingG) right,WT,3,0,0.0,0.1,False
+BraTS20_Training_041,Area FG1 (FusG) right,WT,535,4,0.8,35.9,False
+BraTS20_Training_041,Temporal-to-Parietal (GapMap) right,WT,21145,155,31.5,31.4,True
+BraTS20_Training_041,Area hOc3d (Cuneus) right,WT,7,0,0.0,0.2,False
+BraTS20_Training_041,Area hOc5 (LOC) right,WT,353,3,0.5,64.3,False
+BraTS20_Training_041,Area hOc4v (LingG) right,WT,903,7,1.3,26.1,False
+BraTS20_Training_041,WM/unassigned,ET,13546,99,89.4,0.2,False
+BraTS20_Training_041,Area hOc4la (LOC) right,ET,537,4,3.5,13.5,True
+BraTS20_Training_041,Area FG2 (FusG) right,ET,294,2,1.9,24.1,True
+BraTS20_Training_041,Area hOc4lp (LOC) right,ET,38,0,0.3,1.0,False
+BraTS20_Training_041,Area hOc3v (LingG) right,ET,60,0,0.4,1.6,True
+BraTS20_Training_041,Temporal-to-Parietal (GapMap) right,ET,92,1,0.6,0.1,True
+BraTS20_Training_041,Area hOc4v (LingG) right,ET,591,4,3.9,17.1,True

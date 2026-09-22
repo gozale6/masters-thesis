@@ -1,0 +1,28 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_141,WM/unassigned,TC,446,16
+BraTS20_Training_141,Area PF (IPL) right,TC,215,8
+BraTS20_Training_141,Area PFt (IPL) right,TC,70,3
+BraTS20_Training_141,Area PFcm (IPL) right,TC,399,15
+BraTS20_Training_141,Area PFop (IPL) right,TC,50,2
+BraTS20_Training_141,WM/unassigned,WT,7009,256
+BraTS20_Training_141,Area 3b (PostCG) right,WT,131,5
+BraTS20_Training_141,Area PF (IPL) right,WT,2951,108
+BraTS20_Training_141,Area 1 (PostCG) right,WT,588,21
+BraTS20_Training_141,Area PFt (IPL) right,WT,2958,108
+BraTS20_Training_141,"Area TPJ (STG, SMG) right",WT,152,6
+BraTS20_Training_141,Area Op1 (POperc) right,WT,641,23
+BraTS20_Training_141,Area hIP2 (IPS) right,WT,4,0
+BraTS20_Training_141,Area PFm (IPL) right,WT,1629,59
+BraTS20_Training_141,Area Op4 (POperc) right,WT,148,5
+BraTS20_Training_141,Area PFcm (IPL) right,WT,955,35
+BraTS20_Training_141,Area hIP3 (IPS) right,WT,10,0
+BraTS20_Training_141,Temporal-to-Parietal (GapMap) right,WT,103,4
+BraTS20_Training_141,Area 2 (PostCS) right,WT,486,18
+BraTS20_Training_141,Area PFop (IPL) right,WT,1125,41
+BraTS20_Training_141,Area Te 2.2 (STG) right,WT,6,0
+BraTS20_Training_141,WM/unassigned,ET,170,6
+BraTS20_Training_141,Area PF (IPL) right,ET,431,16
+BraTS20_Training_141,Area PFt (IPL) right,ET,12,0
+BraTS20_Training_141,Area Op1 (POperc) right,ET,4,0
+BraTS20_Training_141,Area PFcm (IPL) right,ET,128,5
+BraTS20_Training_141,Area PFop (IPL) right,ET,87,3

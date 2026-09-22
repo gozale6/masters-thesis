@@ -1,0 +1,877 @@
+2026-06-03 22:52:37,559  INFO  ======================================================================
+2026-06-03 22:52:37,559  INFO  Field-wise multi-model evaluation (v2)
+2026-06-03 22:52:37,559  INFO  ======================================================================
+2026-06-03 22:52:37,559  INFO    checkpoint_root : checkpoints_multi_v2
+2026-06-03 22:52:37,559  INFO    csv             : atlas_segmentations/ground_truth/all_cases.csv
+2026-06-03 22:52:37,559  INFO    text_dir        : ../TextBraTSData
+2026-06-03 22:52:37,559  INFO    output_dir      : eval_multi_results_v2
+2026-06-03 22:52:37,559  INFO    min_fields      : 2
+2026-06-03 22:52:37,559  INFO    seed            : 42
+2026-06-03 22:52:37,559  INFO  ======================================================================
+2026-06-03 22:52:37,559  INFO  Loading CSV: atlas_segmentations/ground_truth/all_cases.csv
+2026-06-03 22:52:38,722  INFO    Usable cases (>= 2 fields): 368
+2026-06-03 22:52:38,722  INFO  Found checkpoints: ['scifive-base', 'scifive-base-aug', 'clinicalt5-hoss', 'clinicalt5-hoss-aug', 'scifive-large', 'scifive-large-aug']
+2026-06-03 22:52:38,722  INFO  
+######################################################################
+2026-06-03 22:52:38,723  INFO  # Evaluating: scifive-base  (razent/SciFive-base-PMC)  augment=False
+2026-06-03 22:52:38,723  INFO  ######################################################################
+2026-06-03 22:52:38,723  INFO  Val cases: 74
+2026-06-03 22:52:38,798  INFO  Loading base model: razent/SciFive-base-PMC
+2026-06-03 22:52:39,056  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:52:39,167  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:52:39,263  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:52:39,263  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-03 22:52:39,421  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:52:39,652  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:52:39,744  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:52:39,777  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:52:39,778  INFO  Applying LoRA from checkpoints_multi_v2/scifive-base
+2026-06-03 22:53:44,783  INFO    Generated 74 reports in 63.5s (0.86s/sample — note: 4 generations/report)
+2026-06-03 22:53:44,783  INFO  
+Computing metrics …
+2026-06-03 22:53:44,783  INFO    → ROUGE
+2026-06-03 22:53:44,908  INFO  Using default tokenizer.
+2026-06-03 22:53:45,003  INFO    → BLEU 1-4
+2026-06-03 22:53:45,035  INFO    → METEOR
+2026-06-03 22:53:46,377  INFO    → CIDEr
+2026-06-03 22:53:46,410  INFO    → chrF / chrF++
+2026-06-03 22:53:46,497  INFO    → BERTScore
+2026-06-03 22:53:47,013  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:47,093  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:47,171  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:47,248  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:47,323  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:47,405  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:53:47,567  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:47,646  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:48,759  INFO    → Lexical diversity
+2026-06-03 22:53:48,760  INFO    → Readability (FRES)
+2026-06-03 22:53:49,072  INFO    → Coherence + Coverage
+2026-06-03 22:53:49,160  INFO    Loading sentence-transformer (all-MiniLM-L6-v2) …
+2026-06-03 22:53:49,284  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:49,321  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:49,402  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:49,439  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:49,440  INFO  Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-03 22:53:49,525  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:49,559  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:49,638  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:49,676  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 22:53:49,713  INFO  HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 22:53:49,801  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:49,834  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:49,912  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:49,950  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:50,025  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:50,105  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:50,142  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:50,222  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:50,256  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:50,333  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-06-03 22:53:50,448  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:50,525  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:50,604  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:50,682  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:50,758  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:50,792  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:50,918  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:50,950  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:51,123  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:51,200  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:51,276  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:51,310  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:51,452  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:51,542  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:53:51,619  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:51,716  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt "HTTP/1.1 200 OK"
+2026-06-03 22:53:51,790  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:51,824  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:52,023  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:52,150  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:52,189  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:52,266  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:52,391  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:52,424  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:52,522  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-03 22:53:53,410  INFO    → Per-field ROUGE-1
+2026-06-03 22:53:53,410  INFO  Using default tokenizer.
+2026-06-03 22:53:53,463  INFO    → Format compliance
+2026-06-03 22:53:53,464  INFO    → Hemisphere accuracy
+2026-06-03 22:53:53,464  INFO    → Lobe Jaccard
+2026-06-03 22:53:53,470  INFO    → Lobe Jaccard (lesion)
+2026-06-03 22:53:53,471  INFO    → Field collapse
+2026-06-03 22:53:53,471  INFO    → Length stats
+2026-06-03 22:53:53,472  INFO    → Repetition rate
+2026-06-03 22:53:53,473  INFO  
+[scifive-base] METRICS
+2026-06-03 22:53:53,473  INFO    ── n-gram overlap ──
+2026-06-03 22:53:53,473  INFO      ROUGE-1 / 2 / L  : 0.4954 / 0.2236 / 0.4052
+2026-06-03 22:53:53,473  INFO      BLEU 1 / 2 / 3 / 4 : 0.4624 / 0.3032 / 0.2131 / 0.1580
+2026-06-03 22:53:53,473  INFO      METEOR           : 0.3372
+2026-06-03 22:53:53,473  INFO      CIDEr            : 0.0630
+2026-06-03 22:53:53,473  INFO      chrF / chrF++    : 0.4234 / 0.4002
+2026-06-03 22:53:53,473  INFO    ── semantic similarity ──
+2026-06-03 22:53:53,473  INFO      BERTScore P/R/F1 : 0.8847 / 0.8710 / 0.8778
+2026-06-03 22:53:53,473  INFO    ── intrinsic text quality ──
+2026-06-03 22:53:53,473  INFO      TTR / Maas'      : 0.2756 / 0.0644
+2026-06-03 22:53:53,473  INFO      FRES             : -37.31
+2026-06-03 22:53:53,473  INFO      CohS / ECS / TCS : 0.7572 / 0.2184 / 0.0462
+2026-06-03 22:53:53,473  INFO    ── task-specific ──
+2026-06-03 22:53:53,473  INFO      Per-field ROUGE-1: lesion 0.6726  edema 0.3793  necrosis 0.4310  compression 0.2156
+2026-06-03 22:53:53,473  INFO      Format compliance: 100.0%
+2026-06-03 22:53:53,473  INFO      Hemisphere acc   : 91.9%  (lesion field)
+2026-06-03 22:53:53,473  INFO      Lobe Jaccard     : 0.6047  | lesion-only 0.5599
+2026-06-03 22:53:53,473  INFO    ── field conditioning (NEW) ──
+2026-06-03 22:53:53,473  INFO      Field collapse   : 71.6%  (all 4 fields identical — HIGH IS BAD)
+2026-06-03 22:53:53,473  INFO      Distinct ratio   : 0.3716  (1.0 = all fields differ)
+2026-06-03 22:53:53,473  INFO    ── length / fluency ──
+2026-06-03 22:53:53,473  INFO      Avg pred / ref   : 88.3 / 90.1
+2026-06-03 22:53:53,473  INFO      Length ratio     : 0.98
+2026-06-03 22:53:53,473  INFO      Empty rate       : 0.0%
+2026-06-03 22:53:53,473  INFO      Repetition (3-g) : 0.6309
+2026-06-03 22:53:53,473  INFO      n_samples        : 74
+2026-06-03 22:53:53,520  INFO  
+######################################################################
+2026-06-03 22:53:53,520  INFO  # Evaluating: scifive-base-aug  (razent/SciFive-base-PMC)  augment=True
+2026-06-03 22:53:53,520  INFO  ######################################################################
+2026-06-03 22:53:53,521  INFO  Val cases: 74
+2026-06-03 22:53:53,584  INFO  Loading base model: razent/SciFive-base-PMC
+2026-06-03 22:53:53,658  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:53,693  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:53,771  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:53,803  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:53,956  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:53:54,036  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:53:54,072  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:53:54,072  INFO  Applying LoRA from checkpoints_multi_v2/scifive-base-aug
+2026-06-03 22:54:55,691  INFO    Generated 74 reports in 61.5s (0.83s/sample — note: 4 generations/report)
+2026-06-03 22:54:55,691  INFO  
+Computing metrics …
+2026-06-03 22:54:55,691  INFO    → ROUGE
+2026-06-03 22:54:55,691  INFO  Using default tokenizer.
+2026-06-03 22:54:55,789  INFO    → BLEU 1-4
+2026-06-03 22:54:55,821  INFO    → METEOR
+2026-06-03 22:54:55,881  INFO    → CIDEr
+2026-06-03 22:54:55,914  INFO    → chrF / chrF++
+2026-06-03 22:54:55,980  INFO    → BERTScore
+2026-06-03 22:54:56,259  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:56,334  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:56,410  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:56,485  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:54:56,561  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:56,642  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:54:56,808  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:56,883  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:57,448  INFO    → Lexical diversity
+2026-06-03 22:54:57,449  INFO    → Readability (FRES)
+2026-06-03 22:54:57,450  INFO    → Coherence + Coverage
+2026-06-03 22:54:57,450  INFO    Loading sentence-transformer (all-MiniLM-L6-v2) …
+2026-06-03 22:54:57,525  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:57,560  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:57,635  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:57,670  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:57,670  INFO  Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-03 22:54:57,747  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:57,887  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:57,965  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:58,091  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 22:54:58,169  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:58,246  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:58,337  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:58,380  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:58,479  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:54:58,556  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:58,589  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:58,763  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:58,913  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:59,119  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:54:59,196  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:54:59,323  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:54:59,398  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:54:59,529  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:59,564  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:59,644  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:59,697  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:59,773  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:59,805  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:54:59,902  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:54:59,938  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:00,015  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:00,108  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:55:00,206  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:00,241  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:00,323  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,172  INFO    → Per-field ROUGE-1
+2026-06-03 22:55:01,172  INFO  Using default tokenizer.
+2026-06-03 22:55:01,226  INFO    → Format compliance
+2026-06-03 22:55:01,226  INFO    → Hemisphere accuracy
+2026-06-03 22:55:01,226  INFO    → Lobe Jaccard
+2026-06-03 22:55:01,232  INFO    → Lobe Jaccard (lesion)
+2026-06-03 22:55:01,233  INFO    → Field collapse
+2026-06-03 22:55:01,233  INFO    → Length stats
+2026-06-03 22:55:01,234  INFO    → Repetition rate
+2026-06-03 22:55:01,235  INFO  
+[scifive-base-aug] METRICS
+2026-06-03 22:55:01,235  INFO    ── n-gram overlap ──
+2026-06-03 22:55:01,235  INFO      ROUGE-1 / 2 / L  : 0.4964 / 0.2263 / 0.4059
+2026-06-03 22:55:01,235  INFO      BLEU 1 / 2 / 3 / 4 : 0.4625 / 0.3037 / 0.2163 / 0.1629
+2026-06-03 22:55:01,235  INFO      METEOR           : 0.3386
+2026-06-03 22:55:01,235  INFO      CIDEr            : 0.0921
+2026-06-03 22:55:01,235  INFO      chrF / chrF++    : 0.4244 / 0.4006
+2026-06-03 22:55:01,235  INFO    ── semantic similarity ──
+2026-06-03 22:55:01,235  INFO      BERTScore P/R/F1 : 0.8882 / 0.8723 / 0.8801
+2026-06-03 22:55:01,235  INFO    ── intrinsic text quality ──
+2026-06-03 22:55:01,235  INFO      TTR / Maas'      : 0.2770 / 0.0642
+2026-06-03 22:55:01,235  INFO      FRES             : -35.00
+2026-06-03 22:55:01,235  INFO      CohS / ECS / TCS : 0.7591 / 0.2141 / 0.0473
+2026-06-03 22:55:01,235  INFO    ── task-specific ──
+2026-06-03 22:55:01,235  INFO      Per-field ROUGE-1: lesion 0.6761  edema 0.3789  necrosis 0.4303  compression 0.2074
+2026-06-03 22:55:01,235  INFO      Format compliance: 100.0%
+2026-06-03 22:55:01,235  INFO      Hemisphere acc   : 79.7%  (lesion field)
+2026-06-03 22:55:01,235  INFO      Lobe Jaccard     : 0.6577  | lesion-only 0.6279
+2026-06-03 22:55:01,235  INFO    ── field conditioning (NEW) ──
+2026-06-03 22:55:01,235  INFO      Field collapse   : 75.7%  (all 4 fields identical — HIGH IS BAD)
+2026-06-03 22:55:01,235  INFO      Distinct ratio   : 0.3378  (1.0 = all fields differ)
+2026-06-03 22:55:01,235  INFO    ── length / fluency ──
+2026-06-03 22:55:01,235  INFO      Avg pred / ref   : 88.0 / 90.1
+2026-06-03 22:55:01,235  INFO      Length ratio     : 0.98
+2026-06-03 22:55:01,235  INFO      Empty rate       : 0.0%
+2026-06-03 22:55:01,235  INFO      Repetition (3-g) : 0.6214
+2026-06-03 22:55:01,235  INFO      n_samples        : 74
+2026-06-03 22:55:01,291  INFO  
+######################################################################
+2026-06-03 22:55:01,292  INFO  # Evaluating: clinicalt5-hoss  (hossboll/clinical-t5)  augment=False
+2026-06-03 22:55:01,292  INFO  ######################################################################
+2026-06-03 22:55:01,292  INFO  Val cases: 74
+2026-06-03 22:55:01,353  INFO  Loading base model: hossboll/clinical-t5
+2026-06-03 22:55:01,436  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:01,474  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,552  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:01,589  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,670  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:01,745  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5 "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,838  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/main "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,865  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:01,934  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/discussions?p=0 "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,970  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/generation_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:01,971  INFO  Applying LoRA from checkpoints_multi_v2/clinicalt5-hoss
+2026-06-03 22:55:02,052  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-06-03 22:55:02,135  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:02,224  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-06-03 22:55:34,938  INFO    Generated 74 reports in 32.8s (0.44s/sample — note: 4 generations/report)
+2026-06-03 22:55:34,938  INFO  
+Computing metrics …
+2026-06-03 22:55:34,938  INFO    → ROUGE
+2026-06-03 22:55:34,938  INFO  Using default tokenizer.
+2026-06-03 22:55:35,025  INFO    → BLEU 1-4
+2026-06-03 22:55:35,054  INFO    → METEOR
+2026-06-03 22:55:35,104  INFO    → CIDEr
+2026-06-03 22:55:35,136  INFO    → chrF / chrF++
+2026-06-03 22:55:35,197  INFO    → BERTScore
+2026-06-03 22:55:35,344  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:35,421  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:35,501  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:35,578  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:35,660  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:35,742  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:55:35,904  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:35,980  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:36,537  INFO    → Lexical diversity
+2026-06-03 22:55:36,538  INFO    → Readability (FRES)
+2026-06-03 22:55:36,538  INFO    → Coherence + Coverage
+2026-06-03 22:55:36,538  INFO    Loading sentence-transformer (all-MiniLM-L6-v2) …
+2026-06-03 22:55:36,612  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:36,646  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:36,723  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:36,756  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:36,756  INFO  Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-03 22:55:36,836  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:36,874  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:36,948  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:36,982  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 22:55:37,056  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:37,092  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:37,167  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:37,203  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:37,274  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:37,352  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:37,386  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:37,464  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:37,499  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:37,623  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:37,703  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:37,779  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:37,856  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:37,933  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:37,971  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:38,047  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:38,081  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:38,160  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:38,195  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:38,273  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:38,306  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:38,383  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:38,462  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:55:38,558  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:38,591  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:38,669  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-03 22:55:39,493  INFO    → Per-field ROUGE-1
+2026-06-03 22:55:39,493  INFO  Using default tokenizer.
+2026-06-03 22:55:39,542  INFO    → Format compliance
+2026-06-03 22:55:39,543  INFO    → Hemisphere accuracy
+2026-06-03 22:55:39,543  INFO    → Lobe Jaccard
+2026-06-03 22:55:39,548  INFO    → Lobe Jaccard (lesion)
+2026-06-03 22:55:39,549  INFO    → Field collapse
+2026-06-03 22:55:39,549  INFO    → Length stats
+2026-06-03 22:55:39,550  INFO    → Repetition rate
+2026-06-03 22:55:39,551  INFO  
+[clinicalt5-hoss] METRICS
+2026-06-03 22:55:39,551  INFO    ── n-gram overlap ──
+2026-06-03 22:55:39,551  INFO      ROUGE-1 / 2 / L  : 0.5255 / 0.2352 / 0.4208
+2026-06-03 22:55:39,551  INFO      BLEU 1 / 2 / 3 / 4 : 0.4333 / 0.2850 / 0.2039 / 0.1541
+2026-06-03 22:55:39,551  INFO      METEOR           : 0.3292
+2026-06-03 22:55:39,551  INFO      CIDEr            : 0.0820
+2026-06-03 22:55:39,551  INFO      chrF / chrF++    : 0.4064 / 0.3869
+2026-06-03 22:55:39,551  INFO    ── semantic similarity ──
+2026-06-03 22:55:39,551  INFO      BERTScore P/R/F1 : 0.9003 / 0.8719 / 0.8858
+2026-06-03 22:55:39,551  INFO    ── intrinsic text quality ──
+2026-06-03 22:55:39,551  INFO      TTR / Maas'      : 0.3132 / 0.0635
+2026-06-03 22:55:39,551  INFO      FRES             : -21.75
+2026-06-03 22:55:39,551  INFO      CohS / ECS / TCS : 0.7395 / 0.2158 / 0.0460
+2026-06-03 22:55:39,551  INFO    ── task-specific ──
+2026-06-03 22:55:39,551  INFO      Per-field ROUGE-1: lesion 0.6661  edema 0.4071  necrosis 0.4219  compression 0.2425
+2026-06-03 22:55:39,551  INFO      Format compliance: 100.0%
+2026-06-03 22:55:39,551  INFO      Hemisphere acc   : 91.9%  (lesion field)
+2026-06-03 22:55:39,551  INFO      Lobe Jaccard     : 0.6914  | lesion-only 0.6350
+2026-06-03 22:55:39,551  INFO    ── field conditioning (NEW) ──
+2026-06-03 22:55:39,551  INFO      Field collapse   : 78.4%  (all 4 fields identical — HIGH IS BAD)
+2026-06-03 22:55:39,551  INFO      Distinct ratio   : 0.3277  (1.0 = all fields differ)
+2026-06-03 22:55:39,551  INFO    ── length / fluency ──
+2026-06-03 22:55:39,551  INFO      Avg pred / ref   : 74.3 / 90.1
+2026-06-03 22:55:39,551  INFO      Length ratio     : 0.83
+2026-06-03 22:55:39,551  INFO      Empty rate       : 0.0%
+2026-06-03 22:55:39,551  INFO      Repetition (3-g) : 0.5834
+2026-06-03 22:55:39,551  INFO      n_samples        : 74
+2026-06-03 22:55:39,600  INFO  
+######################################################################
+2026-06-03 22:55:39,600  INFO  # Evaluating: clinicalt5-hoss-aug  (hossboll/clinical-t5)  augment=True
+2026-06-03 22:55:39,600  INFO  ######################################################################
+2026-06-03 22:55:39,601  INFO  Val cases: 74
+2026-06-03 22:55:39,846  INFO  Loading base model: hossboll/clinical-t5
+2026-06-03 22:55:39,928  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:39,964  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,040  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:40,074  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,150  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:40,228  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5 "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,315  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/main "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,340  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:55:40,397  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/discussions?p=0 "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,417  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/generation_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,418  INFO  Applying LoRA from checkpoints_multi_v2/clinicalt5-hoss-aug
+2026-06-03 22:55:40,499  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-06-03 22:55:40,578  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:55:40,673  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-06-03 22:56:13,329  INFO    Generated 74 reports in 32.8s (0.44s/sample — note: 4 generations/report)
+2026-06-03 22:56:13,329  INFO  
+Computing metrics …
+2026-06-03 22:56:13,329  INFO    → ROUGE
+2026-06-03 22:56:13,329  INFO  Using default tokenizer.
+2026-06-03 22:56:13,422  INFO    → BLEU 1-4
+2026-06-03 22:56:13,453  INFO    → METEOR
+2026-06-03 22:56:13,510  INFO    → CIDEr
+2026-06-03 22:56:13,543  INFO    → chrF / chrF++
+2026-06-03 22:56:13,606  INFO    → BERTScore
+2026-06-03 22:56:13,749  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:13,823  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:13,901  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:13,976  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:14,048  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:14,125  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:56:14,289  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:14,371  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:14,934  INFO    → Lexical diversity
+2026-06-03 22:56:14,934  INFO    → Readability (FRES)
+2026-06-03 22:56:14,935  INFO    → Coherence + Coverage
+2026-06-03 22:56:14,935  INFO    Loading sentence-transformer (all-MiniLM-L6-v2) …
+2026-06-03 22:56:15,011  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,045  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,123  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,158  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,158  INFO  Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-03 22:56:15,230  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,264  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,338  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,371  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,444  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,477  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,549  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,582  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,659  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:15,735  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,769  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,845  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:15,880  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:15,983  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:16,068  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:16,147  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:16,218  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:16,293  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:16,326  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:16,403  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:16,441  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:16,529  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:16,563  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:16,640  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:16,672  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:16,752  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:16,831  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:56:16,929  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:16,966  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:17,052  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-03 22:56:17,874  INFO    → Per-field ROUGE-1
+2026-06-03 22:56:17,875  INFO  Using default tokenizer.
+2026-06-03 22:56:17,927  INFO    → Format compliance
+2026-06-03 22:56:17,927  INFO    → Hemisphere accuracy
+2026-06-03 22:56:17,928  INFO    → Lobe Jaccard
+2026-06-03 22:56:17,933  INFO    → Lobe Jaccard (lesion)
+2026-06-03 22:56:17,934  INFO    → Field collapse
+2026-06-03 22:56:17,934  INFO    → Length stats
+2026-06-03 22:56:17,935  INFO    → Repetition rate
+2026-06-03 22:56:17,936  INFO  
+[clinicalt5-hoss-aug] METRICS
+2026-06-03 22:56:17,936  INFO    ── n-gram overlap ──
+2026-06-03 22:56:17,936  INFO      ROUGE-1 / 2 / L  : 0.5116 / 0.2330 / 0.4156
+2026-06-03 22:56:17,936  INFO      BLEU 1 / 2 / 3 / 4 : 0.4530 / 0.2988 / 0.2133 / 0.1602
+2026-06-03 22:56:17,936  INFO      METEOR           : 0.3368
+2026-06-03 22:56:17,936  INFO      CIDEr            : 0.0668
+2026-06-03 22:56:17,936  INFO      chrF / chrF++    : 0.4226 / 0.4004
+2026-06-03 22:56:17,936  INFO    ── semantic similarity ──
+2026-06-03 22:56:17,936  INFO      BERTScore P/R/F1 : 0.8949 / 0.8747 / 0.8847
+2026-06-03 22:56:17,936  INFO    ── intrinsic text quality ──
+2026-06-03 22:56:17,936  INFO      TTR / Maas'      : 0.3055 / 0.0620
+2026-06-03 22:56:17,936  INFO      FRES             : -29.32
+2026-06-03 22:56:17,936  INFO      CohS / ECS / TCS : 0.7346 / 0.2131 / 0.0465
+2026-06-03 22:56:17,936  INFO    ── task-specific ──
+2026-06-03 22:56:17,936  INFO      Per-field ROUGE-1: lesion 0.6697  edema 0.3875  necrosis 0.4274  compression 0.2495
+2026-06-03 22:56:17,936  INFO      Format compliance: 100.0%
+2026-06-03 22:56:17,936  INFO      Hemisphere acc   : 86.5%  (lesion field)
+2026-06-03 22:56:17,936  INFO      Lobe Jaccard     : 0.6791  | lesion-only 0.6303
+2026-06-03 22:56:17,936  INFO    ── field conditioning (NEW) ──
+2026-06-03 22:56:17,936  INFO      Field collapse   : 75.7%  (all 4 fields identical — HIGH IS BAD)
+2026-06-03 22:56:17,936  INFO      Distinct ratio   : 0.3412  (1.0 = all fields differ)
+2026-06-03 22:56:17,936  INFO    ── length / fluency ──
+2026-06-03 22:56:17,936  INFO      Avg pred / ref   : 81.9 / 90.1
+2026-06-03 22:56:17,936  INFO      Length ratio     : 0.91
+2026-06-03 22:56:17,936  INFO      Empty rate       : 0.0%
+2026-06-03 22:56:17,936  INFO      Repetition (3-g) : 0.5926
+2026-06-03 22:56:17,936  INFO      n_samples        : 74
+2026-06-03 22:56:17,986  INFO  
+######################################################################
+2026-06-03 22:56:17,986  INFO  # Evaluating: scifive-large  (razent/SciFive-large-Pubmed)  augment=False
+2026-06-03 22:56:17,986  INFO  ######################################################################
+2026-06-03 22:56:17,987  INFO  Val cases: 74
+2026-06-03 22:56:18,049  INFO  Loading base model: razent/SciFive-large-Pubmed
+2026-06-03 22:56:18,182  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:18,290  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:18,367  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:18,400  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:18,783  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:56:18,855  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:56:18,891  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:56:18,891  INFO  Applying LoRA from checkpoints_multi_v2/scifive-large
+2026-06-03 22:58:15,966  INFO    Generated 74 reports in 115.6s (1.56s/sample — note: 4 generations/report)
+2026-06-03 22:58:15,966  INFO  
+Computing metrics …
+2026-06-03 22:58:15,966  INFO    → ROUGE
+2026-06-03 22:58:15,966  INFO  Using default tokenizer.
+2026-06-03 22:58:16,064  INFO    → BLEU 1-4
+2026-06-03 22:58:16,096  INFO    → METEOR
+2026-06-03 22:58:16,154  INFO    → CIDEr
+2026-06-03 22:58:16,187  INFO    → chrF / chrF++
+2026-06-03 22:58:16,252  INFO    → BERTScore
+2026-06-03 22:58:16,401  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:16,481  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:16,560  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:16,637  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:16,714  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:16,795  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:58:16,952  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:17,026  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:17,569  INFO    → Lexical diversity
+2026-06-03 22:58:17,570  INFO    → Readability (FRES)
+2026-06-03 22:58:17,570  INFO    → Coherence + Coverage
+2026-06-03 22:58:17,570  INFO    Loading sentence-transformer (all-MiniLM-L6-v2) …
+2026-06-03 22:58:17,648  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:17,681  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:17,758  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:17,797  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:17,797  INFO  Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-03 22:58:17,876  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:17,912  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:17,990  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:18,029  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 22:58:18,105  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:18,138  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:18,213  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:18,249  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:18,324  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:18,396  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:18,433  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:18,507  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:18,541  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:18,642  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:18,717  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:18,799  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:18,879  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:18,953  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:18,986  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:19,067  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:19,102  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:19,176  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:19,211  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:19,287  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:19,321  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:19,402  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:19,484  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 22:58:19,579  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:19,615  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:19,692  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-03 22:58:20,532  INFO    → Per-field ROUGE-1
+2026-06-03 22:58:20,533  INFO  Using default tokenizer.
+2026-06-03 22:58:20,588  INFO    → Format compliance
+2026-06-03 22:58:20,589  INFO    → Hemisphere accuracy
+2026-06-03 22:58:20,589  INFO    → Lobe Jaccard
+2026-06-03 22:58:20,594  INFO    → Lobe Jaccard (lesion)
+2026-06-03 22:58:20,596  INFO    → Field collapse
+2026-06-03 22:58:20,596  INFO    → Length stats
+2026-06-03 22:58:20,597  INFO    → Repetition rate
+2026-06-03 22:58:20,598  INFO  
+[scifive-large] METRICS
+2026-06-03 22:58:20,598  INFO    ── n-gram overlap ──
+2026-06-03 22:58:20,598  INFO      ROUGE-1 / 2 / L  : 0.5122 / 0.2374 / 0.4190
+2026-06-03 22:58:20,598  INFO      BLEU 1 / 2 / 3 / 4 : 0.4706 / 0.3113 / 0.2217 / 0.1666
+2026-06-03 22:58:20,598  INFO      METEOR           : 0.3499
+2026-06-03 22:58:20,598  INFO      CIDEr            : 0.0883
+2026-06-03 22:58:20,598  INFO      chrF / chrF++    : 0.4359 / 0.4112
+2026-06-03 22:58:20,598  INFO    ── semantic similarity ──
+2026-06-03 22:58:20,598  INFO      BERTScore P/R/F1 : 0.8908 / 0.8756 / 0.8831
+2026-06-03 22:58:20,598  INFO    ── intrinsic text quality ──
+2026-06-03 22:58:20,598  INFO      TTR / Maas'      : 0.3005 / 0.0611
+2026-06-03 22:58:20,598  INFO      FRES             : -33.92
+2026-06-03 22:58:20,598  INFO      CohS / ECS / TCS : 0.7280 / 0.2111 / 0.0452
+2026-06-03 22:58:20,598  INFO    ── task-specific ──
+2026-06-03 22:58:20,598  INFO      Per-field ROUGE-1: lesion 0.6809  edema 0.3852  necrosis 0.4344  compression 0.2593
+2026-06-03 22:58:20,598  INFO      Format compliance: 100.0%
+2026-06-03 22:58:20,598  INFO      Hemisphere acc   : 91.9%  (lesion field)
+2026-06-03 22:58:20,598  INFO      Lobe Jaccard     : 0.7027  | lesion-only 0.6467
+2026-06-03 22:58:20,598  INFO    ── field conditioning (NEW) ──
+2026-06-03 22:58:20,598  INFO      Field collapse   : 71.6%  (all 4 fields identical — HIGH IS BAD)
+2026-06-03 22:58:20,598  INFO      Distinct ratio   : 0.3412  (1.0 = all fields differ)
+2026-06-03 22:58:20,598  INFO    ── length / fluency ──
+2026-06-03 22:58:20,598  INFO      Avg pred / ref   : 86.2 / 90.1
+2026-06-03 22:58:20,598  INFO      Length ratio     : 0.96
+2026-06-03 22:58:20,598  INFO      Empty rate       : 0.0%
+2026-06-03 22:58:20,598  INFO      Repetition (3-g) : 0.6016
+2026-06-03 22:58:20,598  INFO      n_samples        : 74
+2026-06-03 22:58:20,698  INFO  
+######################################################################
+2026-06-03 22:58:20,698  INFO  # Evaluating: scifive-large-aug  (razent/SciFive-large-Pubmed)  augment=True
+2026-06-03 22:58:20,698  INFO  ######################################################################
+2026-06-03 22:58:20,699  INFO  Val cases: 74
+2026-06-03 22:58:20,763  INFO  Loading base model: razent/SciFive-large-Pubmed
+2026-06-03 22:58:20,838  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:20,920  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:20,997  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:21,035  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:21,242  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 22:58:21,318  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 22:58:21,351  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-03 22:58:21,352  INFO  Applying LoRA from checkpoints_multi_v2/scifive-large-aug
+2026-06-03 23:00:19,642  INFO    Generated 74 reports in 117.9s (1.59s/sample — note: 4 generations/report)
+2026-06-03 23:00:19,642  INFO  
+Computing metrics …
+2026-06-03 23:00:19,642  INFO    → ROUGE
+2026-06-03 23:00:19,642  INFO  Using default tokenizer.
+2026-06-03 23:00:19,738  INFO    → BLEU 1-4
+2026-06-03 23:00:19,770  INFO    → METEOR
+2026-06-03 23:00:19,829  INFO    → CIDEr
+2026-06-03 23:00:19,862  INFO    → chrF / chrF++
+2026-06-03 23:00:19,927  INFO    → BERTScore
+2026-06-03 23:00:20,306  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:20,452  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:20,529  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:20,621  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:20,773  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:20,854  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 23:00:21,030  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:21,106  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:21,677  INFO    → Lexical diversity
+2026-06-03 23:00:21,678  INFO    → Readability (FRES)
+2026-06-03 23:00:21,678  INFO    → Coherence + Coverage
+2026-06-03 23:00:21,678  INFO    Loading sentence-transformer (all-MiniLM-L6-v2) …
+2026-06-03 23:00:21,756  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:21,791  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:21,868  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:21,900  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:21,901  INFO  Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-03 23:00:21,977  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:22,010  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:22,085  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:22,121  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-03 23:00:22,196  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:22,233  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:22,306  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:22,340  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:22,416  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:22,515  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:22,553  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:22,630  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:22,669  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:22,779  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:22,857  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:22,937  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:23,017  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:23,091  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:23,126  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:23,201  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:23,237  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:23,321  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:23,357  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:23,436  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:23,473  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:23,548  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-03 23:00:23,633  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-03 23:00:23,732  INFO  HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-03 23:00:23,765  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-03 23:00:23,845  INFO  HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-03 23:00:24,691  INFO    → Per-field ROUGE-1
+2026-06-03 23:00:24,691  INFO  Using default tokenizer.
+2026-06-03 23:00:24,745  INFO    → Format compliance
+2026-06-03 23:00:24,745  INFO    → Hemisphere accuracy
+2026-06-03 23:00:24,745  INFO    → Lobe Jaccard
+2026-06-03 23:00:24,751  INFO    → Lobe Jaccard (lesion)
+2026-06-03 23:00:24,752  INFO    → Field collapse
+2026-06-03 23:00:24,752  INFO    → Length stats
+2026-06-03 23:00:24,753  INFO    → Repetition rate
+2026-06-03 23:00:24,754  INFO  
+[scifive-large-aug] METRICS
+2026-06-03 23:00:24,754  INFO    ── n-gram overlap ──
+2026-06-03 23:00:24,754  INFO      ROUGE-1 / 2 / L  : 0.5022 / 0.2289 / 0.4131
+2026-06-03 23:00:24,754  INFO      BLEU 1 / 2 / 3 / 4 : 0.4654 / 0.3053 / 0.2170 / 0.1630
+2026-06-03 23:00:24,754  INFO      METEOR           : 0.3448
+2026-06-03 23:00:24,754  INFO      CIDEr            : 0.0703
+2026-06-03 23:00:24,754  INFO      chrF / chrF++    : 0.4289 / 0.4048
+2026-06-03 23:00:24,754  INFO    ── semantic similarity ──
+2026-06-03 23:00:24,754  INFO      BERTScore P/R/F1 : 0.8895 / 0.8737 / 0.8815
+2026-06-03 23:00:24,754  INFO    ── intrinsic text quality ──
+2026-06-03 23:00:24,754  INFO      TTR / Maas'      : 0.2881 / 0.0627
+2026-06-03 23:00:24,754  INFO      FRES             : -34.15
+2026-06-03 23:00:24,754  INFO      CohS / ECS / TCS : 0.7432 / 0.2136 / 0.0458
+2026-06-03 23:00:24,754  INFO    ── task-specific ──
+2026-06-03 23:00:24,754  INFO      Per-field ROUGE-1: lesion 0.6745  edema 0.3817  necrosis 0.4298  compression 0.2388
+2026-06-03 23:00:24,754  INFO      Format compliance: 100.0%
+2026-06-03 23:00:24,754  INFO      Hemisphere acc   : 79.7%  (lesion field)
+2026-06-03 23:00:24,754  INFO      Lobe Jaccard     : 0.6982  | lesion-only 0.6420
+2026-06-03 23:00:24,754  INFO    ── field conditioning (NEW) ──
+2026-06-03 23:00:24,754  INFO      Field collapse   : 73.0%  (all 4 fields identical — HIGH IS BAD)
+2026-06-03 23:00:24,754  INFO      Distinct ratio   : 0.3446  (1.0 = all fields differ)
+2026-06-03 23:00:24,754  INFO    ── length / fluency ──
+2026-06-03 23:00:24,754  INFO      Avg pred / ref   : 87.2 / 90.1
+2026-06-03 23:00:24,754  INFO      Length ratio     : 0.97
+2026-06-03 23:00:24,754  INFO      Empty rate       : 0.0%
+2026-06-03 23:00:24,754  INFO      Repetition (3-g) : 0.6181
+2026-06-03 23:00:24,754  INFO      n_samples        : 74
+2026-06-03 23:00:24,855  INFO  
+Comparison saved → eval_multi_results_v2/comparison_20260603_225237.json
+2026-06-03 23:00:24,855  INFO  
+==============================================================================================================
+2026-06-03 23:00:24,855  INFO  MODEL COMPARISON  (base/aug pairs grouped)
+2026-06-03 23:00:24,855  INFO  ==============================================================================================================
+2026-06-03 23:00:24,855  INFO    metric                       scifive-base   scifive-base-aug    clinicalt5-hoss clinicalt5-hoss-au      scifive-large  scifive-large-aug
+2026-06-03 23:00:24,855  INFO    ----------------------------------------------------------------------------------------------------------------------------------------
+2026-06-03 23:00:24,855  INFO    ── n-gram overlap ──
+2026-06-03 23:00:24,856  INFO    ROUGE-1                            0.4954             0.4964             0.5255             0.5116             0.5122             0.5022
+2026-06-03 23:00:24,856  INFO    ROUGE-2                            0.2236             0.2263             0.2352             0.2330             0.2374             0.2289
+2026-06-03 23:00:24,856  INFO    ROUGE-L                            0.4052             0.4059             0.4208             0.4156             0.4190             0.4131
+2026-06-03 23:00:24,856  INFO    BLEU-1                             0.4624             0.4625             0.4333             0.4530             0.4706             0.4654
+2026-06-03 23:00:24,856  INFO    BLEU-2                             0.3032             0.3037             0.2850             0.2988             0.3113             0.3053
+2026-06-03 23:00:24,856  INFO    BLEU-3                             0.2131             0.2163             0.2039             0.2133             0.2217             0.2170
+2026-06-03 23:00:24,856  INFO    BLEU-4                             0.1580             0.1629             0.1541             0.1602             0.1666             0.1630
+2026-06-03 23:00:24,856  INFO    METEOR                             0.3372             0.3386             0.3292             0.3368             0.3499             0.3448
+2026-06-03 23:00:24,856  INFO    CIDEr                              0.0630             0.0921             0.0820             0.0668             0.0883             0.0703
+2026-06-03 23:00:24,856  INFO    chrF                               0.4234             0.4244             0.4064             0.4226             0.4359             0.4289
+2026-06-03 23:00:24,856  INFO    chrF++                             0.4002             0.4006             0.3869             0.4004             0.4112             0.4048
+2026-06-03 23:00:24,856  INFO    ── semantic ──
+2026-06-03 23:00:24,856  INFO    BERTScore-P                        0.8847             0.8882             0.9003             0.8949             0.8908             0.8895
+2026-06-03 23:00:24,856  INFO    BERTScore-R                        0.8710             0.8723             0.8719             0.8747             0.8756             0.8737
+2026-06-03 23:00:24,856  INFO    BERTScore-F1                       0.8778             0.8801             0.8858             0.8847             0.8831             0.8815
+2026-06-03 23:00:24,856  INFO    ── intrinsic text quality ──
+2026-06-03 23:00:24,856  INFO    TTR                                0.2756             0.2770             0.3132             0.3055             0.3005             0.2881
+2026-06-03 23:00:24,856  INFO    Maas'                              0.0644             0.0642             0.0635             0.0620             0.0611             0.0627
+2026-06-03 23:00:24,856  INFO    FRES                               -37.31             -35.00             -21.75             -29.32             -33.92             -34.15
+2026-06-03 23:00:24,856  INFO    CohS                               0.7572             0.7591             0.7395             0.7346             0.7280             0.7432
+2026-06-03 23:00:24,856  INFO    ECS                                0.2184             0.2141             0.2158             0.2131             0.2111             0.2136
+2026-06-03 23:00:24,856  INFO    TCS                                0.0462             0.0473             0.0460             0.0465             0.0452             0.0458
+2026-06-03 23:00:24,856  INFO    ── task-specific ──
+2026-06-03 23:00:24,856  INFO    PerField lesion                    0.6726             0.6761             0.6661             0.6697             0.6809             0.6745
+2026-06-03 23:00:24,856  INFO    PerField edema                     0.3793             0.3789             0.4071             0.3875             0.3852             0.3817
+2026-06-03 23:00:24,856  INFO    PerField necrosis                  0.4310             0.4303             0.4219             0.4274             0.4344             0.4298
+2026-06-03 23:00:24,856  INFO    PerField compression               0.2156             0.2074             0.2425             0.2495             0.2593             0.2388
+2026-06-03 23:00:24,856  INFO    Format compliance                  1.0000             1.0000             1.0000             1.0000             1.0000             1.0000
+2026-06-03 23:00:24,856  INFO    Hemisphere acc                     0.9189             0.7973             0.9189             0.8649             0.9189             0.7973
+2026-06-03 23:00:24,856  INFO    Lobe Jaccard                       0.6047             0.6577             0.6914             0.6791             0.7027             0.6982
+2026-06-03 23:00:24,856  INFO    Lobe Jaccard lesion                0.5599             0.6279             0.6350             0.6303             0.6467             0.6420
+2026-06-03 23:00:24,856  INFO    ── field conditioning ──
+2026-06-03 23:00:24,856  INFO    Field collapse rate                0.7162             0.7568             0.7838             0.7568             0.7162             0.7297
+2026-06-03 23:00:24,856  INFO    Distinct field ratio               0.3716             0.3378             0.3277             0.3412             0.3412             0.3446
+2026-06-03 23:00:24,856  INFO    ── length / fluency ──
+2026-06-03 23:00:24,856  INFO    Avg pred len                         88.3               88.0               74.3               81.9               86.2               87.2
+2026-06-03 23:00:24,856  INFO    Avg ref len                          90.1               90.1               90.1               90.1               90.1               90.1
+2026-06-03 23:00:24,856  INFO    Length ratio                         0.98               0.98               0.83               0.91               0.96               0.97
+2026-06-03 23:00:24,856  INFO    Empty rate                         0.0000             0.0000             0.0000             0.0000             0.0000             0.0000
+2026-06-03 23:00:24,856  INFO    Repetition 3-gr                    0.6309             0.6214             0.5834             0.5926             0.6016             0.6181
+2026-06-03 23:00:24,856  INFO  
+==============================================================================================================
+2026-06-03 23:00:24,856  INFO  BASE vs AUG PAIR COMPARISON
+2026-06-03 23:00:24,856  INFO    Δ = aug - base   (positive = aug improved that metric;
+2026-06-03 23:00:24,856  INFO                      for maas/empty_rate/repetition/field_collapse, lower is better)
+2026-06-03 23:00:24,856  INFO  ==============================================================================================================
+2026-06-03 23:00:24,856  INFO  
+  ── Pair: scifive-base  ↔  scifive-base-aug ──
+2026-06-03 23:00:24,856  INFO    metric                       base        aug   Δ (aug-base)    verdict
+2026-06-03 23:00:24,856  INFO    ---------------------- ---------- ---------- -------------- ----------
+2026-06-03 23:00:24,856  INFO    ── n-gram overlap ──
+2026-06-03 23:00:24,856  INFO    ROUGE-1                    0.4954     0.4964        +0.0009      aug ✓
+2026-06-03 23:00:24,856  INFO    ROUGE-2                    0.2236     0.2263        +0.0027      aug ✓
+2026-06-03 23:00:24,856  INFO    ROUGE-L                    0.4052     0.4059        +0.0007      aug ✓
+2026-06-03 23:00:24,856  INFO    BLEU-1                     0.4624     0.4625        +0.0001      aug ✓
+2026-06-03 23:00:24,856  INFO    BLEU-2                     0.3032     0.3037        +0.0005      aug ✓
+2026-06-03 23:00:24,856  INFO    BLEU-3                     0.2131     0.2163        +0.0032      aug ✓
+2026-06-03 23:00:24,856  INFO    BLEU-4                     0.1580     0.1629        +0.0049      aug ✓
+2026-06-03 23:00:24,856  INFO    METEOR                     0.3372     0.3386        +0.0015      aug ✓
+2026-06-03 23:00:24,856  INFO    CIDEr                      0.0630     0.0921        +0.0291      aug ✓
+2026-06-03 23:00:24,856  INFO    chrF                       0.4234     0.4244        +0.0010      aug ✓
+2026-06-03 23:00:24,856  INFO    chrF++                     0.4002     0.4006        +0.0004      aug ✓
+2026-06-03 23:00:24,856  INFO    ── semantic ──
+2026-06-03 23:00:24,856  INFO    BERTScore-P                0.8847     0.8882        +0.0035      aug ✓
+2026-06-03 23:00:24,856  INFO    BERTScore-R                0.8710     0.8723        +0.0012      aug ✓
+2026-06-03 23:00:24,856  INFO    BERTScore-F1               0.8778     0.8801        +0.0024      aug ✓
+2026-06-03 23:00:24,856  INFO    ── intrinsic ──
+2026-06-03 23:00:24,856  INFO    TTR                        0.2756     0.2770        +0.0014      aug ✓
+2026-06-03 23:00:24,856  INFO    Maas'                      0.0644     0.0642        -0.0002      aug ✓
+2026-06-03 23:00:24,856  INFO    FRES                     -37.3065   -34.9960        +2.3105      aug ✓
+2026-06-03 23:00:24,856  INFO    CohS                       0.7572     0.7591        +0.0019      aug ✓
+2026-06-03 23:00:24,856  INFO    ECS                        0.2184     0.2141        -0.0043       base
+2026-06-03 23:00:24,856  INFO    TCS                        0.0462     0.0473        +0.0011      aug ✓
+2026-06-03 23:00:24,856  INFO    ── task-specific ──
+2026-06-03 23:00:24,856  INFO    PerField lesion            0.6726     0.6761        +0.0036      aug ✓
+2026-06-03 23:00:24,856  INFO    PerField edema             0.3793     0.3789        -0.0005       base
+2026-06-03 23:00:24,857  INFO    PerField necrosis          0.4310     0.4303        -0.0007       base
+2026-06-03 23:00:24,857  INFO    PerField compression       0.2156     0.2074        -0.0082       base
+2026-06-03 23:00:24,857  INFO    Format compliance          1.0000     1.0000        +0.0000        tie
+2026-06-03 23:00:24,857  INFO    Hemisphere acc             0.9189     0.7973        -0.1216       base
+2026-06-03 23:00:24,857  INFO    Lobe Jaccard               0.6047     0.6577        +0.0529      aug ✓
+2026-06-03 23:00:24,857  INFO    Lobe Jaccard lesion        0.5599     0.6279        +0.0681      aug ✓
+2026-06-03 23:00:24,857  INFO    ── field conditioning ──
+2026-06-03 23:00:24,857  INFO    Field collapse             0.7162     0.7568        +0.0405       base
+2026-06-03 23:00:24,857  INFO    Distinct ratio             0.3716     0.3378        -0.0338       base
+2026-06-03 23:00:24,857  INFO    ── length / fluency ──
+2026-06-03 23:00:24,857  INFO    Avg pred len              88.3108    88.0000        -0.3108       base
+2026-06-03 23:00:24,857  INFO    Length ratio               0.9806     0.9772        -0.0035       base
+2026-06-03 23:00:24,857  INFO    Empty rate                 0.0000     0.0000        +0.0000        tie
+2026-06-03 23:00:24,857  INFO    Repetition 3-gr            0.6309     0.6214        -0.0094      aug ✓
+2026-06-03 23:00:24,857  INFO  
+    >>> scifive-base-aug wins: 23  losses: 9  ties: 2
+2026-06-03 23:00:24,857  INFO  
+  ── Pair: clinicalt5-hoss  ↔  clinicalt5-hoss-aug ──
+2026-06-03 23:00:24,857  INFO    metric                       base        aug   Δ (aug-base)    verdict
+2026-06-03 23:00:24,857  INFO    ---------------------- ---------- ---------- -------------- ----------
+2026-06-03 23:00:24,857  INFO    ── n-gram overlap ──
+2026-06-03 23:00:24,857  INFO    ROUGE-1                    0.5255     0.5116        -0.0140       base
+2026-06-03 23:00:24,857  INFO    ROUGE-2                    0.2352     0.2330        -0.0022       base
+2026-06-03 23:00:24,857  INFO    ROUGE-L                    0.4208     0.4156        -0.0052       base
+2026-06-03 23:00:24,857  INFO    BLEU-1                     0.4333     0.4530        +0.0197      aug ✓
+2026-06-03 23:00:24,857  INFO    BLEU-2                     0.2850     0.2988        +0.0138      aug ✓
+2026-06-03 23:00:24,857  INFO    BLEU-3                     0.2039     0.2133        +0.0094      aug ✓
+2026-06-03 23:00:24,857  INFO    BLEU-4                     0.1541     0.1602        +0.0061      aug ✓
+2026-06-03 23:00:24,857  INFO    METEOR                     0.3292     0.3368        +0.0077      aug ✓
+2026-06-03 23:00:24,857  INFO    CIDEr                      0.0820     0.0668        -0.0152       base
+2026-06-03 23:00:24,857  INFO    chrF                       0.4064     0.4226        +0.0162      aug ✓
+2026-06-03 23:00:24,857  INFO    chrF++                     0.3869     0.4004        +0.0135      aug ✓
+2026-06-03 23:00:24,857  INFO    ── semantic ──
+2026-06-03 23:00:24,857  INFO    BERTScore-P                0.9003     0.8949        -0.0054       base
+2026-06-03 23:00:24,857  INFO    BERTScore-R                0.8719     0.8747        +0.0028      aug ✓
+2026-06-03 23:00:24,857  INFO    BERTScore-F1               0.8858     0.8847        -0.0012       base
+2026-06-03 23:00:24,857  INFO    ── intrinsic ──
+2026-06-03 23:00:24,857  INFO    TTR                        0.3132     0.3055        -0.0076       base
+2026-06-03 23:00:24,857  INFO    Maas'                      0.0635     0.0620        -0.0014      aug ✓
+2026-06-03 23:00:24,857  INFO    FRES                     -21.7543   -29.3238        -7.5695       base
+2026-06-03 23:00:24,857  INFO    CohS                       0.7395     0.7346        -0.0049       base
+2026-06-03 23:00:24,857  INFO    ECS                        0.2158     0.2131        -0.0028       base
+2026-06-03 23:00:24,857  INFO    TCS                        0.0460     0.0465        +0.0005      aug ✓
+2026-06-03 23:00:24,857  INFO    ── task-specific ──
+2026-06-03 23:00:24,857  INFO    PerField lesion            0.6661     0.6697        +0.0036      aug ✓
+2026-06-03 23:00:24,857  INFO    PerField edema             0.4071     0.3875        -0.0196       base
+2026-06-03 23:00:24,857  INFO    PerField necrosis          0.4219     0.4274        +0.0055      aug ✓
+2026-06-03 23:00:24,857  INFO    PerField compression       0.2425     0.2495        +0.0070      aug ✓
+2026-06-03 23:00:24,857  INFO    Format compliance          1.0000     1.0000        +0.0000        tie
+2026-06-03 23:00:24,857  INFO    Hemisphere acc             0.9189     0.8649        -0.0541       base
+2026-06-03 23:00:24,857  INFO    Lobe Jaccard               0.6914     0.6791        -0.0124       base
+2026-06-03 23:00:24,857  INFO    Lobe Jaccard lesion        0.6350     0.6303        -0.0047       base
+2026-06-03 23:00:24,857  INFO    ── field conditioning ──
+2026-06-03 23:00:24,857  INFO    Field collapse             0.7838     0.7568        -0.0270      aug ✓
+2026-06-03 23:00:24,857  INFO    Distinct ratio             0.3277     0.3412        +0.0135      aug ✓
+2026-06-03 23:00:24,857  INFO    ── length / fluency ──
+2026-06-03 23:00:24,857  INFO    Avg pred len              74.2973    81.9189        +7.6216      aug ✓
+2026-06-03 23:00:24,857  INFO    Length ratio               0.8250     0.9097        +0.0846      aug ✓
+2026-06-03 23:00:24,857  INFO    Empty rate                 0.0000     0.0000        +0.0000        tie
+2026-06-03 23:00:24,857  INFO    Repetition 3-gr            0.5834     0.5926        +0.0092       base
+2026-06-03 23:00:24,857  INFO  
+    >>> clinicalt5-hoss-aug wins: 17  losses: 15  ties: 2
+2026-06-03 23:00:24,857  INFO  
+  ── Pair: scifive-large  ↔  scifive-large-aug ──
+2026-06-03 23:00:24,857  INFO    metric                       base        aug   Δ (aug-base)    verdict
+2026-06-03 23:00:24,857  INFO    ---------------------- ---------- ---------- -------------- ----------
+2026-06-03 23:00:24,857  INFO    ── n-gram overlap ──
+2026-06-03 23:00:24,857  INFO    ROUGE-1                    0.5122     0.5022        -0.0100       base
+2026-06-03 23:00:24,857  INFO    ROUGE-2                    0.2374     0.2289        -0.0085       base
+2026-06-03 23:00:24,857  INFO    ROUGE-L                    0.4190     0.4131        -0.0059       base
+2026-06-03 23:00:24,857  INFO    BLEU-1                     0.4706     0.4654        -0.0052       base
+2026-06-03 23:00:24,857  INFO    BLEU-2                     0.3113     0.3053        -0.0060       base
+2026-06-03 23:00:24,857  INFO    BLEU-3                     0.2217     0.2170        -0.0048       base
+2026-06-03 23:00:24,857  INFO    BLEU-4                     0.1666     0.1630        -0.0036       base
+2026-06-03 23:00:24,857  INFO    METEOR                     0.3499     0.3448        -0.0051       base
+2026-06-03 23:00:24,857  INFO    CIDEr                      0.0883     0.0703        -0.0179       base
+2026-06-03 23:00:24,857  INFO    chrF                       0.4359     0.4289        -0.0070       base
+2026-06-03 23:00:24,857  INFO    chrF++                     0.4112     0.4048        -0.0064       base
+2026-06-03 23:00:24,857  INFO    ── semantic ──
+2026-06-03 23:00:24,857  INFO    BERTScore-P                0.8908     0.8895        -0.0013       base
+2026-06-03 23:00:24,857  INFO    BERTScore-R                0.8756     0.8737        -0.0019       base
+2026-06-03 23:00:24,857  INFO    BERTScore-F1               0.8831     0.8815        -0.0016       base
+2026-06-03 23:00:24,857  INFO    ── intrinsic ──
+2026-06-03 23:00:24,857  INFO    TTR                        0.3005     0.2881        -0.0124       base
+2026-06-03 23:00:24,857  INFO    Maas'                      0.0611     0.0627        +0.0016       base
+2026-06-03 23:00:24,857  INFO    FRES                     -33.9220   -34.1534        -0.2314       base
+2026-06-03 23:00:24,857  INFO    CohS                       0.7280     0.7432        +0.0152      aug ✓
+2026-06-03 23:00:24,857  INFO    ECS                        0.2111     0.2136        +0.0025      aug ✓
+2026-06-03 23:00:24,857  INFO    TCS                        0.0452     0.0458        +0.0005      aug ✓
+2026-06-03 23:00:24,857  INFO    ── task-specific ──
+2026-06-03 23:00:24,857  INFO    PerField lesion            0.6809     0.6745        -0.0065       base
+2026-06-03 23:00:24,858  INFO    PerField edema             0.3852     0.3817        -0.0036       base
+2026-06-03 23:00:24,858  INFO    PerField necrosis          0.4344     0.4298        -0.0045       base
+2026-06-03 23:00:24,858  INFO    PerField compression       0.2593     0.2388        -0.0205       base
+2026-06-03 23:00:24,858  INFO    Format compliance          1.0000     1.0000        +0.0000        tie
+2026-06-03 23:00:24,858  INFO    Hemisphere acc             0.9189     0.7973        -0.1216       base
+2026-06-03 23:00:24,858  INFO    Lobe Jaccard               0.7027     0.6982        -0.0045       base
+2026-06-03 23:00:24,858  INFO    Lobe Jaccard lesion        0.6467     0.6420        -0.0047       base
+2026-06-03 23:00:24,858  INFO    ── field conditioning ──
+2026-06-03 23:00:24,858  INFO    Field collapse             0.7162     0.7297        +0.0135       base
+2026-06-03 23:00:24,858  INFO    Distinct ratio             0.3412     0.3446        +0.0034      aug ✓
+2026-06-03 23:00:24,858  INFO    ── length / fluency ──
+2026-06-03 23:00:24,858  INFO    Avg pred len              86.1892    87.2297        +1.0405      aug ✓
+2026-06-03 23:00:24,858  INFO    Length ratio               0.9571     0.9686        +0.0116      aug ✓
+2026-06-03 23:00:24,858  INFO    Empty rate                 0.0000     0.0000        +0.0000        tie
+2026-06-03 23:00:24,858  INFO    Repetition 3-gr            0.6016     0.6181        +0.0165       base
+2026-06-03 23:00:24,858  INFO  
+    >>> scifive-large-aug wins: 6  losses: 26  ties: 2

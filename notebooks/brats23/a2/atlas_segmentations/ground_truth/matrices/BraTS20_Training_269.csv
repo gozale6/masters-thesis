@@ -1,0 +1,30 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_269,WM/unassigned,TC,8065,204,40.0,0.1,False
+BraTS20_Training_269,Area p24ab (pACC) right,TC,1451,37,7.2,74.0,True
+BraTS20_Training_269,Frontal-to-Occipital (GapMap) right,TC,1675,42,8.3,4.9,True
+BraTS20_Training_269,Area p32 (pACC) right,TC,843,21,4.2,14.5,False
+BraTS20_Training_269,Area p24c (pACC) right,TC,669,17,3.3,26.9,False
+BraTS20_Training_269,Frontal-I.2 (GapMap) right,TC,331,8,1.6,6.1,False
+BraTS20_Training_269,Area 33 (ACC) right,TC,1497,38,7.4,79.9,True
+BraTS20_Training_269,Area p24ab (pACC) left,TC,876,22,4.3,48.0,False
+BraTS20_Training_269,Frontal-to-Occipital (GapMap) left,TC,3053,77,15.1,8.3,True
+BraTS20_Training_269,Area p32 (pACC) left,TC,976,25,4.8,12.9,True
+BraTS20_Training_269,Area p24c (pACC) left,TC,214,5,1.1,18.8,False
+BraTS20_Training_269,Frontal-I.2 (GapMap) left,TC,196,5,1.0,3.7,False
+BraTS20_Training_269,Area 33 (ACC) left,TC,327,8,1.6,58.4,False
+BraTS20_Training_269,WM/unassigned,WT,10108,256,66.2,0.1,False
+BraTS20_Training_269,Area SFG4 (SFG) right,WT,19,0,0.1,0.9,False
+BraTS20_Training_269,Area p24ab (pACC) right,WT,85,2,0.6,4.3,False
+BraTS20_Training_269,Frontal-to-Occipital (GapMap) right,WT,1176,30,7.7,3.5,True
+BraTS20_Training_269,Area 8d2 (SFG) right,WT,3,0,0.0,0.1,False
+BraTS20_Training_269,Area p32 (pACC) right,WT,886,22,5.8,15.2,True
+BraTS20_Training_269,Area SFG3 (SFG) right,WT,2,0,0.0,0.1,False
+BraTS20_Training_269,Area p24c (pACC) right,WT,1056,27,6.9,42.4,True
+BraTS20_Training_269,Frontal-I.2 (GapMap) right,WT,342,9,2.2,6.3,False
+BraTS20_Training_269,Area 33 (ACC) right,WT,148,4,1.0,7.9,False
+BraTS20_Training_269,Area p24ab (pACC) left,WT,256,6,1.7,14.0,False
+BraTS20_Training_269,Frontal-to-Occipital (GapMap) left,WT,436,11,2.9,1.2,True
+BraTS20_Training_269,Area p32 (pACC) left,WT,412,10,2.7,5.4,True
+BraTS20_Training_269,Area p24c (pACC) left,WT,186,5,1.2,16.4,False
+BraTS20_Training_269,Frontal-I.2 (GapMap) left,WT,96,2,0.6,1.8,False
+BraTS20_Training_269,Area 33 (ACC) left,WT,55,1,0.4,9.8,False

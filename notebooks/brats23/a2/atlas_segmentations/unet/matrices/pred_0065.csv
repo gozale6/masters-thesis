@@ -1,0 +1,34 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0065,WM/unassigned,TC,2695,87
+pred_0065,Area STS2 (STS) right,TC,177,6
+pred_0065,Area Id3 (Insula) right,TC,7,0
+pred_0065,Area TI (STG) right,TC,6,0
+pred_0065,Area FG5 (FusG) right,TC,27,1
+pred_0065,Area OTS1 (OTS) right,TC,46,1
+pred_0065,Temporal-to-Parietal (GapMap) right,TC,2440,78
+pred_0065,Area STS1 (STS) right,TC,5,0
+pred_0065,WM/unassigned,WT,7963,256
+pred_0065,Area STS2 (STS) right,WT,818,26
+pred_0065,Area Id3 (Insula) right,WT,268,9
+pred_0065,Area TI (STG) right,WT,376,12
+pred_0065,Area FG5 (FusG) right,WT,525,17
+pred_0065,Area Ia3 (Insula) right,WT,204,7
+pred_0065,Area Ia1 (Insula) right,WT,20,1
+pred_0065,Area FG4 (FusG) right,WT,131,4
+pred_0065,Area OTS1 (OTS) right,WT,287,9
+pred_0065,CA1 (Hippocampus) right,WT,3,0
+pred_0065,Temporal-to-Parietal (GapMap) right,WT,2385,77
+pred_0065,Frontal-to-Temporal-II (GapMap) right,WT,103,3
+pred_0065,Area Ia2 (Insula) right,WT,115,4
+pred_0065,Area Id5 (Insula) right,WT,5,0
+pred_0065,Area STS1 (STS) right,WT,100,3
+pred_0065,Area Id9 (Insula) right,WT,57,2
+pred_0065,Area TeI (STG) right,WT,8,0
+pred_0065,WM/unassigned,ET,3582,115
+pred_0065,Area STS2 (STS) right,ET,806,26
+pred_0065,Area Id3 (Insula) right,ET,1,0
+pred_0065,Area TI (STG) right,ET,29,1
+pred_0065,Area FG5 (FusG) right,ET,135,4
+pred_0065,Area OTS1 (OTS) right,ET,201,6
+pred_0065,Temporal-to-Parietal (GapMap) right,ET,1790,58
+pred_0065,Area STS1 (STS) right,ET,70,2

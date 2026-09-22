@@ -1,0 +1,15 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_099,WM/unassigned,WT,5908,256,94.2,0.1,False
+BraTS20_Training_099,Area FG4 (FusG) left,WT,129,6,2.1,1.7,True
+BraTS20_Training_099,"Ninterp (Cerebellum, Interposed Nucleus) left",WT,15,1,0.2,7.5,False
+BraTS20_Training_099,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,22,1,0.4,3.5,False
+BraTS20_Training_099,Temporal-to-Parietal (GapMap) left,WT,5,0,0.1,0.0,False
+BraTS20_Training_099,"Subc (Hippocampus, Subicular complex) left",WT,28,1,0.4,0.6,True
+BraTS20_Training_099,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,65,3,1.0,8.2,True
+BraTS20_Training_099,"Nfast (Cerebellum, Fastigial Nucleus) left",WT,32,1,0.5,20.5,True
+BraTS20_Training_099,Area Ph2 (PhG) left,WT,71,3,1.1,5.4,True
+BraTS20_Training_099,WM/unassigned,ET,1023,44,82.6,0.0,False
+BraTS20_Training_099,"Area EC (Hippocampal Region, Entorhinal Cortex) left",ET,15,1,1.2,2.0,True
+BraTS20_Training_099,Area FG4 (FusG) left,ET,151,7,12.2,2.0,True
+BraTS20_Training_099,"Subc (Hippocampus, Subicular complex) left",ET,38,2,3.1,0.9,True
+BraTS20_Training_099,Area Ph2 (PhG) left,ET,11,0,0.9,0.8,True

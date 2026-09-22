@@ -1,0 +1,69 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_248,WM/unassigned,TC,9129,152,30.9,0.1,False
+BraTS20_Training_248,Frontal-to-Occipital (GapMap) right,TC,6678,111,22.6,19.7,True
+BraTS20_Training_248,Area hOc6 (POS) right,TC,9,0,0.0,2.3,False
+BraTS20_Training_248,"Area hOc1 (V1, 17, CalcS) right",TC,3800,63,12.8,31.6,True
+BraTS20_Training_248,"Area hOc2 (V2, 18) right",TC,2286,38,7.7,24.8,True
+BraTS20_Training_248,Area hOc4d (Cuneus) right,TC,2,0,0.0,0.1,False
+BraTS20_Training_248,Area hPO1 (POS) right,TC,25,0,0.1,1.3,False
+BraTS20_Training_248,Area hOc3v (LingG) right,TC,75,1,0.3,2.0,False
+BraTS20_Training_248,Temporal-to-Parietal (GapMap) right,TC,333,6,1.1,0.5,False
+BraTS20_Training_248,Area hOc3d (Cuneus) right,TC,551,9,1.9,14.0,False
+BraTS20_Training_248,Frontal-to-Occipital (GapMap) left,TC,4938,82,16.7,13.4,True
+BraTS20_Training_248,Area 7M (SPL) left,TC,1,0,0.0,0.2,False
+BraTS20_Training_248,"Area hOc1 (V1, 17, CalcS) left",TC,1494,25,5.1,11.9,True
+BraTS20_Training_248,"Area hOc2 (V2, 18) left",TC,93,2,0.3,2.5,False
+BraTS20_Training_248,Area hOc3v (LingG) left,TC,90,1,0.3,1.5,False
+BraTS20_Training_248,Area hOc3d (Cuneus) left,TC,77,1,0.3,1.6,False
+BraTS20_Training_248,WM/unassigned,WT,11080,184,52.1,0.1,False
+BraTS20_Training_248,"LD (Thalamus, lateral dorsal Nucleus) right",WT,4,0,0.0,1.4,False
+BraTS20_Training_248,"PUm (Thalamus, medial pulvinar) right",WT,1,0,0.0,0.2,False
+BraTS20_Training_248,Frontal-to-Occipital (GapMap) right,WT,3815,63,17.9,11.3,True
+BraTS20_Training_248,Area 7P (SPL) right,WT,216,4,1.0,5.4,True
+BraTS20_Training_248,Area 7M (SPL) right,WT,220,4,1.0,59.6,True
+BraTS20_Training_248,"Area hOc1 (V1, 17, CalcS) right",WT,188,3,0.9,1.6,False
+BraTS20_Training_248,Area Ph3 (PhG) right,WT,13,0,0.1,1.6,False
+BraTS20_Training_248,"Area hOc2 (V2, 18) right",WT,209,3,1.0,2.3,False
+BraTS20_Training_248,Area hOc4d (Cuneus) right,WT,55,1,0.3,2.6,False
+BraTS20_Training_248,Area hPO1 (POS) right,WT,138,2,0.6,6.9,False
+BraTS20_Training_248,Area hOc3v (LingG) right,WT,62,1,0.3,1.6,False
+BraTS20_Training_248,Temporal-to-Parietal (GapMap) right,WT,275,5,1.3,0.4,True
+BraTS20_Training_248,Area hOc3d (Cuneus) right,WT,53,1,0.2,1.3,False
+BraTS20_Training_248,"Subc (Hippocampus, Subicular complex) right",WT,18,0,0.1,0.4,False
+BraTS20_Training_248,Area hIP7 (IPS) right,WT,36,1,0.2,1.6,False
+BraTS20_Training_248,Frontal-to-Occipital (GapMap) left,WT,4218,70,19.8,11.5,True
+BraTS20_Training_248,Area 7P (SPL) left,WT,40,1,0.2,1.6,False
+BraTS20_Training_248,Area hOc6 (POS) left,WT,4,0,0.0,1.8,False
+BraTS20_Training_248,Area 7M (SPL) left,WT,113,2,0.5,27.5,False
+BraTS20_Training_248,"Area hOc1 (V1, 17, CalcS) left",WT,75,1,0.4,0.6,False
+BraTS20_Training_248,Area Ph3 (PhG) left,WT,19,0,0.1,2.9,False
+BraTS20_Training_248,"Area hOc2 (V2, 18) left",WT,90,1,0.4,2.4,False
+BraTS20_Training_248,Area hPO1 (POS) left,WT,14,0,0.1,0.6,False
+BraTS20_Training_248,Area hOc3v (LingG) left,WT,177,3,0.8,3.0,False
+BraTS20_Training_248,Area hOc3d (Cuneus) left,WT,130,2,0.6,2.7,False
+BraTS20_Training_248,"Subc (Hippocampus, Subicular complex) left",WT,4,0,0.0,0.1,False
+BraTS20_Training_248,WM/unassigned,ET,15417,256,42.4,0.2,False
+BraTS20_Training_248,Frontal-to-Occipital (GapMap) right,ET,8366,139,23.0,24.7,True
+BraTS20_Training_248,Area hOc6 (POS) right,ET,378,6,1.0,97.7,False
+BraTS20_Training_248,Area 7M (SPL) right,ET,45,1,0.1,12.2,False
+BraTS20_Training_248,Area Ph1 (PhG) right,ET,1,0,0.0,0.1,False
+BraTS20_Training_248,"Area hOc1 (V1, 17, CalcS) right",ET,2572,43,7.1,21.4,True
+BraTS20_Training_248,Area Ph3 (PhG) right,ET,11,0,0.0,1.3,False
+BraTS20_Training_248,"Area hOc2 (V2, 18) right",ET,1429,24,3.9,15.5,True
+BraTS20_Training_248,Area hOc4d (Cuneus) right,ET,208,3,0.6,9.6,False
+BraTS20_Training_248,Area hPO1 (POS) right,ET,130,2,0.4,6.5,False
+BraTS20_Training_248,Area hOc3v (LingG) right,ET,316,5,0.9,8.3,False
+BraTS20_Training_248,Temporal-to-Parietal (GapMap) right,ET,675,11,1.9,1.0,False
+BraTS20_Training_248,Area hOc3d (Cuneus) right,ET,546,9,1.5,13.9,False
+BraTS20_Training_248,Area hOc4v (LingG) right,ET,1,0,0.0,0.0,False
+BraTS20_Training_248,Area hIP7 (IPS) right,ET,1,0,0.0,0.0,False
+BraTS20_Training_248,Frontal-to-Occipital (GapMap) left,ET,3758,62,10.3,10.2,True
+BraTS20_Training_248,Area 7P (SPL) left,ET,6,0,0.0,0.2,False
+BraTS20_Training_248,Area hOc6 (POS) left,ET,53,1,0.1,23.9,False
+BraTS20_Training_248,Area 7M (SPL) left,ET,42,1,0.1,10.2,False
+BraTS20_Training_248,"Area hOc1 (V1, 17, CalcS) left",ET,1535,25,4.2,12.2,True
+BraTS20_Training_248,Area Ph3 (PhG) left,ET,2,0,0.0,0.3,False
+BraTS20_Training_248,"Area hOc2 (V2, 18) left",ET,117,2,0.3,3.2,False
+BraTS20_Training_248,Area hPO1 (POS) left,ET,5,0,0.0,0.2,False
+BraTS20_Training_248,Area hOc3v (LingG) left,ET,468,8,1.3,7.9,False
+BraTS20_Training_248,Area hOc3d (Cuneus) left,ET,263,4,0.7,5.5,False

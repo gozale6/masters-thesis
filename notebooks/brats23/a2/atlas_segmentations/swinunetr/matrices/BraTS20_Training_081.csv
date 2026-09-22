@@ -1,0 +1,50 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_081,WM/unassigned,TC,3520,126
+BraTS20_Training_081,Area 3b (PostCG) right,TC,11,0
+BraTS20_Training_081,Area PF (IPL) right,TC,1462,53
+BraTS20_Training_081,Area 1 (PostCG) right,TC,21,1
+BraTS20_Training_081,Area PFt (IPL) right,TC,470,17
+BraTS20_Training_081,Area Te 3 (STG) right,TC,22,1
+BraTS20_Training_081,"Area TPJ (STG, SMG) right",TC,813,29
+BraTS20_Training_081,Area Op1 (POperc) right,TC,718,26
+BraTS20_Training_081,Area PFm (IPL) right,TC,22,1
+BraTS20_Training_081,Area Op4 (POperc) right,TC,323,12
+BraTS20_Training_081,Area PFcm (IPL) right,TC,1231,44
+BraTS20_Training_081,Temporal-to-Parietal (GapMap) right,TC,3,0
+BraTS20_Training_081,Area PFop (IPL) right,TC,1199,43
+BraTS20_Training_081,Area Te 2.2 (STG) right,TC,188,7
+BraTS20_Training_081,WM/unassigned,WT,7126,256
+BraTS20_Training_081,Area 3b (PostCG) right,WT,404,15
+BraTS20_Training_081,Area PF (IPL) right,WT,857,31
+BraTS20_Training_081,Area 1 (PostCG) right,WT,280,10
+BraTS20_Training_081,Area PFt (IPL) right,WT,617,22
+BraTS20_Training_081,Area Te 3 (STG) right,WT,363,13
+BraTS20_Training_081,Area 6r1 (PreCG) right,WT,2,0
+BraTS20_Training_081,"Area TPJ (STG, SMG) right",WT,55,2
+BraTS20_Training_081,Area Op1 (POperc) right,WT,76,3
+BraTS20_Training_081,Area hIP2 (IPS) right,WT,2,0
+BraTS20_Training_081,Area PGa (IPL) right,WT,243,9
+BraTS20_Training_081,Area PFm (IPL) right,WT,1509,54
+BraTS20_Training_081,Area Op4 (POperc) right,WT,521,19
+BraTS20_Training_081,Area Op2 (POperc) right,WT,1,0
+BraTS20_Training_081,Area PFcm (IPL) right,WT,434,16
+BraTS20_Training_081,Area hIP3 (IPS) right,WT,151,5
+BraTS20_Training_081,Temporal-to-Parietal (GapMap) right,WT,1326,48
+BraTS20_Training_081,Area 2 (PostCS) right,WT,13,0
+BraTS20_Training_081,Area STS1 (STS) right,WT,1,0
+BraTS20_Training_081,Area PFop (IPL) right,WT,13,0
+BraTS20_Training_081,Area Te 2.2 (STG) right,WT,280,10
+BraTS20_Training_081,WM/unassigned,ET,4252,153
+BraTS20_Training_081,Area 3b (PostCG) right,ET,9,0
+BraTS20_Training_081,Area PF (IPL) right,ET,1353,49
+BraTS20_Training_081,Area 1 (PostCG) right,ET,106,4
+BraTS20_Training_081,Area PFt (IPL) right,ET,437,16
+BraTS20_Training_081,Area Te 3 (STG) right,ET,183,7
+BraTS20_Training_081,"Area TPJ (STG, SMG) right",ET,596,21
+BraTS20_Training_081,Area Op1 (POperc) right,ET,379,14
+BraTS20_Training_081,Area PFm (IPL) right,ET,43,2
+BraTS20_Training_081,Area Op4 (POperc) right,ET,295,11
+BraTS20_Training_081,Area PFcm (IPL) right,ET,266,10
+BraTS20_Training_081,Temporal-to-Parietal (GapMap) right,ET,27,1
+BraTS20_Training_081,Area PFop (IPL) right,ET,204,7
+BraTS20_Training_081,Area Te 2.2 (STG) right,ET,445,16

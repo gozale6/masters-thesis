@@ -1,0 +1,252 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_150,WM/unassigned,TC,3499,13,63.1,0.0,False
+BraTS20_Training_150,CGM (Metathalamus) right,TC,11,0,0.2,13.4,False
+BraTS20_Training_150,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",TC,38,0,0.7,4.3,False
+BraTS20_Training_150,"BST (Basal Forebrain, Bed Nucleus) right",TC,1,0,0.0,0.6,False
+BraTS20_Training_150,"MD (Thalamus, mediodorsal Nucleus) right",TC,17,0,0.3,2.1,False
+BraTS20_Training_150,"SNC (Midbrain, Substantia Nigra pars compacta) right",TC,88,0,1.6,9.6,True
+BraTS20_Training_150,"CM (Thalamus, centromedian Nucleus) right",TC,6,0,0.1,3.0,False
+BraTS20_Training_150,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",TC,2,0,0.0,0.2,False
+BraTS20_Training_150,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",TC,7,0,0.1,1.4,False
+BraTS20_Training_150,"VIM (Thalamus, ventral intermediate Nucleus) right",TC,3,0,0.1,0.3,False
+BraTS20_Training_150,HATA (Hippocampus) right,TC,11,0,0.2,4.1,False
+BraTS20_Training_150,"CL (Thalamus, anterior intralaminar nuclei) right",TC,4,0,0.1,0.3,False
+BraTS20_Training_150,"VPM (Thalamus, ventral posterior medial Nucleus) right",TC,2,0,0.0,28.6,False
+BraTS20_Training_150,"SNR (Midbrain, Substantia Nigra pars reticulata) right",TC,83,0,1.5,13.7,False
+BraTS20_Training_150,"AV (Thalamus, anteroventral Nucleus) right",TC,12,0,0.2,4.2,False
+BraTS20_Training_150,VP (Ventral Pallidum) right,TC,3,0,0.1,0.5,False
+BraTS20_Training_150,"VPi (Thalamus, ventroposterior inferior Nucleus) right",TC,9,0,0.2,8.0,False
+BraTS20_Training_150,"ZI (Thalamus, zona incerta) left",TC,46,0,0.8,8.2,False
+BraTS20_Training_150,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",TC,14,0,0.3,5.1,False
+BraTS20_Training_150,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",TC,17,0,0.3,2.1,False
+BraTS20_Training_150,"BST (Basal Forebrain, Bed Nucleus) left",TC,34,0,0.6,19.4,False
+BraTS20_Training_150,"AM (Thalamus, anteromedial Nucleus) left",TC,4,0,0.1,3.1,False
+BraTS20_Training_150,CA2 (Hippocampus) left,TC,49,0,0.9,22.2,False
+BraTS20_Training_150,"VLP (Thalamus, ventral lateral posterior Nucleus) left",TC,13,0,0.2,1.0,False
+BraTS20_Training_150,"Tu (Basal Forebrain, Tuberculum) left",TC,2,0,0.0,4.5,False
+BraTS20_Training_150,VTM (Amygdala) left,TC,1,0,0.0,1.4,False
+BraTS20_Training_150,"MD (Thalamus, mediodorsal Nucleus) left",TC,12,0,0.2,1.5,False
+BraTS20_Training_150,LB (Amygdala) left,TC,28,0,0.5,2.9,False
+BraTS20_Training_150,STN (Subthalamus) left,TC,31,0,0.6,10.2,False
+BraTS20_Training_150,"SNC (Midbrain, Substantia Nigra pars compacta) left",TC,288,1,5.2,45.4,True
+BraTS20_Training_150,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",TC,50,0,0.9,17.5,False
+BraTS20_Training_150,Ch 4 (Basal Forebrain) left,TC,9,0,0.2,1.7,False
+BraTS20_Training_150,"AcbM (Ventral Striatum, Medial Accumbens) left",TC,13,0,0.2,7.3,False
+BraTS20_Training_150,"VM (Thalamus, ventral medial Nucleus) left",TC,1,0,0.0,5.0,False
+BraTS20_Training_150,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",TC,6,0,0.1,2.0,False
+BraTS20_Training_150,CM (Amygdala) left,TC,16,0,0.3,3.2,False
+BraTS20_Training_150,CA1 (Hippocampus) left,TC,10,0,0.2,0.9,False
+BraTS20_Training_150,IF (Amygdala) left,TC,1,0,0.0,0.4,False
+BraTS20_Training_150,"VIM (Thalamus, ventral intermediate Nucleus) left",TC,24,0,0.4,2.1,False
+BraTS20_Training_150,Temporal-to-Parietal (GapMap) left,TC,1,0,0.0,0.0,False
+BraTS20_Training_150,HATA (Hippocampus) left,TC,273,1,4.9,71.1,True
+BraTS20_Training_150,"TuTi (Basal Forebrain, Terminal islands) left",TC,17,0,0.3,6.3,False
+BraTS20_Training_150,"CL (Thalamus, anterior intralaminar nuclei) left",TC,32,0,0.6,2.2,False
+BraTS20_Training_150,Frontal-to-Temporal-II (GapMap) left,TC,22,0,0.4,0.4,False
+BraTS20_Training_150,Ch 123 (Basal Forebrain) left,TC,50,0,0.9,27.3,False
+BraTS20_Training_150,"Subc (Hippocampus, Subicular complex) left",TC,12,0,0.2,0.3,False
+BraTS20_Training_150,"SNR (Midbrain, Substantia Nigra pars reticulata) left",TC,284,1,5.1,35.9,True
+BraTS20_Training_150,"AV (Thalamus, anteroventral Nucleus) left",TC,23,0,0.4,8.4,False
+BraTS20_Training_150,VP (Ventral Pallidum) left,TC,54,0,1.0,10.0,False
+BraTS20_Training_150,MF (Amygdala) left,TC,4,0,0.1,18.2,False
+BraTS20_Training_150,"sPf (Thalamus, subparafascicular Nucleus) left",TC,14,0,0.3,11.0,False
+BraTS20_Training_150,SF (Amygdala) left,TC,297,1,5.4,47.1,True
+BraTS20_Training_150,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,1,0,0.0,0.3,False
+BraTS20_Training_150,WM/unassigned,WT,71586,256,73.7,0.9,False
+BraTS20_Training_150,"Po (Thalamus, posterior Nucleus) right",WT,21,0,0.0,27.6,False
+BraTS20_Training_150,"LD (Thalamus, lateral dorsal Nucleus) right",WT,47,0,0.0,16.3,False
+BraTS20_Training_150,CGM (Metathalamus) right,WT,31,0,0.0,37.8,False
+BraTS20_Training_150,"PUm (Thalamus, medial pulvinar) right",WT,25,0,0.0,4.9,False
+BraTS20_Training_150,"PUi (Thalamus, inferior pulvinar) right",WT,4,0,0.0,3.7,False
+BraTS20_Training_150,Frontal-to-Occipital (GapMap) right,WT,2262,8,2.3,6.7,True
+BraTS20_Training_150,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,265,1,0.3,29.9,False
+BraTS20_Training_150,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,212,1,0.2,35.6,False
+BraTS20_Training_150,Area Id4 (Insula) right,WT,14,0,0.0,1.6,False
+BraTS20_Training_150,"Rt (Thalamus, reticular Nucleus) right",WT,543,2,0.6,28.3,False
+BraTS20_Training_150,Area Id6 (Insula) right,WT,185,1,0.2,7.0,False
+BraTS20_Training_150,"PUa (Thalamus, anterior pulvinar) right",WT,93,0,0.1,44.9,False
+BraTS20_Training_150,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,343,1,0.4,20.5,False
+BraTS20_Training_150,Area 25 (sACC) right,WT,4,0,0.0,1.0,False
+BraTS20_Training_150,"MD (Thalamus, mediodorsal Nucleus) right",WT,14,0,0.0,1.7,False
+BraTS20_Training_150,"PUl (Thalamus, lateral pulvinar) right",WT,2,0,0.0,0.4,False
+BraTS20_Training_150,CGL (Metathalamus) right,WT,102,0,0.1,78.5,False
+BraTS20_Training_150,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,8,0,0.0,0.9,False
+BraTS20_Training_150,"AcbM (Ventral Striatum, Medial Accumbens) right",WT,1,0,0.0,0.6,False
+BraTS20_Training_150,"CM (Thalamus, centromedian Nucleus) right",WT,18,0,0.0,9.0,False
+BraTS20_Training_150,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,479,2,0.5,45.9,False
+BraTS20_Training_150,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,143,1,0.1,29.1,False
+BraTS20_Training_150,CM (Amygdala) right,WT,17,0,0.0,2.8,False
+BraTS20_Training_150,Area 33 (ACC) right,WT,989,4,1.0,52.8,False
+BraTS20_Training_150,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,45,0,0.0,4.0,False
+BraTS20_Training_150,Temporal-to-Parietal (GapMap) right,WT,254,1,0.3,0.4,False
+BraTS20_Training_150,HATA (Hippocampus) right,WT,2,0,0.0,0.8,False
+BraTS20_Training_150,"CL (Thalamus, anterior intralaminar nuclei) right",WT,108,0,0.1,9.0,False
+BraTS20_Training_150,Area Id5 (Insula) right,WT,30,0,0.0,3.1,False
+BraTS20_Training_150,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,180,1,0.2,25.3,False
+BraTS20_Training_150,"Sg (Thalamus, suprageniculate Nucleus) right",WT,2,0,0.0,1.0,False
+BraTS20_Training_150,"Subc (Hippocampus, Subicular complex) right",WT,458,2,0.5,10.9,False
+BraTS20_Training_150,"TrS (Hippocampus, Transsubiculum) right",WT,66,0,0.1,14.0,False
+BraTS20_Training_150,CA3 (Hippocampus) right,WT,23,0,0.0,3.4,False
+BraTS20_Training_150,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,3,0,0.0,0.5,False
+BraTS20_Training_150,"AV (Thalamus, anteroventral Nucleus) right",WT,225,1,0.2,79.2,False
+BraTS20_Training_150,VP (Ventral Pallidum) right,WT,20,0,0.0,3.1,False
+BraTS20_Training_150,"VPi (Thalamus, ventroposterior inferior Nucleus) right",WT,4,0,0.0,3.6,False
+BraTS20_Training_150,Area Fo2 (OFC) right,WT,6,0,0.0,0.3,False
+BraTS20_Training_150,Astr (Amygdala) left,WT,146,1,0.2,71.2,False
+BraTS20_Training_150,"LD (Thalamus, lateral dorsal Nucleus) left",WT,197,1,0.2,100.0,False
+BraTS20_Training_150,"PUm (Thalamus, medial pulvinar) left",WT,528,2,0.5,65.2,False
+BraTS20_Training_150,"PUi (Thalamus, inferior pulvinar) left",WT,62,0,0.1,62.0,False
+BraTS20_Training_150,Frontal-to-Occipital (GapMap) left,WT,2953,11,3.0,8.0,True
+BraTS20_Training_150,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,240,1,0.2,29.7,False
+BraTS20_Training_150,"AM (Thalamus, anteromedial Nucleus) left",WT,1,0,0.0,0.8,False
+BraTS20_Training_150,Area Ig2 (Insula) left,WT,119,0,0.1,19.2,False
+BraTS20_Training_150,CA2 (Hippocampus) left,WT,128,0,0.1,57.9,False
+BraTS20_Training_150,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,909,3,0.9,72.5,False
+BraTS20_Training_150,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,59,0,0.1,8.0,False
+BraTS20_Training_150,Area Id4 (Insula) left,WT,1,0,0.0,0.1,False
+BraTS20_Training_150,"Rt (Thalamus, reticular Nucleus) left",WT,1490,5,1.5,96.3,True
+BraTS20_Training_150,"PUa (Thalamus, anterior pulvinar) left",WT,53,0,0.1,29.9,False
+BraTS20_Training_150,VTM (Amygdala) left,WT,67,0,0.1,90.5,False
+BraTS20_Training_150,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,563,2,0.6,38.1,False
+BraTS20_Training_150,Area 25 (sACC) left,WT,12,0,0.0,4.6,False
+BraTS20_Training_150,"MD (Thalamus, mediodorsal Nucleus) left",WT,16,0,0.0,2.0,False
+BraTS20_Training_150,LB (Amygdala) left,WT,332,1,0.3,34.3,False
+BraTS20_Training_150,"PUl (Thalamus, lateral pulvinar) left",WT,533,2,0.5,99.8,False
+BraTS20_Training_150,Area Ph1 (PhG) left,WT,62,0,0.1,5.6,False
+BraTS20_Training_150,Area FG4 (FusG) left,WT,344,1,0.4,4.6,False
+BraTS20_Training_150,CGL (Metathalamus) left,WT,232,1,0.2,71.6,False
+BraTS20_Training_150,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,37,0,0.0,5.8,False
+BraTS20_Training_150,Area Ph3 (PhG) left,WT,270,1,0.3,41.3,False
+BraTS20_Training_150,Area Te 1.1 (HESCHL) left,WT,177,1,0.2,14.6,False
+BraTS20_Training_150,"LP (Thalamus, lateral posterior Nucleus) left",WT,473,2,0.5,100.0,False
+BraTS20_Training_150,Area Ig3 (Insula) left,WT,22,0,0.0,5.1,False
+BraTS20_Training_150,Ch 4 (Basal Forebrain) left,WT,139,0,0.1,25.6,False
+BraTS20_Training_150,Area Op2 (POperc) left,WT,20,0,0.0,2.0,False
+BraTS20_Training_150,DG (Hippocampus) left,WT,112,0,0.1,65.5,False
+BraTS20_Training_150,Area Ig1 (Insula) left,WT,137,0,0.1,40.2,False
+BraTS20_Training_150,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,517,2,0.5,51.2,False
+BraTS20_Training_150,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,46,0,0.0,15.2,False
+BraTS20_Training_150,CM (Amygdala) left,WT,99,0,0.1,19.8,False
+BraTS20_Training_150,Area 33 (ACC) left,WT,112,0,0.1,20.0,False
+BraTS20_Training_150,Area Id2 (Insula) left,WT,11,0,0.0,1.7,False
+BraTS20_Training_150,CA1 (Hippocampus) left,WT,464,2,0.5,40.3,False
+BraTS20_Training_150,IF (Amygdala) left,WT,72,0,0.1,25.7,False
+BraTS20_Training_150,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,58,0,0.1,5.2,False
+BraTS20_Training_150,Temporal-to-Parietal (GapMap) left,WT,222,1,0.2,0.4,False
+BraTS20_Training_150,HATA (Hippocampus) left,WT,42,0,0.0,10.9,False
+BraTS20_Training_150,"TuTi (Basal Forebrain, Terminal islands) left",WT,16,0,0.0,5.9,False
+BraTS20_Training_150,"CL (Thalamus, anterior intralaminar nuclei) left",WT,137,0,0.1,9.4,False
+BraTS20_Training_150,Area 5Ci (SPL) left,WT,136,0,0.1,11.1,False
+BraTS20_Training_150,Frontal-to-Temporal-II (GapMap) left,WT,1355,5,1.4,22.7,True
+BraTS20_Training_150,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,496,2,0.5,81.3,False
+BraTS20_Training_150,"Subc (Hippocampus, Subicular complex) left",WT,2644,9,2.7,60.1,True
+BraTS20_Training_150,"TrS (Hippocampus, Transsubiculum) left",WT,321,1,0.3,98.5,False
+BraTS20_Training_150,CA3 (Hippocampus) left,WT,145,1,0.1,100.0,False
+BraTS20_Training_150,"AV (Thalamus, anteroventral Nucleus) left",WT,251,1,0.3,91.6,False
+BraTS20_Training_150,SF (Amygdala) left,WT,17,0,0.0,2.7,False
+BraTS20_Training_150,Area s24 (sACC) left,WT,55,0,0.1,3.8,False
+BraTS20_Training_150,Area Ph2 (PhG) left,WT,410,1,0.4,31.0,False
+BraTS20_Training_150,"AcbL (Ventral Striatum, Lateral Accumbens) left",WT,44,0,0.0,12.3,False
+BraTS20_Training_150,Area Fo2 (OFC) left,WT,216,1,0.2,11.0,False
+BraTS20_Training_150,Area Te 2.2 (STG) left,WT,4,0,0.0,0.2,False
+BraTS20_Training_150,WM/unassigned,ET,26251,94,56.3,0.3,False
+BraTS20_Training_150,"Po (Thalamus, posterior Nucleus) right",ET,26,0,0.1,34.2,False
+BraTS20_Training_150,"ZI (Thalamus, zona incerta) right",ET,218,1,0.5,91.2,False
+BraTS20_Training_150,CGM (Metathalamus) right,ET,18,0,0.0,22.0,False
+BraTS20_Training_150,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",ET,363,1,0.8,100.0,False
+BraTS20_Training_150,"PUm (Thalamus, medial pulvinar) right",ET,51,0,0.1,10.0,False
+BraTS20_Training_150,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",ET,569,2,1.2,64.1,False
+BraTS20_Training_150,"BST (Basal Forebrain, Bed Nucleus) right",ET,179,1,0.4,99.4,False
+BraTS20_Training_150,"AM (Thalamus, anteromedial Nucleus) right",ET,135,0,0.3,100.0,False
+BraTS20_Training_150,"VLP (Thalamus, ventral lateral posterior Nucleus) right",ET,1,0,0.0,0.2,False
+BraTS20_Training_150,"Li (Thalamus, limitans Nucleus) right",ET,215,1,0.5,99.1,False
+BraTS20_Training_150,"Tu (Basal Forebrain, Tuberculum) right",ET,21,0,0.0,32.8,False
+BraTS20_Training_150,"Pv (Thalamus, paraventricular Nucleus) right",ET,77,0,0.2,100.0,False
+BraTS20_Training_150,"PUa (Thalamus, anterior pulvinar) right",ET,45,0,0.1,21.7,False
+BraTS20_Training_150,Area 25 (sACC) right,ET,210,1,0.5,53.4,False
+BraTS20_Training_150,"MD (Thalamus, mediodorsal Nucleus) right",ET,616,2,1.3,75.5,False
+BraTS20_Training_150,"Pf (Thalamus, parafascicular Nucleus) right",ET,89,0,0.2,100.0,False
+BraTS20_Training_150,STN (Subthalamus) right,ET,300,1,0.6,88.0,False
+BraTS20_Training_150,"SNC (Midbrain, Substantia Nigra pars compacta) right",ET,382,1,0.8,41.7,False
+BraTS20_Training_150,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",ET,44,0,0.1,66.7,False
+BraTS20_Training_150,"AcbM (Ventral Striatum, Medial Accumbens) right",ET,139,0,0.3,78.1,False
+BraTS20_Training_150,"VM (Thalamus, ventral medial Nucleus) right",ET,47,0,0.1,100.0,False
+BraTS20_Training_150,"CM (Thalamus, centromedian Nucleus) right",ET,175,1,0.4,87.9,False
+BraTS20_Training_150,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,25,0,0.1,2.4,False
+BraTS20_Training_150,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",ET,342,1,0.7,69.5,False
+BraTS20_Training_150,"MV (Thalamus, medioventral Nucleus) right",ET,117,0,0.3,100.0,False
+BraTS20_Training_150,CM (Amygdala) right,ET,49,0,0.1,8.0,False
+BraTS20_Training_150,"VIM (Thalamus, ventral intermediate Nucleus) right",ET,450,2,1.0,39.6,False
+BraTS20_Training_150,HATA (Hippocampus) right,ET,8,0,0.0,3.0,False
+BraTS20_Training_150,"TuTi (Basal Forebrain, Terminal islands) right",ET,76,0,0.2,21.5,False
+BraTS20_Training_150,"CL (Thalamus, anterior intralaminar nuclei) right",ET,700,3,1.5,58.1,True
+BraTS20_Training_150,Frontal-to-Temporal-II (GapMap) right,ET,27,0,0.1,1.1,False
+BraTS20_Training_150,Ch 123 (Basal Forebrain) right,ET,255,1,0.5,100.0,False
+BraTS20_Training_150,"Sg (Thalamus, suprageniculate Nucleus) right",ET,195,1,0.4,96.1,False
+BraTS20_Training_150,"VLA (Thalamus, ventral lateral anterior Nucleus) right",ET,62,0,0.1,95.4,False
+BraTS20_Training_150,"VPM (Thalamus, ventral posterior medial Nucleus) right",ET,4,0,0.0,57.1,False
+BraTS20_Training_150,"SNR (Midbrain, Substantia Nigra pars reticulata) right",ET,353,1,0.8,58.3,False
+BraTS20_Training_150,"AV (Thalamus, anteroventral Nucleus) right",ET,47,0,0.1,16.5,False
+BraTS20_Training_150,VP (Ventral Pallidum) right,ET,301,1,0.6,47.4,False
+BraTS20_Training_150,"sPf (Thalamus, subparafascicular Nucleus) right",ET,167,1,0.4,100.0,False
+BraTS20_Training_150,SF (Amygdala) right,ET,31,0,0.1,4.0,False
+BraTS20_Training_150,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) right",ET,34,0,0.1,100.0,False
+BraTS20_Training_150,"VPi (Thalamus, ventroposterior inferior Nucleus) right",ET,25,0,0.1,22.3,False
+BraTS20_Training_150,"Po (Thalamus, posterior Nucleus) left",ET,47,0,0.1,100.0,False
+BraTS20_Training_150,"ZI (Thalamus, zona incerta) left",ET,514,2,1.1,91.8,False
+BraTS20_Training_150,CGM (Metathalamus) left,ET,88,0,0.2,100.0,False
+BraTS20_Training_150,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",ET,258,1,0.6,94.9,False
+BraTS20_Training_150,"PUm (Thalamus, medial pulvinar) left",ET,282,1,0.6,34.8,False
+BraTS20_Training_150,"PUi (Thalamus, inferior pulvinar) left",ET,1,0,0.0,1.0,False
+BraTS20_Training_150,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",ET,550,2,1.2,68.2,False
+BraTS20_Training_150,"BST (Basal Forebrain, Bed Nucleus) left",ET,141,1,0.3,80.6,False
+BraTS20_Training_150,"AM (Thalamus, anteromedial Nucleus) left",ET,125,0,0.3,96.2,False
+BraTS20_Training_150,CA2 (Hippocampus) left,ET,44,0,0.1,19.9,False
+BraTS20_Training_150,"VLP (Thalamus, ventral lateral posterior Nucleus) left",ET,332,1,0.7,26.5,False
+BraTS20_Training_150,"Li (Thalamus, limitans Nucleus) left",ET,164,1,0.4,100.0,False
+BraTS20_Training_150,"Tu (Basal Forebrain, Tuberculum) left",ET,42,0,0.1,95.5,False
+BraTS20_Training_150,"Rt (Thalamus, reticular Nucleus) left",ET,21,0,0.0,1.4,False
+BraTS20_Training_150,"Pv (Thalamus, paraventricular Nucleus) left",ET,20,0,0.0,100.0,False
+BraTS20_Training_150,"PUa (Thalamus, anterior pulvinar) left",ET,124,0,0.3,70.1,False
+BraTS20_Training_150,VTM (Amygdala) left,ET,5,0,0.0,6.8,False
+BraTS20_Training_150,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,213,1,0.5,14.4,False
+BraTS20_Training_150,Area 25 (sACC) left,ET,238,1,0.5,91.5,False
+BraTS20_Training_150,"MD (Thalamus, mediodorsal Nucleus) left",ET,791,3,1.7,96.6,True
+BraTS20_Training_150,LB (Amygdala) left,ET,138,0,0.3,14.2,False
+BraTS20_Training_150,"Pf (Thalamus, parafascicular Nucleus) left",ET,84,0,0.2,100.0,False
+BraTS20_Training_150,STN (Subthalamus) left,ET,273,1,0.6,89.8,False
+BraTS20_Training_150,CGL (Metathalamus) left,ET,46,0,0.1,14.2,False
+BraTS20_Training_150,"SNC (Midbrain, Substantia Nigra pars compacta) left",ET,304,1,0.7,47.9,False
+BraTS20_Training_150,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",ET,235,1,0.5,82.5,False
+BraTS20_Training_150,Ch 4 (Basal Forebrain) left,ET,396,1,0.8,72.8,False
+BraTS20_Training_150,"AcbM (Ventral Striatum, Medial Accumbens) left",ET,166,1,0.4,92.7,False
+BraTS20_Training_150,"VM (Thalamus, ventral medial Nucleus) left",ET,19,0,0.0,95.0,False
+BraTS20_Training_150,"CM (Thalamus, centromedian Nucleus) left",ET,164,1,0.4,100.0,False
+BraTS20_Training_150,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,298,1,0.6,29.5,False
+BraTS20_Training_150,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",ET,251,1,0.5,82.8,False
+BraTS20_Training_150,"MV (Thalamus, medioventral Nucleus) left",ET,54,0,0.1,100.0,False
+BraTS20_Training_150,CM (Amygdala) left,ET,385,1,0.8,77.0,False
+BraTS20_Training_150,CA1 (Hippocampus) left,ET,33,0,0.1,2.9,False
+BraTS20_Training_150,"VIM (Thalamus, ventral intermediate Nucleus) left",ET,1042,4,2.2,92.7,True
+BraTS20_Training_150,Temporal-to-Parietal (GapMap) left,ET,41,0,0.1,0.1,False
+BraTS20_Training_150,HATA (Hippocampus) left,ET,66,0,0.1,17.2,False
+BraTS20_Training_150,"TuTi (Basal Forebrain, Terminal islands) left",ET,235,1,0.5,87.0,False
+BraTS20_Training_150,"CL (Thalamus, anterior intralaminar nuclei) left",ET,1287,5,2.8,88.4,True
+BraTS20_Training_150,Frontal-to-Temporal-II (GapMap) left,ET,838,3,1.8,14.1,True
+BraTS20_Training_150,Ch 123 (Basal Forebrain) left,ET,133,0,0.3,72.7,False
+BraTS20_Training_150,"VPL (Thalamus, ventral posterior lateral Nucleus) left",ET,114,0,0.2,18.7,False
+BraTS20_Training_150,"Sg (Thalamus, suprageniculate Nucleus) left",ET,112,0,0.2,100.0,False
+BraTS20_Training_150,"Subc (Hippocampus, Subicular complex) left",ET,282,1,0.6,6.4,False
+BraTS20_Training_150,"VLA (Thalamus, ventral lateral anterior Nucleus) left",ET,97,0,0.2,100.0,False
+BraTS20_Training_150,"VPM (Thalamus, ventral posterior medial Nucleus) left",ET,9,0,0.0,100.0,False
+BraTS20_Training_150,"SNR (Midbrain, Substantia Nigra pars reticulata) left",ET,505,2,1.1,63.8,False
+BraTS20_Training_150,VP (Ventral Pallidum) left,ET,485,2,1.0,90.0,False
+BraTS20_Training_150,MF (Amygdala) left,ET,18,0,0.0,81.8,False
+BraTS20_Training_150,"sPf (Thalamus, subparafascicular Nucleus) left",ET,113,0,0.2,89.0,False
+BraTS20_Training_150,SF (Amygdala) left,ET,317,1,0.7,50.2,False
+BraTS20_Training_150,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) left",ET,28,0,0.1,100.0,False
+BraTS20_Training_150,"VPi (Thalamus, ventroposterior inferior Nucleus) left",ET,86,0,0.2,100.0,False
+BraTS20_Training_150,Area s24 (sACC) left,ET,3,0,0.0,0.2,False
+BraTS20_Training_150,Area Ph2 (PhG) left,ET,27,0,0.1,2.0,False
+BraTS20_Training_150,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,314,1,0.7,87.5,False
+BraTS20_Training_150,Area Fo2 (OFC) left,ET,158,1,0.3,8.0,False

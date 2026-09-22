@@ -1,0 +1,176 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0191,WM/unassigned,TC,16413,183
+pred_0191,Astr (Amygdala) left,TC,6,0
+pred_0191,Area Id8 (Insula) left,TC,621,7
+pred_0191,"Area PirTB (PiriformCortexMesial, temporobasal) left",TC,5,0
+pred_0191,Area p24ab (pACC) left,TC,130,1
+pred_0191,Frontal-to-Occipital (GapMap) left,TC,7,0
+pred_0191,Area Ia3 (Insula) left,TC,77,1
+pred_0191,Area Id6 (Insula) left,TC,657,7
+pred_0191,Area Fo7 (OFC) left,TC,77,1
+pred_0191,Area Ia1 (Insula) left,TC,1,0
+pred_0191,Area Op8 (Frontal Operculum) left,TC,74,1
+pred_0191,"FuP (Ventral Striatum, Fundus of Putamen) left",TC,983,11
+pred_0191,Area 25 (sACC) left,TC,120,1
+pred_0191,LB (Amygdala) left,TC,8,0
+pred_0191,Area Op10 (Frontal Operculum) left,TC,20,0
+pred_0191,Area Id7 (Insula) left,TC,140,2
+pred_0191,Area p32 (pACC) left,TC,3,0
+pred_0191,Area Fo3 (OFC) left,TC,2325,26
+pred_0191,Ch 4 (Basal Forebrain) left,TC,16,0
+pred_0191,"AcbM (Ventral Striatum, Medial Accumbens) left",TC,88,1
+pred_0191,Area Id10 (Insula) left,TC,891,10
+pred_0191,Area p24c (pACC) left,TC,1,0
+pred_0191,"Area PirT (PiriformCortexMesial, temporal) left",TC,7,0
+pred_0191,Frontal-to-Temporal-I (GapMap) left,TC,1268,14
+pred_0191,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",TC,936,10
+pred_0191,CM (Amygdala) left,TC,42,0
+pred_0191,IF (Amygdala) left,TC,138,2
+pred_0191,Area Op9 (Frontal Operculum) left,TC,13,0
+pred_0191,Temporal-to-Parietal (GapMap) left,TC,380,4
+pred_0191,"TuTi (Basal Forebrain, Terminal islands) left",TC,130,1
+pred_0191,Frontal-to-Temporal-II (GapMap) left,TC,1760,20
+pred_0191,Area Ia2 (Insula) left,TC,1,0
+pred_0191,Area Id5 (Insula) left,TC,6,0
+pred_0191,Ch 123 (Basal Forebrain) left,TC,2,0
+pred_0191,Area Id9 (Insula) left,TC,507,6
+pred_0191,VP (Ventral Pallidum) left,TC,131,1
+pred_0191,Area s32 (sACC) left,TC,45,1
+pred_0191,SF (Amygdala) left,TC,4,0
+pred_0191,Area Fo1 (OFC) left,TC,4,0
+pred_0191,Area s24 (sACC) left,TC,688,8
+pred_0191,"AcbL (Ventral Striatum, Lateral Accumbens) left",TC,344,4
+pred_0191,Area Fo2 (OFC) left,TC,312,3
+pred_0191,Area 25 (sACC) right,TC,1,0
+pred_0191,Area s24 (sACC) right,TC,13,0
+pred_0191,WM/unassigned,WT,10657,119
+pred_0191,Astr (Amygdala) left,WT,49,1
+pred_0191,Area SFG4 (SFG) left,WT,1,0
+pred_0191,Area Id3 (Insula) left,WT,3,0
+pred_0191,"ZI (Thalamus, zona incerta) left",WT,83,1
+pred_0191,Area p24ab (pACC) left,WT,727,8
+pred_0191,Area TI (STG) left,WT,8,0
+pred_0191,Frontal-to-Occipital (GapMap) left,WT,223,2
+pred_0191,Area Op6 (Frontal Operculum) left,WT,15,0
+pred_0191,"BST (Basal Forebrain, Bed Nucleus) left",WT,20,0
+pred_0191,Area Op7 (Frontal Operculum) left,WT,9,0
+pred_0191,Area Ia3 (Insula) left,WT,13,0
+pred_0191,CA2 (Hippocampus) left,WT,215,2
+pred_0191,Area Fp2 (FPole) left,WT,467,5
+pred_0191,Area Id6 (Insula) left,WT,224,3
+pred_0191,Area 44 (IFG) left,WT,8,0
+pred_0191,Area Fo7 (OFC) left,WT,143,2
+pred_0191,Area Ia1 (Insula) left,WT,23,0
+pred_0191,VTM (Amygdala) left,WT,50,1
+pred_0191,Area Op8 (Frontal Operculum) left,WT,189,2
+pred_0191,"FuP (Ventral Striatum, Fundus of Putamen) left",WT,2,0
+pred_0191,Area 25 (sACC) left,WT,11,0
+pred_0191,LB (Amygdala) left,WT,43,0
+pred_0191,Area Op10 (Frontal Operculum) left,WT,23,0
+pred_0191,Area Fp1 (FPole) left,WT,1,0
+pred_0191,Area MFG2 (MFG) left,WT,37,0
+pred_0191,Area Id7 (Insula) left,WT,66,1
+pred_0191,STN (Subthalamus) left,WT,230,3
+pred_0191,Area Fo6 (OFC) left,WT,4,0
+pred_0191,Area p32 (pACC) left,WT,1691,19
+pred_0191,Area Fo3 (OFC) left,WT,795,9
+pred_0191,Area MFG4 (MFG) left,WT,2,0
+pred_0191,Area SFG3 (SFG) left,WT,15,0
+pred_0191,Area Fo4 (OFC) left,WT,161,2
+pred_0191,Ch 4 (Basal Forebrain) left,WT,86,1
+pred_0191,Area 8v2 (MFG) left,WT,2,0
+pred_0191,DG (Hippocampus) left,WT,31,0
+pred_0191,Area Id10 (Insula) left,WT,44,0
+pred_0191,Area p24c (pACC) left,WT,351,4
+pred_0191,Area SFS1 (SFS) left,WT,2,0
+pred_0191,Frontal-to-Temporal-I (GapMap) left,WT,101,1
+pred_0191,CM (Amygdala) left,WT,96,1
+pred_0191,Area 33 (ACC) left,WT,42,0
+pred_0191,CA1 (Hippocampus) left,WT,35,0
+pred_0191,Frontal-I.1 (GapMap) left,WT,8,0
+pred_0191,IF (Amygdala) left,WT,5,0
+pred_0191,Area Op9 (Frontal Operculum) left,WT,62,1
+pred_0191,Temporal-to-Parietal (GapMap) left,WT,211,2
+pred_0191,HATA (Hippocampus) left,WT,185,2
+pred_0191,"TuTi (Basal Forebrain, Terminal islands) left",WT,5,0
+pred_0191,Frontal-to-Temporal-II (GapMap) left,WT,688,8
+pred_0191,Area Ia2 (Insula) left,WT,23,0
+pred_0191,Area Id5 (Insula) left,WT,62,1
+pred_0191,Ch 123 (Basal Forebrain) left,WT,94,1
+pred_0191,"Subc (Hippocampus, Subicular complex) left",WT,31,0
+pred_0191,CA3 (Hippocampus) left,WT,74,1
+pred_0191,Area Id9 (Insula) left,WT,22,0
+pred_0191,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,208,2
+pred_0191,VP (Ventral Pallidum) left,WT,75,1
+pred_0191,Area s32 (sACC) left,WT,495,6
+pred_0191,MF (Amygdala) left,WT,16,0
+pred_0191,SF (Amygdala) left,WT,97,1
+pred_0191,Area Fo1 (OFC) left,WT,689,8
+pred_0191,Area s24 (sACC) left,WT,59,1
+pred_0191,Area Fo2 (OFC) left,WT,37,0
+pred_0191,Area p24ab (pACC) right,WT,1,0
+pred_0191,Area Fp2 (FPole) right,WT,146,2
+pred_0191,Area 25 (sACC) right,WT,11,0
+pred_0191,Area p32 (pACC) right,WT,123,1
+pred_0191,Area 33 (ACC) right,WT,33,0
+pred_0191,Ch 123 (Basal Forebrain) right,WT,5,0
+pred_0191,Area s32 (sACC) right,WT,12,0
+pred_0191,Area s24 (sACC) right,WT,26,0
+pred_0191,WM/unassigned,ET,22911,256
+pred_0191,Astr (Amygdala) left,ET,128,1
+pred_0191,Area Id8 (Insula) left,ET,443,5
+pred_0191,Area Id3 (Insula) left,ET,3,0
+pred_0191,Area p24ab (pACC) left,ET,661,7
+pred_0191,Area TI (STG) left,ET,11,0
+pred_0191,Frontal-to-Occipital (GapMap) left,ET,390,4
+pred_0191,Area Op6 (Frontal Operculum) left,ET,86,1
+pred_0191,"BST (Basal Forebrain, Bed Nucleus) left",ET,118,1
+pred_0191,Area Op7 (Frontal Operculum) left,ET,24,0
+pred_0191,Area Ia3 (Insula) left,ET,216,2
+pred_0191,"Tu (Basal Forebrain, Tuberculum) left",ET,44,0
+pred_0191,Area Id6 (Insula) left,ET,844,9
+pred_0191,Area 44 (IFG) left,ET,41,0
+pred_0191,Area Fo7 (OFC) left,ET,641,7
+pred_0191,Area Ia1 (Insula) left,ET,74,1
+pred_0191,VTM (Amygdala) left,ET,3,0
+pred_0191,Area Op8 (Frontal Operculum) left,ET,318,4
+pred_0191,"FuP (Ventral Striatum, Fundus of Putamen) left",ET,494,6
+pred_0191,Area 25 (sACC) left,ET,116,1
+pred_0191,LB (Amygdala) left,ET,377,4
+pred_0191,Area Op10 (Frontal Operculum) left,ET,275,3
+pred_0191,Area Id7 (Insula) left,ET,572,6
+pred_0191,Area Fo6 (OFC) left,ET,1,0
+pred_0191,Area p32 (pACC) left,ET,63,1
+pred_0191,Area Fo3 (OFC) left,ET,1914,21
+pred_0191,Area Fo4 (OFC) left,ET,2,0
+pred_0191,Ch 4 (Basal Forebrain) left,ET,197,2
+pred_0191,"AcbM (Ventral Striatum, Medial Accumbens) left",ET,91,1
+pred_0191,Area Id10 (Insula) left,ET,501,6
+pred_0191,Area p24c (pACC) left,ET,294,3
+pred_0191,"Area PirT (PiriformCortexMesial, temporal) left",ET,11,0
+pred_0191,Frontal-to-Temporal-I (GapMap) left,ET,1220,14
+pred_0191,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",ET,74,1
+pred_0191,CM (Amygdala) left,ET,232,3
+pred_0191,Area 33 (ACC) left,ET,148,2
+pred_0191,CA1 (Hippocampus) left,ET,1,0
+pred_0191,IF (Amygdala) left,ET,135,2
+pred_0191,Area Op9 (Frontal Operculum) left,ET,152,2
+pred_0191,Temporal-to-Parietal (GapMap) left,ET,923,10
+pred_0191,"TuTi (Basal Forebrain, Terminal islands) left",ET,135,2
+pred_0191,Frontal-to-Temporal-II (GapMap) left,ET,861,10
+pred_0191,Area Ia2 (Insula) left,ET,23,0
+pred_0191,Area Id5 (Insula) left,ET,68,1
+pred_0191,Ch 123 (Basal Forebrain) left,ET,25,0
+pred_0191,"Subc (Hippocampus, Subicular complex) left",ET,4,0
+pred_0191,Area Id9 (Insula) left,ET,146,2
+pred_0191,VP (Ventral Pallidum) left,ET,270,3
+pred_0191,Area s32 (sACC) left,ET,430,5
+pred_0191,SF (Amygdala) left,ET,178,2
+pred_0191,Area Fo1 (OFC) left,ET,44,0
+pred_0191,Area s24 (sACC) left,ET,566,6
+pred_0191,"AcbL (Ventral Striatum, Lateral Accumbens) left",ET,15,0
+pred_0191,Area Fo2 (OFC) left,ET,256,3
+pred_0191,Area 25 (sACC) right,ET,34,0
+pred_0191,Area 33 (ACC) right,ET,45,1
+pred_0191,Ch 123 (Basal Forebrain) right,ET,3,0
+pred_0191,Area s24 (sACC) right,ET,194,2

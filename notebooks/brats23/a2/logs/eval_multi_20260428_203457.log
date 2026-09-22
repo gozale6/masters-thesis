@@ -1,0 +1,119 @@
+2026-04-28 20:34:57,608  INFO  ======================================================================
+2026-04-28 20:34:57,608  INFO  Multi-model evaluation (ground truth)
+2026-04-28 20:34:57,608  INFO  ======================================================================
+2026-04-28 20:34:57,608  INFO    Checkpoint root : checkpoints_multi
+2026-04-28 20:34:57,608  INFO    CSV             : atlas_segmentations/ground_truth/all_cases.csv
+2026-04-28 20:34:57,608  INFO    Text dir        : ../TextBraTSData
+2026-04-28 20:34:57,608  INFO    Output dir      : eval_multi_results
+2026-04-28 20:34:57,608  INFO    Model(s)        : all
+2026-04-28 20:34:57,608  INFO  ======================================================================
+2026-04-28 20:34:57,608  INFO  Loading CSV: atlas_segmentations/ground_truth/all_cases.csv
+2026-04-28 20:34:58,676  INFO    Matched: 368 | Skipped: 0
+2026-04-28 20:34:58,677  INFO  Found checkpoints: ['scifive-base', 'scifive-large', 'clinicalt5-hoss']
+2026-04-28 20:34:58,677  INFO  
+######################################################################
+2026-04-28 20:34:58,677  INFO  # Evaluating: scifive-base  (razent/SciFive-base-PMC)
+2026-04-28 20:34:58,677  INFO  ######################################################################
+2026-04-28 20:34:58,677  INFO  Val samples: 74
+2026-04-28 20:34:58,743  INFO  Loading base model: razent/SciFive-base-PMC
+2026-04-28 20:34:58,964  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:34:59,005  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:34:59,099  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:34:59,099  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-28 20:34:59,136  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:34:59,284  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-04-28 20:34:59,360  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:34:59,397  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:34:59,398  INFO  Applying LoRA adapter from checkpoints_multi/scifive-base
+2026-04-28 20:36:19,000  INFO  Using default tokenizer.
+2026-04-28 20:36:19,583  INFO  
+[scifive-base] metrics
+2026-04-28 20:36:19,583  INFO    ROUGE-1            : 0.4520
+2026-04-28 20:36:19,583  INFO    ROUGE-2            : 0.2088
+2026-04-28 20:36:19,583  INFO    ROUGE-L            : 0.3308
+2026-04-28 20:36:19,583  INFO    BLEU               : 0.0889
+2026-04-28 20:36:19,583  INFO    Format compliance  : 0.0%
+2026-04-28 20:36:19,583  INFO    Samples            : 74
+2026-04-28 20:36:19,583  INFO    Per-field ROUGE-1:
+2026-04-28 20:36:19,583  INFO      lesion               : 0.5810
+2026-04-28 20:36:19,583  INFO      edema                : 0.4554
+2026-04-28 20:36:19,583  INFO      necrosis             : 0.4434
+2026-04-28 20:36:19,583  INFO      compression          : 0.2868
+2026-04-28 20:36:19,607  INFO  
+######################################################################
+2026-04-28 20:36:19,607  INFO  # Evaluating: scifive-large  (razent/SciFive-large-Pubmed)
+2026-04-28 20:36:19,607  INFO  ######################################################################
+2026-04-28 20:36:19,607  INFO  Val samples: 74
+2026-04-28 20:36:19,757  INFO  Loading base model: razent/SciFive-large-Pubmed
+2026-04-28 20:36:20,012  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:36:20,057  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:36:20,151  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:36:20,190  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:36:20,400  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-04-28 20:36:20,487  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:36:20,524  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:36:20,525  INFO  Applying LoRA adapter from checkpoints_multi/scifive-large
+2026-04-28 20:38:49,896  INFO  Using default tokenizer.
+2026-04-28 20:38:50,486  INFO  
+[scifive-large] metrics
+2026-04-28 20:38:50,486  INFO    ROUGE-1            : 0.4807
+2026-04-28 20:38:50,486  INFO    ROUGE-2            : 0.2226
+2026-04-28 20:38:50,486  INFO    ROUGE-L            : 0.3408
+2026-04-28 20:38:50,486  INFO    BLEU               : 0.0983
+2026-04-28 20:38:50,486  INFO    Format compliance  : 0.0%
+2026-04-28 20:38:50,486  INFO    Samples            : 74
+2026-04-28 20:38:50,486  INFO    Per-field ROUGE-1:
+2026-04-28 20:38:50,486  INFO      lesion               : 0.5855
+2026-04-28 20:38:50,486  INFO      edema                : 0.4878
+2026-04-28 20:38:50,486  INFO      necrosis             : 0.4358
+2026-04-28 20:38:50,486  INFO      compression          : 0.2853
+2026-04-28 20:38:50,560  INFO  
+######################################################################
+2026-04-28 20:38:50,560  INFO  # Evaluating: clinicalt5-hoss  (hossboll/clinical-t5)
+2026-04-28 20:38:50,560  INFO  ######################################################################
+2026-04-28 20:38:50,560  INFO  Val samples: 74
+2026-04-28 20:38:50,616  INFO  Loading base model: hossboll/clinical-t5
+2026-04-28 20:38:50,802  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:38:50,838  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:38:50,931  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:38:50,966  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-04-28 20:38:51,053  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-04-28 20:38:51,140  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5 "HTTP/1.1 200 OK"
+2026-04-28 20:38:51,247  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-28 20:38:51,282  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/main "HTTP/1.1 200 OK"
+2026-04-28 20:38:51,287  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/generation_config.json "HTTP/1.1 200 OK"
+2026-04-28 20:38:51,288  INFO  Applying LoRA adapter from checkpoints_multi/clinicalt5-hoss
+2026-04-28 20:38:51,379  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/discussions?p=0 "HTTP/1.1 200 OK"
+2026-04-28 20:38:51,593  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-04-28 20:38:51,675  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-04-28 20:38:51,767  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-04-28 20:39:32,107  INFO  Using default tokenizer.
+2026-04-28 20:39:32,607  INFO  
+[clinicalt5-hoss] metrics
+2026-04-28 20:39:32,608  INFO    ROUGE-1            : 0.4528
+2026-04-28 20:39:32,608  INFO    ROUGE-2            : 0.2273
+2026-04-28 20:39:32,608  INFO    ROUGE-L            : 0.3404
+2026-04-28 20:39:32,608  INFO    BLEU               : 0.0770
+2026-04-28 20:39:32,608  INFO    Format compliance  : 0.0%
+2026-04-28 20:39:32,608  INFO    Samples            : 74
+2026-04-28 20:39:32,608  INFO    Per-field ROUGE-1:
+2026-04-28 20:39:32,608  INFO      lesion               : 0.6189
+2026-04-28 20:39:32,608  INFO      edema                : 0.4568
+2026-04-28 20:39:32,608  INFO      necrosis             : 0.4668
+2026-04-28 20:39:32,608  INFO      compression          : 0.3284
+2026-04-28 20:39:32,627  INFO  
+Comparison saved → eval_multi_results/comparison_20260428_203457.json
+2026-04-28 20:39:32,627  INFO  
+======================================================================
+2026-04-28 20:39:32,627  INFO  RANKING BY ROUGE-1
+2026-04-28 20:39:32,627  INFO  ======================================================================
+2026-04-28 20:39:32,627  INFO    model                    R-1     R-2     R-L    BLEU   fmt%
+2026-04-28 20:39:32,627  INFO    --------------------  ------  ------  ------  ------  -----
+2026-04-28 20:39:32,628  INFO    scifive-large         0.4807  0.2226  0.3408  0.0983    0.0
+2026-04-28 20:39:32,628  INFO    clinicalt5-hoss       0.4528  0.2273  0.3404  0.0770    0.0
+2026-04-28 20:39:32,628  INFO    scifive-base          0.4520  0.2088  0.3308  0.0889    0.0
+2026-04-28 20:39:32,628  INFO  
+  Per-field ROUGE-1 (lesion / edema / necrosis / compression):
+2026-04-28 20:39:32,628  INFO    scifive-large         0.5855  0.4878  0.4358  0.2853
+2026-04-28 20:39:32,628  INFO    clinicalt5-hoss       0.6189  0.4568  0.4668  0.3284
+2026-04-28 20:39:32,628  INFO    scifive-base          0.5810  0.4554  0.4434  0.2868

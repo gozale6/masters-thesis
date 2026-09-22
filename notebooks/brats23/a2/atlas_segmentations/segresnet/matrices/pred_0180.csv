@@ -1,0 +1,96 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0180,WM/unassigned,TC,344,14
+pred_0180,Area Id8 (Insula) right,TC,4,0
+pred_0180,"Area PirTB (PiriformCortexMesial, temporobasal) right",TC,2,0
+pred_0180,Area TI (STG) right,TC,5,0
+pred_0180,Area Te 3 (STG) right,TC,3,0
+pred_0180,Area Op6 (Frontal Operculum) right,TC,49,2
+pred_0180,Area Ia3 (Insula) right,TC,6,0
+pred_0180,Area Id6 (Insula) right,TC,313,12
+pred_0180,Area 44 (IFG) right,TC,42,2
+pred_0180,Area Ia1 (Insula) right,TC,1,0
+pred_0180,Area Op8 (Frontal Operculum) right,TC,156,6
+pred_0180,"FuP (Ventral Striatum, Fundus of Putamen) right",TC,49,2
+pred_0180,Area Op5 (Frontal Operculum) right,TC,25,1
+pred_0180,Ch 4 (Basal Forebrain) right,TC,1,0
+pred_0180,Area Id10 (Insula) right,TC,3,0
+pred_0180,Frontal-to-Temporal-I (GapMap) right,TC,1,0
+pred_0180,CM (Amygdala) right,TC,6,0
+pred_0180,IF (Amygdala) right,TC,2,0
+pred_0180,Area Op9 (Frontal Operculum) right,TC,10,0
+pred_0180,Temporal-to-Parietal (GapMap) right,TC,4,0
+pred_0180,Frontal-to-Temporal-II (GapMap) right,TC,16,1
+pred_0180,Area Id5 (Insula) right,TC,79,3
+pred_0180,Area Id9 (Insula) right,TC,107,4
+pred_0180,Area TeI (STG) right,TC,32,1
+pred_0180,WM/unassigned,WT,1742,68
+pred_0180,Astr (Amygdala) right,WT,28,1
+pred_0180,Area Id8 (Insula) right,WT,37,1
+pred_0180,Area STS2 (STS) right,WT,23,1
+pred_0180,Area Id3 (Insula) right,WT,43,2
+pred_0180,"Area PirTB (PiriformCortexMesial, temporobasal) right",WT,9,0
+pred_0180,Area TI (STG) right,WT,66,3
+pred_0180,Area Te 3 (STG) right,WT,50,2
+pred_0180,Area 6r1 (PreCG) right,WT,11,0
+pred_0180,Area Op6 (Frontal Operculum) right,WT,78,3
+pred_0180,Area Op7 (Frontal Operculum) right,WT,7,0
+pred_0180,Area Id4 (Insula) right,WT,15,1
+pred_0180,Area Id6 (Insula) right,WT,183,7
+pred_0180,Area 44 (IFG) right,WT,149,6
+pred_0180,Area Ia1 (Insula) right,WT,4,0
+pred_0180,Area Op8 (Frontal Operculum) right,WT,5,0
+pred_0180,"FuP (Ventral Striatum, Fundus of Putamen) right",WT,145,6
+pred_0180,Area Op5 (Frontal Operculum) right,WT,124,5
+pred_0180,LB (Amygdala) right,WT,89,3
+pred_0180,Area Id7 (Insula) right,WT,2,0
+pred_0180,Area Fo6 (OFC) right,WT,1,0
+pred_0180,Ch 4 (Basal Forebrain) right,WT,30,1
+pred_0180,Area Id10 (Insula) right,WT,266,10
+pred_0180,"Area PirT (PiriformCortexMesial, temporal) right",WT,1,0
+pred_0180,Frontal-to-Temporal-I (GapMap) right,WT,106,4
+pred_0180,CM (Amygdala) right,WT,77,3
+pred_0180,IF (Amygdala) right,WT,65,3
+pred_0180,Area Op9 (Frontal Operculum) right,WT,38,1
+pred_0180,Temporal-to-Parietal (GapMap) right,WT,440,17
+pred_0180,"TuTi (Basal Forebrain, Terminal islands) right",WT,21,1
+pred_0180,Frontal-to-Temporal-II (GapMap) right,WT,260,10
+pred_0180,Area Ia2 (Insula) right,WT,29,1
+pred_0180,Area Id5 (Insula) right,WT,13,1
+pred_0180,VP (Ventral Pallidum) right,WT,12,0
+pred_0180,SF (Amygdala) right,WT,22,1
+pred_0180,Area TeI (STG) right,WT,74,3
+pred_0180,WM/unassigned,ET,6516,256
+pred_0180,Astr (Amygdala) right,ET,105,4
+pred_0180,Area Id8 (Insula) right,ET,689,27
+pred_0180,Area STS2 (STS) right,ET,9,0
+pred_0180,Area Id3 (Insula) right,ET,411,16
+pred_0180,"Area PirTB (PiriformCortexMesial, temporobasal) right",ET,27,1
+pred_0180,Area TI (STG) right,ET,621,24
+pred_0180,Area Te 3 (STG) right,ET,34,1
+pred_0180,Area 6r1 (PreCG) right,ET,20,1
+pred_0180,Area Op6 (Frontal Operculum) right,ET,290,11
+pred_0180,Area Op7 (Frontal Operculum) right,ET,294,12
+pred_0180,Area Ia3 (Insula) right,ET,228,9
+pred_0180,Area Id4 (Insula) right,ET,36,1
+pred_0180,Area Id6 (Insula) right,ET,1636,64
+pred_0180,Area 44 (IFG) right,ET,281,11
+pred_0180,Area Ia1 (Insula) right,ET,254,10
+pred_0180,Area Op8 (Frontal Operculum) right,ET,1033,41
+pred_0180,"FuP (Ventral Striatum, Fundus of Putamen) right",ET,911,36
+pred_0180,Area Op5 (Frontal Operculum) right,ET,175,7
+pred_0180,LB (Amygdala) right,ET,81,3
+pred_0180,Area Id7 (Insula) right,ET,9,0
+pred_0180,Ch 4 (Basal Forebrain) right,ET,43,2
+pred_0180,Area Id10 (Insula) right,ET,614,24
+pred_0180,Frontal-to-Temporal-I (GapMap) right,ET,894,35
+pred_0180,CM (Amygdala) right,ET,85,3
+pred_0180,IF (Amygdala) right,ET,188,7
+pred_0180,Area Op9 (Frontal Operculum) right,ET,275,11
+pred_0180,Temporal-to-Parietal (GapMap) right,ET,782,31
+pred_0180,"TuTi (Basal Forebrain, Terminal islands) right",ET,95,4
+pred_0180,Frontal-to-Temporal-II (GapMap) right,ET,1279,50
+pred_0180,Area Ia2 (Insula) right,ET,139,5
+pred_0180,Area Id5 (Insula) right,ET,322,13
+pred_0180,Area Id9 (Insula) right,ET,809,32
+pred_0180,VP (Ventral Pallidum) right,ET,42,2
+pred_0180,Area TeI (STG) right,ET,524,21

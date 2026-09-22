@@ -1,0 +1,35 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0131,WM/unassigned,TC,5760,30
+pred_0131,Area Te 3 (STG) right,TC,1,0
+pred_0131,Area Fo5 (OFC) right,TC,2,0
+pred_0131,Area Fo6 (OFC) right,TC,9,0
+pred_0131,Frontal-I.1 (GapMap) right,TC,4,0
+pred_0131,Area 45 (IFG) right,TC,12,0
+pred_0131,WM/unassigned,WT,49119,256
+pred_0131,Area STS2 (STS) right,WT,16,0
+pred_0131,Area Te 3 (STG) right,WT,817,4
+pred_0131,Area MFG1 (MFG) right,WT,68,0
+pred_0131,Area 6r1 (PreCG) right,WT,195,1
+pred_0131,Area Op6 (Frontal Operculum) right,WT,225,1
+pred_0131,Area Fo5 (OFC) right,WT,514,3
+pred_0131,Area Op7 (Frontal Operculum) right,WT,5,0
+pred_0131,Area Id6 (Insula) right,WT,1,0
+pred_0131,Area 44 (IFG) right,WT,1090,6
+pred_0131,Area Fo7 (OFC) right,WT,92,0
+pred_0131,Area Op8 (Frontal Operculum) right,WT,415,2
+pred_0131,Area MFG2 (MFG) right,WT,529,3
+pred_0131,Area Fo6 (OFC) right,WT,2368,12
+pred_0131,"Area MFG5 (MFG, IFG) right",WT,189,1
+pred_0131,Area MFG4 (MFG) right,WT,245,1
+pred_0131,Area Fo4 (OFC) right,WT,357,2
+pred_0131,Frontal-to-Temporal-I (GapMap) right,WT,264,1
+pred_0131,Frontal-I.1 (GapMap) right,WT,3473,18
+pred_0131,Area Op9 (Frontal Operculum) right,WT,1312,7
+pred_0131,Temporal-to-Parietal (GapMap) right,WT,94,0
+pred_0131,Area 45 (IFG) right,WT,2819,15
+pred_0131,Area TeI (STG) right,WT,208,1
+pred_0131,WM/unassigned,ET,20897,109
+pred_0131,Area Fo5 (OFC) right,ET,19,0
+pred_0131,Area Fo6 (OFC) right,ET,110,1
+pred_0131,Frontal-I.1 (GapMap) right,ET,35,0
+pred_0131,Area 45 (IFG) right,ET,13,0

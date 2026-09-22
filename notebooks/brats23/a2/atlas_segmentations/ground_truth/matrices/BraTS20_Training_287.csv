@@ -1,0 +1,35 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_287,WM/unassigned,TC,1333,24,59.3,0.0,False
+BraTS20_Training_287,Area PF (IPL) right,TC,660,12,29.4,13.4,True
+BraTS20_Training_287,Area PFt (IPL) right,TC,2,0,0.1,0.1,False
+BraTS20_Training_287,"Area TPJ (STG, SMG) right",TC,30,1,1.3,2.0,True
+BraTS20_Training_287,Area PGa (IPL) right,TC,27,0,1.2,0.4,True
+BraTS20_Training_287,Area PGp (IPL) right,TC,4,0,0.2,0.1,False
+BraTS20_Training_287,Area PFcm (IPL) right,TC,157,3,7.0,6.8,True
+BraTS20_Training_287,Area PFop (IPL) right,TC,34,1,1.5,2.4,True
+BraTS20_Training_287,WM/unassigned,WT,11460,203,58.8,0.1,False
+BraTS20_Training_287,Area PF (IPL) right,WT,1013,18,5.2,20.6,True
+BraTS20_Training_287,Area PFt (IPL) right,WT,128,2,0.7,3.8,False
+BraTS20_Training_287,Area Te 3 (STG) right,WT,32,1,0.2,0.7,False
+BraTS20_Training_287,"Area TPJ (STG, SMG) right",WT,186,3,1.0,12.7,False
+BraTS20_Training_287,Area Op1 (POperc) right,WT,414,7,2.1,20.7,False
+BraTS20_Training_287,Area PGa (IPL) right,WT,1027,18,5.3,16.1,True
+BraTS20_Training_287,Area PFm (IPL) right,WT,1253,22,6.4,21.8,True
+BraTS20_Training_287,Area Op4 (POperc) right,WT,59,1,0.3,2.2,False
+BraTS20_Training_287,Area PGp (IPL) right,WT,937,17,4.8,14.9,True
+BraTS20_Training_287,Area PFcm (IPL) right,WT,879,16,4.5,38.2,False
+BraTS20_Training_287,Temporal-to-Parietal (GapMap) right,WT,1397,25,7.2,2.1,True
+BraTS20_Training_287,Area PFop (IPL) right,WT,545,10,2.8,38.3,False
+BraTS20_Training_287,Area Te 2.2 (STG) right,WT,169,3,0.9,8.6,False
+BraTS20_Training_287,WM/unassigned,ET,14436,256,52.9,0.2,False
+BraTS20_Training_287,Area PF (IPL) right,ET,2345,42,8.6,47.7,True
+BraTS20_Training_287,Area Te 3 (STG) right,ET,118,2,0.4,2.7,False
+BraTS20_Training_287,"Area TPJ (STG, SMG) right",ET,977,17,3.6,66.7,True
+BraTS20_Training_287,Area Op1 (POperc) right,ET,199,4,0.7,9.9,False
+BraTS20_Training_287,Area PGa (IPL) right,ET,3343,59,12.3,52.3,True
+BraTS20_Training_287,Area PFm (IPL) right,ET,2935,52,10.8,51.0,True
+BraTS20_Training_287,Area PGp (IPL) right,ET,727,13,2.7,11.6,False
+BraTS20_Training_287,Area PFcm (IPL) right,ET,254,5,0.9,11.0,False
+BraTS20_Training_287,Temporal-to-Parietal (GapMap) right,ET,1710,30,6.3,2.5,True
+BraTS20_Training_287,Area PFop (IPL) right,ET,1,0,0.0,0.1,False
+BraTS20_Training_287,Area Te 2.2 (STG) right,ET,219,4,0.8,11.1,False

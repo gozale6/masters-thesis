@@ -1,0 +1,50 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0203,WM/unassigned,TC,4310,15
+pred_0203,WM/unassigned,WT,74999,256
+pred_0203,Area Id8 (Insula) right,WT,226,1
+pred_0203,Area Te 1.0 (HESCHL) right,WT,244,1
+pred_0203,Area STS2 (STS) right,WT,3616,12
+pred_0203,Area Id3 (Insula) right,WT,136,0
+pred_0203,Area TI (STG) right,WT,449,2
+pred_0203,Area Te 3 (STG) right,WT,2836,10
+pred_0203,Area MFG1 (MFG) right,WT,10,0
+pred_0203,Area 6r1 (PreCG) right,WT,1929,7
+pred_0203,Area Op6 (Frontal Operculum) right,WT,1044,4
+pred_0203,Area Op7 (Frontal Operculum) right,WT,398,1
+pred_0203,Area Id4 (Insula) right,WT,318,1
+pred_0203,Area Id6 (Insula) right,WT,1793,6
+pred_0203,Area 44 (IFG) right,WT,2092,7
+pred_0203,Area Ia1 (Insula) right,WT,119,0
+pred_0203,Area Op8 (Frontal Operculum) right,WT,1262,4
+pred_0203,"Area IFJ2 (IFS, PreCS) right",WT,11,0
+pred_0203,Area Op5 (Frontal Operculum) right,WT,1132,4
+pred_0203,Area Op10 (Frontal Operculum) right,WT,99,0
+pred_0203,Area Id7 (Insula) right,WT,79,0
+pred_0203,Area Fo6 (OFC) right,WT,1263,4
+pred_0203,"Area MFG5 (MFG, IFG) right",WT,634,2
+pred_0203,Area MFG4 (MFG) right,WT,92,0
+pred_0203,Area 6v3 (PreCG) right,WT,47,0
+pred_0203,Area IFS1 (IFS) right,WT,244,1
+pred_0203,Area Op4 (POperc) right,WT,1053,4
+pred_0203,Frontal-to-Temporal-I (GapMap) right,WT,476,2
+pred_0203,Area Id2 (Insula) right,WT,102,0
+pred_0203,Frontal-I.1 (GapMap) right,WT,1410,5
+pred_0203,Area Op9 (Frontal Operculum) right,WT,2424,8
+pred_0203,Temporal-to-Parietal (GapMap) right,WT,1481,5
+pred_0203,Area 45 (IFG) right,WT,4430,15
+pred_0203,Area Te 1.2 (HESCHL) right,WT,521,2
+pred_0203,Area Id5 (Insula) right,WT,564,2
+pred_0203,Area Te 2.1 (STG) right,WT,245,1
+pred_0203,Area STS1 (STS) right,WT,1161,4
+pred_0203,Area Id9 (Insula) right,WT,335,1
+pred_0203,Area IFS2 (IFS) right,WT,159,1
+pred_0203,Area Te 2.2 (STG) right,WT,77,0
+pred_0203,Area TeI (STG) right,WT,1137,4
+pred_0203,WM/unassigned,ET,10521,36
+pred_0203,Area Te 3 (STG) right,ET,33,0
+pred_0203,Area 6r1 (PreCG) right,ET,2,0
+pred_0203,Area Op6 (Frontal Operculum) right,ET,1,0
+pred_0203,Area 44 (IFG) right,ET,58,0
+pred_0203,Area IFS1 (IFS) right,ET,4,0
+pred_0203,Area 45 (IFG) right,ET,40,0
+pred_0203,Area IFS2 (IFS) right,ET,43,0

@@ -1,0 +1,29 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_036,WM/unassigned,TC,569,19,97.3,0.0,False
+BraTS20_Training_036,Area Te 1.1 (HESCHL) left,TC,13,0,2.2,1.1,True
+BraTS20_Training_036,Area Op2 (POperc) left,TC,3,0,0.5,0.3,True
+BraTS20_Training_036,WM/unassigned,WT,7782,256,85.7,0.1,False
+BraTS20_Training_036,"PUm (Thalamus, medial pulvinar) left",WT,82,3,0.9,10.1,True
+BraTS20_Training_036,Frontal-to-Occipital (GapMap) left,WT,424,14,4.7,1.2,True
+BraTS20_Training_036,Area Ig2 (Insula) left,WT,28,1,0.3,4.5,False
+BraTS20_Training_036,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,5,0,0.1,0.4,False
+BraTS20_Training_036,"Rt (Thalamus, reticular Nucleus) left",WT,77,3,0.8,5.0,True
+BraTS20_Training_036,"PUa (Thalamus, anterior pulvinar) left",WT,2,0,0.0,1.1,False
+BraTS20_Training_036,"PUl (Thalamus, lateral pulvinar) left",WT,25,1,0.3,4.7,False
+BraTS20_Training_036,Area Te 1.1 (HESCHL) left,WT,15,0,0.2,1.2,False
+BraTS20_Training_036,"LP (Thalamus, lateral posterior Nucleus) left",WT,417,14,4.6,88.2,True
+BraTS20_Training_036,Area Op2 (POperc) left,WT,8,0,0.1,0.8,False
+BraTS20_Training_036,Area Ig1 (Insula) left,WT,60,2,0.7,17.6,False
+BraTS20_Training_036,Area PFcm (IPL) left,WT,7,0,0.1,0.2,False
+BraTS20_Training_036,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,3,0,0.0,0.3,False
+BraTS20_Training_036,"CL (Thalamus, anterior intralaminar nuclei) left",WT,1,0,0.0,0.1,False
+BraTS20_Training_036,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,97,3,1.1,15.9,True
+BraTS20_Training_036,Area Te 2.2 (STG) left,WT,46,2,0.5,2.5,False
+BraTS20_Training_036,WM/unassigned,ET,3610,119,69.9,0.0,False
+BraTS20_Training_036,Area Ig2 (Insula) left,ET,3,0,0.1,0.5,False
+BraTS20_Training_036,"Rt (Thalamus, reticular Nucleus) left",ET,70,2,1.4,4.5,False
+BraTS20_Training_036,Area Te 1.1 (HESCHL) left,ET,608,20,11.8,50.2,True
+BraTS20_Training_036,Area Op2 (POperc) left,ET,415,14,8.0,40.6,True
+BraTS20_Training_036,Area Ig1 (Insula) left,ET,185,6,3.6,54.3,True
+BraTS20_Training_036,Area PFcm (IPL) left,ET,129,4,2.5,4.4,True
+BraTS20_Training_036,Area Te 2.2 (STG) left,ET,146,5,2.8,7.8,True

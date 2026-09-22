@@ -1,0 +1,76 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0038,WM/unassigned,TC,17045,256
+pred_0038,"ZI (Thalamus, zona incerta) left",TC,127,2
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) left",TC,272,4
+pred_0038,CA2 (Hippocampus) left,TC,32,0
+pred_0038,"Area EC (Hippocampal Region, Entorhinal Cortex) left",TC,32,0
+pred_0038,Area FG4 (FusG) left,TC,112,2
+pred_0038,STN (Subthalamus) left,TC,171,3
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) left",TC,561,8
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",TC,272,4
+pred_0038,CA1 (Hippocampus) left,TC,39,1
+pred_0038,HATA (Hippocampus) left,TC,222,3
+pred_0038,Frontal-to-Temporal-II (GapMap) left,TC,10,0
+pred_0038,"Subc (Hippocampus, Subicular complex) left",TC,349,5
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) left",TC,780,12
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) left",TC,91,1
+pred_0038,SF (Amygdala) left,TC,9,0
+pred_0038,Area Ph2 (PhG) left,TC,69,1
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",TC,338,5
+pred_0038,STN (Subthalamus) right,TC,12,0
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) right",TC,389,6
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",TC,63,1
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) right",TC,143,2
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) right",TC,5,0
+pred_0038,WM/unassigned,WT,7691,116
+pred_0038,"Po (Thalamus, posterior Nucleus) left",WT,42,1
+pred_0038,"ZI (Thalamus, zona incerta) left",WT,400,6
+pred_0038,CGM (Metathalamus) left,WT,29,0
+pred_0038,"PUm (Thalamus, medial pulvinar) left",WT,45,1
+pred_0038,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,3,0
+pred_0038,CA2 (Hippocampus) left,WT,77,1
+pred_0038,"Li (Thalamus, limitans Nucleus) left",WT,100,2
+pred_0038,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,60,1
+pred_0038,"PUa (Thalamus, anterior pulvinar) left",WT,36,1
+pred_0038,"Pf (Thalamus, parafascicular Nucleus) left",WT,71,1
+pred_0038,Area FG4 (FusG) left,WT,81,1
+pred_0038,STN (Subthalamus) left,WT,118,2
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,74,1
+pred_0038,Area Ph3 (PhG) left,WT,38,1
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) left",WT,13,0
+pred_0038,DG (Hippocampus) left,WT,4,0
+pred_0038,"VM (Thalamus, ventral medial Nucleus) left",WT,20,0
+pred_0038,"CM (Thalamus, centromedian Nucleus) left",WT,124,2
+pred_0038,CA1 (Hippocampus) left,WT,78,1
+pred_0038,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,570,9
+pred_0038,HATA (Hippocampus) left,WT,155,2
+pred_0038,"CL (Thalamus, anterior intralaminar nuclei) left",WT,69,1
+pred_0038,Frontal-to-Temporal-II (GapMap) left,WT,69,1
+pred_0038,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,20,0
+pred_0038,"Sg (Thalamus, suprageniculate Nucleus) left",WT,99,1
+pred_0038,"Subc (Hippocampus, Subicular complex) left",WT,652,10
+pred_0038,"TrS (Hippocampus, Transsubiculum) left",WT,21,0
+pred_0038,CA3 (Hippocampus) left,WT,2,0
+pred_0038,"VLA (Thalamus, ventral lateral anterior Nucleus) left",WT,65,1
+pred_0038,"VPM (Thalamus, ventral posterior medial Nucleus) left",WT,9,0
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,12,0
+pred_0038,MF (Amygdala) left,WT,5,0
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) left",WT,36,1
+pred_0038,SF (Amygdala) left,WT,113,2
+pred_0038,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) left",WT,28,0
+pred_0038,"VPi (Thalamus, ventroposterior inferior Nucleus) left",WT,54,1
+pred_0038,Area Ph2 (PhG) left,WT,113,2
+pred_0038,"ZI (Thalamus, zona incerta) right",WT,78,1
+pred_0038,"NRp (Midbrain, Nucleus Ruber, parvocellular part) right",WT,24,0
+pred_0038,STN (Subthalamus) right,WT,159,2
+pred_0038,"SNC (Midbrain, Substantia Nigra pars compacta) right",WT,254,4
+pred_0038,"NRm (Midbrain, Nucleus Ruber, magnocellular part) right",WT,3,0
+pred_0038,"VM (Thalamus, ventral medial Nucleus) right",WT,5,0
+pred_0038,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,1,0
+pred_0038,HATA (Hippocampus) right,WT,1,0
+pred_0038,"CL (Thalamus, anterior intralaminar nuclei) right",WT,3,0
+pred_0038,Frontal-to-Temporal-II (GapMap) right,WT,1,0
+pred_0038,"SNR (Midbrain, Substantia Nigra pars reticulata) right",WT,402,6
+pred_0038,"sPf (Thalamus, subparafascicular Nucleus) right",WT,94,1
+pred_0038,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) right",WT,1,0
+pred_0038,WM/unassigned,ET,10,0

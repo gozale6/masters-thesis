@@ -1,0 +1,26 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0126,WM/unassigned,TC,418,5
+pred_0126,Area 45 (IFG) right,TC,32,0
+pred_0126,WM/unassigned,WT,22879,256
+pred_0126,Area Op9 (Frontal Operculum) left,WT,2,0
+pred_0126,Area 6r1 (PreCG) right,WT,1284,14
+pred_0126,Area IFS4 (IFS) right,WT,587,7
+pred_0126,Area 44 (IFG) right,WT,1401,16
+pred_0126,"Area IFJ2 (IFS, PreCS) right",WT,75,1
+pred_0126,Area 8v1 (MFG) right,WT,223,2
+pred_0126,"Area MFG5 (MFG, IFG) right",WT,751,8
+pred_0126,Area MFG4 (MFG) right,WT,95,1
+pred_0126,Area 6v3 (PreCG) right,WT,759,8
+pred_0126,Area IFS1 (IFS) right,WT,688,8
+pred_0126,Area Op4 (POperc) right,WT,28,0
+pred_0126,Area IFS3 (IFS) right,WT,208,2
+pred_0126,Area 8v2 (MFG) right,WT,244,3
+pred_0126,Frontal-I.1 (GapMap) right,WT,2,0
+pred_0126,Area Op9 (Frontal Operculum) right,WT,116,1
+pred_0126,Area 45 (IFG) right,WT,1786,20
+pred_0126,Frontal-II (GapMap) right,WT,867,10
+pred_0126,Area IFS2 (IFS) right,WT,290,3
+pred_0126,"Area IFJ1 (IFS, PreCS) right",WT,183,2
+pred_0126,Area 6v2 (PreCG) right,WT,61,1
+pred_0126,WM/unassigned,ET,1942,22
+pred_0126,Area 45 (IFG) right,ET,489,5

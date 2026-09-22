@@ -1,0 +1,63 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0086,WM/unassigned,TC,1355,7
+pred_0086,Frontal-to-Occipital (GapMap) left,TC,1007,5
+pred_0086,Area 6d3 (SFS) left,TC,5,0
+pred_0086,"Area 6ma (preSMA, mesial SFG) left",TC,73,0
+pred_0086,Frontal-I.2 (GapMap) left,TC,263,1
+pred_0086,Area 33 (ACC) left,TC,1,0
+pred_0086,Frontal-to-Occipital (GapMap) right,TC,48,0
+pred_0086,"Area 6ma (preSMA, mesial SFG) right",TC,20,0
+pred_0086,Frontal-I.2 (GapMap) right,TC,312,2
+pred_0086,Area 33 (ACC) right,TC,9,0
+pred_0086,Area 8d1 (SFG) right,TC,6,0
+pred_0086,WM/unassigned,WT,52532,256
+pred_0086,"LD (Thalamus, lateral dorsal Nucleus) left",WT,21,0
+pred_0086,"Area 6mp (SMA, mesial SFG) left",WT,2,0
+pred_0086,Frontal-to-Occipital (GapMap) left,WT,3568,17
+pred_0086,Area 6d1 (PreCG) left,WT,31,0
+pred_0086,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,203,1
+pred_0086,"AM (Thalamus, anteromedial Nucleus) left",WT,8,0
+pred_0086,Area Ig2 (Insula) left,WT,35,0
+pred_0086,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,553,3
+pred_0086,Area Id4 (Insula) left,WT,109,1
+pred_0086,"Rt (Thalamus, reticular Nucleus) left",WT,289,1
+pred_0086,Area Id6 (Insula) left,WT,1,0
+pred_0086,Area 6d3 (SFS) left,WT,140,1
+pred_0086,Area 8d2 (SFG) left,WT,140,1
+pred_0086,Area Op5 (Frontal Operculum) left,WT,20,0
+pred_0086,Area Ig3 (Insula) left,WT,351,2
+pred_0086,Area Op2 (POperc) left,WT,234,1
+pred_0086,"Area 6ma (preSMA, mesial SFG) left",WT,316,2
+pred_0086,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,75,0
+pred_0086,Frontal-I.2 (GapMap) left,WT,164,1
+pred_0086,Area 33 (ACC) left,WT,56,0
+pred_0086,Area Id2 (Insula) left,WT,48,0
+pred_0086,"CL (Thalamus, anterior intralaminar nuclei) left",WT,17,0
+pred_0086,Area Op3 (POperc) left,WT,268,1
+pred_0086,"AV (Thalamus, anteroventral Nucleus) left",WT,188,1
+pred_0086,"Area 6mp (SMA, mesial SFG) right",WT,806,4
+pred_0086,Area p24ab (pACC) right,WT,60,0
+pred_0086,Frontal-to-Occipital (GapMap) right,WT,6795,33
+pred_0086,Area 6d1 (PreCG) right,WT,3,0
+pred_0086,"AM (Thalamus, anteromedial Nucleus) right",WT,2,0
+pred_0086,Area 8d2 (SFG) right,WT,289,1
+pred_0086,Area 4a (PreCG) right,WT,56,0
+pred_0086,Area 6d2 (PreCG) right,WT,26,0
+pred_0086,"Area 6ma (preSMA, mesial SFG) right",WT,1480,7
+pred_0086,Frontal-I.2 (GapMap) right,WT,962,5
+pred_0086,Area 33 (ACC) right,WT,987,5
+pred_0086,"AV (Thalamus, anteroventral Nucleus) right",WT,116,1
+pred_0086,Area 8d1 (SFG) right,WT,82,0
+pred_0086,WM/unassigned,ET,8693,42
+pred_0086,Frontal-to-Occipital (GapMap) left,ET,2671,13
+pred_0086,Area 6d3 (SFS) left,ET,252,1
+pred_0086,Area 8d2 (SFG) left,ET,41,0
+pred_0086,"Area 6ma (preSMA, mesial SFG) left",ET,1009,5
+pred_0086,Frontal-I.2 (GapMap) left,ET,1729,8
+pred_0086,Area 33 (ACC) left,ET,496,2
+pred_0086,Frontal-to-Occipital (GapMap) right,ET,1532,7
+pred_0086,Area 6d2 (PreCG) right,ET,3,0
+pred_0086,"Area 6ma (preSMA, mesial SFG) right",ET,396,2
+pred_0086,Frontal-I.2 (GapMap) right,ET,1880,9
+pred_0086,Area 33 (ACC) right,ET,195,1
+pred_0086,Area 8d1 (SFG) right,ET,387,2

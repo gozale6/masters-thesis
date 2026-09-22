@@ -1,0 +1,117 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0048,WM/unassigned,TC,30279,256
+pred_0048,Area 3b (PostCG) right,TC,1,0
+pred_0048,Area PF (IPL) right,TC,157,1
+pred_0048,Area PFt (IPL) right,TC,193,2
+pred_0048,Frontal-to-Occipital (GapMap) right,TC,93,1
+pred_0048,Area hIP4 (IPS) right,TC,4,0
+pred_0048,Area hIP6 (IPS) right,TC,621,5
+pred_0048,"Area TPJ (STG, SMG) right",TC,119,1
+pred_0048,Area Op1 (POperc) right,TC,303,3
+pred_0048,"Rt (Thalamus, reticular Nucleus) right",TC,1,0
+pred_0048,Area hIP2 (IPS) right,TC,65,1
+pred_0048,Area PGa (IPL) right,TC,1294,11
+pred_0048,Area PFm (IPL) right,TC,408,3
+pred_0048,Area Te 1.1 (HESCHL) right,TC,441,4
+pred_0048,"LP (Thalamus, lateral posterior Nucleus) right",TC,1,0
+pred_0048,Area Op2 (POperc) right,TC,289,2
+pred_0048,Area PGp (IPL) right,TC,517,4
+pred_0048,Area Ig1 (Insula) right,TC,43,0
+pred_0048,Area PFcm (IPL) right,TC,1351,11
+pred_0048,Area hIP5 (IPS) right,TC,372,3
+pred_0048,Area hIP3 (IPS) right,TC,2207,19
+pred_0048,Area 4p (PreCG) right,TC,2,0
+pred_0048,Area hIP8 (IPS) right,TC,112,1
+pred_0048,Temporal-to-Parietal (GapMap) right,TC,5687,48
+pred_0048,Area hIP1 (IPS) right,TC,991,8
+pred_0048,Area 2 (PostCS) right,TC,324,3
+pred_0048,Area 7A (SPL) right,TC,6,0
+pred_0048,Area hOc5 (LOC) right,TC,1,0
+pred_0048,Area Te 2.2 (STG) right,TC,508,4
+pred_0048,Area hIP7 (IPS) right,TC,68,1
+pred_0048,Area 7PC (SPL) right,TC,40,0
+pred_0048,WM/unassigned,WT,20983,177
+pred_0048,Area 3b (PostCG) right,WT,1147,10
+pred_0048,Area hOc4la (LOC) right,WT,1305,11
+pred_0048,Area PF (IPL) right,WT,674,6
+pred_0048,Area 1 (PostCG) right,WT,312,3
+pred_0048,Area PFt (IPL) right,WT,1177,10
+pred_0048,Frontal-to-Occipital (GapMap) right,WT,470,4
+pred_0048,Area 6d1 (PreCG) right,WT,281,2
+pred_0048,Area hIP4 (IPS) right,WT,784,7
+pred_0048,Area hIP6 (IPS) right,WT,114,1
+pred_0048,"Area TPJ (STG, SMG) right",WT,416,4
+pred_0048,Area Ig2 (Insula) right,WT,90,1
+pred_0048,Area Op1 (POperc) right,WT,624,5
+pred_0048,"Rt (Thalamus, reticular Nucleus) right",WT,283,2
+pred_0048,Area 6d3 (SFS) right,WT,246,2
+pred_0048,Area 6v1 (PreCG) right,WT,984,8
+pred_0048,Area hIP2 (IPS) right,WT,71,1
+pred_0048,Area PGa (IPL) right,WT,1389,12
+pred_0048,Area PFm (IPL) right,WT,1124,10
+pred_0048,Area 4a (PreCG) right,WT,1193,10
+pred_0048,"PUl (Thalamus, lateral pulvinar) right",WT,51,0
+pred_0048,Area 3a (PostCG) right,WT,476,4
+pred_0048,"Area hOc1 (V1, 17, CalcS) right",WT,305,3
+pred_0048,Area hOc4lp (LOC) right,WT,1759,15
+pred_0048,Area Te 1.1 (HESCHL) right,WT,146,1
+pred_0048,"LP (Thalamus, lateral posterior Nucleus) right",WT,161,1
+pred_0048,Area Ig3 (Insula) right,WT,232,2
+pred_0048,Area hOc4d (Cuneus) right,WT,247,2
+pred_0048,Area hPO1 (POS) right,WT,105,1
+pred_0048,Area Op2 (POperc) right,WT,151,1
+pred_0048,Area PGp (IPL) right,WT,990,8
+pred_0048,Area Ig1 (Insula) right,WT,50,0
+pred_0048,Area PFcm (IPL) right,WT,402,3
+pred_0048,Area hIP5 (IPS) right,WT,170,1
+pred_0048,Area hIP3 (IPS) right,WT,225,2
+pred_0048,Area 4p (PreCG) right,WT,1252,11
+pred_0048,Area hIP8 (IPS) right,WT,258,2
+pred_0048,Temporal-to-Parietal (GapMap) right,WT,6899,58
+pred_0048,Area hIP1 (IPS) right,WT,88,1
+pred_0048,Area 2 (PostCS) right,WT,674,6
+pred_0048,Area hOc3d (Cuneus) right,WT,20,0
+pred_0048,Area 7A (SPL) right,WT,102,1
+pred_0048,Area Op3 (POperc) right,WT,291,2
+pred_0048,Frontal-II (GapMap) right,WT,2,0
+pred_0048,Area STS1 (STS) right,WT,7,0
+pred_0048,Area hOc5 (LOC) right,WT,431,4
+pred_0048,Area PFop (IPL) right,WT,566,5
+pred_0048,Area 6v2 (PreCG) right,WT,81,1
+pred_0048,Area Te 2.2 (STG) right,WT,326,3
+pred_0048,Area hIP7 (IPS) right,WT,1454,12
+pred_0048,Area 7PC (SPL) right,WT,121,1
+pred_0048,WM/unassigned,ET,14249,120
+pred_0048,Area 3b (PostCG) right,ET,11,0
+pred_0048,Area PF (IPL) right,ET,141,1
+pred_0048,Area PFt (IPL) right,ET,275,2
+pred_0048,Frontal-to-Occipital (GapMap) right,ET,526,4
+pred_0048,Area hIP4 (IPS) right,ET,181,2
+pred_0048,Area hIP6 (IPS) right,ET,462,4
+pred_0048,"Area TPJ (STG, SMG) right",ET,121,1
+pred_0048,Area Op1 (POperc) right,ET,283,2
+pred_0048,"Rt (Thalamus, reticular Nucleus) right",ET,47,0
+pred_0048,Area hIP2 (IPS) right,ET,133,1
+pred_0048,Area PGa (IPL) right,ET,1050,9
+pred_0048,Area PFm (IPL) right,ET,328,3
+pred_0048,Area 3a (PostCG) right,ET,27,0
+pred_0048,"Area hOc1 (V1, 17, CalcS) right",ET,7,0
+pred_0048,Area Te 1.1 (HESCHL) right,ET,196,2
+pred_0048,"LP (Thalamus, lateral posterior Nucleus) right",ET,4,0
+pred_0048,Area Op2 (POperc) right,ET,239,2
+pred_0048,Area PGp (IPL) right,ET,1464,12
+pred_0048,Area Ig1 (Insula) right,ET,171,1
+pred_0048,Area PFcm (IPL) right,ET,253,2
+pred_0048,Area hIP5 (IPS) right,ET,326,3
+pred_0048,Area hIP3 (IPS) right,ET,801,7
+pred_0048,Area 4p (PreCG) right,ET,67,1
+pred_0048,Area hIP8 (IPS) right,ET,405,3
+pred_0048,Temporal-to-Parietal (GapMap) right,ET,2895,24
+pred_0048,Area hIP1 (IPS) right,ET,156,1
+pred_0048,Area 2 (PostCS) right,ET,307,3
+pred_0048,Area 7A (SPL) right,ET,76,1
+pred_0048,Area Op3 (POperc) right,ET,1,0
+pred_0048,Area hOc5 (LOC) right,ET,79,1
+pred_0048,Area Te 2.2 (STG) right,ET,210,2
+pred_0048,Area hIP7 (IPS) right,ET,343,3
+pred_0048,Area 7PC (SPL) right,ET,150,1

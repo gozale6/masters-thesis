@@ -1,0 +1,84 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_007,WM/unassigned,TC,1503,29,44.2,0.0,False
+BraTS20_Training_007,"ZI (Thalamus, zona incerta) left",TC,17,0,0.5,3.0,False
+BraTS20_Training_007,"PUa (Thalamus, anterior pulvinar) left",TC,22,0,0.6,12.4,False
+BraTS20_Training_007,Area Ph1 (PhG) left,TC,57,1,1.7,5.2,False
+BraTS20_Training_007,Area FG4 (FusG) left,TC,507,10,14.9,6.8,True
+BraTS20_Training_007,Area Ph3 (PhG) left,TC,107,2,3.1,16.4,False
+BraTS20_Training_007,Ch 4 (Basal Forebrain) left,TC,19,0,0.6,3.5,False
+BraTS20_Training_007,"CM (Thalamus, centromedian Nucleus) left",TC,4,0,0.1,2.4,False
+BraTS20_Training_007,CM (Amygdala) left,TC,17,0,0.5,3.4,False
+BraTS20_Training_007,"VIM (Thalamus, ventral intermediate Nucleus) left",TC,110,2,3.2,9.8,True
+BraTS20_Training_007,Temporal-to-Parietal (GapMap) left,TC,21,0,0.6,0.0,False
+BraTS20_Training_007,"VPL (Thalamus, ventral posterior lateral Nucleus) left",TC,12,0,0.4,2.0,False
+BraTS20_Training_007,"Subc (Hippocampus, Subicular complex) left",TC,198,4,5.8,4.5,True
+BraTS20_Training_007,"TrS (Hippocampus, Transsubiculum) left",TC,49,1,1.4,15.0,False
+BraTS20_Training_007,Area FG3 (FusG) left,TC,306,6,9.0,10.6,True
+BraTS20_Training_007,Area Ph2 (PhG) left,TC,449,9,13.2,33.9,True
+BraTS20_Training_007,WM/unassigned,WT,13492,256,44.7,0.2,False
+BraTS20_Training_007,Area CoS1 (CoS) left,WT,55,1,0.2,23.3,False
+BraTS20_Training_007,"Po (Thalamus, posterior Nucleus) left",WT,47,1,0.2,100.0,False
+BraTS20_Training_007,"ZI (Thalamus, zona incerta) left",WT,159,3,0.5,28.4,False
+BraTS20_Training_007,CGM (Metathalamus) left,WT,88,2,0.3,100.0,False
+BraTS20_Training_007,Area FG5 (FusG) left,WT,352,7,1.2,30.7,False
+BraTS20_Training_007,"PUm (Thalamus, medial pulvinar) left",WT,273,5,0.9,33.7,False
+BraTS20_Training_007,"PUi (Thalamus, inferior pulvinar) left",WT,98,2,0.3,98.0,False
+BraTS20_Training_007,Frontal-to-Occipital (GapMap) left,WT,2038,39,6.7,5.5,True
+BraTS20_Training_007,CA2 (Hippocampus) left,WT,178,3,0.6,80.5,False
+BraTS20_Training_007,"Li (Thalamus, limitans Nucleus) left",WT,1,0,0.0,0.6,False
+BraTS20_Training_007,"Area EC (Hippocampal Region, Entorhinal Cortex) left",WT,113,2,0.4,15.4,False
+BraTS20_Training_007,"Rt (Thalamus, reticular Nucleus) left",WT,86,2,0.3,5.6,False
+BraTS20_Training_007,"PUa (Thalamus, anterior pulvinar) left",WT,20,0,0.1,11.3,False
+BraTS20_Training_007,VTM (Amygdala) left,WT,25,0,0.1,33.8,False
+BraTS20_Training_007,LB (Amygdala) left,WT,9,0,0.0,0.9,False
+BraTS20_Training_007,"PUl (Thalamus, lateral pulvinar) left",WT,317,6,1.0,59.4,False
+BraTS20_Training_007,Area Ph1 (PhG) left,WT,895,17,3.0,81.2,False
+BraTS20_Training_007,Area FG4 (FusG) left,WT,1431,27,4.7,19.3,True
+BraTS20_Training_007,STN (Subthalamus) left,WT,80,2,0.3,26.3,False
+BraTS20_Training_007,"Area hOc1 (V1, 17, CalcS) left",WT,629,12,2.1,5.0,False
+BraTS20_Training_007,CGL (Metathalamus) left,WT,301,6,1.0,92.9,False
+BraTS20_Training_007,"SNC (Midbrain, Substantia Nigra pars compacta) left",WT,68,1,0.2,10.7,False
+BraTS20_Training_007,Area Ph3 (PhG) left,WT,348,7,1.2,53.2,False
+BraTS20_Training_007,Ch 4 (Basal Forebrain) left,WT,21,0,0.1,3.9,False
+BraTS20_Training_007,DG (Hippocampus) left,WT,89,2,0.3,52.0,False
+BraTS20_Training_007,"VM (Thalamus, ventral medial Nucleus) left",WT,1,0,0.0,5.0,False
+BraTS20_Training_007,Area hOc3v (LingG) left,WT,686,13,2.3,11.6,False
+BraTS20_Training_007,"CM (Thalamus, centromedian Nucleus) left",WT,24,0,0.1,14.6,False
+BraTS20_Training_007,Area FG1 (FusG) left,WT,310,6,1.0,26.2,False
+BraTS20_Training_007,CM (Amygdala) left,WT,56,1,0.2,11.2,False
+BraTS20_Training_007,Area OTS1 (OTS) left,WT,2,0,0.0,0.6,False
+BraTS20_Training_007,CA1 (Hippocampus) left,WT,607,12,2.0,52.8,False
+BraTS20_Training_007,"VIM (Thalamus, ventral intermediate Nucleus) left",WT,116,2,0.4,10.3,False
+BraTS20_Training_007,Temporal-to-Parietal (GapMap) left,WT,356,7,1.2,0.6,False
+BraTS20_Training_007,HATA (Hippocampus) left,WT,62,1,0.2,16.1,False
+BraTS20_Training_007,Frontal-to-Temporal-II (GapMap) left,WT,1813,34,6.0,30.4,True
+BraTS20_Training_007,"VPL (Thalamus, ventral posterior lateral Nucleus) left",WT,162,3,0.5,26.6,False
+BraTS20_Training_007,"Sg (Thalamus, suprageniculate Nucleus) left",WT,58,1,0.2,51.8,False
+BraTS20_Training_007,"Subc (Hippocampus, Subicular complex) left",WT,1992,38,6.6,45.3,True
+BraTS20_Training_007,"TrS (Hippocampus, Transsubiculum) left",WT,96,2,0.3,29.4,False
+BraTS20_Training_007,CA3 (Hippocampus) left,WT,110,2,0.4,75.9,False
+BraTS20_Training_007,"VLA (Thalamus, ventral lateral anterior Nucleus) left",WT,3,0,0.0,3.1,False
+BraTS20_Training_007,"VPM (Thalamus, ventral posterior medial Nucleus) left",WT,9,0,0.0,100.0,False
+BraTS20_Training_007,"SNR (Midbrain, Substantia Nigra pars reticulata) left",WT,42,1,0.1,5.3,False
+BraTS20_Training_007,Area FG3 (FusG) left,WT,1527,29,5.1,52.7,True
+BraTS20_Training_007,VP (Ventral Pallidum) left,WT,2,0,0.0,0.4,False
+BraTS20_Training_007,MF (Amygdala) left,WT,13,0,0.0,59.1,False
+BraTS20_Training_007,SF (Amygdala) left,WT,5,0,0.0,0.8,False
+BraTS20_Training_007,"VPMpc (Thalamus, ventral posterior medial Nucleus, parvocellular part) left",WT,5,0,0.0,17.9,False
+BraTS20_Training_007,"VPi (Thalamus, ventroposterior inferior Nucleus) left",WT,86,2,0.3,100.0,False
+BraTS20_Training_007,Area hOc4v (LingG) left,WT,342,6,1.1,8.2,False
+BraTS20_Training_007,Area Ph2 (PhG) left,WT,517,10,1.7,39.1,False
+BraTS20_Training_007,WM/unassigned,ET,3866,73,62.8,0.1,False
+BraTS20_Training_007,Frontal-to-Occipital (GapMap) left,ET,12,0,0.2,0.0,False
+BraTS20_Training_007,"Area EC (Hippocampal Region, Entorhinal Cortex) left",ET,5,0,0.1,0.7,False
+BraTS20_Training_007,Area Ph1 (PhG) left,ET,119,2,1.9,10.8,False
+BraTS20_Training_007,Area FG4 (FusG) left,ET,359,7,5.8,4.8,True
+BraTS20_Training_007,Area Ph3 (PhG) left,ET,199,4,3.2,30.4,True
+BraTS20_Training_007,CA1 (Hippocampus) left,ET,25,0,0.4,2.2,False
+BraTS20_Training_007,Temporal-to-Parietal (GapMap) left,ET,35,1,0.6,0.1,False
+BraTS20_Training_007,Frontal-to-Temporal-II (GapMap) left,ET,1,0,0.0,0.0,False
+BraTS20_Training_007,"Subc (Hippocampus, Subicular complex) left",ET,563,11,9.1,12.8,True
+BraTS20_Training_007,"TrS (Hippocampus, Transsubiculum) left",ET,180,3,2.9,55.2,False
+BraTS20_Training_007,Area FG3 (FusG) left,ET,506,10,8.2,17.5,True
+BraTS20_Training_007,Area hOc4v (LingG) left,ET,4,0,0.1,0.1,False
+BraTS20_Training_007,Area Ph2 (PhG) left,ET,285,5,4.6,21.5,True

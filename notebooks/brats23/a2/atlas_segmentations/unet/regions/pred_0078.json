@@ -1,0 +1,24 @@
+{
+  "top_regions": {
+    "Area p32 (pACC) left": {
+      "Percentage_of_Tumor": 7.1,
+      "Percentage_of_Region_Affected": 2.22
+    },
+    "Area p32 (pACC) right": {
+      "Percentage_of_Tumor": 5.96,
+      "Percentage_of_Region_Affected": 2.42
+    },
+    "Frontal-to-Occipital (GapMap) left": {
+      "Percentage_of_Tumor": 5.87,
+      "Percentage_of_Region_Affected": 0.38
+    },
+    "Area Fo3 (OFC) left": {
+      "Percentage_of_Tumor": 5.58,
+      "Percentage_of_Region_Affected": 2.08
+    },
+    "Area Fp1 (FPole) left": {
+      "Percentage_of_Tumor": 4.86,
+      "Percentage_of_Region_Affected": 1.09
+    }
+  }
+}

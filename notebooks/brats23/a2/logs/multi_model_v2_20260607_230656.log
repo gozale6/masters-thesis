@@ -1,0 +1,78 @@
+2026-06-07 23:06:56,466  INFO  ======================================================================
+2026-06-07 23:06:56,466  INFO  Field-wise multi-task BraTS matrix → report training (v2.1, anti-collapse)
+2026-06-07 23:06:56,466  INFO  ======================================================================
+2026-06-07 23:06:56,466  INFO    csv           : atlas_segmentations/ground_truth/all_cases.csv
+2026-06-07 23:06:56,466  INFO    text_dir      : ../TextBraTSData
+2026-06-07 23:06:56,466  INFO    output_root   : checkpoints_multi_v2
+2026-06-07 23:06:56,466  INFO    model         : all
+2026-06-07 23:06:56,466  INFO    epochs        : 300
+2026-06-07 23:06:56,466  INFO    patience      : 12
+2026-06-07 23:06:56,466  INFO    batch_size    : 2
+2026-06-07 23:06:56,466  INFO    grad_accum    : 4
+2026-06-07 23:06:56,466  INFO    lr            : 3e-05
+2026-06-07 23:06:56,466  INFO    lr_large      : 1e-05
+2026-06-07 23:06:56,466  INFO    label_smoothing: 0.1
+2026-06-07 23:06:56,466  INFO    min_fields    : 2
+2026-06-07 23:06:56,466  INFO    lora_r        : 32
+2026-06-07 23:06:56,466  INFO    lora_widen    : True
+2026-06-07 23:06:56,466  INFO    p_swap        : 0.5
+2026-06-07 23:06:56,466  INFO    p_shuffle     : 0.0
+2026-06-07 23:06:56,466  INFO    skip_done     : True
+2026-06-07 23:06:56,467  INFO  ======================================================================
+2026-06-07 23:06:56,467  INFO  Loading CSV: atlas_segmentations/ground_truth/all_cases.csv
+2026-06-07 23:06:56,484  INFO    38035 rows | 368 cases in CSV
+2026-06-07 23:06:57,570  INFO  
+======================================================================
+2026-06-07 23:06:57,570  INFO  DATA DIAGNOSTICS (read these before trusting any training run)
+2026-06-07 23:06:57,570  INFO  ======================================================================
+2026-06-07 23:06:57,570  INFO    Cases with no GT report file        : 0
+2026-06-07 23:06:57,570  INFO    Cases with a GT report              : 368
+2026-06-07 23:06:57,570  INFO    Parsed-field histogram (0..4 fields):
+2026-06-07 23:06:57,570  INFO        0 field(s):    0  ( 0.0%)
+2026-06-07 23:06:57,570  INFO        1 field(s):    0  ( 0.0%)
+2026-06-07 23:06:57,570  INFO        2 field(s):    0  ( 0.0%)
+2026-06-07 23:06:57,570  INFO        3 field(s):    2  ( 0.5%)
+2026-06-07 23:06:57,570  INFO        4 field(s):  366  (99.5%)
+2026-06-07 23:06:57,570  INFO    Cases KEPT (>= 2 fields)            : 368
+2026-06-07 23:06:57,570  INFO    Cases parsing ALL 4 fields cleanly  : 366 (99.5%)
+2026-06-07 23:06:57,570  INFO    Hemisphere agreement (prompt vs GT) : 170/360 = 47.2%
+2026-06-07 23:06:57,570  WARNING    >>> Prompt vs GT hemisphere disagree a lot. Keep hemisphere-swap OFF.
+2026-06-07 23:06:57,570  INFO    GT field distinct ratio (target)    : 1.00  (1.0 = all 4 GT fields differ)
+2026-06-07 23:06:57,570  INFO  ======================================================================
+
+2026-06-07 23:06:57,570  INFO  
+>>> Run 1/6  (elapsed: 0.0 min)
+2026-06-07 23:06:57,570  INFO  
+[SKIP] scifive-base — summary.json exists. Pass --no-skip_done to retrain.
+2026-06-07 23:06:57,571  INFO  
+>>> Run 2/6  (elapsed: 0.0 min)
+2026-06-07 23:06:57,571  INFO  
+[SKIP] scifive-base-aug — summary.json exists. Pass --no-skip_done to retrain.
+2026-06-07 23:06:57,571  INFO  
+>>> Run 3/6  (elapsed: 0.0 min)
+2026-06-07 23:06:57,572  INFO  
+[SKIP] clinicalt5-hoss — summary.json exists. Pass --no-skip_done to retrain.
+2026-06-07 23:06:57,572  INFO  
+>>> Run 4/6  (elapsed: 0.0 min)
+2026-06-07 23:06:57,572  INFO  
+[SKIP] clinicalt5-hoss-aug — summary.json exists. Pass --no-skip_done to retrain.
+2026-06-07 23:06:57,573  INFO  
+>>> Run 5/6  (elapsed: 0.0 min)
+2026-06-07 23:06:57,573  INFO  
+[SKIP] scifive-large — summary.json exists. Pass --no-skip_done to retrain.
+2026-06-07 23:06:57,574  INFO  
+>>> Run 6/6  (elapsed: 0.0 min)
+2026-06-07 23:06:57,574  INFO  
+[SKIP] scifive-large-aug — summary.json exists. Pass --no-skip_done to retrain.
+2026-06-07 23:06:57,579  INFO  
+Comparison summary → logs/summary_v2_20260607_230656.json
+2026-06-07 23:06:57,579  INFO  
+======================================================================
+2026-06-07 23:06:57,579  INFO  FINAL RANKING BY BEST VAL LOSS
+2026-06-07 23:06:57,579  INFO  ======================================================================
+2026-06-07 23:06:57,579  INFO    1. scifive-large                val_loss=1.2978  epoch 158/170  (360.6 min)
+2026-06-07 23:06:57,579  INFO    2. scifive-large-aug      [aug] val_loss=1.3025  epoch 149/161  (341.4 min)
+2026-06-07 23:06:57,579  INFO    3. scifive-base                 val_loss=1.3239  epoch 121/133  (103.3 min)
+2026-06-07 23:06:57,579  INFO    4. scifive-base-aug       [aug] val_loss=1.3241  epoch 121/133  (103.0 min)
+2026-06-07 23:06:57,579  INFO    5. clinicalt5-hoss              val_loss=1.4929  epoch 228/240  (71.2 min)
+2026-06-07 23:06:57,579  INFO    6. clinicalt5-hoss-aug    [aug] val_loss=1.4947  epoch 243/255  (75.8 min)

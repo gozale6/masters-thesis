@@ -1,0 +1,51 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0162,WM/unassigned,TC,224,9
+pred_0162,Area 3b (PostCG) right,TC,95,4
+pred_0162,Area 1 (PostCG) right,TC,9,0
+pred_0162,"Rt (Thalamus, reticular Nucleus) right",TC,1,0
+pred_0162,Area hIP2 (IPS) right,TC,1,0
+pred_0162,Area 4a (PreCG) right,TC,53,2
+pred_0162,Area hIP3 (IPS) right,TC,2,0
+pred_0162,Area 4p (PreCG) right,TC,293,12
+pred_0162,Area 2 (PostCS) right,TC,22,1
+pred_0162,Area 7PC (SPL) right,TC,2,0
+pred_0162,WM/unassigned,WT,6420,256
+pred_0162,Area 3b (PostCG) right,WT,305,12
+pred_0162,Area 1 (PostCG) right,WT,1273,51
+pred_0162,Area PFt (IPL) right,WT,298,12
+pred_0162,"PUm (Thalamus, medial pulvinar) right",WT,52,2
+pred_0162,Area 6d1 (PreCG) right,WT,17,1
+pred_0162,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,72,3
+pred_0162,Area hIP6 (IPS) right,WT,5,0
+pred_0162,"VLP (Thalamus, ventral lateral posterior Nucleus) right",WT,338,13
+pred_0162,"Rt (Thalamus, reticular Nucleus) right",WT,572,23
+pred_0162,Area 6v1 (PreCG) right,WT,129,5
+pred_0162,Area hIP2 (IPS) right,WT,648,26
+pred_0162,Area PGa (IPL) right,WT,252,10
+pred_0162,"PUa (Thalamus, anterior pulvinar) right",WT,60,2
+pred_0162,Area PFm (IPL) right,WT,293,12
+pred_0162,Area 4a (PreCG) right,WT,896,36
+pred_0162,"PUl (Thalamus, lateral pulvinar) right",WT,11,0
+pred_0162,"LP (Thalamus, lateral posterior Nucleus) right",WT,39,2
+pred_0162,Area Ig1 (Insula) right,WT,3,0
+pred_0162,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,13,1
+pred_0162,Area hIP3 (IPS) right,WT,938,37
+pred_0162,Area 4p (PreCG) right,WT,230,9
+pred_0162,"VIM (Thalamus, ventral intermediate Nucleus) right",WT,1,0
+pred_0162,Temporal-to-Parietal (GapMap) right,WT,58,2
+pred_0162,"CL (Thalamus, anterior intralaminar nuclei) right",WT,63,3
+pred_0162,Area hIP1 (IPS) right,WT,198,8
+pred_0162,Area 2 (PostCS) right,WT,1114,44
+pred_0162,"VPL (Thalamus, ventral posterior lateral Nucleus) right",WT,224,9
+pred_0162,Area 7PC (SPL) right,WT,269,11
+pred_0162,WM/unassigned,ET,1824,73
+pred_0162,Area 3b (PostCG) right,ET,271,11
+pred_0162,Area 1 (PostCG) right,ET,338,13
+pred_0162,"Rt (Thalamus, reticular Nucleus) right",ET,9,0
+pred_0162,Area hIP2 (IPS) right,ET,9,0
+pred_0162,Area PFm (IPL) right,ET,1,0
+pred_0162,Area 4a (PreCG) right,ET,306,12
+pred_0162,Area hIP3 (IPS) right,ET,141,6
+pred_0162,Area 4p (PreCG) right,ET,196,8
+pred_0162,Area 2 (PostCS) right,ET,693,28
+pred_0162,Area 7PC (SPL) right,ET,41,2

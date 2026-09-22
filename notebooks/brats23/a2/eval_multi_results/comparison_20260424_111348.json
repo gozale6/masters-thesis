@@ -1,0 +1,17 @@
+[
+  {
+    "model_key": "scifive-base",
+    "model_name": "razent/SciFive-base-PMC",
+    "error": "No module named 'sacrebleu'"
+  },
+  {
+    "model_key": "scifive-large",
+    "model_name": "razent/SciFive-large-Pubmed",
+    "error": "No module named 'sacrebleu'"
+  },
+  {
+    "model_key": "clinicalt5-hoss",
+    "model_name": "hossboll/clinical-t5",
+    "error": "No module named 'sacrebleu'"
+  }
+]

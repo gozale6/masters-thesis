@@ -1,0 +1,69 @@
+[2026-02-22 19:50:31] ================================================================================
+[2026-02-22 19:50:31] Training Session Started
+[2026-02-22 19:50:31] Timestamp: 20260222_195031
+[2026-02-22 19:50:31] ================================================================================
+[2026-02-22 19:50:31] ================================================================================
+[2026-02-22 19:50:31] Swin UNETR Training — BraTS 2023 (Paper Replication)
+[2026-02-22 19:50:31] ================================================================================
+[2026-02-22 19:50:31] Device: cuda
+[2026-02-22 19:50:31] GPU: NVIDIA GeForce RTX 4070 Ti SUPER
+[2026-02-22 19:50:31] GPU Memory: 16.71 GB
+[2026-02-22 19:50:31] 
+Configuration:
+[2026-02-22 19:50:31] --------------------------------------------------------------------------------
+[2026-02-22 19:50:31] --------------------------------------------------------------------------------
+[2026-02-22 19:50:31] 
+Loading data lists...
+[2026-02-22 19:50:31]   Training samples:   1000
+[2026-02-22 19:50:31]   Validation samples: 251
+[2026-02-22 19:50:31] 
+Creating datasets...
+[2026-02-22 19:50:31]   ✓ Datasets created
+[2026-02-22 19:50:31] 
+Creating model...
+[2026-02-22 19:50:31] 
+Model Information:
+[2026-02-22 19:50:31] --------------------------------------------------------------------------------
+[2026-02-22 19:50:31]   Architecture: Swin UNETR (paper replication)
+[2026-02-22 19:50:31]   Total Parameters: 62,191,941
+[2026-02-22 19:50:31]   Trainable Parameters: 62,191,941
+[2026-02-22 19:50:31]   Model Size: 237.24 MB (float32)
+[2026-02-22 19:50:31] --------------------------------------------------------------------------------
+[2026-02-22 19:50:31] 
+✓ Training setup complete
+[2026-02-22 19:50:31] 
+Starting training...
+[2026-02-22 19:50:31] 
+================================================================================
+[2026-02-22 19:50:31] Epoch 1/100
+[2026-02-22 19:50:31] ================================================================================
+[2026-02-22 19:50:35] 
+
+Error during training: CUDA out of memory. Tried to allocate 1.32 GiB. GPU 0 has a total capacity of 15.57 GiB of which 881.31 MiB is free. Including non-PyTorch memory, this process has 14.30 GiB memory in use. Of the allocated memory 7.76 GiB is allocated by PyTorch, and 6.23 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[2026-02-22 19:50:35] Traceback (most recent call last):
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/training.py", line 510, in training_function
+    train_loss = train_epoch(
+                 ^^^^^^^^^^^^
+  File "/home/lexie/Desktop/mastersThesis/notebooks/brats23/a2/training.py", line 366, in train_epoch
+    scaler.scale(loss).backward()
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/torch/_tensor.py", line 639, in backward
+    return handle_torch_function(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/torch/overrides.py", line 1743, in handle_torch_function
+    result = torch_func_method(public_api, types, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/monai/data/meta_tensor.py", line 283, in __torch_function__
+    ret = super().__torch_function__(func, types, args, kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/torch/_tensor.py", line 1668, in __torch_function__
+    ret = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/home/lexie/miniconda3/envs/mastersThesis/lib/python3.12/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.32 GiB. GPU 0 has a total capacity of 15.57 GiB of which 881.31 MiB is free. Including non-PyTorch memory, this process has 14.30 GiB memory in use. Of the allocated memory 7.76 GiB is allocated by PyTorch, and 6.23 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+

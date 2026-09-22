@@ -1,0 +1,65 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0221,WM/unassigned,TC,2443,14
+pred_0221,Area SFG4 (SFG) left,TC,1,0
+pred_0221,Area p24ab (pACC) left,TC,134,1
+pred_0221,Frontal-to-Occipital (GapMap) left,TC,278,2
+pred_0221,Area p32 (pACC) left,TC,26,0
+pred_0221,Area p24c (pACC) left,TC,5,0
+pred_0221,Area 33 (ACC) left,TC,37,0
+pred_0221,Area p24ab (pACC) right,TC,128,1
+pred_0221,Frontal-to-Occipital (GapMap) right,TC,164,1
+pred_0221,Area p32 (pACC) right,TC,14,0
+pred_0221,Area p24c (pACC) right,TC,11,0
+pred_0221,Frontal-I.2 (GapMap) right,TC,6,0
+pred_0221,Area 33 (ACC) right,TC,489,3
+pred_0221,WM/unassigned,WT,44218,256
+pred_0221,Area SFG4 (SFG) left,WT,210,1
+pred_0221,Area p24ab (pACC) left,WT,1008,6
+pred_0221,Frontal-to-Occipital (GapMap) left,WT,4105,24
+pred_0221,Area Fp2 (FPole) left,WT,628,4
+pred_0221,Area 6d3 (SFS) left,WT,77,0
+pred_0221,Area 8d2 (SFG) left,WT,211,1
+pred_0221,Area Fp1 (FPole) left,WT,13,0
+pred_0221,Area p32 (pACC) left,WT,5532,32
+pred_0221,Area SFG2 (SFG) left,WT,760,4
+pred_0221,Area SFG3 (SFG) left,WT,288,2
+pred_0221,"Area 6ma (preSMA, mesial SFG) left",WT,221,1
+pred_0221,Area p24c (pACC) left,WT,1131,7
+pred_0221,Area SFS1 (SFS) left,WT,8,0
+pred_0221,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) left",WT,568,3
+pred_0221,Frontal-I.2 (GapMap) left,WT,2549,15
+pred_0221,Area 33 (ACC) left,WT,249,1
+pred_0221,Area s32 (sACC) left,WT,4,0
+pred_0221,Area s24 (sACC) left,WT,46,0
+pred_0221,Area SFG4 (SFG) right,WT,1,0
+pred_0221,Area p24ab (pACC) right,WT,766,4
+pred_0221,Frontal-to-Occipital (GapMap) right,WT,3007,17
+pred_0221,Area Fp2 (FPole) right,WT,862,5
+pred_0221,Area 8d2 (SFG) right,WT,15,0
+pred_0221,Area Fp1 (FPole) right,WT,666,4
+pred_0221,Area MFG2 (MFG) right,WT,2,0
+pred_0221,Area p32 (pACC) right,WT,3652,21
+pred_0221,Area SFG2 (SFG) right,WT,704,4
+pred_0221,Area SFG3 (SFG) right,WT,301,2
+pred_0221,"Area 6ma (preSMA, mesial SFG) right",WT,397,2
+pred_0221,Area p24c (pACC) right,WT,1017,6
+pred_0221,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",WT,34,0
+pred_0221,Frontal-I.2 (GapMap) right,WT,3258,19
+pred_0221,Area 33 (ACC) right,WT,98,1
+pred_0221,"AV (Thalamus, anteroventral Nucleus) right",WT,1,0
+pred_0221,Area s24 (sACC) right,WT,206,1
+pred_0221,WM/unassigned,ET,16025,93
+pred_0221,Area p24ab (pACC) left,ET,655,4
+pred_0221,Frontal-to-Occipital (GapMap) left,ET,1733,10
+pred_0221,Area p32 (pACC) left,ET,398,2
+pred_0221,Area p24c (pACC) left,ET,1,0
+pred_0221,Area 33 (ACC) left,ET,274,2
+pred_0221,Area s24 (sACC) left,ET,7,0
+pred_0221,Area p24ab (pACC) right,ET,1052,6
+pred_0221,Frontal-to-Occipital (GapMap) right,ET,1889,11
+pred_0221,Area p32 (pACC) right,ET,219,1
+pred_0221,Area p24c (pACC) right,ET,532,3
+pred_0221,"FuCd (Ventral Striatum, Fundus of Caudate Nucleus) right",ET,29,0
+pred_0221,Frontal-I.2 (GapMap) right,ET,9,0
+pred_0221,Area 33 (ACC) right,ET,1286,7
+pred_0221,Area s24 (sACC) right,ET,13,0

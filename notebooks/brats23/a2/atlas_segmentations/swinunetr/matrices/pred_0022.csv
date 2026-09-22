@@ -1,0 +1,82 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+pred_0022,WM/unassigned,TC,877,11
+pred_0022,"Area 6mp (SMA, mesial SFG) left",TC,4,0
+pred_0022,Frontal-to-Occipital (GapMap) left,TC,24,0
+pred_0022,Area 4a (PreCG) left,TC,6,0
+pred_0022,Area 5M (SPL) left,TC,8,0
+pred_0022,"Area 6mp (SMA, mesial SFG) right",TC,6,0
+pred_0022,"PUm (Thalamus, medial pulvinar) right",TC,10,0
+pred_0022,Frontal-to-Occipital (GapMap) right,TC,367,5
+pred_0022,"Rt (Thalamus, reticular Nucleus) right",TC,4,0
+pred_0022,"PUa (Thalamus, anterior pulvinar) right",TC,2,0
+pred_0022,Area 4a (PreCG) right,TC,264,3
+pred_0022,"PUl (Thalamus, lateral pulvinar) right",TC,15,0
+pred_0022,"Area hOc1 (V1, 17, CalcS) right",TC,20,0
+pred_0022,"LP (Thalamus, lateral posterior Nucleus) right",TC,2,0
+pred_0022,Area hIP3 (IPS) right,TC,7,0
+pred_0022,Temporal-to-Parietal (GapMap) right,TC,239,3
+pred_0022,Area 5Ci (SPL) right,TC,15,0
+pred_0022,Area hIP1 (IPS) right,TC,1,0
+pred_0022,"VPL (Thalamus, ventral posterior lateral Nucleus) right",TC,3,0
+pred_0022,"Subc (Hippocampus, Subicular complex) right",TC,31,0
+pred_0022,"TrS (Hippocampus, Transsubiculum) right",TC,2,0
+pred_0022,Area hOc5 (LOC) right,TC,1,0
+pred_0022,WM/unassigned,WT,19968,256
+pred_0022,"Area 6mp (SMA, mesial SFG) left",WT,803,10
+pred_0022,Frontal-to-Occipital (GapMap) left,WT,6375,82
+pred_0022,Area 4a (PreCG) left,WT,231,3
+pred_0022,Area 5M (SPL) left,WT,107,1
+pred_0022,"Area 6ma (preSMA, mesial SFG) left",WT,890,11
+pred_0022,Area 5Ci (SPL) left,WT,160,2
+pred_0022,"Area 6mp (SMA, mesial SFG) right",WT,1205,15
+pred_0022,"PUm (Thalamus, medial pulvinar) right",WT,3,0
+pred_0022,Frontal-to-Occipital (GapMap) right,WT,7473,96
+pred_0022,Area 6d1 (PreCG) right,WT,57,1
+pred_0022,Area hIP6 (IPS) right,WT,288,4
+pred_0022,Area 4a (PreCG) right,WT,1113,14
+pred_0022,Area 5M (SPL) right,WT,506,6
+pred_0022,"PUl (Thalamus, lateral pulvinar) right",WT,7,0
+pred_0022,Area Ph1 (PhG) right,WT,6,0
+pred_0022,"Area hOc1 (V1, 17, CalcS) right",WT,34,0
+pred_0022,"Area hOc2 (V2, 18) right",WT,3,0
+pred_0022,"LP (Thalamus, lateral posterior Nucleus) right",WT,6,0
+pred_0022,"Area 6ma (preSMA, mesial SFG) right",WT,1082,14
+pred_0022,Area hIP5 (IPS) right,WT,122,2
+pred_0022,Area hIP3 (IPS) right,WT,569,7
+pred_0022,Area hIP8 (IPS) right,WT,198,3
+pred_0022,Temporal-to-Parietal (GapMap) right,WT,777,10
+pred_0022,Area 5Ci (SPL) right,WT,855,11
+pred_0022,Area hIP1 (IPS) right,WT,456,6
+pred_0022,Area 7A (SPL) right,WT,53,1
+pred_0022,"Subc (Hippocampus, Subicular complex) right",WT,6,0
+pred_0022,"TrS (Hippocampus, Transsubiculum) right",WT,21,0
+pred_0022,Area hOc5 (LOC) right,WT,109,1
+pred_0022,Area hIP7 (IPS) right,WT,14,0
+pred_0022,Area 7PC (SPL) right,WT,6,0
+pred_0022,WM/unassigned,ET,11263,144
+pred_0022,"Area 6mp (SMA, mesial SFG) left",ET,189,2
+pred_0022,Frontal-to-Occipital (GapMap) left,ET,1678,22
+pred_0022,Area 4a (PreCG) left,ET,255,3
+pred_0022,Area 5M (SPL) left,ET,159,2
+pred_0022,"Area 6mp (SMA, mesial SFG) right",ET,102,1
+pred_0022,"PUm (Thalamus, medial pulvinar) right",ET,164,2
+pred_0022,Frontal-to-Occipital (GapMap) right,ET,3012,39
+pred_0022,Area hIP6 (IPS) right,ET,56,1
+pred_0022,"Rt (Thalamus, reticular Nucleus) right",ET,103,1
+pred_0022,"PUa (Thalamus, anterior pulvinar) right",ET,14,0
+pred_0022,Area 4a (PreCG) right,ET,314,4
+pred_0022,Area 5M (SPL) right,ET,1,0
+pred_0022,"PUl (Thalamus, lateral pulvinar) right",ET,164,2
+pred_0022,"Area hOc1 (V1, 17, CalcS) right",ET,247,3
+pred_0022,"Area hOc2 (V2, 18) right",ET,10,0
+pred_0022,"LP (Thalamus, lateral posterior Nucleus) right",ET,292,4
+pred_0022,Area hIP3 (IPS) right,ET,635,8
+pred_0022,Temporal-to-Parietal (GapMap) right,ET,1810,23
+pred_0022,"CL (Thalamus, anterior intralaminar nuclei) right",ET,1,0
+pred_0022,Area 5Ci (SPL) right,ET,81,1
+pred_0022,Area hIP1 (IPS) right,ET,61,1
+pred_0022,"VPL (Thalamus, ventral posterior lateral Nucleus) right",ET,136,2
+pred_0022,Area 7A (SPL) right,ET,12,0
+pred_0022,"Subc (Hippocampus, Subicular complex) right",ET,235,3
+pred_0022,"TrS (Hippocampus, Transsubiculum) right",ET,76,1
+pred_0022,Area hOc5 (LOC) right,ET,5,0

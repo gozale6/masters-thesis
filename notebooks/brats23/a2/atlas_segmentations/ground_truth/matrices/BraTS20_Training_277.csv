@@ -1,0 +1,33 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_277,WM/unassigned,TC,772,11,53.6,0.0,False
+BraTS20_Training_277,Frontal-to-Occipital (GapMap) left,TC,87,1,6.0,0.2,True
+BraTS20_Training_277,Area hOc6 (POS) left,TC,66,1,4.6,29.7,True
+BraTS20_Training_277,"Area hOc1 (V1, 17, CalcS) left",TC,513,8,35.6,4.1,True
+BraTS20_Training_277,Area hOc4d (Cuneus) left,TC,3,0,0.2,0.2,True
+BraTS20_Training_277,WM/unassigned,WT,17322,256,63.8,0.2,False
+BraTS20_Training_277,Frontal-to-Occipital (GapMap) left,WT,362,5,1.3,1.0,False
+BraTS20_Training_277,Area hIP4 (IPS) left,WT,383,6,1.4,30.2,False
+BraTS20_Training_277,Area FG2 (FusG) left,WT,314,5,1.2,11.2,False
+BraTS20_Training_277,Area hOc6 (POS) left,WT,130,2,0.5,58.6,False
+BraTS20_Training_277,Area Ph1 (PhG) left,WT,166,2,0.6,15.1,False
+BraTS20_Training_277,Area FG4 (FusG) left,WT,272,4,1.0,3.7,False
+BraTS20_Training_277,"Area hOc1 (V1, 17, CalcS) left",WT,2259,33,8.3,18.0,True
+BraTS20_Training_277,Area Ph3 (PhG) left,WT,2,0,0.0,0.3,False
+BraTS20_Training_277,Area hOc4lp (LOC) left,WT,361,5,1.3,6.2,False
+BraTS20_Training_277,"Area hOc2 (V2, 18) left",WT,654,10,2.4,17.6,True
+BraTS20_Training_277,Area hOc4d (Cuneus) left,WT,415,6,1.5,22.2,False
+BraTS20_Training_277,Area hPO1 (POS) left,WT,614,9,2.3,26.4,False
+BraTS20_Training_277,Area PGp (IPL) left,WT,4,0,0.0,0.0,False
+BraTS20_Training_277,Area hOc3v (LingG) left,WT,791,12,2.9,13.4,True
+BraTS20_Training_277,Area hIP5 (IPS) left,WT,1,0,0.0,0.0,False
+BraTS20_Training_277,Area FG1 (FusG) left,WT,830,12,3.1,70.3,True
+BraTS20_Training_277,Temporal-to-Parietal (GapMap) left,WT,267,4,1.0,0.4,False
+BraTS20_Training_277,Area hOc3d (Cuneus) left,WT,252,4,0.9,5.2,False
+BraTS20_Training_277,Area FG3 (FusG) left,WT,200,3,0.7,6.9,False
+BraTS20_Training_277,Area hOc5 (LOC) left,WT,12,0,0.0,2.1,False
+BraTS20_Training_277,Area hOc4v (LingG) left,WT,1409,21,5.2,33.7,True
+BraTS20_Training_277,Area hIP7 (IPS) left,WT,149,2,0.5,22.5,False
+BraTS20_Training_277,WM/unassigned,ET,631,9,43.1,0.0,False
+BraTS20_Training_277,Frontal-to-Occipital (GapMap) left,ET,15,0,1.0,0.0,True
+BraTS20_Training_277,Area hOc6 (POS) left,ET,9,0,0.6,4.1,True
+BraTS20_Training_277,"Area hOc1 (V1, 17, CalcS) left",ET,808,12,55.2,6.4,True

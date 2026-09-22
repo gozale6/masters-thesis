@@ -1,0 +1,249 @@
+2026-06-29 23:39:44,519  INFO  ======================================================================
+2026-06-29 23:39:44,519  INFO  EVAL — v4 matrix trainer (prompts imported from training for parity)
+2026-06-29 23:39:44,519  INFO  ======================================================================
+2026-06-29 23:39:44,519  INFO    metric libs available: ['rouge', 'sacrebleu', 'nltk', 'bertscore', 'cider', 'textstat']
+2026-06-29 23:39:44,519  INFO  Loading CSV: atlas_segmentations/ground_truth/all_cases.csv
+2026-06-29 23:39:44,562  INFO    38035 rows | 368 cases in CSV | rich_cols=yes
+2026-06-29 23:39:46,607  INFO  
+======================================================================
+2026-06-29 23:39:46,607  INFO  DATA DIAGNOSTICS (read these before trusting any training run)
+2026-06-29 23:39:46,607  INFO  ======================================================================
+2026-06-29 23:39:46,607  INFO    Cases with no GT report file        : 0
+2026-06-29 23:39:46,607  INFO    Cases with a GT report              : 368
+2026-06-29 23:39:46,607  INFO    Parsed-field histogram (0..4 fields):
+2026-06-29 23:39:46,607  INFO        0 field(s):    0  ( 0.0%)
+2026-06-29 23:39:46,607  INFO        1 field(s):    0  ( 0.0%)
+2026-06-29 23:39:46,607  INFO        2 field(s):    0  ( 0.0%)
+2026-06-29 23:39:46,607  INFO        3 field(s):    2  ( 0.5%)
+2026-06-29 23:39:46,607  INFO        4 field(s):  366  (99.5%)
+2026-06-29 23:39:46,607  INFO    Cases KEPT (>= 2 fields)            : 368
+2026-06-29 23:39:46,607  INFO    Cases parsing ALL 4 fields cleanly  : 366 (99.5%)
+2026-06-29 23:39:46,607  INFO    Hemisphere agreement (prompt vs GT) : 170/360 = 47.2%
+2026-06-29 23:39:46,607  WARNING    >>> Prompt vs GT hemisphere disagree a lot. Keep hemisphere-swap OFF.
+2026-06-29 23:39:46,607  INFO    GT field distinct ratio (target)    : 1.00  (1.0 = all 4 GT fields differ)
+2026-06-29 23:39:46,608  INFO  
+  --- GT DIVERSITY (the ceiling your model can reach) ---
+2026-06-29 23:39:46,608  INFO    Cross-patient GT lesion distinctness: 368/368 = 1.00 unique
+2026-06-29 23:39:46,608  INFO    GT hemisphere distribution:
+2026-06-29 23:39:46,608  INFO          LEFT       :  177 (48.1%)
+2026-06-29 23:39:46,608  INFO          RIGHT      :  163 (44.3%)
+2026-06-29 23:39:46,608  INFO          BILATERAL  :   20 (5.4%)
+2026-06-29 23:39:46,608  INFO          UNK        :    8 (2.2%)
+2026-06-29 23:39:46,608  INFO    GT lesion lobe-set distribution (top 8):
+2026-06-29 23:39:46,608  INFO          frontal+parietal            :  128 (34.8%)
+2026-06-29 23:39:46,608  INFO          frontal+parietal+temporal   :   42 (11.4%)
+2026-06-29 23:39:46,608  INFO          frontal+temporal            :   37 (10.1%)
+2026-06-29 23:39:46,608  INFO          parietal                    :   29 (7.9%)
+2026-06-29 23:39:46,608  INFO          occipital+parietal          :   28 (7.6%)
+2026-06-29 23:39:46,608  INFO          frontal                     :   28 (7.6%)
+2026-06-29 23:39:46,608  INFO          parietal+temporal           :   23 (6.2%)
+2026-06-29 23:39:46,608  INFO          (none)                      :   12 (3.3%)
+2026-06-29 23:39:46,608  INFO  
+2026-06-29 23:39:46,611  INFO    ATLAS region -> lobe coverage (change #2):
+2026-06-29 23:39:46,611  INFO        matched 315/375 = 84.0% of distinct region names
+2026-06-29 23:39:46,611  INFO          frontal     : 67
+2026-06-29 23:39:46,611  INFO          parietal    : 45
+2026-06-29 23:39:46,611  INFO          temporal    : 63
+2026-06-29 23:39:46,611  INFO          occipital   : 20
+2026-06-29 23:39:46,611  INFO          insula      : 32
+2026-06-29 23:39:46,611  INFO          cerebellum  : 8
+2026-06-29 23:39:46,611  INFO          subcortical : 78
+2026-06-29 23:39:46,611  INFO          limbic      : 2
+2026-06-29 23:39:46,611  INFO          other       : 60
+2026-06-29 23:39:46,611  WARNING    >>> UNMATCHED region names (extend _ATLAS_LOBE_PATTERNS). showing 25/60:
+2026-06-29 23:39:46,611  WARNING          Area 2 (PostCS) right
+2026-06-29 23:39:46,611  WARNING          Area 25 (sACC) left
+2026-06-29 23:39:46,611  WARNING          Area 25 (sACC) right
+2026-06-29 23:39:46,611  WARNING          Area 6d3 (SFS) left
+2026-06-29 23:39:46,611  WARNING          Area 6d3 (SFS) right
+2026-06-29 23:39:46,611  WARNING          Area CoS1 (CoS) left
+2026-06-29 23:39:46,611  WARNING          Area CoS1 (CoS) right
+2026-06-29 23:39:46,611  WARNING          Area IFJ1 (IFS, PreCS) left
+2026-06-29 23:39:46,611  WARNING          Area IFJ1 (IFS, PreCS) right
+2026-06-29 23:39:46,611  WARNING          Area IFJ2 (IFS, PreCS) left
+2026-06-29 23:39:46,611  WARNING          Area IFJ2 (IFS, PreCS) right
+2026-06-29 23:39:46,611  WARNING          Area IFS1 (IFS) right
+2026-06-29 23:39:46,611  WARNING          Area IFS2 (IFS) right
+2026-06-29 23:39:46,611  WARNING          Area IFS3 (IFS) right
+2026-06-29 23:39:46,611  WARNING          Area IFS4 (IFS) right
+2026-06-29 23:39:46,611  WARNING          Area OTS1 (OTS) left
+2026-06-29 23:39:46,611  WARNING          Area OTS1 (OTS) right
+2026-06-29 23:39:46,611  WARNING          Area Op1 (POperc) left
+2026-06-29 23:39:46,611  WARNING          Area Op1 (POperc) right
+2026-06-29 23:39:46,611  WARNING          Area Op2 (POperc) left
+2026-06-29 23:39:46,611  WARNING          Area Op2 (POperc) right
+2026-06-29 23:39:46,611  WARNING          Area Op3 (POperc) left
+2026-06-29 23:39:46,611  WARNING          Area Op3 (POperc) right
+2026-06-29 23:39:46,611  WARNING          Area Op4 (POperc) left
+2026-06-29 23:39:46,611  WARNING          Area Op4 (POperc) right
+2026-06-29 23:39:46,611  INFO  ======================================================================
+
+2026-06-29 23:39:46,612  INFO  
+>>> Eval 1/6
+2026-06-29 23:39:46,612  INFO  
+######################################################################
+2026-06-29 23:39:46,612  INFO  # Evaluating scifive-base  (checkpoints_multi_v4/scifive-base)
+2026-06-29 23:39:46,612  INFO  ######################################################################
+2026-06-29 23:39:46,891  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:39:46,891  WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-29 23:39:46,933  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:39:47,020  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:39:47,057  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:39:47,301  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 23:39:47,381  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:39:47,418  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:39:49,253  INFO    val cases: 74
+2026-06-29 23:40:43,808  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:43,891  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:43,968  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:40:44,050  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 23:40:44,131  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:40:44,225  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 23:40:44,388  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:44,473  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:45,951  INFO    rougeL=0.4451  bertscore_f1=0.9037523865699768  hemi=0.838  lobe_jacc=0.690  cross_patient_lesion=0.26
+2026-06-29 23:40:45,952  INFO    predictions -> eval_results_v4/predictions_scifive-base.json
+2026-06-29 23:40:46,009  INFO  
+>>> Eval 2/6
+2026-06-29 23:40:46,009  INFO  
+######################################################################
+2026-06-29 23:40:46,010  INFO  # Evaluating scifive-base-aug  (checkpoints_multi_v4/scifive-base-aug)
+2026-06-29 23:40:46,010  INFO  ######################################################################
+2026-06-29 23:40:46,151  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:40:46,190  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:46,266  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:40:46,304  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:46,444  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 23:40:46,671  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-base-PMC/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:40:46,708  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-base-PMC/dcf890fee47c99c71935ba94bc204a1114315b54/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:40:46,912  INFO    val cases: 74
+2026-06-29 23:41:40,773  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:40,853  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:40,933  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:41:41,012  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 23:41:41,088  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:41:41,168  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 23:41:41,440  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:41,724  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:42,599  INFO    rougeL=0.4469  bertscore_f1=0.9023639559745789  hemi=0.824  lobe_jacc=0.684  cross_patient_lesion=0.19
+2026-06-29 23:41:42,600  INFO    predictions -> eval_results_v4/predictions_scifive-base-aug.json
+2026-06-29 23:41:42,657  INFO  
+>>> Eval 3/6
+2026-06-29 23:41:42,657  INFO  
+######################################################################
+2026-06-29 23:41:42,657  INFO  # Evaluating clinicalt5-hoss  (checkpoints_multi_v4/clinicalt5-hoss)
+2026-06-29 23:41:42,657  INFO  ######################################################################
+2026-06-29 23:41:42,860  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:41:42,917  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:42,997  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:41:43,031  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:43,128  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-06-29 23:41:43,206  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5 "HTTP/1.1 200 OK"
+2026-06-29 23:41:43,327  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:41:43,350  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/main "HTTP/1.1 200 OK"
+2026-06-29 23:41:43,379  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/generation_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:41:43,461  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/discussions?p=0 "HTTP/1.1 200 OK"
+2026-06-29 23:41:43,577  INFO    val cases: 74
+2026-06-29 23:41:43,584  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-06-29 23:41:43,692  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-06-29 23:41:43,778  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-06-29 23:42:16,374  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:16,453  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:16,530  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:16,605  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 23:42:16,683  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:16,763  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 23:42:16,928  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:17,011  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:17,670  INFO    rougeL=0.4923  bertscore_f1=0.925053596496582  hemi=0.919  lobe_jacc=0.635  cross_patient_lesion=0.07
+2026-06-29 23:42:17,671  INFO    predictions -> eval_results_v4/predictions_clinicalt5-hoss.json
+2026-06-29 23:42:17,719  INFO  
+>>> Eval 4/6
+2026-06-29 23:42:17,719  INFO  
+######################################################################
+2026-06-29 23:42:17,719  INFO  # Evaluating clinicalt5-hoss-aug  (checkpoints_multi_v4/clinicalt5-hoss-aug)
+2026-06-29 23:42:17,719  INFO  ######################################################################
+2026-06-29 23:42:17,863  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:17,901  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:17,977  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:18,018  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:18,093  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-06-29 23:42:18,173  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5 "HTTP/1.1 200 OK"
+2026-06-29 23:42:18,272  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:18,293  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/main "HTTP/1.1 200 OK"
+2026-06-29 23:42:18,310  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hossboll/clinical-t5/c092f34a776c3969d4d86c0ad6f282668280fbf2/generation_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:18,379  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/discussions?p=0 "HTTP/1.1 200 OK"
+2026-06-29 23:42:18,410  INFO    val cases: 74
+2026-06-29 23:42:18,480  INFO  HTTP Request: GET https://huggingface.co/api/models/hossboll/clinical-t5/commits/refs%2Fpr%2F1 "HTTP/1.1 200 OK"
+2026-06-29 23:42:18,558  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-06-29 23:42:18,642  INFO  HTTP Request: HEAD https://huggingface.co/hossboll/clinical-t5/resolve/refs%2Fpr%2F1/model.safetensors "HTTP/1.1 302 Found"
+2026-06-29 23:42:54,235  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:54,320  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:54,400  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:54,486  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 23:42:54,563  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:54,647  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 23:42:54,802  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:54,884  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:55,601  INFO    rougeL=0.3742  bertscore_f1=0.8995248675346375  hemi=0.851  lobe_jacc=0.574  cross_patient_lesion=0.57
+2026-06-29 23:42:55,602  INFO    predictions -> eval_results_v4/predictions_clinicalt5-hoss-aug.json
+2026-06-29 23:42:55,651  INFO  
+>>> Eval 5/6
+2026-06-29 23:42:55,651  INFO  
+######################################################################
+2026-06-29 23:42:55,651  INFO  # Evaluating scifive-large  (checkpoints_multi_v4/scifive-large)
+2026-06-29 23:42:55,651  INFO  ######################################################################
+2026-06-29 23:42:55,806  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:55,841  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:55,916  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:55,950  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:56,298  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 23:42:56,377  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:42:56,413  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:42:58,276  INFO    val cases: 74
+2026-06-29 23:45:11,421  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:11,515  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:11,609  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:45:11,691  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 23:45:11,768  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:45:11,866  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 23:45:12,025  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:12,105  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:12,757  INFO    rougeL=0.4748  bertscore_f1=0.9069079756736755  hemi=0.919  lobe_jacc=0.644  cross_patient_lesion=0.14
+2026-06-29 23:45:12,758  INFO    predictions -> eval_results_v4/predictions_scifive-large.json
+2026-06-29 23:45:12,859  INFO  
+>>> Eval 6/6
+2026-06-29 23:45:12,859  INFO  
+######################################################################
+2026-06-29 23:45:12,859  INFO  # Evaluating scifive-large-aug  (checkpoints_multi_v4/scifive-large-aug)
+2026-06-29 23:45:12,859  INFO  ######################################################################
+2026-06-29 23:45:13,006  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:45:13,044  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:13,126  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:45:13,163  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:13,365  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+2026-06-29 23:45:13,438  INFO  HTTP Request: HEAD https://huggingface.co/razent/SciFive-large-Pubmed/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:45:13,473  INFO  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/razent/SciFive-large-Pubmed/7dec1ea577acf357ee0f809fc0f7eeefb45aa42d/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:45:13,999  INFO    val cases: 74
+2026-06-29 23:47:28,650  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:47:28,735  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-29 23:47:28,812  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:47:28,893  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-29 23:47:28,977  INFO  HTTP Request: GET https://huggingface.co/api/models/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-06-29 23:47:29,056  INFO  HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-large/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-29 23:47:29,220  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:47:29,301  INFO  HTTP Request: HEAD https://huggingface.co/roberta-large/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-29 23:47:30,032  INFO    rougeL=0.4767  bertscore_f1=0.9149424433708191  hemi=0.919  lobe_jacc=0.581  cross_patient_lesion=0.28
+2026-06-29 23:47:30,033  INFO    predictions -> eval_results_v4/predictions_scifive-large-aug.json
+2026-06-29 23:47:30,134  INFO  
+Summary -> eval_results_v4/eval_summary_v4_20260629_233944.json
+2026-06-29 23:47:30,134  INFO  
+======================================================================
+2026-06-29 23:47:30,134  INFO  RANKING BY rougeL  (+ the v4 cross-patient ratio — watch that it's NOT ~0)
+2026-06-29 23:47:30,134  INFO  ======================================================================
+2026-06-29 23:47:30,134  INFO    1. clinicalt5-hoss              rougeL=0.4923  bert_f1=0.925053596496582  hemi=0.919  lobe_jacc=0.635  x-patient(les)=0.07
+2026-06-29 23:47:30,134  INFO    2. scifive-large-aug      [aug] rougeL=0.4767  bert_f1=0.9149424433708191  hemi=0.919  lobe_jacc=0.581  x-patient(les)=0.28
+2026-06-29 23:47:30,134  INFO    3. scifive-large                rougeL=0.4748  bert_f1=0.9069079756736755  hemi=0.919  lobe_jacc=0.644  x-patient(les)=0.14
+2026-06-29 23:47:30,134  INFO    4. scifive-base-aug       [aug] rougeL=0.4469  bert_f1=0.9023639559745789  hemi=0.824  lobe_jacc=0.684  x-patient(les)=0.19
+2026-06-29 23:47:30,134  INFO    5. scifive-base                 rougeL=0.4451  bert_f1=0.9037523865699768  hemi=0.838  lobe_jacc=0.690  x-patient(les)=0.26
+2026-06-29 23:47:30,134  INFO    6. clinicalt5-hoss-aug    [aug] rougeL=0.3742  bert_f1=0.8995248675346375  hemi=0.851  lobe_jacc=0.574  x-patient(les)=0.57

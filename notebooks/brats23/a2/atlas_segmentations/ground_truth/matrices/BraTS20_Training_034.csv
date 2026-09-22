@@ -1,0 +1,67 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled,pct_of_tumor,pct_of_region,is_top5
+BraTS20_Training_034,WM/unassigned,TC,10952,95,53.3,0.1,False
+BraTS20_Training_034,Area p24ab (pACC) right,TC,8,0,0.0,0.4,False
+BraTS20_Training_034,Frontal-to-Occipital (GapMap) right,TC,3651,32,17.8,10.8,True
+BraTS20_Training_034,Area 6d3 (SFS) right,TC,12,0,0.1,0.3,False
+BraTS20_Training_034,Area 8d2 (SFG) right,TC,43,0,0.2,1.4,False
+BraTS20_Training_034,Area 6d2 (PreCG) right,TC,105,1,0.5,3.1,False
+BraTS20_Training_034,"Area 6ma (preSMA, mesial SFG) right",TC,889,8,4.3,25.2,True
+BraTS20_Training_034,Frontal-I.2 (GapMap) right,TC,1109,10,5.4,20.3,True
+BraTS20_Training_034,Area 33 (ACC) right,TC,1020,9,5.0,54.5,True
+BraTS20_Training_034,Area 8d1 (SFG) right,TC,73,1,0.4,1.9,False
+BraTS20_Training_034,Frontal-to-Occipital (GapMap) left,TC,1822,16,8.9,4.9,True
+BraTS20_Training_034,"Area 6ma (preSMA, mesial SFG) left",TC,41,0,0.2,1.2,False
+BraTS20_Training_034,Frontal-I.2 (GapMap) left,TC,447,4,2.2,8.5,False
+BraTS20_Training_034,Area 33 (ACC) left,TC,383,3,1.9,68.4,False
+BraTS20_Training_034,WM/unassigned,WT,29566,256,63.5,0.4,False
+BraTS20_Training_034,Area SFG4 (SFG) right,WT,21,0,0.0,1.0,False
+BraTS20_Training_034,"Area 6mp (SMA, mesial SFG) right",WT,1317,11,2.8,62.9,True
+BraTS20_Training_034,Area p24ab (pACC) right,WT,612,5,1.3,31.2,False
+BraTS20_Training_034,Frontal-to-Occipital (GapMap) right,WT,5330,46,11.4,15.8,True
+BraTS20_Training_034,Area 6d1 (PreCG) right,WT,433,4,0.9,9.1,False
+BraTS20_Training_034,"VA (Thalamus, ventral anterior Nucleus (ventral)) right",WT,11,0,0.0,1.2,False
+BraTS20_Training_034,"AM (Thalamus, anteromedial Nucleus) right",WT,62,1,0.1,45.9,False
+BraTS20_Training_034,"Rt (Thalamus, reticular Nucleus) right",WT,18,0,0.0,0.9,False
+BraTS20_Training_034,Area 6d3 (SFS) right,WT,1,0,0.0,0.0,False
+BraTS20_Training_034,Area 8d2 (SFG) right,WT,118,1,0.3,3.8,False
+BraTS20_Training_034,Area 4a (PreCG) right,WT,1184,10,2.5,12.8,True
+BraTS20_Training_034,Area 5M (SPL) right,WT,43,0,0.1,1.5,False
+BraTS20_Training_034,Area p32 (pACC) right,WT,279,2,0.6,4.8,False
+BraTS20_Training_034,Area SFG2 (SFG) right,WT,10,0,0.0,0.2,False
+BraTS20_Training_034,Area 6d2 (PreCG) right,WT,85,1,0.2,2.5,False
+BraTS20_Training_034,"Area 6ma (preSMA, mesial SFG) right",WT,72,1,0.2,2.0,False
+BraTS20_Training_034,Area p24c (pACC) right,WT,633,5,1.4,25.4,True
+BraTS20_Training_034,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) right",WT,2,0,0.0,0.4,False
+BraTS20_Training_034,Frontal-I.2 (GapMap) right,WT,187,2,0.4,3.4,False
+BraTS20_Training_034,Area 33 (ACC) right,WT,419,4,0.9,22.4,False
+BraTS20_Training_034,Area 5Ci (SPL) right,WT,127,1,0.3,6.1,False
+BraTS20_Training_034,"AV (Thalamus, anteroventral Nucleus) right",WT,153,1,0.3,53.9,False
+BraTS20_Training_034,Area 8d1 (SFG) right,WT,18,0,0.0,0.5,False
+BraTS20_Training_034,"Area 6mp (SMA, mesial SFG) left",WT,414,4,0.9,22.3,False
+BraTS20_Training_034,Area p24ab (pACC) left,WT,23,0,0.0,1.3,False
+BraTS20_Training_034,Frontal-to-Occipital (GapMap) left,WT,5011,43,10.8,13.6,True
+BraTS20_Training_034,"VA (Thalamus, ventral anterior Nucleus (ventral)) left",WT,4,0,0.0,0.5,False
+BraTS20_Training_034,"AM (Thalamus, anteromedial Nucleus) left",WT,13,0,0.0,10.0,False
+BraTS20_Training_034,"VLP (Thalamus, ventral lateral posterior Nucleus) left",WT,7,0,0.0,0.6,False
+BraTS20_Training_034,Area 4a (PreCG) left,WT,1,0,0.0,0.0,False
+BraTS20_Training_034,Area p32 (pACC) left,WT,254,2,0.5,3.4,False
+BraTS20_Training_034,"Area 6ma (preSMA, mesial SFG) left",WT,3,0,0.0,0.1,False
+BraTS20_Training_034,"VAmc (Thalamus, ventral anterior Nucleus, magnocellular part) left",WT,2,0,0.0,0.7,False
+BraTS20_Training_034,"CL (Thalamus, anterior intralaminar nuclei) left",WT,2,0,0.0,0.1,False
+BraTS20_Training_034,"AV (Thalamus, anteroventral Nucleus) left",WT,153,1,0.3,55.8,False
+BraTS20_Training_034,WM/unassigned,ET,13899,120,56.9,0.2,False
+BraTS20_Training_034,Area p24ab (pACC) right,ET,66,1,0.3,3.4,False
+BraTS20_Training_034,Frontal-to-Occipital (GapMap) right,ET,2125,18,8.7,6.3,True
+BraTS20_Training_034,Area 6d3 (SFS) right,ET,162,1,0.7,3.6,False
+BraTS20_Training_034,Area 8d2 (SFG) right,ET,186,2,0.8,6.0,False
+BraTS20_Training_034,Area 6d2 (PreCG) right,ET,94,1,0.4,2.8,False
+BraTS20_Training_034,"Area 6ma (preSMA, mesial SFG) right",ET,1021,9,4.2,28.9,True
+BraTS20_Training_034,Area p24c (pACC) right,ET,1,0,0.0,0.0,False
+BraTS20_Training_034,Frontal-I.2 (GapMap) right,ET,1635,14,6.7,29.9,True
+BraTS20_Training_034,Area 33 (ACC) right,ET,209,2,0.9,11.2,False
+BraTS20_Training_034,Area 8d1 (SFG) right,ET,117,1,0.5,3.0,False
+BraTS20_Training_034,Frontal-to-Occipital (GapMap) left,ET,3047,26,12.5,8.3,True
+BraTS20_Training_034,Area p32 (pACC) left,ET,3,0,0.0,0.0,False
+BraTS20_Training_034,"Area 6ma (preSMA, mesial SFG) left",ET,592,5,2.4,17.2,False
+BraTS20_Training_034,Frontal-I.2 (GapMap) left,ET,1102,10,4.5,21.0,True
+BraTS20_Training_034,Area 33 (ACC) left,ET,171,1,0.7,30.5,False

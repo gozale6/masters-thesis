@@ -1,0 +1,42 @@
+case_id,atlas_region_name,tumor_tag,voxel_count,count_scaled
+BraTS20_Training_032,WM/unassigned,TC,2959,123
+BraTS20_Training_032,Area 6d1 (PreCG) right,TC,21,1
+BraTS20_Training_032,Area 6d3 (SFS) right,TC,282,12
+BraTS20_Training_032,Area 6v1 (PreCG) right,TC,1268,53
+BraTS20_Training_032,Area 4a (PreCG) right,TC,205,8
+BraTS20_Training_032,Area 3a (PostCG) right,TC,5,0
+BraTS20_Training_032,Area 8v1 (MFG) right,TC,100,4
+BraTS20_Training_032,Area 4p (PreCG) right,TC,39,2
+BraTS20_Training_032,Frontal-II (GapMap) right,TC,429,18
+BraTS20_Training_032,Area 6v2 (PreCG) right,TC,866,36
+BraTS20_Training_032,WM/unassigned,WT,6178,256
+BraTS20_Training_032,Area 3b (PostCG) right,WT,139,6
+BraTS20_Training_032,Area 1 (PostCG) right,WT,4,0
+BraTS20_Training_032,Area 6d1 (PreCG) right,WT,495,21
+BraTS20_Training_032,Area IFS4 (IFS) right,WT,140,6
+BraTS20_Training_032,Area 6d3 (SFS) right,WT,489,20
+BraTS20_Training_032,Area 6v1 (PreCG) right,WT,334,14
+BraTS20_Training_032,Area 8d2 (SFG) right,WT,76,3
+BraTS20_Training_032,"Area IFJ2 (IFS, PreCS) right",WT,8,0
+BraTS20_Training_032,Area 4a (PreCG) right,WT,627,26
+BraTS20_Training_032,Area 3a (PostCG) right,WT,163,7
+BraTS20_Training_032,Area 8v1 (MFG) right,WT,156,6
+BraTS20_Training_032,Area 6v3 (PreCG) right,WT,77,3
+BraTS20_Training_032,Area IFS3 (IFS) right,WT,13,1
+BraTS20_Training_032,Area 8v2 (MFG) right,WT,17,1
+BraTS20_Training_032,Area 4p (PreCG) right,WT,798,33
+BraTS20_Training_032,Frontal-II (GapMap) right,WT,1005,42
+BraTS20_Training_032,"Area IFJ1 (IFS, PreCS) right",WT,10,0
+BraTS20_Training_032,Area 6v2 (PreCG) right,WT,701,29
+BraTS20_Training_032,WM/unassigned,ET,4610,191
+BraTS20_Training_032,Area 3b (PostCG) right,ET,1,0
+BraTS20_Training_032,Area 6d1 (PreCG) right,ET,56,2
+BraTS20_Training_032,Area 6d3 (SFS) right,ET,2095,87
+BraTS20_Training_032,Area 6v1 (PreCG) right,ET,1830,76
+BraTS20_Training_032,Area 4a (PreCG) right,ET,543,23
+BraTS20_Training_032,Area 3a (PostCG) right,ET,107,4
+BraTS20_Training_032,Area 8v1 (MFG) right,ET,768,32
+BraTS20_Training_032,Area 8v2 (MFG) right,ET,6,0
+BraTS20_Training_032,Area 4p (PreCG) right,ET,129,5
+BraTS20_Training_032,Frontal-II (GapMap) right,ET,669,28
+BraTS20_Training_032,Area 6v2 (PreCG) right,ET,787,33
