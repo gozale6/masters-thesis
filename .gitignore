@@ -1,4 +1,15 @@
+# Large files excluded from GitHub LFS (>2GB limit)
 entregaRNA/
 entregaRNA.zip
-notebooks/brats23/a2/checkpoints_multi_v4/scifive-large-full/model.safetensors
-notebooks/brats23/a2/checkpoints_multi_v4/scifive-large-aug-full/model.safetensors
+checkpoints/report_generation/multi_v4/scifive-large-full/model.safetensors
+checkpoints/report_generation/multi_v4/scifive-large-aug-full/model.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
